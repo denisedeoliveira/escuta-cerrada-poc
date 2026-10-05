@@ -1,0 +1,10 @@
+# Arquivos de áudio não são versionados (proveniência e direitos de uso)
+*.mp3
+*.wav
+*.mp4
+*.m4a
+*.flac
+*.ogg
+
+# Credenciais
+.env
