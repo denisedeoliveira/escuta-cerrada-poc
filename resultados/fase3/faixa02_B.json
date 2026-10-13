@@ -1,0 +1,3328 @@
+{
+  "faixa": 2,
+  "arquivo": "2. Dia de Verão Gaúcho.wav",
+  "condicao": "B",
+  "glossario": true,
+  "filtro": false,
+  "prompt_inicial": "Madrugada, Meio-dia, Tardezinha.",
+  "modelo": "large-v3",
+  "parametros": {
+    "language": "pt",
+    "word_timestamps": true,
+    "carry_initial_prompt": true,
+    "demais": "valores padrão da biblioteca"
+  },
+  "semente": 0,
+  "versoes": {
+    "openai-whisper": "20250625",
+    "noisereduce": "3.0.3",
+    "librosa": "0.11.0",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130"
+  },
+  "python": "3.13.15",
+  "gpu": "Tesla T4",
+  "data_execucao": "2026-10-09T16:26:59.578211+00:00",
+  "duracao_audio_s": 201.32,
+  "duracao_processamento_s": 35.58,
+  "texto": " Dia de verão gaúcho, madrugada, a noite amadureceu a madrugada e o dia vai abrir os lábios vermelhos de manhã para engolir a sombra numa grande rugada do sol. Sinto a alegria verde da manhã do poeta, o campo está todo enfeitado de incêndio porque a noite enfiou as continhas brancas do terreno nas hastes lisas da fechinha. Eu saio de pés descalços para a sanga e vou amassando sobre os pés molhados os desenhos de orvalho sobre a grama fossa. Quero beber a água pura da caminhada, mas quando abaixo vejo todo o céu na água beijada, vejo a última estrela. O sol que ficou desbilhoteia para espiar o sol e ver a cara que eu enchei e depois ir contar as companheiras que não puderam ficar para vê-lo também. Tenho medo de engolir a estrela d'alva, mas me debruço e vou beber o céu como era fresco o céu da minha terra. Meio-dia. Todo o ar flutuou. Treme sobre o sol do meio-dia. O capim se dobrou sobre si mesmo, certidão. A gente olhando o campo tem a impressão que derramam sobre ele qualquer coisa derretida. O gado invadindo-as e os capões para fachar quem só derrama, derrama, derretida sobre a grama. No lombo da cochilha são cavalos de pássaro, parado de sede. Porque teve preguiça, só porque tem de descer a seira. Debaixo dos cinamomos da fazenda planada dorme, espirada de costas, um chapéu no doido. Um guaipeca deitado aos pés de um peão, carrapocada nas moscas, alando os dentes. Depois cocoricoca uma galinha que botou, e tudo volta ao silêncio, e o calor tão quente. Até o vento tem preguiça de ventar. A pena se ouve, no lindo, loiro, confindo, o monótono zumbum das moscas vagabundas. Tardezinha. Sol e fria atrás da última cochilha. A tarde é úmida e morna com um vento. Um beijo. Navarro de a morena como no couro do Chino. Navarro de onde a primavera passou e deixou estendida uma coxa de chanfra. Eu me deito no trevalo macio e fico estirado onde o céu criou.",
+  "segmentos": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.580000000000001,
+      "end": 12.28,
+      "text": " Dia de verão gaúcho, madrugada, a noite amadureceu a madrugada e o dia vai abrir os",
+      "tokens": [
+        50365,
+        22157,
+        368,
+        1306,
+        1076,
+        5959,
+        2481,
+        5738,
+        11,
+        5244,
+        81,
+        697,
+        1538,
+        11,
+        257,
+        34429,
+        669,
+        345,
+        540,
+        31271,
+        257,
+        5244,
+        81,
+        697,
+        1538,
+        308,
+        277,
+        6801,
+        4405,
+        27446,
+        3003,
+        50989
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18482344177947646,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 0.00416487455368042,
+      "words": [
+        {
+          "word": " Dia",
+          "start": 1.580000000000001,
+          "end": 2.54,
+          "probability": 0.8669519424438477
+        },
+        {
+          "word": " de",
+          "start": 2.54,
+          "end": 2.74,
+          "probability": 0.9988666772842407
+        },
+        {
+          "word": " verão",
+          "start": 2.74,
+          "end": 3.28,
+          "probability": 0.9222360849380493
+        },
+        {
+          "word": " gaúcho,",
+          "start": 3.28,
+          "end": 3.76,
+          "probability": 0.9860903819402059
+        },
+        {
+          "word": " madrugada,",
+          "start": 4.04,
+          "end": 5.7,
+          "probability": 0.9985288828611374
+        },
+        {
+          "word": " a",
+          "start": 5.9,
+          "end": 7.4,
+          "probability": 0.9693416357040405
+        },
+        {
+          "word": " noite",
+          "start": 7.4,
+          "end": 7.88,
+          "probability": 0.9999051094055176
+        },
+        {
+          "word": " amadureceu",
+          "start": 7.88,
+          "end": 9.22,
+          "probability": 0.9998500049114227
+        },
+        {
+          "word": " a",
+          "start": 9.22,
+          "end": 9.52,
+          "probability": 0.9697357416152954
+        },
+        {
+          "word": " madrugada",
+          "start": 9.52,
+          "end": 10.28,
+          "probability": 0.9999913573265076
+        },
+        {
+          "word": " e",
+          "start": 10.28,
+          "end": 10.98,
+          "probability": 0.7986739277839661
+        },
+        {
+          "word": " o",
+          "start": 10.98,
+          "end": 11.12,
+          "probability": 0.9999678134918213
+        },
+        {
+          "word": " dia",
+          "start": 11.12,
+          "end": 11.34,
+          "probability": 0.9998866319656372
+        },
+        {
+          "word": " vai",
+          "start": 11.34,
+          "end": 11.58,
+          "probability": 0.9999624490737915
+        },
+        {
+          "word": " abrir",
+          "start": 11.58,
+          "end": 12.0,
+          "probability": 0.9999648332595825
+        },
+        {
+          "word": " os",
+          "start": 12.0,
+          "end": 12.28,
+          "probability": 0.9997586607933044
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 12.28,
+      "end": 19.52,
+      "text": " lábios vermelhos de manhã para engolir a sombra numa grande rugada do sol.",
+      "tokens": [
+        50989,
+        7453,
+        65,
+        2717,
+        1306,
+        10909,
+        17631,
+        368,
+        587,
+        36320,
+        1690,
+        1741,
+        401,
+        347,
+        257,
+        3307,
+        6198,
+        29080,
+        8883,
+        18329,
+        1538,
+        360,
+        1404,
+        13,
+        51356
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18482344177947646,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 0.00416487455368042,
+      "words": [
+        {
+          "word": " lábios",
+          "start": 12.28,
+          "end": 12.76,
+          "probability": 0.9990657170613607
+        },
+        {
+          "word": " vermelhos",
+          "start": 12.76,
+          "end": 13.74,
+          "probability": 0.9998221198717753
+        },
+        {
+          "word": " de",
+          "start": 13.74,
+          "end": 13.92,
+          "probability": 0.9370255470275879
+        },
+        {
+          "word": " manhã",
+          "start": 13.92,
+          "end": 14.38,
+          "probability": 0.9999096393585205
+        },
+        {
+          "word": " para",
+          "start": 14.38,
+          "end": 15.04,
+          "probability": 0.9948148131370544
+        },
+        {
+          "word": " engolir",
+          "start": 15.04,
+          "end": 15.64,
+          "probability": 0.9992525180180868
+        },
+        {
+          "word": " a",
+          "start": 15.64,
+          "end": 15.74,
+          "probability": 0.9995571970939636
+        },
+        {
+          "word": " sombra",
+          "start": 15.74,
+          "end": 16.56,
+          "probability": 0.9994891881942749
+        },
+        {
+          "word": " numa",
+          "start": 16.56,
+          "end": 17.22,
+          "probability": 0.9991734623908997
+        },
+        {
+          "word": " grande",
+          "start": 17.22,
+          "end": 17.86,
+          "probability": 0.999832272529602
+        },
+        {
+          "word": " rugada",
+          "start": 17.86,
+          "end": 18.76,
+          "probability": 0.6642946153879166
+        },
+        {
+          "word": " do",
+          "start": 18.76,
+          "end": 19.14,
+          "probability": 0.7933762073516846
+        },
+        {
+          "word": " sol.",
+          "start": 19.14,
+          "end": 19.52,
+          "probability": 0.9986611604690552
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 20.82,
+      "end": 28.96,
+      "text": " Sinto a alegria verde da manhã do poeta, o campo está todo enfeitado de incêndio porque",
+      "tokens": [
+        51406,
+        318,
+        17246,
+        257,
+        44491,
+        4668,
+        29653,
+        1120,
+        587,
+        36320,
+        360,
+        714,
+        7664,
+        11,
+        277,
+        29691,
+        3192,
+        5149,
+        465,
+        37434,
+        1573,
+        368,
+        834,
+        1307,
+        273,
+        1004,
+        4021,
+        51789
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18482344177947646,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 0.00416487455368042,
+      "words": [
+        {
+          "word": " Sinto",
+          "start": 20.68,
+          "end": 21.16,
+          "probability": 0.997793436050415
+        },
+        {
+          "word": " a",
+          "start": 21.16,
+          "end": 21.34,
+          "probability": 0.8262447118759155
+        },
+        {
+          "word": " alegria",
+          "start": 21.34,
+          "end": 21.74,
+          "probability": 0.9999703764915466
+        },
+        {
+          "word": " verde",
+          "start": 21.74,
+          "end": 22.18,
+          "probability": 0.9998227953910828
+        },
+        {
+          "word": " da",
+          "start": 22.18,
+          "end": 22.74,
+          "probability": 0.9998217225074768
+        },
+        {
+          "word": " manhã",
+          "start": 22.74,
+          "end": 23.14,
+          "probability": 0.999658077955246
+        },
+        {
+          "word": " do",
+          "start": 23.14,
+          "end": 23.34,
+          "probability": 0.8450651168823242
+        },
+        {
+          "word": " poeta,",
+          "start": 23.34,
+          "end": 23.82,
+          "probability": 0.26917020231485367
+        },
+        {
+          "word": " o",
+          "start": 24.1,
+          "end": 24.86,
+          "probability": 0.9997689127922058
+        },
+        {
+          "word": " campo",
+          "start": 24.86,
+          "end": 25.32,
+          "probability": 0.9989367127418518
+        },
+        {
+          "word": " está",
+          "start": 25.32,
+          "end": 25.74,
+          "probability": 0.9999419450759888
+        },
+        {
+          "word": " todo",
+          "start": 25.74,
+          "end": 26.24,
+          "probability": 0.9996479749679565
+        },
+        {
+          "word": " enfeitado",
+          "start": 26.24,
+          "end": 27.2,
+          "probability": 0.9956615169843038
+        },
+        {
+          "word": " de",
+          "start": 27.2,
+          "end": 27.34,
+          "probability": 0.9983077049255371
+        },
+        {
+          "word": " incêndio",
+          "start": 27.34,
+          "end": 27.96,
+          "probability": 0.9530497193336487
+        },
+        {
+          "word": " porque",
+          "start": 27.96,
+          "end": 28.96,
+          "probability": 0.7672441601753235
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2896,
+      "start": 28.96,
+      "end": 35.68,
+      "text": " a noite enfiou as continhas brancas do terreno nas hastes lisas da fechinha.",
+      "tokens": [
+        50365,
+        257,
+        34429,
+        10667,
+        72,
+        263,
+        382,
+        1421,
+        12438,
+        738,
+        4463,
+        296,
+        360,
+        1796,
+        48207,
+        5382,
+        6581,
+        279,
+        287,
+        13198,
+        1120,
+        579,
+        339,
+        6727,
+        13,
+        50715
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21383995480007595,
+      "compression_ratio": 1.529126213592233,
+      "no_speech_prob": 0.0581277497112751,
+      "words": [
+        {
+          "word": " a",
+          "start": 28.96,
+          "end": 29.1,
+          "probability": 0.0015908695058897138
+        },
+        {
+          "word": " noite",
+          "start": 29.1,
+          "end": 29.42,
+          "probability": 0.9192038178443909
+        },
+        {
+          "word": " enfiou",
+          "start": 29.42,
+          "end": 30.06,
+          "probability": 0.9062939484914144
+        },
+        {
+          "word": " as",
+          "start": 30.06,
+          "end": 30.34,
+          "probability": 0.9745995998382568
+        },
+        {
+          "word": " continhas",
+          "start": 30.34,
+          "end": 31.02,
+          "probability": 0.6376717984676361
+        },
+        {
+          "word": " brancas",
+          "start": 31.02,
+          "end": 31.88,
+          "probability": 0.9956059058507284
+        },
+        {
+          "word": " do",
+          "start": 31.88,
+          "end": 32.1,
+          "probability": 0.6508990526199341
+        },
+        {
+          "word": " terreno",
+          "start": 32.1,
+          "end": 32.66,
+          "probability": 0.7808381021022797
+        },
+        {
+          "word": " nas",
+          "start": 32.66,
+          "end": 33.46,
+          "probability": 0.8691542148590088
+        },
+        {
+          "word": " hastes",
+          "start": 33.46,
+          "end": 34.04,
+          "probability": 0.7039446532726288
+        },
+        {
+          "word": " lisas",
+          "start": 34.04,
+          "end": 34.58,
+          "probability": 0.7747544348239899
+        },
+        {
+          "word": " da",
+          "start": 34.58,
+          "end": 35.04,
+          "probability": 0.930873453617096
+        },
+        {
+          "word": " fechinha.",
+          "start": 35.04,
+          "end": 35.68,
+          "probability": 0.4277813384930293
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2896,
+      "start": 37.1,
+      "end": 44.38,
+      "text": " Eu saio de pés descalços para a sanga e vou amassando sobre os pés molhados os desenhos",
+      "tokens": [
+        50772,
+        2186,
+        601,
+        1004,
+        368,
+        280,
+        2191,
+        7471,
+        304,
+        26828,
+        1690,
+        257,
+        9980,
+        64,
+        308,
+        6008,
+        669,
+        640,
+        1806,
+        5473,
+        3003,
+        280,
+        2191,
+        8015,
+        71,
+        4181,
+        3003,
+        18291,
+        17631,
+        51141
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21383995480007595,
+      "compression_ratio": 1.529126213592233,
+      "no_speech_prob": 0.0581277497112751,
+      "words": [
+        {
+          "word": " Eu",
+          "start": 36.72,
+          "end": 37.18,
+          "probability": 0.959749698638916
+        },
+        {
+          "word": " saio",
+          "start": 37.18,
+          "end": 37.7,
+          "probability": 0.9980970025062561
+        },
+        {
+          "word": " de",
+          "start": 37.7,
+          "end": 37.86,
+          "probability": 0.9911675453186035
+        },
+        {
+          "word": " pés",
+          "start": 37.86,
+          "end": 38.16,
+          "probability": 0.9980861246585846
+        },
+        {
+          "word": " descalços",
+          "start": 38.16,
+          "end": 38.86,
+          "probability": 0.9982139468193054
+        },
+        {
+          "word": " para",
+          "start": 38.86,
+          "end": 39.24,
+          "probability": 0.9904488921165466
+        },
+        {
+          "word": " a",
+          "start": 39.24,
+          "end": 39.36,
+          "probability": 0.7465420365333557
+        },
+        {
+          "word": " sanga",
+          "start": 39.36,
+          "end": 39.94,
+          "probability": 0.8897888660430908
+        },
+        {
+          "word": " e",
+          "start": 39.94,
+          "end": 40.42,
+          "probability": 0.8728808164596558
+        },
+        {
+          "word": " vou",
+          "start": 40.42,
+          "end": 40.66,
+          "probability": 0.9765514135360718
+        },
+        {
+          "word": " amassando",
+          "start": 40.66,
+          "end": 41.54,
+          "probability": 0.9920039971669515
+        },
+        {
+          "word": " sobre",
+          "start": 41.54,
+          "end": 41.78,
+          "probability": 0.5530849099159241
+        },
+        {
+          "word": " os",
+          "start": 41.78,
+          "end": 41.94,
+          "probability": 0.9969946146011353
+        },
+        {
+          "word": " pés",
+          "start": 41.94,
+          "end": 42.48,
+          "probability": 0.9993946254253387
+        },
+        {
+          "word": " molhados",
+          "start": 42.48,
+          "end": 43.04,
+          "probability": 0.9916072289148966
+        },
+        {
+          "word": " os",
+          "start": 43.04,
+          "end": 43.82,
+          "probability": 0.9332731366157532
+        },
+        {
+          "word": " desenhos",
+          "start": 43.82,
+          "end": 44.38,
+          "probability": 0.9991499781608582
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2896,
+      "start": 44.38,
+      "end": 46.96,
+      "text": " de orvalho sobre a grama fossa.",
+      "tokens": [
+        51141,
+        368,
+        420,
+        3337,
+        1289,
+        5473,
+        257,
+        677,
+        2404,
+        283,
+        9978,
+        13,
+        51279
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21383995480007595,
+      "compression_ratio": 1.529126213592233,
+      "no_speech_prob": 0.0581277497112751,
+      "words": [
+        {
+          "word": " de",
+          "start": 44.38,
+          "end": 44.56,
+          "probability": 0.5806683897972107
+        },
+        {
+          "word": " orvalho",
+          "start": 44.56,
+          "end": 45.4,
+          "probability": 0.8348315358161926
+        },
+        {
+          "word": " sobre",
+          "start": 45.4,
+          "end": 45.68,
+          "probability": 0.9835277795791626
+        },
+        {
+          "word": " a",
+          "start": 45.68,
+          "end": 45.88,
+          "probability": 0.9869949221611023
+        },
+        {
+          "word": " grama",
+          "start": 45.88,
+          "end": 46.34,
+          "probability": 0.8918633759021759
+        },
+        {
+          "word": " fossa.",
+          "start": 46.34,
+          "end": 46.96,
+          "probability": 0.4648039937019348
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2896,
+      "start": 48.24,
+      "end": 56.02,
+      "text": " Quero beber a água pura da caminhada, mas quando abaixo vejo todo o céu na água beijada,",
+      "tokens": [
+        51329,
+        2326,
+        2032,
+        40069,
+        257,
+        23824,
+        1864,
+        64,
+        1120,
+        1945,
+        10085,
+        1538,
+        11,
+        2300,
+        7770,
+        46981,
+        15617,
+        1241,
+        5134,
+        5149,
+        277,
+        50052,
+        1667,
+        23824,
+        312,
+        1718,
+        1538,
+        11,
+        51727
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21383995480007595,
+      "compression_ratio": 1.529126213592233,
+      "no_speech_prob": 0.0581277497112751,
+      "words": [
+        {
+          "word": " Quero",
+          "start": 47.9,
+          "end": 48.36,
+          "probability": 0.9960954487323761
+        },
+        {
+          "word": " beber",
+          "start": 48.36,
+          "end": 48.74,
+          "probability": 0.9982432126998901
+        },
+        {
+          "word": " a",
+          "start": 48.74,
+          "end": 49.0,
+          "probability": 0.9869909882545471
+        },
+        {
+          "word": " água",
+          "start": 49.0,
+          "end": 49.36,
+          "probability": 0.991666853427887
+        },
+        {
+          "word": " pura",
+          "start": 49.36,
+          "end": 50.14,
+          "probability": 0.9971566498279572
+        },
+        {
+          "word": " da",
+          "start": 50.14,
+          "end": 50.26,
+          "probability": 0.9928667545318604
+        },
+        {
+          "word": " caminhada,",
+          "start": 50.26,
+          "end": 50.9,
+          "probability": 0.9469312826792399
+        },
+        {
+          "word": " mas",
+          "start": 51.08,
+          "end": 51.9,
+          "probability": 0.9957192540168762
+        },
+        {
+          "word": " quando",
+          "start": 51.9,
+          "end": 52.24,
+          "probability": 0.874663233757019
+        },
+        {
+          "word": " abaixo",
+          "start": 52.24,
+          "end": 52.96,
+          "probability": 0.9971885681152344
+        },
+        {
+          "word": " vejo",
+          "start": 52.96,
+          "end": 53.74,
+          "probability": 0.9600347280502319
+        },
+        {
+          "word": " todo",
+          "start": 53.74,
+          "end": 54.1,
+          "probability": 0.9828845262527466
+        },
+        {
+          "word": " o",
+          "start": 54.1,
+          "end": 54.28,
+          "probability": 0.989100992679596
+        },
+        {
+          "word": " céu",
+          "start": 54.28,
+          "end": 54.82,
+          "probability": 0.997258186340332
+        },
+        {
+          "word": " na",
+          "start": 54.82,
+          "end": 55.02,
+          "probability": 0.9571483731269836
+        },
+        {
+          "word": " água",
+          "start": 55.02,
+          "end": 55.36,
+          "probability": 0.9695523977279663
+        },
+        {
+          "word": " beijada,",
+          "start": 55.36,
+          "end": 56.02,
+          "probability": 0.9748616814613342
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2896,
+      "start": 56.24,
+      "end": 58.66,
+      "text": " vejo a última estrela.",
+      "tokens": [
+        51727,
+        1241,
+        5134,
+        257,
+        28118,
+        36665,
+        875,
+        13,
+        51827
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21383995480007595,
+      "compression_ratio": 1.529126213592233,
+      "no_speech_prob": 0.0581277497112751,
+      "words": [
+        {
+          "word": " vejo",
+          "start": 56.24,
+          "end": 57.14,
+          "probability": 0.9981756508350372
+        },
+        {
+          "word": " a",
+          "start": 57.14,
+          "end": 57.24,
+          "probability": 0.9988194108009338
+        },
+        {
+          "word": " última",
+          "start": 57.24,
+          "end": 57.64,
+          "probability": 0.9953171014785767
+        },
+        {
+          "word": " estrela.",
+          "start": 57.64,
+          "end": 58.66,
+          "probability": 0.7622007727622986
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 5896,
+      "start": 58.96,
+      "end": 65.78,
+      "text": " O sol que ficou desbilhoteia para espiar o sol e ver a cara que eu enchei e depois",
+      "tokens": [
+        50365,
+        422,
+        1404,
+        631,
+        25518,
+        730,
+        15384,
+        71,
+        1370,
+        654,
+        1690,
+        7089,
+        9448,
+        277,
+        1404,
+        308,
+        1306,
+        257,
+        10962,
+        631,
+        2228,
+        465,
+        1876,
+        72,
+        308,
+        13880,
+        50715
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": [
+        {
+          "word": " O",
+          "start": 58.96,
+          "end": 58.96,
+          "probability": 0.03743913397192955
+        },
+        {
+          "word": " sol",
+          "start": 58.96,
+          "end": 58.96,
+          "probability": 0.1448061466217041
+        },
+        {
+          "word": " que",
+          "start": 58.96,
+          "end": 58.96,
+          "probability": 0.1164458841085434
+        },
+        {
+          "word": " ficou",
+          "start": 58.96,
+          "end": 59.36,
+          "probability": 0.9129981398582458
+        },
+        {
+          "word": " desbilhoteia",
+          "start": 59.36,
+          "end": 61.26,
+          "probability": 0.718019089102745
+        },
+        {
+          "word": " para",
+          "start": 61.26,
+          "end": 61.94,
+          "probability": 0.26916953921318054
+        },
+        {
+          "word": " espiar",
+          "start": 61.94,
+          "end": 62.54,
+          "probability": 0.9418905079364777
+        },
+        {
+          "word": " o",
+          "start": 62.54,
+          "end": 62.66,
+          "probability": 0.9812335968017578
+        },
+        {
+          "word": " sol",
+          "start": 62.66,
+          "end": 63.06,
+          "probability": 0.9861701726913452
+        },
+        {
+          "word": " e",
+          "start": 63.06,
+          "end": 63.34,
+          "probability": 0.9302626252174377
+        },
+        {
+          "word": " ver",
+          "start": 63.34,
+          "end": 63.54,
+          "probability": 0.9301811456680298
+        },
+        {
+          "word": " a",
+          "start": 63.54,
+          "end": 63.66,
+          "probability": 0.6367429494857788
+        },
+        {
+          "word": " cara",
+          "start": 63.66,
+          "end": 64.04,
+          "probability": 0.9560489654541016
+        },
+        {
+          "word": " que",
+          "start": 64.04,
+          "end": 64.34,
+          "probability": 0.9324180483818054
+        },
+        {
+          "word": " eu",
+          "start": 64.34,
+          "end": 64.4,
+          "probability": 0.7022525668144226
+        },
+        {
+          "word": " enchei",
+          "start": 64.4,
+          "end": 64.74,
+          "probability": 0.7313857525587082
+        },
+        {
+          "word": " e",
+          "start": 64.74,
+          "end": 65.32,
+          "probability": 0.47725456953048706
+        },
+        {
+          "word": " depois",
+          "start": 65.32,
+          "end": 65.78,
+          "probability": 0.9934949278831482
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 5896,
+      "start": 65.78,
+      "end": 72.1,
+      "text": " ir contar as companheiras que não puderam ficar para vê-lo também.",
+      "tokens": [
+        50715,
+        3418,
+        27045,
+        382,
+        3168,
+        675,
+        23342,
+        631,
+        2431,
+        14166,
+        260,
+        335,
+        13646,
+        1690,
+        30384,
+        12,
+        752,
+        6274,
+        13,
+        51072
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": [
+        {
+          "word": " ir",
+          "start": 65.78,
+          "end": 66.08,
+          "probability": 0.8705563545227051
+        },
+        {
+          "word": " contar",
+          "start": 66.08,
+          "end": 66.44,
+          "probability": 0.9884963035583496
+        },
+        {
+          "word": " as",
+          "start": 66.44,
+          "end": 66.76,
+          "probability": 0.5947258472442627
+        },
+        {
+          "word": " companheiras",
+          "start": 66.76,
+          "end": 67.8,
+          "probability": 0.9838800430297852
+        },
+        {
+          "word": " que",
+          "start": 67.8,
+          "end": 68.9,
+          "probability": 0.8795339465141296
+        },
+        {
+          "word": " não",
+          "start": 68.9,
+          "end": 69.12,
+          "probability": 0.8555380702018738
+        },
+        {
+          "word": " puderam",
+          "start": 69.12,
+          "end": 69.66,
+          "probability": 0.9936013619105021
+        },
+        {
+          "word": " ficar",
+          "start": 69.66,
+          "end": 69.96,
+          "probability": 0.9396682381629944
+        },
+        {
+          "word": " para",
+          "start": 69.96,
+          "end": 71.18,
+          "probability": 0.9927188158035278
+        },
+        {
+          "word": " vê",
+          "start": 71.18,
+          "end": 71.52,
+          "probability": 0.22157226502895355
+        },
+        {
+          "word": "-lo",
+          "start": 71.52,
+          "end": 71.8,
+          "probability": 0.9928644597530365
+        },
+        {
+          "word": " também.",
+          "start": 71.8,
+          "end": 72.1,
+          "probability": 0.8350517153739929
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5896,
+      "start": 72.84,
+      "end": 81.62,
+      "text": " Tenho medo de engolir a estrela d'alva, mas me debruço e vou beber o céu como era fresco",
+      "tokens": [
+        51072,
+        9380,
+        1289,
+        37144,
+        368,
+        1741,
+        401,
+        347,
+        257,
+        36665,
+        875,
+        274,
+        6,
+        304,
+        2757,
+        11,
+        2300,
+        385,
+        3001,
+        894,
+        8560,
+        308,
+        6008,
+        40069,
+        277,
+        50052,
+        2617,
+        4249,
+        25235,
+        1291,
+        51422
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": [
+        {
+          "word": " Tenho",
+          "start": 72.84,
+          "end": 73.56,
+          "probability": 0.995435893535614
+        },
+        {
+          "word": " medo",
+          "start": 73.56,
+          "end": 73.82,
+          "probability": 0.9987666606903076
+        },
+        {
+          "word": " de",
+          "start": 73.82,
+          "end": 74.18,
+          "probability": 0.9989632368087769
+        },
+        {
+          "word": " engolir",
+          "start": 74.18,
+          "end": 74.58,
+          "probability": 0.998349686463674
+        },
+        {
+          "word": " a",
+          "start": 74.58,
+          "end": 74.7,
+          "probability": 0.973818838596344
+        },
+        {
+          "word": " estrela",
+          "start": 74.7,
+          "end": 75.18,
+          "probability": 0.9942742586135864
+        },
+        {
+          "word": " d",
+          "start": 75.18,
+          "end": 75.3,
+          "probability": 0.6378312706947327
+        },
+        {
+          "word": "'alva,",
+          "start": 75.3,
+          "end": 75.74,
+          "probability": 0.8457196354866028
+        },
+        {
+          "word": " mas",
+          "start": 75.9,
+          "end": 76.56,
+          "probability": 0.9938166737556458
+        },
+        {
+          "word": " me",
+          "start": 76.56,
+          "end": 76.82,
+          "probability": 0.9035309553146362
+        },
+        {
+          "word": " debruço",
+          "start": 76.82,
+          "end": 77.48,
+          "probability": 0.9267259240150452
+        },
+        {
+          "word": " e",
+          "start": 77.48,
+          "end": 77.8,
+          "probability": 0.9946014881134033
+        },
+        {
+          "word": " vou",
+          "start": 77.8,
+          "end": 77.94,
+          "probability": 0.9972953200340271
+        },
+        {
+          "word": " beber",
+          "start": 77.94,
+          "end": 78.2,
+          "probability": 0.9709988832473755
+        },
+        {
+          "word": " o",
+          "start": 78.2,
+          "end": 78.7,
+          "probability": 0.9634171724319458
+        },
+        {
+          "word": " céu",
+          "start": 78.7,
+          "end": 78.96,
+          "probability": 0.9295740127563477
+        },
+        {
+          "word": " como",
+          "start": 78.96,
+          "end": 80.24,
+          "probability": 0.2702910304069519
+        },
+        {
+          "word": " era",
+          "start": 80.24,
+          "end": 80.6,
+          "probability": 0.9942183494567871
+        },
+        {
+          "word": " fresco",
+          "start": 80.6,
+          "end": 81.62,
+          "probability": 0.8846522569656372
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5896,
+      "start": 81.62,
+      "end": 83.32,
+      "text": " o céu da minha terra.",
+      "tokens": [
+        51422,
+        277,
+        50052,
+        1120,
+        11720,
+        26298,
+        13,
+        51622
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": [
+        {
+          "word": " o",
+          "start": 81.62,
+          "end": 81.7,
+          "probability": 0.9380675554275513
+        },
+        {
+          "word": " céu",
+          "start": 81.7,
+          "end": 82.08,
+          "probability": 0.9947025179862976
+        },
+        {
+          "word": " da",
+          "start": 82.08,
+          "end": 82.5,
+          "probability": 0.9922379851341248
+        },
+        {
+          "word": " minha",
+          "start": 82.5,
+          "end": 82.72,
+          "probability": 0.765710711479187
+        },
+        {
+          "word": " terra.",
+          "start": 82.72,
+          "end": 83.32,
+          "probability": 0.8997323513031006
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5896,
+      "start": 84.6,
+      "end": 85.68,
+      "text": " Meio-dia.",
+      "tokens": [
+        51622,
+        1923,
+        1004,
+        12,
+        67,
+        654,
+        13,
+        51722
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": [
+        {
+          "word": " Meio",
+          "start": 84.6,
+          "end": 85.32,
+          "probability": 0.9146572351455688
+        },
+        {
+          "word": "-dia.",
+          "start": 85.32,
+          "end": 85.68,
+          "probability": 0.7527322272459666
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5896,
+      "start": 87.44,
+      "end": 88.94,
+      "text": " Todo o ar flutuou.",
+      "tokens": [
+        51722,
+        26466,
+        277,
+        594,
+        932,
+        325,
+        84,
+        263,
+        13,
+        51822
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": [
+        {
+          "word": " Todo",
+          "start": 87.44,
+          "end": 88.16,
+          "probability": 0.9696757793426514
+        },
+        {
+          "word": " o",
+          "start": 88.16,
+          "end": 88.42,
+          "probability": 0.5659646987915039
+        },
+        {
+          "word": " ar",
+          "start": 88.42,
+          "end": 88.7,
+          "probability": 0.9943487048149109
+        },
+        {
+          "word": " flutuou.",
+          "start": 88.7,
+          "end": 88.94,
+          "probability": 0.6052724495530128
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5896,
+      "start": 88.94,
+      "end": 88.94,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": []
+    },
+    {
+      "id": 15,
+      "seek": 5896,
+      "start": 88.94,
+      "end": 88.94,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3746477237417678,
+      "compression_ratio": 1.5144230769230769,
+      "no_speech_prob": 0.15288902819156647,
+      "words": []
+    },
+    {
+      "id": 16,
+      "seek": 8896,
+      "start": 88.96,
+      "end": 91.86,
+      "text": " Treme sobre o sol do meio-dia.",
+      "tokens": [
+        50365,
+        8648,
+        1398,
+        5473,
+        277,
+        1404,
+        360,
+        17706,
+        12,
+        67,
+        654,
+        13,
+        50515
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3055259041164232,
+      "compression_ratio": 1.555023923444976,
+      "no_speech_prob": 0.0014748558169230819,
+      "words": [
+        {
+          "word": " Treme",
+          "start": 88.96,
+          "end": 89.66,
+          "probability": 0.5391401723027229
+        },
+        {
+          "word": " sobre",
+          "start": 89.66,
+          "end": 90.2,
+          "probability": 0.6691557168960571
+        },
+        {
+          "word": " o",
+          "start": 90.2,
+          "end": 90.4,
+          "probability": 0.9919518232345581
+        },
+        {
+          "word": " sol",
+          "start": 90.4,
+          "end": 90.92,
+          "probability": 0.9746724367141724
+        },
+        {
+          "word": " do",
+          "start": 90.92,
+          "end": 91.26,
+          "probability": 0.8617981672286987
+        },
+        {
+          "word": " meio",
+          "start": 91.26,
+          "end": 91.54,
+          "probability": 0.9803536534309387
+        },
+        {
+          "word": "-dia.",
+          "start": 91.54,
+          "end": 91.86,
+          "probability": 0.8923809925715128
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 8896,
+      "start": 92.08,
+      "end": 96.5,
+      "text": " O capim se dobrou sobre si mesmo, certidão.",
+      "tokens": [
+        50515,
+        422,
+        1410,
+        332,
+        369,
+        23067,
+        263,
+        5473,
+        1511,
+        9082,
+        11,
+        5351,
+        327,
+        1076,
+        13,
+        50765
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3055259041164232,
+      "compression_ratio": 1.555023923444976,
+      "no_speech_prob": 0.0014748558169230819,
+      "words": [
+        {
+          "word": " O",
+          "start": 92.08,
+          "end": 92.5,
+          "probability": 0.991294801235199
+        },
+        {
+          "word": " capim",
+          "start": 92.5,
+          "end": 93.04,
+          "probability": 0.9744306206703186
+        },
+        {
+          "word": " se",
+          "start": 93.04,
+          "end": 93.44,
+          "probability": 0.9943386912345886
+        },
+        {
+          "word": " dobrou",
+          "start": 93.44,
+          "end": 93.94,
+          "probability": 0.999605268239975
+        },
+        {
+          "word": " sobre",
+          "start": 93.94,
+          "end": 94.42,
+          "probability": 0.9915080070495605
+        },
+        {
+          "word": " si",
+          "start": 94.42,
+          "end": 94.64,
+          "probability": 0.9823587536811829
+        },
+        {
+          "word": " mesmo,",
+          "start": 94.64,
+          "end": 95.36,
+          "probability": 0.9980260133743286
+        },
+        {
+          "word": " certidão.",
+          "start": 95.54,
+          "end": 96.5,
+          "probability": 0.7037973155577978
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8896,
+      "start": 97.0,
+      "end": 104.3,
+      "text": " A gente olhando o campo tem a impressão que derramam sobre ele qualquer coisa derretida.",
+      "tokens": [
+        50765,
+        316,
+        3788,
+        2545,
+        28190,
+        277,
+        29691,
+        1383,
+        257,
+        6729,
+        1076,
+        631,
+        1163,
+        2356,
+        335,
+        5473,
+        1118,
+        20437,
+        9614,
+        1163,
+        1505,
+        2887,
+        13,
+        51115
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3055259041164232,
+      "compression_ratio": 1.555023923444976,
+      "no_speech_prob": 0.0014748558169230819,
+      "words": [
+        {
+          "word": " A",
+          "start": 97.0,
+          "end": 97.76,
+          "probability": 0.9885995388031006
+        },
+        {
+          "word": " gente",
+          "start": 97.76,
+          "end": 98.04,
+          "probability": 0.9992402791976929
+        },
+        {
+          "word": " olhando",
+          "start": 98.04,
+          "end": 98.6,
+          "probability": 0.9676846861839294
+        },
+        {
+          "word": " o",
+          "start": 98.6,
+          "end": 98.7,
+          "probability": 0.9987744688987732
+        },
+        {
+          "word": " campo",
+          "start": 98.7,
+          "end": 99.04,
+          "probability": 0.9716278314590454
+        },
+        {
+          "word": " tem",
+          "start": 99.04,
+          "end": 99.96,
+          "probability": 0.6403340101242065
+        },
+        {
+          "word": " a",
+          "start": 99.96,
+          "end": 100.12,
+          "probability": 0.998883068561554
+        },
+        {
+          "word": " impressão",
+          "start": 100.12,
+          "end": 100.74,
+          "probability": 0.9997913837432861
+        },
+        {
+          "word": " que",
+          "start": 100.74,
+          "end": 100.92,
+          "probability": 0.9610558748245239
+        },
+        {
+          "word": " derramam",
+          "start": 100.92,
+          "end": 101.58,
+          "probability": 0.993498961130778
+        },
+        {
+          "word": " sobre",
+          "start": 101.58,
+          "end": 101.9,
+          "probability": 0.9949018955230713
+        },
+        {
+          "word": " ele",
+          "start": 101.9,
+          "end": 102.36,
+          "probability": 0.9996102452278137
+        },
+        {
+          "word": " qualquer",
+          "start": 102.36,
+          "end": 102.86,
+          "probability": 0.996957540512085
+        },
+        {
+          "word": " coisa",
+          "start": 102.86,
+          "end": 103.42,
+          "probability": 0.9980089068412781
+        },
+        {
+          "word": " derretida.",
+          "start": 103.42,
+          "end": 104.3,
+          "probability": 0.7597191532452902
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 8896,
+      "start": 104.54,
+      "end": 112.36,
+      "text": " O gado invadindo-as e os capões para fachar quem só derrama, derrama, derretida sobre",
+      "tokens": [
+        51115,
+        422,
+        290,
+        1573,
+        1048,
+        345,
+        10306,
+        12,
+        296,
+        308,
+        3003,
+        1410,
+        6036,
+        1690,
+        283,
+        608,
+        289,
+        13026,
+        6238,
+        1163,
+        29762,
+        11,
+        1163,
+        29762,
+        11,
+        1163,
+        1505,
+        2887,
+        5473,
+        51515
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3055259041164232,
+      "compression_ratio": 1.555023923444976,
+      "no_speech_prob": 0.0014748558169230819,
+      "words": [
+        {
+          "word": " O",
+          "start": 104.54,
+          "end": 104.84,
+          "probability": 0.993181049823761
+        },
+        {
+          "word": " gado",
+          "start": 104.84,
+          "end": 105.22,
+          "probability": 0.9879139959812164
+        },
+        {
+          "word": " invadindo",
+          "start": 105.22,
+          "end": 105.9,
+          "probability": 0.9877632657686869
+        },
+        {
+          "word": "-as",
+          "start": 105.9,
+          "end": 106.2,
+          "probability": 0.3537082076072693
+        },
+        {
+          "word": " e",
+          "start": 106.2,
+          "end": 106.28,
+          "probability": 0.8996621966362
+        },
+        {
+          "word": " os",
+          "start": 106.28,
+          "end": 106.4,
+          "probability": 0.9721496105194092
+        },
+        {
+          "word": " capões",
+          "start": 106.4,
+          "end": 106.96,
+          "probability": 0.7339938282966614
+        },
+        {
+          "word": " para",
+          "start": 106.96,
+          "end": 107.94,
+          "probability": 0.9034398794174194
+        },
+        {
+          "word": " fachar",
+          "start": 107.94,
+          "end": 108.44,
+          "probability": 0.4490401049455007
+        },
+        {
+          "word": " quem",
+          "start": 108.44,
+          "end": 108.7,
+          "probability": 0.7842004299163818
+        },
+        {
+          "word": " só",
+          "start": 108.7,
+          "end": 109.04,
+          "probability": 0.09931594878435135
+        },
+        {
+          "word": " derrama,",
+          "start": 109.04,
+          "end": 109.92,
+          "probability": 0.9654175639152527
+        },
+        {
+          "word": " derrama,",
+          "start": 109.98,
+          "end": 110.64,
+          "probability": 0.9627053737640381
+        },
+        {
+          "word": " derretida",
+          "start": 110.72,
+          "end": 111.7,
+          "probability": 0.8032499949137369
+        },
+        {
+          "word": " sobre",
+          "start": 111.7,
+          "end": 112.36,
+          "probability": 0.9685826897621155
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 8896,
+      "start": 112.36,
+      "end": 112.9,
+      "text": " a grama.",
+      "tokens": [
+        51515,
+        257,
+        677,
+        2404,
+        13,
+        51565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3055259041164232,
+      "compression_ratio": 1.555023923444976,
+      "no_speech_prob": 0.0014748558169230819,
+      "words": [
+        {
+          "word": " a",
+          "start": 112.36,
+          "end": 112.54,
+          "probability": 0.9640893340110779
+        },
+        {
+          "word": " grama.",
+          "start": 112.54,
+          "end": 112.9,
+          "probability": 0.25790778174996376
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 8896,
+      "start": 113.26,
+      "end": 118.46,
+      "text": " No lombo da cochilha são cavalos de pássaro, parado de sede.",
+      "tokens": [
+        51565,
+        883,
+        287,
+        298,
+        1763,
+        1120,
+        48599,
+        388,
+        1641,
+        8364,
+        32805,
+        329,
+        368,
+        280,
+        2490,
+        82,
+        9708,
+        11,
+        971,
+        1573,
+        368,
+        262,
+        4858,
+        13,
+        51815
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3055259041164232,
+      "compression_ratio": 1.555023923444976,
+      "no_speech_prob": 0.0014748558169230819,
+      "words": [
+        {
+          "word": " No",
+          "start": 113.26,
+          "end": 113.5,
+          "probability": 0.7810311317443848
+        },
+        {
+          "word": " lombo",
+          "start": 113.5,
+          "end": 113.88,
+          "probability": 0.9880039294560751
+        },
+        {
+          "word": " da",
+          "start": 113.88,
+          "end": 114.02,
+          "probability": 0.9995889067649841
+        },
+        {
+          "word": " cochilha",
+          "start": 114.02,
+          "end": 114.72,
+          "probability": 0.8016153772672018
+        },
+        {
+          "word": " são",
+          "start": 114.72,
+          "end": 115.02,
+          "probability": 0.7596156001091003
+        },
+        {
+          "word": " cavalos",
+          "start": 115.02,
+          "end": 115.78,
+          "probability": 0.9870602190494537
+        },
+        {
+          "word": " de",
+          "start": 115.78,
+          "end": 115.8,
+          "probability": 0.5830031633377075
+        },
+        {
+          "word": " pássaro,",
+          "start": 115.8,
+          "end": 117.04,
+          "probability": 0.6821646578609943
+        },
+        {
+          "word": " parado",
+          "start": 117.04,
+          "end": 117.92,
+          "probability": 0.7821951806545258
+        },
+        {
+          "word": " de",
+          "start": 117.92,
+          "end": 118.04,
+          "probability": 0.9889638423919678
+        },
+        {
+          "word": " sede.",
+          "start": 118.04,
+          "end": 118.46,
+          "probability": 0.548931822180748
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 11896,
+      "start": 118.96,
+      "end": 123.66,
+      "text": " Porque teve preguiça, só porque tem de descer a seira.",
+      "tokens": [
+        50365,
+        11287,
+        26628,
+        659,
+        2794,
+        72,
+        5297,
+        11,
+        6238,
+        4021,
+        1383,
+        368,
+        730,
+        1776,
+        257,
+        369,
+        4271,
+        13,
+        50615
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34026585454526154,
+      "compression_ratio": 1.4678899082568808,
+      "no_speech_prob": 0.0011781376088038087,
+      "words": [
+        {
+          "word": " Porque",
+          "start": 118.96,
+          "end": 119.52,
+          "probability": 0.46184241771698
+        },
+        {
+          "word": " teve",
+          "start": 119.52,
+          "end": 119.9,
+          "probability": 0.899511456489563
+        },
+        {
+          "word": " preguiça,",
+          "start": 119.9,
+          "end": 120.84,
+          "probability": 0.7645938247442245
+        },
+        {
+          "word": " só",
+          "start": 120.96,
+          "end": 121.26,
+          "probability": 0.5805130004882812
+        },
+        {
+          "word": " porque",
+          "start": 121.26,
+          "end": 121.46,
+          "probability": 0.7262001037597656
+        },
+        {
+          "word": " tem",
+          "start": 121.46,
+          "end": 121.84,
+          "probability": 0.41686779260635376
+        },
+        {
+          "word": " de",
+          "start": 121.84,
+          "end": 122.06,
+          "probability": 0.34710070490837097
+        },
+        {
+          "word": " descer",
+          "start": 122.06,
+          "end": 122.76,
+          "probability": 0.9828312993049622
+        },
+        {
+          "word": " a",
+          "start": 122.76,
+          "end": 122.98,
+          "probability": 0.6653366088867188
+        },
+        {
+          "word": " seira.",
+          "start": 122.98,
+          "end": 123.66,
+          "probability": 0.4253022149205208
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 11896,
+      "start": 124.44,
+      "end": 132.44,
+      "text": " Debaixo dos cinamomos da fazenda planada dorme, espirada de costas, um chapéu no doido.",
+      "tokens": [
+        50615,
+        1346,
+        4231,
+        15617,
+        4491,
+        6539,
+        335,
+        40934,
+        1120,
+        4375,
+        7639,
+        1393,
+        1538,
+        12521,
+        68,
+        11,
+        7089,
+        347,
+        1538,
+        368,
+        2063,
+        296,
+        11,
+        1105,
+        13223,
+        526,
+        84,
+        572,
+        360,
+        2925,
+        13,
+        51065
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34026585454526154,
+      "compression_ratio": 1.4678899082568808,
+      "no_speech_prob": 0.0011781376088038087,
+      "words": [
+        {
+          "word": " Debaixo",
+          "start": 124.44,
+          "end": 125.32,
+          "probability": 0.9601173599561056
+        },
+        {
+          "word": " dos",
+          "start": 125.32,
+          "end": 125.46,
+          "probability": 0.7695536017417908
+        },
+        {
+          "word": " cinamomos",
+          "start": 125.46,
+          "end": 126.1,
+          "probability": 0.881203273932139
+        },
+        {
+          "word": " da",
+          "start": 126.1,
+          "end": 126.38,
+          "probability": 0.8552329540252686
+        },
+        {
+          "word": " fazenda",
+          "start": 126.38,
+          "end": 127.14,
+          "probability": 0.995670884847641
+        },
+        {
+          "word": " planada",
+          "start": 127.14,
+          "end": 127.6,
+          "probability": 0.6886355429887772
+        },
+        {
+          "word": " dorme,",
+          "start": 127.6,
+          "end": 128.48,
+          "probability": 0.8543953597545624
+        },
+        {
+          "word": " espirada",
+          "start": 128.48,
+          "end": 129.56,
+          "probability": 0.6732569088538488
+        },
+        {
+          "word": " de",
+          "start": 129.56,
+          "end": 129.7,
+          "probability": 0.986530065536499
+        },
+        {
+          "word": " costas,",
+          "start": 129.7,
+          "end": 130.52,
+          "probability": 0.9836045801639557
+        },
+        {
+          "word": " um",
+          "start": 130.52,
+          "end": 130.92,
+          "probability": 0.4659481346607208
+        },
+        {
+          "word": " chapéu",
+          "start": 130.92,
+          "end": 131.56,
+          "probability": 0.9970526099205017
+        },
+        {
+          "word": " no",
+          "start": 131.56,
+          "end": 131.76,
+          "probability": 0.8127683401107788
+        },
+        {
+          "word": " doido.",
+          "start": 131.76,
+          "end": 132.44,
+          "probability": 0.30093372613191605
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 11896,
+      "start": 132.76,
+      "end": 140.36,
+      "text": " Um guaipeca deitado aos pés de um peão, carrapocada nas moscas, alando os dentes.",
+      "tokens": [
+        51065,
+        3301,
+        695,
+        1301,
+        494,
+        496,
+        368,
+        270,
+        1573,
+        25458,
+        280,
+        2191,
+        368,
+        1105,
+        520,
+        1076,
+        11,
+        1032,
+        4007,
+        905,
+        1538,
+        5382,
+        275,
+        10466,
+        296,
+        11,
+        419,
+        1806,
+        3003,
+        7059,
+        279,
+        13,
+        51465
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34026585454526154,
+      "compression_ratio": 1.4678899082568808,
+      "no_speech_prob": 0.0011781376088038087,
+      "words": [
+        {
+          "word": " Um",
+          "start": 132.76,
+          "end": 133.44,
+          "probability": 0.36048826575279236
+        },
+        {
+          "word": " guaipeca",
+          "start": 133.44,
+          "end": 134.08,
+          "probability": 0.887012779712677
+        },
+        {
+          "word": " deitado",
+          "start": 134.08,
+          "end": 134.62,
+          "probability": 0.9479777018229166
+        },
+        {
+          "word": " aos",
+          "start": 134.62,
+          "end": 134.8,
+          "probability": 0.9768344759941101
+        },
+        {
+          "word": " pés",
+          "start": 134.8,
+          "end": 135.26,
+          "probability": 0.9997810125350952
+        },
+        {
+          "word": " de",
+          "start": 135.26,
+          "end": 135.36,
+          "probability": 0.852270245552063
+        },
+        {
+          "word": " um",
+          "start": 135.36,
+          "end": 135.44,
+          "probability": 0.9990456700325012
+        },
+        {
+          "word": " peão,",
+          "start": 135.44,
+          "end": 135.92,
+          "probability": 0.8868242502212524
+        },
+        {
+          "word": " carrapocada",
+          "start": 135.94,
+          "end": 137.36,
+          "probability": 0.6123174875974655
+        },
+        {
+          "word": " nas",
+          "start": 137.36,
+          "end": 137.62,
+          "probability": 0.9966296553611755
+        },
+        {
+          "word": " moscas,",
+          "start": 137.62,
+          "end": 138.38,
+          "probability": 0.974844773610433
+        },
+        {
+          "word": " alando",
+          "start": 138.38,
+          "end": 139.48,
+          "probability": 0.6993363499641418
+        },
+        {
+          "word": " os",
+          "start": 139.48,
+          "end": 139.58,
+          "probability": 0.5207644104957581
+        },
+        {
+          "word": " dentes.",
+          "start": 139.58,
+          "end": 140.36,
+          "probability": 0.8038303256034851
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 11896,
+      "start": 140.72,
+      "end": 148.94,
+      "text": " Depois cocoricoca uma galinha que botou, e tudo volta ao silêncio, e o calor tão quente.",
+      "tokens": [
+        51465,
+        34231,
+        598,
+        19558,
+        2789,
+        496,
+        2772,
+        7660,
+        6727,
+        631,
+        10592,
+        263,
+        11,
+        308,
+        9379,
+        18765,
+        8130,
+        3425,
+        5050,
+        8529,
+        11,
+        308,
+        277,
+        31575,
+        18012,
+        421,
+        1576,
+        13,
+        51765
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34026585454526154,
+      "compression_ratio": 1.4678899082568808,
+      "no_speech_prob": 0.0011781376088038087,
+      "words": [
+        {
+          "word": " Depois",
+          "start": 140.72,
+          "end": 141.6,
+          "probability": 0.9949265718460083
+        },
+        {
+          "word": " cocoricoca",
+          "start": 141.6,
+          "end": 143.0,
+          "probability": 0.8755353391170502
+        },
+        {
+          "word": " uma",
+          "start": 143.0,
+          "end": 143.18,
+          "probability": 0.9652634859085083
+        },
+        {
+          "word": " galinha",
+          "start": 143.18,
+          "end": 143.68,
+          "probability": 0.9988151788711548
+        },
+        {
+          "word": " que",
+          "start": 143.68,
+          "end": 143.84,
+          "probability": 0.9975035786628723
+        },
+        {
+          "word": " botou,",
+          "start": 143.84,
+          "end": 144.42,
+          "probability": 0.999308705329895
+        },
+        {
+          "word": " e",
+          "start": 144.5,
+          "end": 144.98,
+          "probability": 0.9155163168907166
+        },
+        {
+          "word": " tudo",
+          "start": 144.98,
+          "end": 145.42,
+          "probability": 0.9970523118972778
+        },
+        {
+          "word": " volta",
+          "start": 145.42,
+          "end": 145.94,
+          "probability": 0.9795545339584351
+        },
+        {
+          "word": " ao",
+          "start": 145.94,
+          "end": 146.1,
+          "probability": 0.9825154542922974
+        },
+        {
+          "word": " silêncio,",
+          "start": 146.1,
+          "end": 147.1,
+          "probability": 0.9981977939605713
+        },
+        {
+          "word": " e",
+          "start": 147.18,
+          "end": 147.4,
+          "probability": 0.521344780921936
+        },
+        {
+          "word": " o",
+          "start": 147.4,
+          "end": 147.62,
+          "probability": 0.9821442365646362
+        },
+        {
+          "word": " calor",
+          "start": 147.62,
+          "end": 147.98,
+          "probability": 0.9967973828315735
+        },
+        {
+          "word": " tão",
+          "start": 147.98,
+          "end": 148.56,
+          "probability": 0.25011858344078064
+        },
+        {
+          "word": " quente.",
+          "start": 148.56,
+          "end": 148.94,
+          "probability": 0.6623191237449646
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 14894,
+      "start": 148.94,
+      "end": 153.82,
+      "text": " Até o vento tem preguiça de ventar.",
+      "tokens": [
+        50365,
+        31793,
+        277,
+        6931,
+        78,
+        1383,
+        659,
+        2794,
+        72,
+        5297,
+        368,
+        6931,
+        289,
+        13,
+        50615
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3816728263065733,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.0003432680096011609,
+      "words": [
+        {
+          "word": " Até",
+          "start": 148.94,
+          "end": 150.58,
+          "probability": 0.4438518285751343
+        },
+        {
+          "word": " o",
+          "start": 150.58,
+          "end": 150.84,
+          "probability": 0.9896010756492615
+        },
+        {
+          "word": " vento",
+          "start": 150.84,
+          "end": 151.54,
+          "probability": 0.9885946810245514
+        },
+        {
+          "word": " tem",
+          "start": 151.54,
+          "end": 151.78,
+          "probability": 0.6976547837257385
+        },
+        {
+          "word": " preguiça",
+          "start": 151.78,
+          "end": 152.58,
+          "probability": 0.9525155872106552
+        },
+        {
+          "word": " de",
+          "start": 152.58,
+          "end": 152.84,
+          "probability": 0.9186336398124695
+        },
+        {
+          "word": " ventar.",
+          "start": 152.84,
+          "end": 153.82,
+          "probability": 0.9063267111778259
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 14894,
+      "start": 153.94,
+      "end": 166.32,
+      "text": " A pena se ouve, no lindo, loiro, confindo, o monótono zumbum das moscas vagabundas.",
+      "tokens": [
+        50615,
+        316,
+        29222,
+        369,
+        2820,
+        303,
+        11,
+        572,
+        48436,
+        11,
+        450,
+        5182,
+        11,
+        1497,
+        10306,
+        11,
+        277,
+        1108,
+        812,
+        1756,
+        78,
+        710,
+        2860,
+        449,
+        1482,
+        275,
+        10466,
+        296,
+        13501,
+        455,
+        997,
+        296,
+        13,
+        51265
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3816728263065733,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.0003432680096011609,
+      "words": [
+        {
+          "word": " A",
+          "start": 153.94,
+          "end": 154.8,
+          "probability": 0.6288343071937561
+        },
+        {
+          "word": " pena",
+          "start": 154.8,
+          "end": 155.26,
+          "probability": 0.2788737416267395
+        },
+        {
+          "word": " se",
+          "start": 155.26,
+          "end": 155.52,
+          "probability": 0.9474667310714722
+        },
+        {
+          "word": " ouve,",
+          "start": 155.52,
+          "end": 156.46,
+          "probability": 0.9673406779766083
+        },
+        {
+          "word": " no",
+          "start": 156.46,
+          "end": 156.86,
+          "probability": 0.195140540599823
+        },
+        {
+          "word": " lindo,",
+          "start": 156.86,
+          "end": 157.56,
+          "probability": 0.16457656025886536
+        },
+        {
+          "word": " loiro,",
+          "start": 158.0,
+          "end": 159.1,
+          "probability": 0.3473083972930908
+        },
+        {
+          "word": " confindo,",
+          "start": 159.32,
+          "end": 160.76,
+          "probability": 0.4953915774822235
+        },
+        {
+          "word": " o",
+          "start": 160.84,
+          "end": 161.5,
+          "probability": 0.36232084035873413
+        },
+        {
+          "word": " monótono",
+          "start": 161.5,
+          "end": 162.54,
+          "probability": 0.9972764998674393
+        },
+        {
+          "word": " zumbum",
+          "start": 162.54,
+          "end": 163.5,
+          "probability": 0.8112650116284689
+        },
+        {
+          "word": " das",
+          "start": 163.5,
+          "end": 164.1,
+          "probability": 0.9111679196357727
+        },
+        {
+          "word": " moscas",
+          "start": 164.1,
+          "end": 164.96,
+          "probability": 0.9596429665883383
+        },
+        {
+          "word": " vagabundas.",
+          "start": 164.96,
+          "end": 166.32,
+          "probability": 0.6617347113788128
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 14894,
+      "start": 167.04,
+      "end": 168.26,
+      "text": " Tardezinha.",
+      "tokens": [
+        51265,
+        314,
+        515,
+        4371,
+        6727,
+        13,
+        51365
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3816728263065733,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.0003432680096011609,
+      "words": [
+        {
+          "word": " Tardezinha.",
+          "start": 167.04,
+          "end": 168.26,
+          "probability": 0.9012740701436996
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 14894,
+      "start": 170.12,
+      "end": 175.24,
+      "text": " Sol e fria atrás da última cochilha.",
+      "tokens": [
+        51365,
+        7026,
+        308,
+        431,
+        654,
+        22906,
+        1120,
+        28118,
+        48599,
+        388,
+        1641,
+        13,
+        51715
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3816728263065733,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.0003432680096011609,
+      "words": [
+        {
+          "word": " Sol",
+          "start": 170.12,
+          "end": 171.34,
+          "probability": 0.9403153657913208
+        },
+        {
+          "word": " e",
+          "start": 171.34,
+          "end": 171.58,
+          "probability": 0.6255604028701782
+        },
+        {
+          "word": " fria",
+          "start": 171.58,
+          "end": 172.34,
+          "probability": 0.6596846431493759
+        },
+        {
+          "word": " atrás",
+          "start": 172.34,
+          "end": 173.1,
+          "probability": 0.6579186916351318
+        },
+        {
+          "word": " da",
+          "start": 173.1,
+          "end": 173.62,
+          "probability": 0.9994284510612488
+        },
+        {
+          "word": " última",
+          "start": 173.62,
+          "end": 174.14,
+          "probability": 0.9975799322128296
+        },
+        {
+          "word": " cochilha.",
+          "start": 174.14,
+          "end": 175.24,
+          "probability": 0.4642125467459361
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 14894,
+      "start": 175.94,
+      "end": 178.92,
+      "text": " A tarde é úmida e morna com um vento.",
+      "tokens": [
+        51715,
+        316,
+        27367,
+        1136,
+        6991,
+        76,
+        2887,
+        308,
+        1896,
+        629,
+        395,
+        1105,
+        6931,
+        78,
+        13,
+        51815
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3816728263065733,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.0003432680096011609,
+      "words": [
+        {
+          "word": " A",
+          "start": 175.91,
+          "end": 176.52,
+          "probability": 0.9962279796600342
+        },
+        {
+          "word": " tarde",
+          "start": 176.52,
+          "end": 177.06,
+          "probability": 0.9920086860656738
+        },
+        {
+          "word": " é",
+          "start": 177.06,
+          "end": 177.26,
+          "probability": 0.9952380657196045
+        },
+        {
+          "word": " úmida",
+          "start": 177.26,
+          "end": 177.88,
+          "probability": 0.9888652165730795
+        },
+        {
+          "word": " e",
+          "start": 177.88,
+          "end": 177.92,
+          "probability": 0.9987422823905945
+        },
+        {
+          "word": " morna",
+          "start": 177.92,
+          "end": 178.54,
+          "probability": 0.9966542422771454
+        },
+        {
+          "word": " com",
+          "start": 178.54,
+          "end": 178.78,
+          "probability": 0.4216575026512146
+        },
+        {
+          "word": " um",
+          "start": 178.78,
+          "end": 178.92,
+          "probability": 0.13216803967952728
+        },
+        {
+          "word": " vento.",
+          "start": 178.92,
+          "end": 178.92,
+          "probability": 0.5314172841608524
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 17892,
+      "start": 178.92,
+      "end": 179.72,
+      "text": " Um beijo.",
+      "tokens": [
+        50365,
+        3301,
+        312,
+        24510,
+        13,
+        50465
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3156902821858724,
+      "compression_ratio": 1.4014598540145986,
+      "no_speech_prob": 0.005014455411583185,
+      "words": [
+        {
+          "word": " Um",
+          "start": 178.92,
+          "end": 178.92,
+          "probability": 0.3737674355506897
+        },
+        {
+          "word": " beijo.",
+          "start": 178.92,
+          "end": 179.72,
+          "probability": 0.9881119132041931
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 17892,
+      "start": 180.12,
+      "end": 184.12,
+      "text": " Navarro de a morena como no couro do Chino.",
+      "tokens": [
+        50465,
+        9219,
+        289,
+        340,
+        368,
+        257,
+        544,
+        629,
+        2617,
+        572,
+        1384,
+        340,
+        360,
+        761,
+        2982,
+        13,
+        50665
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3156902821858724,
+      "compression_ratio": 1.4014598540145986,
+      "no_speech_prob": 0.005014455411583185,
+      "words": [
+        {
+          "word": " Navarro",
+          "start": 180.12,
+          "end": 180.92,
+          "probability": 0.7212350567181905
+        },
+        {
+          "word": " de",
+          "start": 180.92,
+          "end": 181.12,
+          "probability": 0.6610034108161926
+        },
+        {
+          "word": " a",
+          "start": 181.12,
+          "end": 181.22,
+          "probability": 0.18875494599342346
+        },
+        {
+          "word": " morena",
+          "start": 181.22,
+          "end": 182.04,
+          "probability": 0.9329345226287842
+        },
+        {
+          "word": " como",
+          "start": 182.04,
+          "end": 182.38,
+          "probability": 0.6678078174591064
+        },
+        {
+          "word": " no",
+          "start": 182.38,
+          "end": 182.54,
+          "probability": 0.23891401290893555
+        },
+        {
+          "word": " couro",
+          "start": 182.54,
+          "end": 183.08,
+          "probability": 0.6192149817943573
+        },
+        {
+          "word": " do",
+          "start": 183.08,
+          "end": 183.2,
+          "probability": 0.15948206186294556
+        },
+        {
+          "word": " Chino.",
+          "start": 183.2,
+          "end": 184.12,
+          "probability": 0.29905250668525696
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 17892,
+      "start": 184.7,
+      "end": 190.94,
+      "text": " Navarro de onde a primavera passou e deixou estendida uma coxa de chanfra.",
+      "tokens": [
+        50665,
+        9219,
+        289,
+        340,
+        368,
+        14396,
+        257,
+        19507,
+        331,
+        64,
+        44740,
+        308,
+        9963,
+        263,
+        871,
+        521,
+        2887,
+        2772,
+        598,
+        36852,
+        368,
+        417,
+        282,
+        69,
+        424,
+        13,
+        51015
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3156902821858724,
+      "compression_ratio": 1.4014598540145986,
+      "no_speech_prob": 0.005014455411583185,
+      "words": [
+        {
+          "word": " Navarro",
+          "start": 184.7,
+          "end": 185.5,
+          "probability": 0.9915551543235779
+        },
+        {
+          "word": " de",
+          "start": 185.5,
+          "end": 185.76,
+          "probability": 0.958398163318634
+        },
+        {
+          "word": " onde",
+          "start": 185.76,
+          "end": 185.94,
+          "probability": 0.9913687109947205
+        },
+        {
+          "word": " a",
+          "start": 185.94,
+          "end": 186.1,
+          "probability": 0.9964967370033264
+        },
+        {
+          "word": " primavera",
+          "start": 186.1,
+          "end": 186.72,
+          "probability": 0.9967631697654724
+        },
+        {
+          "word": " passou",
+          "start": 186.72,
+          "end": 187.0,
+          "probability": 0.9967197775840759
+        },
+        {
+          "word": " e",
+          "start": 187.0,
+          "end": 187.7,
+          "probability": 0.8446143865585327
+        },
+        {
+          "word": " deixou",
+          "start": 187.7,
+          "end": 188.32,
+          "probability": 0.9954520165920258
+        },
+        {
+          "word": " estendida",
+          "start": 188.32,
+          "end": 189.3,
+          "probability": 0.9560741583506266
+        },
+        {
+          "word": " uma",
+          "start": 189.3,
+          "end": 189.46,
+          "probability": 0.9581277966499329
+        },
+        {
+          "word": " coxa",
+          "start": 189.46,
+          "end": 190.04,
+          "probability": 0.7601595818996429
+        },
+        {
+          "word": " de",
+          "start": 190.04,
+          "end": 190.22,
+          "probability": 0.9170256853103638
+        },
+        {
+          "word": " chanfra.",
+          "start": 190.22,
+          "end": 190.94,
+          "probability": 0.43442902714014053
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 17892,
+      "start": 191.12,
+      "end": 197.6,
+      "text": " Eu me deito no trevalo macio e fico estirado onde o céu criou.",
+      "tokens": [
+        51015,
+        2186,
+        385,
+        368,
+        3528,
+        572,
+        2192,
+        3337,
+        78,
+        7912,
+        1004,
+        308,
+        283,
+        2789,
+        871,
+        347,
+        1573,
+        14396,
+        277,
+        50052,
+        12815,
+        263,
+        13,
+        51365
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3156902821858724,
+      "compression_ratio": 1.4014598540145986,
+      "no_speech_prob": 0.005014455411583185,
+      "words": [
+        {
+          "word": " Eu",
+          "start": 191.12,
+          "end": 191.84,
+          "probability": 0.5821458101272583
+        },
+        {
+          "word": " me",
+          "start": 191.84,
+          "end": 192.04,
+          "probability": 0.9977339506149292
+        },
+        {
+          "word": " deito",
+          "start": 192.04,
+          "end": 192.56,
+          "probability": 0.9598143398761749
+        },
+        {
+          "word": " no",
+          "start": 192.56,
+          "end": 192.68,
+          "probability": 0.9894925355911255
+        },
+        {
+          "word": " trevalo",
+          "start": 192.68,
+          "end": 193.4,
+          "probability": 0.814432422320048
+        },
+        {
+          "word": " macio",
+          "start": 193.4,
+          "end": 194.3,
+          "probability": 0.9874624013900757
+        },
+        {
+          "word": " e",
+          "start": 194.3,
+          "end": 194.64,
+          "probability": 0.6443876028060913
+        },
+        {
+          "word": " fico",
+          "start": 194.64,
+          "end": 195.14,
+          "probability": 0.9758085906505585
+        },
+        {
+          "word": " estirado",
+          "start": 195.14,
+          "end": 196.08,
+          "probability": 0.8176800012588501
+        },
+        {
+          "word": " onde",
+          "start": 196.08,
+          "end": 196.44,
+          "probability": 0.8532460331916809
+        },
+        {
+          "word": " o",
+          "start": 196.44,
+          "end": 196.6,
+          "probability": 0.9916141033172607
+        },
+        {
+          "word": " céu",
+          "start": 196.6,
+          "end": 196.9,
+          "probability": 0.9873902797698975
+        },
+        {
+          "word": " criou.",
+          "start": 196.9,
+          "end": 197.6,
+          "probability": 0.9593784809112549
+        }
+      ]
+    }
+  ]
+}

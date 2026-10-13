@@ -1,0 +1,654 @@
+{
+  "faixa": 4,
+  "arquivo": "4. 27698 - Ritmos de samba - Almirante.wav",
+  "condicao": "D",
+  "glossario": true,
+  "filtro": true,
+  "prompt_inicial": "batucada, surdo, tamborim, primeiro tamborim, segundo tamborim.",
+  "modelo": "large-v3",
+  "parametros": {
+    "language": "pt",
+    "word_timestamps": true,
+    "carry_initial_prompt": true,
+    "demais": "valores padrão da biblioteca"
+  },
+  "semente": 0,
+  "versoes": {
+    "openai-whisper": "20250625",
+    "noisereduce": "3.0.3",
+    "librosa": "0.11.0",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130"
+  },
+  "python": "3.13.15",
+  "gpu": "Tesla T4",
+  "data_execucao": "2026-10-09T16:39:47.034504+00:00",
+  "duracao_audio_s": 64.86,
+  "duracao_processamento_s": 6.33,
+  "texto": " Aqui está uma demonstração de ritmo de samba do Brasil. Vamos mostrar aqui todos os instrumentos que entram em samba, iniciando pela patucada. Este é o surdo. Enquanto o surdo faz isso, o primeiro tamborim faz isso, vocês vão ouvir. Este tamborim vem no segundo tamborim fazendo um ritmo diferente aqui. Aqui. Aqui o tamborim, já depois do samba de som. Aqui.",
+  "segmentos": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.6199999999999968,
+      "end": 3.5,
+      "text": " Aqui está uma demonstração de ritmo de samba do Brasil.",
+      "tokens": [
+        50365,
+        23089,
+        3192,
+        2772,
+        5516,
+        37864,
+        368,
+        11289,
+        3280,
+        368,
+        262,
+        23337,
+        360,
+        14861,
+        13,
+        50545
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24467401246766787,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.0047877696342766285,
+      "words": [
+        {
+          "word": " Aqui",
+          "start": 0.6199999999999968,
+          "end": 1.14,
+          "probability": 0.9471461176872253
+        },
+        {
+          "word": " está",
+          "start": 1.14,
+          "end": 1.36,
+          "probability": 0.9628689885139465
+        },
+        {
+          "word": " uma",
+          "start": 1.36,
+          "end": 1.5,
+          "probability": 0.9913771152496338
+        },
+        {
+          "word": " demonstração",
+          "start": 1.5,
+          "end": 2.1,
+          "probability": 0.9900698065757751
+        },
+        {
+          "word": " de",
+          "start": 2.1,
+          "end": 2.32,
+          "probability": 0.8893673419952393
+        },
+        {
+          "word": " ritmo",
+          "start": 2.32,
+          "end": 2.68,
+          "probability": 0.9821962416172028
+        },
+        {
+          "word": " de",
+          "start": 2.68,
+          "end": 2.82,
+          "probability": 0.9701015949249268
+        },
+        {
+          "word": " samba",
+          "start": 2.82,
+          "end": 3.06,
+          "probability": 0.9205336570739746
+        },
+        {
+          "word": " do",
+          "start": 3.06,
+          "end": 3.22,
+          "probability": 0.9892220497131348
+        },
+        {
+          "word": " Brasil.",
+          "start": 3.22,
+          "end": 3.5,
+          "probability": 0.9559798240661621
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.88,
+      "end": 7.22,
+      "text": " Vamos mostrar aqui todos os instrumentos que entram em samba,",
+      "tokens": [
+        50581,
+        10894,
+        21487,
+        3871,
+        6321,
+        3003,
+        7198,
+        329,
+        631,
+        948,
+        2356,
+        846,
+        262,
+        23337,
+        11,
+        50733
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24467401246766787,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.0047877696342766285,
+      "words": [
+        {
+          "word": " Vamos",
+          "start": 3.88,
+          "end": 4.4,
+          "probability": 0.9919890761375427
+        },
+        {
+          "word": " mostrar",
+          "start": 4.4,
+          "end": 4.78,
+          "probability": 0.995795726776123
+        },
+        {
+          "word": " aqui",
+          "start": 4.78,
+          "end": 5.02,
+          "probability": 0.9872372150421143
+        },
+        {
+          "word": " todos",
+          "start": 5.02,
+          "end": 5.56,
+          "probability": 0.9746332764625549
+        },
+        {
+          "word": " os",
+          "start": 5.56,
+          "end": 5.76,
+          "probability": 0.9980642199516296
+        },
+        {
+          "word": " instrumentos",
+          "start": 5.76,
+          "end": 6.3,
+          "probability": 0.998862236738205
+        },
+        {
+          "word": " que",
+          "start": 6.3,
+          "end": 6.4,
+          "probability": 0.9980257749557495
+        },
+        {
+          "word": " entram",
+          "start": 6.4,
+          "end": 6.74,
+          "probability": 0.9987252950668335
+        },
+        {
+          "word": " em",
+          "start": 6.74,
+          "end": 6.86,
+          "probability": 0.6551827192306519
+        },
+        {
+          "word": " samba,",
+          "start": 6.86,
+          "end": 7.22,
+          "probability": 0.9706673622131348
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.4,
+      "end": 9.0,
+      "text": " iniciando pela patucada.",
+      "tokens": [
+        50757,
+        43043,
+        1806,
+        14820,
+        1947,
+        1311,
+        1538,
+        13,
+        50824
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24467401246766787,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.0047877696342766285,
+      "words": [
+        {
+          "word": " iniciando",
+          "start": 7.4,
+          "end": 8.2,
+          "probability": 0.5867157354950905
+        },
+        {
+          "word": " pela",
+          "start": 8.2,
+          "end": 8.44,
+          "probability": 0.9947047829627991
+        },
+        {
+          "word": " patucada.",
+          "start": 8.44,
+          "end": 9.0,
+          "probability": 0.6836885710557302
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.42,
+      "end": 10.7,
+      "text": " Este é o surdo.",
+      "tokens": [
+        50857,
+        16105,
+        1136,
+        277,
+        1022,
+        2595,
+        13,
+        50902
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24467401246766787,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.0047877696342766285,
+      "words": [
+        {
+          "word": " Este",
+          "start": 9.42,
+          "end": 9.94,
+          "probability": 0.5599856376647949
+        },
+        {
+          "word": " é",
+          "start": 9.94,
+          "end": 10.1,
+          "probability": 0.9993646740913391
+        },
+        {
+          "word": " o",
+          "start": 10.1,
+          "end": 10.18,
+          "probability": 0.9978297352790833
+        },
+        {
+          "word": " surdo.",
+          "start": 10.18,
+          "end": 10.7,
+          "probability": 0.993861198425293
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 19.84,
+      "end": 23.88,
+      "text": " Enquanto o surdo faz isso, o primeiro tamborim faz isso, vocês vão ouvir.",
+      "tokens": [
+        51356,
+        2193,
+        358,
+        5857,
+        277,
+        1022,
+        2595,
+        4375,
+        4616,
+        11,
+        277,
+        18314,
+        3629,
+        284,
+        332,
+        4375,
+        4616,
+        11,
+        10522,
+        18766,
+        21157,
+        347,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24467401246766787,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.0047877696342766285,
+      "words": [
+        {
+          "word": " Enquanto",
+          "start": 19.84,
+          "end": 20.36,
+          "probability": 0.9973770578702291
+        },
+        {
+          "word": " o",
+          "start": 20.36,
+          "end": 20.46,
+          "probability": 0.998660683631897
+        },
+        {
+          "word": " surdo",
+          "start": 20.46,
+          "end": 20.78,
+          "probability": 0.9999383687973022
+        },
+        {
+          "word": " faz",
+          "start": 20.78,
+          "end": 20.96,
+          "probability": 0.9993461966514587
+        },
+        {
+          "word": " isso,",
+          "start": 20.96,
+          "end": 21.18,
+          "probability": 0.7995926737785339
+        },
+        {
+          "word": " o",
+          "start": 21.52,
+          "end": 21.82,
+          "probability": 0.551010251045227
+        },
+        {
+          "word": " primeiro",
+          "start": 21.82,
+          "end": 22.14,
+          "probability": 0.9890785813331604
+        },
+        {
+          "word": " tamborim",
+          "start": 22.14,
+          "end": 22.68,
+          "probability": 0.9990313053131104
+        },
+        {
+          "word": " faz",
+          "start": 22.68,
+          "end": 22.88,
+          "probability": 0.9979662895202637
+        },
+        {
+          "word": " isso,",
+          "start": 22.88,
+          "end": 23.16,
+          "probability": 0.9961393475532532
+        },
+        {
+          "word": " vocês",
+          "start": 23.24,
+          "end": 23.38,
+          "probability": 0.7324819564819336
+        },
+        {
+          "word": " vão",
+          "start": 23.38,
+          "end": 23.58,
+          "probability": 0.9996531009674072
+        },
+        {
+          "word": " ouvir.",
+          "start": 23.58,
+          "end": 23.88,
+          "probability": 0.9993074238300323
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 3000,
+      "start": 40.02,
+      "end": 43.98,
+      "text": " Este tamborim vem no segundo tamborim fazendo um ritmo diferente aqui.",
+      "tokens": [
+        50365,
+        16105,
+        3629,
+        284,
+        332,
+        19053,
+        572,
+        17954,
+        3629,
+        284,
+        332,
+        20741,
+        1105,
+        11289,
+        3280,
+        20973,
+        3871,
+        13,
+        51065
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5033010959625244,
+      "compression_ratio": 1.2736842105263158,
+      "no_speech_prob": 0.015179086476564407,
+      "words": [
+        {
+          "word": " Este",
+          "start": 40.02,
+          "end": 40.62,
+          "probability": 0.06031523272395134
+        },
+        {
+          "word": " tamborim",
+          "start": 40.62,
+          "end": 41.18,
+          "probability": 0.9825477997461954
+        },
+        {
+          "word": " vem",
+          "start": 41.18,
+          "end": 41.38,
+          "probability": 0.7181883454322815
+        },
+        {
+          "word": " no",
+          "start": 41.38,
+          "end": 41.54,
+          "probability": 0.36247518658638
+        },
+        {
+          "word": " segundo",
+          "start": 41.54,
+          "end": 41.96,
+          "probability": 0.31393349170684814
+        },
+        {
+          "word": " tamborim",
+          "start": 41.96,
+          "end": 42.38,
+          "probability": 0.9916848540306091
+        },
+        {
+          "word": " fazendo",
+          "start": 42.38,
+          "end": 42.68,
+          "probability": 0.7117470502853394
+        },
+        {
+          "word": " um",
+          "start": 42.68,
+          "end": 42.92,
+          "probability": 0.9666979908943176
+        },
+        {
+          "word": " ritmo",
+          "start": 42.92,
+          "end": 43.24,
+          "probability": 0.6162747070193291
+        },
+        {
+          "word": " diferente",
+          "start": 43.24,
+          "end": 43.64,
+          "probability": 0.9898674488067627
+        },
+        {
+          "word": " aqui.",
+          "start": 43.64,
+          "end": 43.98,
+          "probability": 0.580616295337677
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 3000,
+      "start": 51.660000000000004,
+      "end": 52.26,
+      "text": " Aqui.",
+      "tokens": [
+        51065,
+        23089,
+        13,
+        51073
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5033010959625244,
+      "compression_ratio": 1.2736842105263158,
+      "no_speech_prob": 0.015179086476564407,
+      "words": [
+        {
+          "word": " Aqui.",
+          "start": 51.660000000000004,
+          "end": 52.26,
+          "probability": 0.9436079859733582
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 3000,
+      "start": 56.760000000000005,
+      "end": 59.42,
+      "text": " Aqui o tamborim, já depois do samba de som.",
+      "tokens": [
+        51715,
+        23089,
+        277,
+        3629,
+        284,
+        332,
+        11,
+        6242,
+        13880,
+        360,
+        262,
+        23337,
+        368,
+        3307,
+        13,
+        51840
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5033010959625244,
+      "compression_ratio": 1.2736842105263158,
+      "no_speech_prob": 0.015179086476564407,
+      "words": [
+        {
+          "word": " Aqui",
+          "start": 56.760000000000005,
+          "end": 57.36,
+          "probability": 0.9349830150604248
+        },
+        {
+          "word": " o",
+          "start": 57.36,
+          "end": 57.56,
+          "probability": 0.7412306070327759
+        },
+        {
+          "word": " tamborim,",
+          "start": 57.56,
+          "end": 57.96,
+          "probability": 0.9987828532854716
+        },
+        {
+          "word": " já",
+          "start": 58.1,
+          "end": 58.44,
+          "probability": 0.6935614347457886
+        },
+        {
+          "word": " depois",
+          "start": 58.44,
+          "end": 58.74,
+          "probability": 0.998251736164093
+        },
+        {
+          "word": " do",
+          "start": 58.74,
+          "end": 58.92,
+          "probability": 0.7719665765762329
+        },
+        {
+          "word": " samba",
+          "start": 58.92,
+          "end": 59.1,
+          "probability": 0.18417542148381472
+        },
+        {
+          "word": " de",
+          "start": 59.1,
+          "end": 59.26,
+          "probability": 0.29437562823295593
+        },
+        {
+          "word": " som.",
+          "start": 59.26,
+          "end": 59.42,
+          "probability": 0.5370544195175171
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 6000,
+      "start": 60.0,
+      "end": 60.48,
+      "text": " Aqui.",
+      "tokens": [
+        50365,
+        23089,
+        13,
+        50399
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6474559783935547,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.376697301864624,
+      "words": [
+        {
+          "word": " Aqui.",
+          "start": 60.0,
+          "end": 60.48,
+          "probability": 0.000733552617020905
+        }
+      ]
+    }
+  ]
+}

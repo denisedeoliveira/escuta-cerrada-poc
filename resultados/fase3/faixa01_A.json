@@ -1,0 +1,4549 @@
+{
+  "faixa": 1,
+  "arquivo": "1. 27230 - Concentração trabalhista no estádio do Pacaembú - 01-05-1944.mp3",
+  "condicao": "A",
+  "glossario": false,
+  "filtro": false,
+  "prompt_inicial": null,
+  "modelo": "large-v3",
+  "parametros": {
+    "language": "pt",
+    "word_timestamps": true,
+    "carry_initial_prompt": false,
+    "demais": "valores padrão da biblioteca"
+  },
+  "semente": 0,
+  "versoes": {
+    "openai-whisper": "20250625",
+    "noisereduce": "3.0.3",
+    "librosa": "0.11.0",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130"
+  },
+  "python": "3.13.15",
+  "gpu": "Tesla T4",
+  "data_execucao": "2026-10-09T16:21:14.046678+00:00",
+  "duracao_audio_s": 335.52,
+  "duracao_processamento_s": 151.11,
+  "texto": " A unificação de esforços dos grandes institutos e o condomínio das construções de seguro social tornarão as iniciativas dessa natureza perfeitamente viáveis. O cálculo da mobilização financeira das reservas atuais permite-nos anunciar o propósito de nelas inverter inicialmente 500 milhões de cruzeiros. Concluídos esses aperfeiçoamentos no sistema de auxílio e estímulo ao operário industrial, o Estado atacará com idêntico empenho. Outro aspecto relevante do problema da produção. Estão adiantados os estudos para a promulgação de uma lei definidora dos direitos e deveres dos trabalhadores rurais. A quinta parte da nossa população total trabalha e vive na lavoura e não é possível permitir por mais tempo a situação de insegurança, exigência e desigualdade. A questão é que a lei não é existente para salariados e empregadores. Torna-se inadeável estabelecer com clareza e força de lei as obrigações de cada um, o que virá certamente incrementar as atividades agrárias, vinculando o trabalhador ao solo, e evitando a fuga do campo para a cidade, tão perniciosa a expansão da riqueza nacional. Para o êxito completo dessas iniciativas, faça em ester cerrar fileiras em torno das agremiações sindicais. A MENSAGEM DO PRODUÇÃO DE UMA MENSAGEM DE RENOVOÇÃO A massa operária destaca a lei, e a lei, como um sistema de trabalho, que, em São Paulo, nos seus 33 mil locais de trabalho, concentra cerca de 800 mil trabalhadores. E destes, apenas 120 mil acham-se filiados aos órgãos de classe. Noutra oportunidade, já vos dirigi um apelo para que vos congregasseis por forma que os sindicatos representam a lei. E que se juntassem realmente um número de associados que fosse expressão total de cada atividade, aptos a exercer ativa fiscalização dos direitos que lhes assistem. A reforma da lei orgânica, a reforma da lei orgânica, a reforma do escudário do serviço público, em que as respostas por causa dos impostosортados aproximadamente, projetarem o auge paraelsonicar o �osing dos estủ Аns Unidos de comunicación Server gaps and most waters, Pneumat pitchedän lattice構신ADan 1980, 3.當然, 2 The Court for Evaluation, A alta inteligência e personalidade dinâmica e o interventor Fernando Costa. Aplausos. Tão operoso e experimentado na administração como na agricultura e na indústria, São Paulo se manufatura metade dos 24 bilhões de cruzeiros da produção industrial do país. E tem no café a lavoura de mais cultura. Precisa, por exemplo, congregar as agremiações trabalhistas à mão de obra que lhe garante tão excepcional situação. Aplausos. Essa modificação de mentalidade é tanto mais imperiosa e fácil de apreender quando se considera a rapidez das transformações da vida econômica e a revisão do próprio conceito de capital que deixou de ser simples acumulação de dinheiro para representar energia social concentrada em incessão. Tente segundo movimento. Aplausos.",
+  "segmentos": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5.9399999999999995,
+      "end": 15.12,
+      "text": " A unificação de esforços dos grandes institutos e o condomínio das construções de seguro social",
+      "tokens": [
+        50365,
+        316,
+        517,
+        1089,
+        6670,
+        368,
+        785,
+        2994,
+        26828,
+        4491,
+        16640,
+        4348,
+        34640,
+        308,
+        277,
+        2224,
+        298,
+        10973,
+        1004,
+        1482,
+        12946,
+        8001,
+        368,
+        31424,
+        2093,
+        51133
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0930561080123439,
+      "compression_ratio": 1.3764044943820224,
+      "no_speech_prob": 0.03642257675528526,
+      "words": [
+        {
+          "word": " A",
+          "start": 5.9399999999999995,
+          "end": 7.34,
+          "probability": 0.9903091788291931
+        },
+        {
+          "word": " unificação",
+          "start": 7.34,
+          "end": 8.4,
+          "probability": 0.9951153596242269
+        },
+        {
+          "word": " de",
+          "start": 8.4,
+          "end": 8.64,
+          "probability": 0.9763762950897217
+        },
+        {
+          "word": " esforços",
+          "start": 8.64,
+          "end": 9.4,
+          "probability": 0.9989558060963949
+        },
+        {
+          "word": " dos",
+          "start": 9.4,
+          "end": 9.6,
+          "probability": 0.9970982074737549
+        },
+        {
+          "word": " grandes",
+          "start": 9.6,
+          "end": 9.96,
+          "probability": 0.9984862804412842
+        },
+        {
+          "word": " institutos",
+          "start": 9.96,
+          "end": 11.02,
+          "probability": 0.9988002777099609
+        },
+        {
+          "word": " e",
+          "start": 11.02,
+          "end": 11.94,
+          "probability": 0.9979325532913208
+        },
+        {
+          "word": " o",
+          "start": 11.94,
+          "end": 12.12,
+          "probability": 0.9996405839920044
+        },
+        {
+          "word": " condomínio",
+          "start": 12.12,
+          "end": 13.0,
+          "probability": 0.9996867328882217
+        },
+        {
+          "word": " das",
+          "start": 13.0,
+          "end": 13.18,
+          "probability": 0.9994400143623352
+        },
+        {
+          "word": " construções",
+          "start": 13.18,
+          "end": 14.14,
+          "probability": 0.9983325302600861
+        },
+        {
+          "word": " de",
+          "start": 14.14,
+          "end": 14.24,
+          "probability": 0.9821459650993347
+        },
+        {
+          "word": " seguro",
+          "start": 14.24,
+          "end": 14.56,
+          "probability": 0.7067276239395142
+        },
+        {
+          "word": " social",
+          "start": 14.56,
+          "end": 15.12,
+          "probability": 0.9911905527114868
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 15.12,
+      "end": 21.0,
+      "text": " tornarão as iniciativas dessa natureza perfeitamente viáveis.",
+      "tokens": [
+        51133,
+        41283,
+        1076,
+        382,
+        40380,
+        7676,
+        24759,
+        18554,
+        3687,
+        2394,
+        680,
+        37434,
+        3439,
+        1932,
+        42530,
+        13,
+        51422
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0930561080123439,
+      "compression_ratio": 1.3764044943820224,
+      "no_speech_prob": 0.03642257675528526,
+      "words": [
+        {
+          "word": " tornarão",
+          "start": 15.12,
+          "end": 16.86,
+          "probability": 0.9677453637123108
+        },
+        {
+          "word": " as",
+          "start": 16.86,
+          "end": 17.02,
+          "probability": 0.9995148181915283
+        },
+        {
+          "word": " iniciativas",
+          "start": 17.02,
+          "end": 17.88,
+          "probability": 0.9998770554860433
+        },
+        {
+          "word": " dessa",
+          "start": 17.88,
+          "end": 18.14,
+          "probability": 0.955929160118103
+        },
+        {
+          "word": " natureza",
+          "start": 18.14,
+          "end": 18.9,
+          "probability": 0.9999421238899231
+        },
+        {
+          "word": " perfeitamente",
+          "start": 18.9,
+          "end": 20.36,
+          "probability": 0.9996560414632162
+        },
+        {
+          "word": " viáveis.",
+          "start": 20.36,
+          "end": 21.0,
+          "probability": 0.9985071420669556
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 21.14,
+      "end": 29.6,
+      "text": " O cálculo da mobilização financeira das reservas atuais permite-nos anunciar",
+      "tokens": [
+        51422,
+        422,
+        6476,
+        75,
+        25436,
+        1120,
+        15891,
+        27467,
+        10719,
+        4271,
+        1482,
+        16454,
+        296,
+        412,
+        35469,
+        31105,
+        12,
+        16751,
+        39350,
+        289,
+        51822
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0930561080123439,
+      "compression_ratio": 1.3764044943820224,
+      "no_speech_prob": 0.03642257675528526,
+      "words": [
+        {
+          "word": " O",
+          "start": 21.14,
+          "end": 22.34,
+          "probability": 0.9988908171653748
+        },
+        {
+          "word": " cálculo",
+          "start": 22.34,
+          "end": 23.04,
+          "probability": 0.9986594518025717
+        },
+        {
+          "word": " da",
+          "start": 23.04,
+          "end": 23.26,
+          "probability": 0.9998231530189514
+        },
+        {
+          "word": " mobilização",
+          "start": 23.26,
+          "end": 23.82,
+          "probability": 0.9997268617153168
+        },
+        {
+          "word": " financeira",
+          "start": 23.82,
+          "end": 24.88,
+          "probability": 0.9999200701713562
+        },
+        {
+          "word": " das",
+          "start": 24.88,
+          "end": 25.68,
+          "probability": 0.990527868270874
+        },
+        {
+          "word": " reservas",
+          "start": 25.68,
+          "end": 26.48,
+          "probability": 0.9997622072696686
+        },
+        {
+          "word": " atuais",
+          "start": 26.48,
+          "end": 26.96,
+          "probability": 0.9995847940444946
+        },
+        {
+          "word": " permite",
+          "start": 26.96,
+          "end": 28.24,
+          "probability": 0.9970027804374695
+        },
+        {
+          "word": "-nos",
+          "start": 28.24,
+          "end": 28.64,
+          "probability": 0.8267372846603394
+        },
+        {
+          "word": " anunciar",
+          "start": 28.64,
+          "end": 29.6,
+          "probability": 0.9979373216629028
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2960,
+      "start": 29.6,
+      "end": 36.6,
+      "text": " o propósito de nelas inverter inicialmente 500 milhões de cruzeiros.",
+      "tokens": [
+        50365,
+        277,
+        2365,
+        12994,
+        3528,
+        368,
+        15373,
+        296,
+        47201,
+        44076,
+        4082,
+        5923,
+        39252,
+        368,
+        5140,
+        1381,
+        21633,
+        13,
+        50722
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12092996412707914,
+      "compression_ratio": 1.2777777777777777,
+      "no_speech_prob": 0.0002673575363587588,
+      "words": [
+        {
+          "word": " o",
+          "start": 29.6,
+          "end": 30.28,
+          "probability": 0.5722079873085022
+        },
+        {
+          "word": " propósito",
+          "start": 30.28,
+          "end": 31.2,
+          "probability": 0.9999082485834757
+        },
+        {
+          "word": " de",
+          "start": 31.2,
+          "end": 31.36,
+          "probability": 0.9973599314689636
+        },
+        {
+          "word": " nelas",
+          "start": 31.36,
+          "end": 31.84,
+          "probability": 0.9911805093288422
+        },
+        {
+          "word": " inverter",
+          "start": 31.84,
+          "end": 32.14,
+          "probability": 0.9974390268325806
+        },
+        {
+          "word": " inicialmente",
+          "start": 32.14,
+          "end": 34.08,
+          "probability": 0.8771336674690247
+        },
+        {
+          "word": " 500",
+          "start": 34.08,
+          "end": 35.02,
+          "probability": 0.9936157464981079
+        },
+        {
+          "word": " milhões",
+          "start": 35.02,
+          "end": 35.64,
+          "probability": 0.9996598958969116
+        },
+        {
+          "word": " de",
+          "start": 35.64,
+          "end": 35.96,
+          "probability": 0.9999325275421143
+        },
+        {
+          "word": " cruzeiros.",
+          "start": 35.96,
+          "end": 36.6,
+          "probability": 0.989965001742045
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2960,
+      "start": 47.2,
+      "end": 55.68,
+      "text": " Concluídos esses aperfeiçoamentos no sistema de auxílio e estímulo ao operário industrial,",
+      "tokens": [
+        51237,
+        18200,
+        2781,
+        24455,
+        329,
+        18966,
+        43139,
+        2106,
+        72,
+        8560,
+        28775,
+        572,
+        13245,
+        368,
+        7865,
+        870,
+        19987,
+        308,
+        871,
+        14569,
+        13455,
+        8130,
+        2208,
+        12657,
+        9987,
+        11,
+        51689
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12092996412707914,
+      "compression_ratio": 1.2777777777777777,
+      "no_speech_prob": 0.0002673575363587588,
+      "words": [
+        {
+          "word": " Concluídos",
+          "start": 47.2,
+          "end": 48.36,
+          "probability": 0.9784030169248581
+        },
+        {
+          "word": " esses",
+          "start": 48.36,
+          "end": 48.66,
+          "probability": 0.4370522201061249
+        },
+        {
+          "word": " aperfeiçoamentos",
+          "start": 48.66,
+          "end": 50.12,
+          "probability": 0.9999042630195618
+        },
+        {
+          "word": " no",
+          "start": 50.12,
+          "end": 51.18,
+          "probability": 0.9076055884361267
+        },
+        {
+          "word": " sistema",
+          "start": 51.18,
+          "end": 51.72,
+          "probability": 0.9854259490966797
+        },
+        {
+          "word": " de",
+          "start": 51.72,
+          "end": 52.1,
+          "probability": 0.9999648332595825
+        },
+        {
+          "word": " auxílio",
+          "start": 52.1,
+          "end": 52.72,
+          "probability": 0.9998598297437032
+        },
+        {
+          "word": " e",
+          "start": 52.72,
+          "end": 53.24,
+          "probability": 0.9951373934745789
+        },
+        {
+          "word": " estímulo",
+          "start": 53.24,
+          "end": 54.08,
+          "probability": 0.9994127750396729
+        },
+        {
+          "word": " ao",
+          "start": 54.08,
+          "end": 54.66,
+          "probability": 0.9996370077133179
+        },
+        {
+          "word": " operário",
+          "start": 54.66,
+          "end": 55.24,
+          "probability": 0.9997168481349945
+        },
+        {
+          "word": " industrial,",
+          "start": 55.24,
+          "end": 55.68,
+          "probability": 0.999872088432312
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2960,
+      "start": 56.12,
+      "end": 59.58,
+      "text": " o Estado atacará com idêntico empenho.",
+      "tokens": [
+        51689,
+        277,
+        29740,
+        41015,
+        21534,
+        395,
+        4496,
+        1307,
+        580,
+        2789,
+        4012,
+        268,
+        1289,
+        13,
+        51839
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12092996412707914,
+      "compression_ratio": 1.2777777777777777,
+      "no_speech_prob": 0.0002673575363587588,
+      "words": [
+        {
+          "word": " o",
+          "start": 56.12,
+          "end": 56.82,
+          "probability": 0.9988232254981995
+        },
+        {
+          "word": " Estado",
+          "start": 56.82,
+          "end": 57.28,
+          "probability": 0.9792336225509644
+        },
+        {
+          "word": " atacará",
+          "start": 57.28,
+          "end": 58.1,
+          "probability": 0.9999058246612549
+        },
+        {
+          "word": " com",
+          "start": 58.1,
+          "end": 58.4,
+          "probability": 0.9990536570549011
+        },
+        {
+          "word": " idêntico",
+          "start": 58.4,
+          "end": 59.0,
+          "probability": 0.9890018999576569
+        },
+        {
+          "word": " empenho.",
+          "start": 59.0,
+          "end": 59.58,
+          "probability": 0.9969859520594279
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 5960,
+      "start": 59.6,
+      "end": 63.82,
+      "text": " Outro aspecto relevante do problema da produção.",
+      "tokens": [
+        50365,
+        5925,
+        340,
+        4171,
+        78,
+        25916,
+        2879,
+        360,
+        12395,
+        1120,
+        49147,
+        13,
+        50585
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.21670107938805405,
+      "compression_ratio": 1.5360360360360361,
+      "no_speech_prob": 0.0019263247959315777,
+      "words": [
+        {
+          "word": " Outro",
+          "start": 59.6,
+          "end": 60.6,
+          "probability": 0.5377697832882404
+        },
+        {
+          "word": " aspecto",
+          "start": 60.6,
+          "end": 61.36,
+          "probability": 0.999158650636673
+        },
+        {
+          "word": " relevante",
+          "start": 61.36,
+          "end": 62.18,
+          "probability": 0.9987706243991852
+        },
+        {
+          "word": " do",
+          "start": 62.18,
+          "end": 62.78,
+          "probability": 0.976791501045227
+        },
+        {
+          "word": " problema",
+          "start": 62.78,
+          "end": 63.22,
+          "probability": 0.9985038042068481
+        },
+        {
+          "word": " da",
+          "start": 63.22,
+          "end": 63.52,
+          "probability": 0.9994803071022034
+        },
+        {
+          "word": " produção.",
+          "start": 63.52,
+          "end": 63.82,
+          "probability": 0.9996438026428223
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 5960,
+      "start": 65.3,
+      "end": 70.12,
+      "text": " Estão adiantados os estudos para a promulgação de uma lei",
+      "tokens": [
+        50650,
+        4410,
+        1076,
+        614,
+        5798,
+        4181,
+        3003,
+        13542,
+        329,
+        1690,
+        257,
+        2234,
+        425,
+        3680,
+        2917,
+        368,
+        2772,
+        32791,
+        50904
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.21670107938805405,
+      "compression_ratio": 1.5360360360360361,
+      "no_speech_prob": 0.0019263247959315777,
+      "words": [
+        {
+          "word": " Estão",
+          "start": 65.28,
+          "end": 65.8,
+          "probability": 0.9990008175373077
+        },
+        {
+          "word": " adiantados",
+          "start": 65.8,
+          "end": 66.7,
+          "probability": 0.9999028444290161
+        },
+        {
+          "word": " os",
+          "start": 66.7,
+          "end": 66.88,
+          "probability": 0.9995088577270508
+        },
+        {
+          "word": " estudos",
+          "start": 66.88,
+          "end": 67.64,
+          "probability": 0.9903590679168701
+        },
+        {
+          "word": " para",
+          "start": 67.64,
+          "end": 68.4,
+          "probability": 0.9859819412231445
+        },
+        {
+          "word": " a",
+          "start": 68.4,
+          "end": 68.54,
+          "probability": 0.9899305105209351
+        },
+        {
+          "word": " promulgação",
+          "start": 68.54,
+          "end": 69.56,
+          "probability": 0.9999435544013977
+        },
+        {
+          "word": " de",
+          "start": 69.56,
+          "end": 69.7,
+          "probability": 0.9976913928985596
+        },
+        {
+          "word": " uma",
+          "start": 69.7,
+          "end": 69.8,
+          "probability": 0.9998956918716431
+        },
+        {
+          "word": " lei",
+          "start": 69.8,
+          "end": 70.12,
+          "probability": 0.997087299823761
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 5960,
+      "start": 70.12,
+      "end": 75.26,
+      "text": " definidora dos direitos e deveres dos trabalhadores rurais.",
+      "tokens": [
+        50904,
+        1561,
+        327,
+        3252,
+        4491,
+        1264,
+        11343,
+        308,
+        40739,
+        279,
+        4491,
+        48180,
+        11856,
+        367,
+        374,
+        1527,
+        13,
+        51160
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.21670107938805405,
+      "compression_ratio": 1.5360360360360361,
+      "no_speech_prob": 0.0019263247959315777,
+      "words": [
+        {
+          "word": " definidora",
+          "start": 70.12,
+          "end": 71.78,
+          "probability": 0.9576347470283508
+        },
+        {
+          "word": " dos",
+          "start": 71.78,
+          "end": 71.98,
+          "probability": 0.9995155334472656
+        },
+        {
+          "word": " direitos",
+          "start": 71.98,
+          "end": 72.6,
+          "probability": 0.999849945306778
+        },
+        {
+          "word": " e",
+          "start": 72.6,
+          "end": 72.74,
+          "probability": 0.9993218183517456
+        },
+        {
+          "word": " deveres",
+          "start": 72.74,
+          "end": 73.44,
+          "probability": 0.9991196095943451
+        },
+        {
+          "word": " dos",
+          "start": 73.44,
+          "end": 73.96,
+          "probability": 0.9995256662368774
+        },
+        {
+          "word": " trabalhadores",
+          "start": 73.96,
+          "end": 74.7,
+          "probability": 0.9999385476112366
+        },
+        {
+          "word": " rurais.",
+          "start": 74.7,
+          "end": 75.26,
+          "probability": 0.9999532699584961
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 5960,
+      "start": 77.24000000000001,
+      "end": 82.62,
+      "text": " A quinta parte da nossa população total trabalha e vive na lavoura",
+      "tokens": [
+        51247,
+        316,
+        421,
+        16071,
+        6975,
+        1120,
+        15821,
+        32166,
+        2917,
+        3217,
+        12067,
+        1641,
+        308,
+        28927,
+        1667,
+        20923,
+        396,
+        64,
+        51524
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.21670107938805405,
+      "compression_ratio": 1.5360360360360361,
+      "no_speech_prob": 0.0019263247959315777,
+      "words": [
+        {
+          "word": " A",
+          "start": 76.78,
+          "end": 77.3,
+          "probability": 0.9995856881141663
+        },
+        {
+          "word": " quinta",
+          "start": 77.3,
+          "end": 77.74,
+          "probability": 0.9982239603996277
+        },
+        {
+          "word": " parte",
+          "start": 77.74,
+          "end": 78.12,
+          "probability": 0.9999188184738159
+        },
+        {
+          "word": " da",
+          "start": 78.12,
+          "end": 78.38,
+          "probability": 0.9994008541107178
+        },
+        {
+          "word": " nossa",
+          "start": 78.38,
+          "end": 78.66,
+          "probability": 0.9998651742935181
+        },
+        {
+          "word": " população",
+          "start": 78.66,
+          "end": 79.36,
+          "probability": 0.9999470710754395
+        },
+        {
+          "word": " total",
+          "start": 79.36,
+          "end": 79.78,
+          "probability": 0.9998311996459961
+        },
+        {
+          "word": " trabalha",
+          "start": 79.78,
+          "end": 81.42,
+          "probability": 0.9960016310214996
+        },
+        {
+          "word": " e",
+          "start": 81.42,
+          "end": 81.5,
+          "probability": 0.9998682737350464
+        },
+        {
+          "word": " vive",
+          "start": 81.5,
+          "end": 81.78,
+          "probability": 0.9999125003814697
+        },
+        {
+          "word": " na",
+          "start": 81.78,
+          "end": 82.0,
+          "probability": 0.9999130964279175
+        },
+        {
+          "word": " lavoura",
+          "start": 82.0,
+          "end": 82.62,
+          "probability": 0.998744547367096
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5960,
+      "start": 82.62,
+      "end": 88.66,
+      "text": " e não é possível permitir por mais tempo a situação de insegurança,",
+      "tokens": [
+        51524,
+        308,
+        2431,
+        1136,
+        29322,
+        46865,
+        1515,
+        2420,
+        8972,
+        257,
+        36768,
+        368,
+        33874,
+        70,
+        44214,
+        11,
+        51825
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.21670107938805405,
+      "compression_ratio": 1.5360360360360361,
+      "no_speech_prob": 0.0019263247959315777,
+      "words": [
+        {
+          "word": " e",
+          "start": 82.62,
+          "end": 83.18,
+          "probability": 0.493002325296402
+        },
+        {
+          "word": " não",
+          "start": 83.18,
+          "end": 83.46,
+          "probability": 0.9997825026512146
+        },
+        {
+          "word": " é",
+          "start": 83.46,
+          "end": 83.6,
+          "probability": 0.9998626708984375
+        },
+        {
+          "word": " possível",
+          "start": 83.6,
+          "end": 84.16,
+          "probability": 0.9997279047966003
+        },
+        {
+          "word": " permitir",
+          "start": 84.16,
+          "end": 84.78,
+          "probability": 0.9996046423912048
+        },
+        {
+          "word": " por",
+          "start": 84.78,
+          "end": 85.32,
+          "probability": 0.9708433747291565
+        },
+        {
+          "word": " mais",
+          "start": 85.32,
+          "end": 85.54,
+          "probability": 0.9998506307601929
+        },
+        {
+          "word": " tempo",
+          "start": 85.54,
+          "end": 85.98,
+          "probability": 0.9998708963394165
+        },
+        {
+          "word": " a",
+          "start": 85.98,
+          "end": 86.82,
+          "probability": 0.9979842901229858
+        },
+        {
+          "word": " situação",
+          "start": 86.82,
+          "end": 87.3,
+          "probability": 0.9989084005355835
+        },
+        {
+          "word": " de",
+          "start": 87.3,
+          "end": 87.86,
+          "probability": 0.9994449019432068
+        },
+        {
+          "word": " insegurança,",
+          "start": 87.86,
+          "end": 88.66,
+          "probability": 0.9988724191983541
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5960,
+      "start": 88.76,
+      "end": 89.58,
+      "text": " exigência e desigualdade.",
+      "tokens": [
+        51833,
+        454,
+        328,
+        9322,
+        308,
+        730,
+        328,
+        901,
+        45894,
+        13,
+        51834
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.21670107938805405,
+      "compression_ratio": 1.5360360360360361,
+      "no_speech_prob": 0.0019263247959315777,
+      "words": [
+        {
+          "word": " exigência",
+          "start": 88.76,
+          "end": 89.58,
+          "probability": 0.709605872631073
+        },
+        {
+          "word": " e",
+          "start": 89.58,
+          "end": 89.58,
+          "probability": 0.5205162763595581
+        },
+        {
+          "word": " desigualdade.",
+          "start": 89.58,
+          "end": 89.58,
+          "probability": 0.9117574691772461
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 8960,
+      "start": 89.6,
+      "end": 92.56,
+      "text": " A questão é que a lei não é existente para salariados e empregadores.",
+      "tokens": [
+        50365,
+        316,
+        28477,
+        1136,
+        631,
+        257,
+        32791,
+        2431,
+        1136,
+        2514,
+        1576,
+        1690,
+        1845,
+        3504,
+        4181,
+        308,
+        4012,
+        3375,
+        11856,
+        13,
+        50520
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.34660448346819195,
+      "compression_ratio": 1.3934426229508197,
+      "no_speech_prob": 0.0017135845264419913,
+      "words": [
+        {
+          "word": " A",
+          "start": 89.6,
+          "end": 89.78,
+          "probability": 0.0013995195040479302
+        },
+        {
+          "word": " questão",
+          "start": 89.78,
+          "end": 89.78,
+          "probability": 5.6360408052569255e-05
+        },
+        {
+          "word": " é",
+          "start": 89.78,
+          "end": 89.78,
+          "probability": 0.1796588897705078
+        },
+        {
+          "word": " que",
+          "start": 89.78,
+          "end": 89.78,
+          "probability": 0.1855868101119995
+        },
+        {
+          "word": " a",
+          "start": 89.78,
+          "end": 89.78,
+          "probability": 0.29914748668670654
+        },
+        {
+          "word": " lei",
+          "start": 89.78,
+          "end": 89.78,
+          "probability": 0.19118738174438477
+        },
+        {
+          "word": " não",
+          "start": 89.78,
+          "end": 89.78,
+          "probability": 0.13649359345436096
+        },
+        {
+          "word": " é",
+          "start": 89.78,
+          "end": 89.78,
+          "probability": 0.4958344101905823
+        },
+        {
+          "word": " existente",
+          "start": 89.78,
+          "end": 90.04,
+          "probability": 0.5871186330914497
+        },
+        {
+          "word": " para",
+          "start": 90.04,
+          "end": 90.76,
+          "probability": 0.994633674621582
+        },
+        {
+          "word": " salariados",
+          "start": 90.76,
+          "end": 91.7,
+          "probability": 0.9503916501998901
+        },
+        {
+          "word": " e",
+          "start": 91.7,
+          "end": 91.82,
+          "probability": 0.9996114373207092
+        },
+        {
+          "word": " empregadores.",
+          "start": 91.82,
+          "end": 92.56,
+          "probability": 0.9996607899665833
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 8960,
+      "start": 93.96,
+      "end": 111.72,
+      "text": " Torna-se inadeável estabelecer com clareza e força de lei as obrigações de cada um,",
+      "tokens": [
+        50598,
+        7160,
+        629,
+        12,
+        405,
+        294,
+        762,
+        20224,
+        3947,
+        16884,
+        1776,
+        395,
+        596,
+        543,
+        2394,
+        308,
+        32878,
+        368,
+        32791,
+        382,
+        29126,
+        17971,
+        368,
+        8411,
+        1105,
+        11,
+        51477
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.34660448346819195,
+      "compression_ratio": 1.3934426229508197,
+      "no_speech_prob": 0.0017135845264419913,
+      "words": [
+        {
+          "word": " Torna",
+          "start": 93.96,
+          "end": 94.74,
+          "probability": 0.9679563045501709
+        },
+        {
+          "word": "-se",
+          "start": 94.74,
+          "end": 94.98,
+          "probability": 0.9998903572559357
+        },
+        {
+          "word": " inadeável",
+          "start": 94.98,
+          "end": 105.32,
+          "probability": 0.6343701928853989
+        },
+        {
+          "word": " estabelecer",
+          "start": 105.32,
+          "end": 106.34,
+          "probability": 0.9962341785430908
+        },
+        {
+          "word": " com",
+          "start": 106.34,
+          "end": 106.6,
+          "probability": 0.999018669128418
+        },
+        {
+          "word": " clareza",
+          "start": 106.6,
+          "end": 107.4,
+          "probability": 0.9999778270721436
+        },
+        {
+          "word": " e",
+          "start": 107.4,
+          "end": 107.84,
+          "probability": 0.9975711703300476
+        },
+        {
+          "word": " força",
+          "start": 107.84,
+          "end": 108.64,
+          "probability": 0.9998764991760254
+        },
+        {
+          "word": " de",
+          "start": 108.64,
+          "end": 108.84,
+          "probability": 0.9998824596405029
+        },
+        {
+          "word": " lei",
+          "start": 108.84,
+          "end": 109.12,
+          "probability": 0.9997618794441223
+        },
+        {
+          "word": " as",
+          "start": 109.12,
+          "end": 110.02,
+          "probability": 0.9938785433769226
+        },
+        {
+          "word": " obrigações",
+          "start": 110.02,
+          "end": 110.84,
+          "probability": 0.9999585151672363
+        },
+        {
+          "word": " de",
+          "start": 110.84,
+          "end": 111.2,
+          "probability": 0.9999361038208008
+        },
+        {
+          "word": " cada",
+          "start": 111.2,
+          "end": 111.38,
+          "probability": 0.9998669624328613
+        },
+        {
+          "word": " um,",
+          "start": 111.38,
+          "end": 111.72,
+          "probability": 0.9998879432678223
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 8960,
+      "start": 111.8,
+      "end": 116.1,
+      "text": " o que virá certamente incrementar as atividades agrárias,",
+      "tokens": [
+        51477,
+        277,
+        631,
+        4107,
+        842,
+        5351,
+        3439,
+        26200,
+        289,
+        382,
+        412,
+        41938,
+        623,
+        81,
+        24952,
+        11,
+        51698
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.34660448346819195,
+      "compression_ratio": 1.3934426229508197,
+      "no_speech_prob": 0.0017135845264419913,
+      "words": [
+        {
+          "word": " o",
+          "start": 111.8,
+          "end": 112.46,
+          "probability": 0.9976726174354553
+        },
+        {
+          "word": " que",
+          "start": 112.46,
+          "end": 112.58,
+          "probability": 0.999956488609314
+        },
+        {
+          "word": " virá",
+          "start": 112.58,
+          "end": 113.06,
+          "probability": 0.9859054088592529
+        },
+        {
+          "word": " certamente",
+          "start": 113.06,
+          "end": 113.78,
+          "probability": 0.9481037855148315
+        },
+        {
+          "word": " incrementar",
+          "start": 113.78,
+          "end": 114.76,
+          "probability": 0.982965886592865
+        },
+        {
+          "word": " as",
+          "start": 114.76,
+          "end": 114.9,
+          "probability": 0.9998086094856262
+        },
+        {
+          "word": " atividades",
+          "start": 114.9,
+          "end": 115.22,
+          "probability": 0.9994147419929504
+        },
+        {
+          "word": " agrárias,",
+          "start": 115.22,
+          "end": 116.1,
+          "probability": 0.9991428852081299
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 8960,
+      "start": 117.03999999999999,
+      "end": 119.14,
+      "text": " vinculando o trabalhador ao solo,",
+      "tokens": [
+        51732,
+        27037,
+        2444,
+        1806,
+        277,
+        48180,
+        5409,
+        8130,
+        6944,
+        11,
+        51850
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.34660448346819195,
+      "compression_ratio": 1.3934426229508197,
+      "no_speech_prob": 0.0017135845264419913,
+      "words": [
+        {
+          "word": " vinculando",
+          "start": 117.03999999999999,
+          "end": 117.82,
+          "probability": 0.9991395870844523
+        },
+        {
+          "word": " o",
+          "start": 117.82,
+          "end": 117.9,
+          "probability": 0.987296462059021
+        },
+        {
+          "word": " trabalhador",
+          "start": 117.9,
+          "end": 118.56,
+          "probability": 0.9999684691429138
+        },
+        {
+          "word": " ao",
+          "start": 118.56,
+          "end": 118.72,
+          "probability": 0.9996286630630493
+        },
+        {
+          "word": " solo,",
+          "start": 118.72,
+          "end": 119.14,
+          "probability": 0.999051034450531
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 11960,
+      "start": 119.6,
+      "end": 122.66,
+      "text": " e evitando a fuga do campo para a cidade,",
+      "tokens": [
+        50365,
+        308,
+        1073,
+        270,
+        1806,
+        257,
+        283,
+        19364,
+        360,
+        29691,
+        1690,
+        257,
+        27882,
+        11,
+        50523
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": [
+        {
+          "word": " e",
+          "start": 119.6,
+          "end": 120.1,
+          "probability": 0.948128342628479
+        },
+        {
+          "word": " evitando",
+          "start": 120.1,
+          "end": 120.76,
+          "probability": 0.9981192946434021
+        },
+        {
+          "word": " a",
+          "start": 120.76,
+          "end": 120.88,
+          "probability": 0.9995632767677307
+        },
+        {
+          "word": " fuga",
+          "start": 120.88,
+          "end": 121.32,
+          "probability": 0.999550998210907
+        },
+        {
+          "word": " do",
+          "start": 121.32,
+          "end": 121.44,
+          "probability": 0.9994865655899048
+        },
+        {
+          "word": " campo",
+          "start": 121.44,
+          "end": 121.8,
+          "probability": 0.9995738863945007
+        },
+        {
+          "word": " para",
+          "start": 121.8,
+          "end": 122.06,
+          "probability": 0.9988318085670471
+        },
+        {
+          "word": " a",
+          "start": 122.06,
+          "end": 122.16,
+          "probability": 0.99293452501297
+        },
+        {
+          "word": " cidade,",
+          "start": 122.16,
+          "end": 122.66,
+          "probability": 0.999502420425415
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 11960,
+      "start": 123.36,
+      "end": 126.7,
+      "text": " tão perniciosa a expansão da riqueza nacional.",
+      "tokens": [
+        50553,
+        18012,
+        680,
+        7692,
+        37050,
+        257,
+        9672,
+        1076,
+        1120,
+        367,
+        1925,
+        2394,
+        29836,
+        13,
+        50736
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": [
+        {
+          "word": " tão",
+          "start": 122.98,
+          "end": 123.48,
+          "probability": 0.9874523282051086
+        },
+        {
+          "word": " perniciosa",
+          "start": 123.48,
+          "end": 124.42,
+          "probability": 0.9721320072809855
+        },
+        {
+          "word": " a",
+          "start": 124.42,
+          "end": 124.82,
+          "probability": 0.9045464396476746
+        },
+        {
+          "word": " expansão",
+          "start": 124.82,
+          "end": 125.78,
+          "probability": 0.9997939765453339
+        },
+        {
+          "word": " da",
+          "start": 125.78,
+          "end": 125.92,
+          "probability": 0.9997884631156921
+        },
+        {
+          "word": " riqueza",
+          "start": 125.92,
+          "end": 126.38,
+          "probability": 0.9992724259694418
+        },
+        {
+          "word": " nacional.",
+          "start": 126.38,
+          "end": 126.7,
+          "probability": 0.9995729327201843
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 11960,
+      "start": 129.1,
+      "end": 132.12,
+      "text": " Para o êxito completo dessas iniciativas,",
+      "tokens": [
+        50840,
+        11107,
+        277,
+        6203,
+        87,
+        3528,
+        40135,
+        40083,
+        40380,
+        7676,
+        24759,
+        11,
+        50995
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": [
+        {
+          "word": " Para",
+          "start": 128.72,
+          "end": 129.22,
+          "probability": 0.998887836933136
+        },
+        {
+          "word": " o",
+          "start": 129.22,
+          "end": 129.4,
+          "probability": 0.9998857975006104
+        },
+        {
+          "word": " êxito",
+          "start": 129.4,
+          "end": 129.98,
+          "probability": 0.9997201760609945
+        },
+        {
+          "word": " completo",
+          "start": 129.98,
+          "end": 130.42,
+          "probability": 0.999808132648468
+        },
+        {
+          "word": " dessas",
+          "start": 130.42,
+          "end": 130.98,
+          "probability": 0.9824374318122864
+        },
+        {
+          "word": " iniciativas,",
+          "start": 130.98,
+          "end": 132.12,
+          "probability": 0.999884307384491
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 11960,
+      "start": 133.01999999999998,
+      "end": 138.24,
+      "text": " faça em ester cerrar fileiras em torno das agremiações sindicais.",
+      "tokens": [
+        51036,
+        2050,
+        5297,
+        846,
+        871,
+        260,
+        10146,
+        5352,
+        3991,
+        23342,
+        846,
+        3930,
+        1771,
+        1482,
+        623,
+        2579,
+        654,
+        8001,
+        3290,
+        299,
+        1527,
+        13,
+        51304
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": [
+        {
+          "word": " faça",
+          "start": 132.68,
+          "end": 133.18,
+          "probability": 0.6913346648216248
+        },
+        {
+          "word": " em",
+          "start": 133.18,
+          "end": 133.38,
+          "probability": 0.31135907769203186
+        },
+        {
+          "word": " ester",
+          "start": 133.38,
+          "end": 133.94,
+          "probability": 0.6280735582113266
+        },
+        {
+          "word": " cerrar",
+          "start": 133.94,
+          "end": 134.4,
+          "probability": 0.6230556815862656
+        },
+        {
+          "word": " fileiras",
+          "start": 134.4,
+          "end": 135.1,
+          "probability": 0.9922152459621429
+        },
+        {
+          "word": " em",
+          "start": 135.1,
+          "end": 136.02,
+          "probability": 0.9916564226150513
+        },
+        {
+          "word": " torno",
+          "start": 136.02,
+          "end": 136.52,
+          "probability": 0.998384416103363
+        },
+        {
+          "word": " das",
+          "start": 136.52,
+          "end": 136.76,
+          "probability": 0.9997376799583435
+        },
+        {
+          "word": " agremiações",
+          "start": 136.76,
+          "end": 137.56,
+          "probability": 0.9984262734651566
+        },
+        {
+          "word": " sindicais.",
+          "start": 137.56,
+          "end": 138.24,
+          "probability": 0.99954225619634
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 11960,
+      "start": 146.56,
+      "end": 148.56,
+      "text": " A MENSAGEM DO PRODUÇÃO DE UMA MENSAGEM DE RENOVOÇÃO",
+      "tokens": [
+        51732,
+        316,
+        376,
+        2195,
+        8886,
+        38,
+        6683,
+        10699,
+        15008,
+        35,
+        52,
+        27707,
+        49126,
+        46,
+        10113,
+        624,
+        9998,
+        376,
+        2195,
+        8886,
+        38,
+        6683,
+        10113,
+        497,
+        2195,
+        46,
+        20664,
+        27707,
+        49126,
+        46,
+        51798
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": [
+        {
+          "word": " A",
+          "start": 146.56,
+          "end": 147.56,
+          "probability": 0.6779290437698364
+        },
+        {
+          "word": " MENSAGEM",
+          "start": 147.56,
+          "end": 148.56,
+          "probability": 0.5930433275178075
+        },
+        {
+          "word": " DO",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.18990279734134674
+        },
+        {
+          "word": " PRODUÇÃO",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.4838518435135484
+        },
+        {
+          "word": " DE",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.09693945944309235
+        },
+        {
+          "word": " UMA",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.2904401458799839
+        },
+        {
+          "word": " MENSAGEM",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.7583947479724884
+        },
+        {
+          "word": " DE",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.2086952179670334
+        },
+        {
+          "word": " RENOVOÇÃO",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.38675336646182196
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 11960,
+      "start": 148.56,
+      "end": 149.58,
+      "text": " A massa operária destaca a lei,",
+      "tokens": [
+        51798,
+        316,
+        26689,
+        2208,
+        31861,
+        2677,
+        6628,
+        257,
+        32791,
+        11,
+        51800
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": [
+        {
+          "word": " A",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.1946684867143631
+        },
+        {
+          "word": " massa",
+          "start": 148.56,
+          "end": 148.56,
+          "probability": 0.07706519961357117
+        },
+        {
+          "word": " operária",
+          "start": 148.56,
+          "end": 149.38,
+          "probability": 0.9993818700313568
+        },
+        {
+          "word": " destaca",
+          "start": 149.38,
+          "end": 149.58,
+          "probability": 0.0779886431992054
+        },
+        {
+          "word": " a",
+          "start": 149.58,
+          "end": 149.58,
+          "probability": 0.0588809996843338
+        },
+        {
+          "word": " lei,",
+          "start": 149.58,
+          "end": 149.58,
+          "probability": 0.017636489123106003
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 11960,
+      "start": 149.58,
+      "end": 149.58,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": []
+    },
+    {
+      "id": 23,
+      "seek": 11960,
+      "start": 149.58,
+      "end": 149.58,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": []
+    },
+    {
+      "id": 24,
+      "seek": 11960,
+      "start": 149.58,
+      "end": 149.58,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": []
+    },
+    {
+      "id": 25,
+      "seek": 11960,
+      "start": 149.58,
+      "end": 149.58,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": []
+    },
+    {
+      "id": 26,
+      "seek": 11960,
+      "start": 149.58,
+      "end": 149.58,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": []
+    },
+    {
+      "id": 27,
+      "seek": 11960,
+      "start": 149.58,
+      "end": 149.58,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.4,
+      "avg_logprob": -0.4662989498524184,
+      "compression_ratio": 2.124463519313305,
+      "no_speech_prob": 0.0014102350687608123,
+      "words": []
+    },
+    {
+      "id": 28,
+      "seek": 14960,
+      "start": 149.6,
+      "end": 149.7,
+      "text": " e a lei, como um sistema de trabalho,",
+      "tokens": [
+        50365,
+        308,
+        257,
+        32791,
+        11,
+        2617,
+        1105,
+        13245,
+        368,
+        20834,
+        11,
+        50415
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.46914302601533775,
+      "compression_ratio": 1.4792626728110598,
+      "no_speech_prob": 0.008975422009825706,
+      "words": [
+        {
+          "word": " e",
+          "start": 149.6,
+          "end": 149.6,
+          "probability": 0.011692645028233528
+        },
+        {
+          "word": " a",
+          "start": 149.6,
+          "end": 149.68,
+          "probability": 0.0020391526632010937
+        },
+        {
+          "word": " lei,",
+          "start": 149.68,
+          "end": 149.7,
+          "probability": 0.005463332869112492
+        },
+        {
+          "word": " como",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.02464270405471325
+        },
+        {
+          "word": " um",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.016233230009675026
+        },
+        {
+          "word": " sistema",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.025850947946310043
+        },
+        {
+          "word": " de",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.4811367690563202
+        },
+        {
+          "word": " trabalho,",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.04243246465921402
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 14960,
+      "start": 149.7,
+      "end": 154.78,
+      "text": " que, em São Paulo, nos seus 33 mil locais de trabalho,",
+      "tokens": [
+        50415,
+        631,
+        11,
+        846,
+        22401,
+        21801,
+        11,
+        3269,
+        17004,
+        11816,
+        1962,
+        47965,
+        271,
+        368,
+        20834,
+        11,
+        50637
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.46914302601533775,
+      "compression_ratio": 1.4792626728110598,
+      "no_speech_prob": 0.008975422009825706,
+      "words": [
+        {
+          "word": " que,",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.12460196763277054
+        },
+        {
+          "word": " em",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.24583467841148376
+        },
+        {
+          "word": " São",
+          "start": 149.7,
+          "end": 149.7,
+          "probability": 0.7891446352005005
+        },
+        {
+          "word": " Paulo,",
+          "start": 149.7,
+          "end": 150.4,
+          "probability": 0.9932021498680115
+        },
+        {
+          "word": " nos",
+          "start": 150.48,
+          "end": 151.42,
+          "probability": 0.8381592035293579
+        },
+        {
+          "word": " seus",
+          "start": 151.42,
+          "end": 151.68,
+          "probability": 0.9976189732551575
+        },
+        {
+          "word": " 33",
+          "start": 151.68,
+          "end": 152.42,
+          "probability": 0.8873282670974731
+        },
+        {
+          "word": " mil",
+          "start": 152.42,
+          "end": 153.52,
+          "probability": 0.9087933301925659
+        },
+        {
+          "word": " locais",
+          "start": 153.52,
+          "end": 154.26,
+          "probability": 0.9989137053489685
+        },
+        {
+          "word": " de",
+          "start": 154.26,
+          "end": 154.34,
+          "probability": 0.997596800327301
+        },
+        {
+          "word": " trabalho,",
+          "start": 154.34,
+          "end": 154.78,
+          "probability": 0.9960440397262573
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 14960,
+      "start": 155.92,
+      "end": 160.28,
+      "text": " concentra cerca de 800 mil trabalhadores.",
+      "tokens": [
+        50681,
+        5512,
+        424,
+        26770,
+        368,
+        13083,
+        1962,
+        48180,
+        11856,
+        13,
+        50906
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.46914302601533775,
+      "compression_ratio": 1.4792626728110598,
+      "no_speech_prob": 0.008975422009825706,
+      "words": [
+        {
+          "word": " concentra",
+          "start": 155.92,
+          "end": 156.78,
+          "probability": 0.9975451529026031
+        },
+        {
+          "word": " cerca",
+          "start": 156.78,
+          "end": 157.76,
+          "probability": 0.9975947737693787
+        },
+        {
+          "word": " de",
+          "start": 157.76,
+          "end": 158.1,
+          "probability": 0.998698353767395
+        },
+        {
+          "word": " 800",
+          "start": 158.1,
+          "end": 158.58,
+          "probability": 0.9517632126808167
+        },
+        {
+          "word": " mil",
+          "start": 158.58,
+          "end": 159.34,
+          "probability": 0.9935991764068604
+        },
+        {
+          "word": " trabalhadores.",
+          "start": 159.34,
+          "end": 160.28,
+          "probability": 0.999604195356369
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 14960,
+      "start": 161.34,
+      "end": 168.14,
+      "text": " E destes, apenas 120 mil acham-se filiados aos órgãos de classe.",
+      "tokens": [
+        50952,
+        462,
+        2677,
+        279,
+        11,
+        18561,
+        10411,
+        1962,
+        2800,
+        335,
+        12,
+        405,
+        1387,
+        72,
+        4181,
+        25458,
+        44083,
+        70,
+        46550,
+        368,
+        32400,
+        13,
+        51302
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.46914302601533775,
+      "compression_ratio": 1.4792626728110598,
+      "no_speech_prob": 0.008975422009825706,
+      "words": [
+        {
+          "word": " E",
+          "start": 160.8,
+          "end": 161.36,
+          "probability": 0.9796577095985413
+        },
+        {
+          "word": " destes,",
+          "start": 161.36,
+          "end": 162.06,
+          "probability": 0.9714353084564209
+        },
+        {
+          "word": " apenas",
+          "start": 162.16,
+          "end": 163.44,
+          "probability": 0.996208667755127
+        },
+        {
+          "word": " 120",
+          "start": 163.44,
+          "end": 164.34,
+          "probability": 0.9979820251464844
+        },
+        {
+          "word": " mil",
+          "start": 164.34,
+          "end": 164.92,
+          "probability": 0.9973692893981934
+        },
+        {
+          "word": " acham",
+          "start": 164.92,
+          "end": 166.3,
+          "probability": 0.9887987077236176
+        },
+        {
+          "word": "-se",
+          "start": 166.3,
+          "end": 166.36,
+          "probability": 0.998235285282135
+        },
+        {
+          "word": " filiados",
+          "start": 166.36,
+          "end": 167.06,
+          "probability": 0.9969091415405273
+        },
+        {
+          "word": " aos",
+          "start": 167.06,
+          "end": 167.3,
+          "probability": 0.9972661733627319
+        },
+        {
+          "word": " órgãos",
+          "start": 167.3,
+          "end": 167.66,
+          "probability": 0.9995168248812357
+        },
+        {
+          "word": " de",
+          "start": 167.66,
+          "end": 167.8,
+          "probability": 0.9951645135879517
+        },
+        {
+          "word": " classe.",
+          "start": 167.8,
+          "end": 168.14,
+          "probability": 0.9939481019973755
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 14960,
+      "start": 169.9,
+      "end": 173.98,
+      "text": " Noutra oportunidade, já vos dirigi um apelo",
+      "tokens": [
+        51380,
+        426,
+        346,
+        424,
+        24237,
+        6014,
+        11,
+        6242,
+        13845,
+        4746,
+        19789,
+        1105,
+        1882,
+        10590,
+        51588
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.46914302601533775,
+      "compression_ratio": 1.4792626728110598,
+      "no_speech_prob": 0.008975422009825706,
+      "words": [
+        {
+          "word": " Noutra",
+          "start": 169.72,
+          "end": 170.28,
+          "probability": 0.9570182760556539
+        },
+        {
+          "word": " oportunidade,",
+          "start": 170.28,
+          "end": 171.3,
+          "probability": 0.9991255402565002
+        },
+        {
+          "word": " já",
+          "start": 171.34,
+          "end": 172.34,
+          "probability": 0.9939315319061279
+        },
+        {
+          "word": " vos",
+          "start": 172.34,
+          "end": 172.66,
+          "probability": 0.9982579350471497
+        },
+        {
+          "word": " dirigi",
+          "start": 172.66,
+          "end": 173.18,
+          "probability": 0.8602688610553741
+        },
+        {
+          "word": " um",
+          "start": 173.18,
+          "end": 173.36,
+          "probability": 0.9879361987113953
+        },
+        {
+          "word": " apelo",
+          "start": 173.36,
+          "end": 173.98,
+          "probability": 0.9980533719062805
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 14960,
+      "start": 173.98,
+      "end": 177.12,
+      "text": " para que vos congregasseis por forma",
+      "tokens": [
+        51588,
+        1690,
+        631,
+        13845,
+        23002,
+        8604,
+        271,
+        1515,
+        8366,
+        51748
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.46914302601533775,
+      "compression_ratio": 1.4792626728110598,
+      "no_speech_prob": 0.008975422009825706,
+      "words": [
+        {
+          "word": " para",
+          "start": 173.98,
+          "end": 174.92,
+          "probability": 0.9834989905357361
+        },
+        {
+          "word": " que",
+          "start": 174.92,
+          "end": 175.08,
+          "probability": 0.9987951517105103
+        },
+        {
+          "word": " vos",
+          "start": 175.08,
+          "end": 175.3,
+          "probability": 0.9808070063591003
+        },
+        {
+          "word": " congregasseis",
+          "start": 175.3,
+          "end": 176.42,
+          "probability": 0.6280967195828756
+        },
+        {
+          "word": " por",
+          "start": 176.42,
+          "end": 176.56,
+          "probability": 0.8782834410667419
+        },
+        {
+          "word": " forma",
+          "start": 176.56,
+          "end": 177.12,
+          "probability": 0.9958726763725281
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 14960,
+      "start": 177.12,
+      "end": 179.58,
+      "text": " que os sindicatos representam a lei.",
+      "tokens": [
+        51748,
+        631,
+        3003,
+        3290,
+        299,
+        26818,
+        2906,
+        335,
+        257,
+        32791,
+        13,
+        51843
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.46914302601533775,
+      "compression_ratio": 1.4792626728110598,
+      "no_speech_prob": 0.008975422009825706,
+      "words": [
+        {
+          "word": " que",
+          "start": 177.12,
+          "end": 177.9,
+          "probability": 0.9504528045654297
+        },
+        {
+          "word": " os",
+          "start": 177.9,
+          "end": 178.0,
+          "probability": 0.9846689105033875
+        },
+        {
+          "word": " sindicatos",
+          "start": 178.0,
+          "end": 178.84,
+          "probability": 0.995699961980184
+        },
+        {
+          "word": " representam",
+          "start": 178.84,
+          "end": 179.58,
+          "probability": 0.5275318250060081
+        },
+        {
+          "word": " a",
+          "start": 179.58,
+          "end": 179.58,
+          "probability": 0.13707685470581055
+        },
+        {
+          "word": " lei.",
+          "start": 179.58,
+          "end": 179.58,
+          "probability": 0.1858740597963333
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 17958,
+      "start": 179.58,
+      "end": 184.16,
+      "text": " E que se juntassem realmente um número de associados",
+      "tokens": [
+        50365,
+        462,
+        631,
+        369,
+        22739,
+        8604,
+        76,
+        14446,
+        1105,
+        14959,
+        368,
+        4180,
+        4181,
+        50615
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4377248764038086,
+      "compression_ratio": 1.4834437086092715,
+      "no_speech_prob": 0.0006985414656810462,
+      "words": [
+        {
+          "word": " E",
+          "start": 179.58,
+          "end": 179.6,
+          "probability": 0.0024182023480534554
+        },
+        {
+          "word": " que",
+          "start": 179.6,
+          "end": 179.6,
+          "probability": 0.5575439929962158
+        },
+        {
+          "word": " se",
+          "start": 179.6,
+          "end": 179.6,
+          "probability": 0.2735674977302551
+        },
+        {
+          "word": " juntassem",
+          "start": 179.6,
+          "end": 180.16,
+          "probability": 0.9722635547320048
+        },
+        {
+          "word": " realmente",
+          "start": 180.16,
+          "end": 180.54,
+          "probability": 0.9111654162406921
+        },
+        {
+          "word": " um",
+          "start": 180.54,
+          "end": 181.74,
+          "probability": 0.8813443183898926
+        },
+        {
+          "word": " número",
+          "start": 181.74,
+          "end": 182.26,
+          "probability": 0.9639590978622437
+        },
+        {
+          "word": " de",
+          "start": 182.26,
+          "end": 182.56,
+          "probability": 0.9930955767631531
+        },
+        {
+          "word": " associados",
+          "start": 182.56,
+          "end": 184.16,
+          "probability": 0.976983368396759
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 17958,
+      "start": 184.16,
+      "end": 189.12,
+      "text": " que fosse expressão total de cada atividade,",
+      "tokens": [
+        50615,
+        631,
+        24528,
+        5109,
+        1076,
+        3217,
+        368,
+        8411,
+        412,
+        41121,
+        11,
+        50865
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4377248764038086,
+      "compression_ratio": 1.4834437086092715,
+      "no_speech_prob": 0.0006985414656810462,
+      "words": [
+        {
+          "word": " que",
+          "start": 184.16,
+          "end": 185.2,
+          "probability": 0.5840420126914978
+        },
+        {
+          "word": " fosse",
+          "start": 185.2,
+          "end": 185.68,
+          "probability": 0.9955857992172241
+        },
+        {
+          "word": " expressão",
+          "start": 185.68,
+          "end": 186.52,
+          "probability": 0.8281600773334503
+        },
+        {
+          "word": " total",
+          "start": 186.52,
+          "end": 186.98,
+          "probability": 0.9974789023399353
+        },
+        {
+          "word": " de",
+          "start": 186.98,
+          "end": 188.14,
+          "probability": 0.9275073409080505
+        },
+        {
+          "word": " cada",
+          "start": 188.14,
+          "end": 188.56,
+          "probability": 0.9983799457550049
+        },
+        {
+          "word": " atividade,",
+          "start": 188.56,
+          "end": 189.12,
+          "probability": 0.9616641402244568
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "seek": 17958,
+      "start": 189.5,
+      "end": 196.5,
+      "text": " aptos a exercer ativa fiscalização dos direitos que lhes assistem.",
+      "tokens": [
+        50865,
+        29427,
+        329,
+        257,
+        454,
+        260,
+        1776,
+        412,
+        5931,
+        15897,
+        27467,
+        4491,
+        1264,
+        11343,
+        631,
+        287,
+        8076,
+        4255,
+        443,
+        13,
+        51215
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4377248764038086,
+      "compression_ratio": 1.4834437086092715,
+      "no_speech_prob": 0.0006985414656810462,
+      "words": [
+        {
+          "word": " aptos",
+          "start": 189.5,
+          "end": 190.84,
+          "probability": 0.9875071346759796
+        },
+        {
+          "word": " a",
+          "start": 190.84,
+          "end": 190.94,
+          "probability": 0.9805636405944824
+        },
+        {
+          "word": " exercer",
+          "start": 190.94,
+          "end": 191.56,
+          "probability": 0.9972742199897766
+        },
+        {
+          "word": " ativa",
+          "start": 191.56,
+          "end": 192.94,
+          "probability": 0.9389339685440063
+        },
+        {
+          "word": " fiscalização",
+          "start": 192.94,
+          "end": 193.7,
+          "probability": 0.9938676655292511
+        },
+        {
+          "word": " dos",
+          "start": 193.7,
+          "end": 194.72,
+          "probability": 0.9866020083427429
+        },
+        {
+          "word": " direitos",
+          "start": 194.72,
+          "end": 195.38,
+          "probability": 0.9915663301944733
+        },
+        {
+          "word": " que",
+          "start": 195.38,
+          "end": 195.6,
+          "probability": 0.9938331842422485
+        },
+        {
+          "word": " lhes",
+          "start": 195.6,
+          "end": 195.82,
+          "probability": 0.9726582169532776
+        },
+        {
+          "word": " assistem.",
+          "start": 195.82,
+          "end": 196.5,
+          "probability": 0.980833500623703
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "seek": 17958,
+      "start": 206.58,
+      "end": 208.58,
+      "text": " A reforma da lei orgânica,",
+      "tokens": [
+        51715,
+        316,
+        8290,
+        64,
+        1120,
+        32791,
+        14045,
+        9667,
+        2262,
+        11,
+        51815
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4377248764038086,
+      "compression_ratio": 1.4834437086092715,
+      "no_speech_prob": 0.0006985414656810462,
+      "words": [
+        {
+          "word": " A",
+          "start": 206.34,
+          "end": 206.9,
+          "probability": 0.8831649422645569
+        },
+        {
+          "word": " reforma",
+          "start": 206.9,
+          "end": 208.02,
+          "probability": 0.9672160744667053
+        },
+        {
+          "word": " da",
+          "start": 208.02,
+          "end": 208.18,
+          "probability": 0.9978118538856506
+        },
+        {
+          "word": " lei",
+          "start": 208.18,
+          "end": 208.42,
+          "probability": 0.8054336905479431
+        },
+        {
+          "word": " orgânica,",
+          "start": 208.42,
+          "end": 208.98,
+          "probability": 0.9982122182846069
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "seek": 17958,
+      "start": 209.44,
+      "end": 209.56,
+      "text": " a reforma da lei orgânica,",
+      "tokens": [
+        51815,
+        257,
+        8290,
+        64,
+        1120,
+        32791,
+        14045,
+        9667,
+        2262,
+        11,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4377248764038086,
+      "compression_ratio": 1.4834437086092715,
+      "no_speech_prob": 0.0006985414656810462,
+      "words": [
+        {
+          "word": " a",
+          "start": 209.44,
+          "end": 209.56,
+          "probability": 0.11591894924640656
+        },
+        {
+          "word": " reforma",
+          "start": 209.56,
+          "end": 209.56,
+          "probability": 0.8403695225715637
+        },
+        {
+          "word": " da",
+          "start": 209.56,
+          "end": 209.56,
+          "probability": 0.6189313530921936
+        },
+        {
+          "word": " lei",
+          "start": 209.56,
+          "end": 209.56,
+          "probability": 0.7757673263549805
+        },
+        {
+          "word": " orgânica,",
+          "start": 209.56,
+          "end": 209.56,
+          "probability": 0.915948768456777
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "seek": 20958,
+      "start": 209.58,
+      "end": 212.32,
+      "text": " a reforma do escudário do serviço público,",
+      "tokens": [
+        50365,
+        257,
+        8290,
+        64,
+        360,
+        4721,
+        532,
+        12657,
+        360,
+        37076,
+        8560,
+        26557,
+        11,
+        50422
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": [
+        {
+          "word": " a",
+          "start": 209.58,
+          "end": 209.58,
+          "probability": 0.0002748970000538975
+        },
+        {
+          "word": " reforma",
+          "start": 209.58,
+          "end": 210.86,
+          "probability": 0.46609863995217893
+        },
+        {
+          "word": " do",
+          "start": 210.86,
+          "end": 211.44,
+          "probability": 0.13889409601688385
+        },
+        {
+          "word": " escudário",
+          "start": 211.44,
+          "end": 211.74,
+          "probability": 0.0568295231933007
+        },
+        {
+          "word": " do",
+          "start": 211.74,
+          "end": 211.74,
+          "probability": 0.016420476138591766
+        },
+        {
+          "word": " serviço",
+          "start": 211.74,
+          "end": 211.74,
+          "probability": 0.4995800026226789
+        },
+        {
+          "word": " público,",
+          "start": 211.74,
+          "end": 212.32,
+          "probability": 0.5821399092674255
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "seek": 20958,
+      "start": 212.32,
+      "end": 215.72,
+      "text": " em que as respostas por causa dos impostosортados",
+      "tokens": [
+        50422,
+        846,
+        631,
+        382,
+        1597,
+        555,
+        296,
+        1515,
+        23667,
+        4491,
+        47804,
+        329,
+        20040,
+        4181,
+        50567
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": [
+        {
+          "word": " em",
+          "start": 212.32,
+          "end": 212.88,
+          "probability": 0.0008906089933589101
+        },
+        {
+          "word": " que",
+          "start": 212.88,
+          "end": 213.54,
+          "probability": 0.07067424803972244
+        },
+        {
+          "word": " as",
+          "start": 213.54,
+          "end": 213.54,
+          "probability": 0.038528408855199814
+        },
+        {
+          "word": " respostas",
+          "start": 213.54,
+          "end": 213.76,
+          "probability": 0.663056886366879
+        },
+        {
+          "word": " por",
+          "start": 213.76,
+          "end": 214.04,
+          "probability": 0.0035691021475940943
+        },
+        {
+          "word": " causa",
+          "start": 214.04,
+          "end": 214.04,
+          "probability": 0.021594727411866188
+        },
+        {
+          "word": " dos",
+          "start": 214.04,
+          "end": 214.04,
+          "probability": 0.03754938766360283
+        },
+        {
+          "word": " impostosортados",
+          "start": 214.04,
+          "end": 215.72,
+          "probability": 0.26851436274814233
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "seek": 20958,
+      "start": 215.72,
+      "end": 216.82,
+      "text": " aproximadamente,",
+      "tokens": [
+        50740,
+        48892,
+        11,
+        50825
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": [
+        {
+          "word": " aproximadamente,",
+          "start": 215.72,
+          "end": 216.82,
+          "probability": 4.9980237236013636e-05
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "seek": 20958,
+      "start": 216.82,
+      "end": 222.06,
+      "text": " projetarem o auge paraelsonicar",
+      "tokens": [
+        50825,
+        17929,
+        19183,
+        277,
+        1609,
+        432,
+        1690,
+        20471,
+        7953,
+        50965
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": [
+        {
+          "word": " projetarem",
+          "start": 216.82,
+          "end": 217.06,
+          "probability": 0.005598600808298215
+        },
+        {
+          "word": " o",
+          "start": 217.06,
+          "end": 218.72,
+          "probability": 0.076387919485569
+        },
+        {
+          "word": " auge",
+          "start": 218.72,
+          "end": 221.98,
+          "probability": 0.44481079160323134
+        },
+        {
+          "word": " paraelsonicar",
+          "start": 221.98,
+          "end": 222.06,
+          "probability": 0.023148112897312483
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "seek": 20958,
+      "start": 222.06,
+      "end": 225.14,
+      "text": " o �osing dos estủ Аns Unidos de comunicación",
+      "tokens": [
+        50965,
+        277,
+        10091,
+        6110,
+        4491,
+        871,
+        28903,
+        3450,
+        3695,
+        23087,
+        368,
+        31710,
+        3482,
+        51279
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": [
+        {
+          "word": " o",
+          "start": 222.06,
+          "end": 222.06,
+          "probability": 0.18139877915382385
+        },
+        {
+          "word": " �osing",
+          "start": 222.06,
+          "end": 222.06,
+          "probability": 4.984437418897869e-05
+        },
+        {
+          "word": " dos",
+          "start": 222.06,
+          "end": 222.06,
+          "probability": 0.025484954938292503
+        },
+        {
+          "word": " estủ",
+          "start": 222.06,
+          "end": 223.02,
+          "probability": 0.014903167523293348
+        },
+        {
+          "word": " Аns",
+          "start": 223.02,
+          "end": 223.64,
+          "probability": 0.0021290339568622585
+        },
+        {
+          "word": " Unidos",
+          "start": 223.64,
+          "end": 223.64,
+          "probability": 0.00010833769920282066
+        },
+        {
+          "word": " de",
+          "start": 223.64,
+          "end": 223.7,
+          "probability": 0.04143423214554787
+        },
+        {
+          "word": " comunicación",
+          "start": 223.7,
+          "end": 225.14,
+          "probability": 0.14984600785101065
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "seek": 20958,
+      "start": 225.14,
+      "end": 225.14,
+      "text": "",
+      "tokens": [],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": []
+    },
+    {
+      "id": 46,
+      "seek": 20958,
+      "start": 225.14,
+      "end": 225.14,
+      "text": "",
+      "tokens": [],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": []
+    },
+    {
+      "id": 47,
+      "seek": 20958,
+      "start": 225.14,
+      "end": 225.14,
+      "text": "",
+      "tokens": [],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": []
+    },
+    {
+      "id": 48,
+      "seek": 20958,
+      "start": 225.14,
+      "end": 225.14,
+      "text": "",
+      "tokens": [],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": []
+    },
+    {
+      "id": 49,
+      "seek": 20958,
+      "start": 225.14,
+      "end": 225.42,
+      "text": " Server gaps and most waters,",
+      "tokens": [
+        51798,
+        25684,
+        15031,
+        293,
+        881,
+        12975,
+        11,
+        51831
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": [
+        {
+          "word": " Server",
+          "start": 225.14,
+          "end": 225.14,
+          "probability": 1.3423148629954085e-05
+        },
+        {
+          "word": " gaps",
+          "start": 225.14,
+          "end": 225.14,
+          "probability": 1.6118386838570586e-06
+        },
+        {
+          "word": " and",
+          "start": 225.14,
+          "end": 225.42,
+          "probability": 0.11922852694988251
+        },
+        {
+          "word": " most",
+          "start": 225.42,
+          "end": 225.42,
+          "probability": 0.00026365608209744096
+        },
+        {
+          "word": " waters,",
+          "start": 225.42,
+          "end": 225.42,
+          "probability": 1.7301543266512454e-05
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "seek": 20958,
+      "start": 238.9,
+      "end": 239.56,
+      "text": " Pneumat pitchedän lattice構신ADan 1980, 3.當然, 2 The Court for Evaluation,",
+      "tokens": [
+        51831,
+        430,
+        716,
+        449,
+        267,
+        32994,
+        4029,
+        34011,
+        43362,
+        7575,
+        6112,
+        282,
+        13626,
+        11,
+        805,
+        13,
+        21707,
+        11,
+        568,
+        440,
+        7873,
+        337,
+        462,
+        46504,
+        11,
+        51864
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -5.1256580968056955,
+      "compression_ratio": 1.296416938110749,
+      "no_speech_prob": 0.004327714443206787,
+      "words": [
+        {
+          "word": " Pneumat",
+          "start": 238.51999999999998,
+          "end": 239.1,
+          "probability": 0.1503753401339054
+        },
+        {
+          "word": " pitchedän",
+          "start": 239.1,
+          "end": 239.52,
+          "probability": 2.5557731646586035e-06
+        },
+        {
+          "word": " lattice構신ADan",
+          "start": 239.52,
+          "end": 239.52,
+          "probability": 0.0003787014638646724
+        },
+        {
+          "word": " 1980,",
+          "start": 239.52,
+          "end": 239.52,
+          "probability": 8.657799298816826e-06
+        },
+        {
+          "word": " 3",
+          "start": 239.52,
+          "end": 239.52,
+          "probability": 0.0005409129080362618
+        },
+        {
+          "word": ".當然,",
+          "start": 239.52,
+          "end": 239.52,
+          "probability": 0.028538162760469277
+        },
+        {
+          "word": " 2",
+          "start": 239.52,
+          "end": 239.52,
+          "probability": 0.0076973033137619495
+        },
+        {
+          "word": " The",
+          "start": 239.52,
+          "end": 239.52,
+          "probability": 0.00041955907363444567
+        },
+        {
+          "word": " Court",
+          "start": 239.52,
+          "end": 239.56,
+          "probability": 0.002230615122243762
+        },
+        {
+          "word": " for",
+          "start": 239.56,
+          "end": 239.56,
+          "probability": 0.03586653620004654
+        },
+        {
+          "word": " Evaluation,",
+          "start": 239.56,
+          "end": 239.56,
+          "probability": 0.20914026314858347
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "seek": 23958,
+      "start": 243.12,
+      "end": 251.0,
+      "text": " A alta inteligência e personalidade dinâmica e o interventor Fernando Costa.",
+      "tokens": [
+        50365,
+        316,
+        26495,
+        44300,
+        9322,
+        308,
+        2973,
+        6014,
+        3791,
+        24484,
+        2262,
+        308,
+        277,
+        728,
+        2475,
+        284,
+        30190,
+        28440,
+        13,
+        50947
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2960678063906156,
+      "compression_ratio": 1.2357142857142858,
+      "no_speech_prob": 0.12257438898086548,
+      "words": [
+        {
+          "word": " A",
+          "start": 243.12,
+          "end": 244.44,
+          "probability": 0.6529540419578552
+        },
+        {
+          "word": " alta",
+          "start": 244.44,
+          "end": 244.84,
+          "probability": 0.8781440258026123
+        },
+        {
+          "word": " inteligência",
+          "start": 244.84,
+          "end": 245.94,
+          "probability": 0.9809908866882324
+        },
+        {
+          "word": " e",
+          "start": 245.94,
+          "end": 246.04,
+          "probability": 0.9979490637779236
+        },
+        {
+          "word": " personalidade",
+          "start": 246.04,
+          "end": 247.04,
+          "probability": 0.9969190955162048
+        },
+        {
+          "word": " dinâmica",
+          "start": 247.04,
+          "end": 247.98,
+          "probability": 0.9991394678751627
+        },
+        {
+          "word": " e",
+          "start": 247.98,
+          "end": 248.88,
+          "probability": 0.8129661083221436
+        },
+        {
+          "word": " o",
+          "start": 248.88,
+          "end": 249.0,
+          "probability": 0.9998911619186401
+        },
+        {
+          "word": " interventor",
+          "start": 249.0,
+          "end": 250.0,
+          "probability": 0.997922400633494
+        },
+        {
+          "word": " Fernando",
+          "start": 250.0,
+          "end": 250.4,
+          "probability": 0.9809347987174988
+        },
+        {
+          "word": " Costa.",
+          "start": 250.4,
+          "end": 251.0,
+          "probability": 0.9997990727424622
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "seek": 23958,
+      "start": 252.2,
+      "end": 252.22000000000003,
+      "text": " Aplausos.",
+      "tokens": [
+        50947,
+        316,
+        564,
+        8463,
+        329,
+        13,
+        50997
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2960678063906156,
+      "compression_ratio": 1.2357142857142858,
+      "no_speech_prob": 0.12257438898086548,
+      "words": [
+        {
+          "word": " Aplausos.",
+          "start": 252.2,
+          "end": 252.85999999999999,
+          "probability": 0.7766596302390099
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "seek": 23958,
+      "start": 257.84000000000003,
+      "end": 265.22,
+      "text": " Tão operoso e experimentado na administração como na agricultura e na indústria,",
+      "tokens": [
+        51284,
+        314,
+        1076,
+        2208,
+        9869,
+        308,
+        5120,
+        1573,
+        1667,
+        4968,
+        37864,
+        2617,
+        1667,
+        9682,
+        49944,
+        308,
+        1667,
+        1016,
+        2481,
+        372,
+        4668,
+        11,
+        51654
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2960678063906156,
+      "compression_ratio": 1.2357142857142858,
+      "no_speech_prob": 0.12257438898086548,
+      "words": [
+        {
+          "word": " Tão",
+          "start": 257.84000000000003,
+          "end": 259.16,
+          "probability": 0.8860158920288086
+        },
+        {
+          "word": " operoso",
+          "start": 259.16,
+          "end": 259.84,
+          "probability": 0.9982835352420807
+        },
+        {
+          "word": " e",
+          "start": 259.84,
+          "end": 260.06,
+          "probability": 0.9999167919158936
+        },
+        {
+          "word": " experimentado",
+          "start": 260.06,
+          "end": 261.18,
+          "probability": 0.9994362890720367
+        },
+        {
+          "word": " na",
+          "start": 261.18,
+          "end": 261.46,
+          "probability": 0.9997988343238831
+        },
+        {
+          "word": " administração",
+          "start": 261.46,
+          "end": 262.26,
+          "probability": 0.9995832443237305
+        },
+        {
+          "word": " como",
+          "start": 262.26,
+          "end": 263.38,
+          "probability": 0.6820155382156372
+        },
+        {
+          "word": " na",
+          "start": 263.38,
+          "end": 263.58,
+          "probability": 0.99997878074646
+        },
+        {
+          "word": " agricultura",
+          "start": 263.58,
+          "end": 264.3,
+          "probability": 0.9999500513076782
+        },
+        {
+          "word": " e",
+          "start": 264.3,
+          "end": 264.46,
+          "probability": 0.999914288520813
+        },
+        {
+          "word": " na",
+          "start": 264.46,
+          "end": 264.58,
+          "probability": 0.9998015761375427
+        },
+        {
+          "word": " indústria,",
+          "start": 264.58,
+          "end": 265.22,
+          "probability": 0.999954342842102
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "seek": 26522,
+      "start": 265.22,
+      "end": 276.78,
+      "text": " São Paulo se manufatura metade dos 24 bilhões de cruzeiros da produção industrial do país.",
+      "tokens": [
+        50365,
+        22401,
+        21801,
+        369,
+        587,
+        2947,
+        19660,
+        1131,
+        762,
+        4491,
+        4022,
+        8588,
+        31819,
+        368,
+        5140,
+        1381,
+        21633,
+        1120,
+        49147,
+        9987,
+        360,
+        10572,
+        13,
+        50956
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1581699946155287,
+      "compression_ratio": 1.3265306122448979,
+      "no_speech_prob": 0.0022688673343509436,
+      "words": [
+        {
+          "word": " São",
+          "start": 265.22,
+          "end": 266.24,
+          "probability": 0.8811294436454773
+        },
+        {
+          "word": " Paulo",
+          "start": 266.24,
+          "end": 266.86,
+          "probability": 0.9985089898109436
+        },
+        {
+          "word": " se",
+          "start": 266.86,
+          "end": 267.86,
+          "probability": 0.6792011857032776
+        },
+        {
+          "word": " manufatura",
+          "start": 267.86,
+          "end": 268.72,
+          "probability": 0.982441226641337
+        },
+        {
+          "word": " metade",
+          "start": 268.72,
+          "end": 269.48,
+          "probability": 0.9264528155326843
+        },
+        {
+          "word": " dos",
+          "start": 269.48,
+          "end": 270.14,
+          "probability": 0.9975837469100952
+        },
+        {
+          "word": " 24",
+          "start": 270.14,
+          "end": 270.64,
+          "probability": 0.984053373336792
+        },
+        {
+          "word": " bilhões",
+          "start": 270.64,
+          "end": 271.62,
+          "probability": 0.9908266067504883
+        },
+        {
+          "word": " de",
+          "start": 271.62,
+          "end": 271.82,
+          "probability": 0.998902440071106
+        },
+        {
+          "word": " cruzeiros",
+          "start": 271.82,
+          "end": 272.62,
+          "probability": 0.9959779183069865
+        },
+        {
+          "word": " da",
+          "start": 272.62,
+          "end": 273.26,
+          "probability": 0.9918985366821289
+        },
+        {
+          "word": " produção",
+          "start": 273.26,
+          "end": 274.42,
+          "probability": 0.9980015158653259
+        },
+        {
+          "word": " industrial",
+          "start": 274.42,
+          "end": 276.14,
+          "probability": 0.9987119436264038
+        },
+        {
+          "word": " do",
+          "start": 276.14,
+          "end": 276.48,
+          "probability": 0.9993894100189209
+        },
+        {
+          "word": " país.",
+          "start": 276.48,
+          "end": 276.78,
+          "probability": 0.9893876314163208
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "seek": 26522,
+      "start": 277.08,
+      "end": 281.18,
+      "text": " E tem no café a lavoura de mais cultura.",
+      "tokens": [
+        51006,
+        462,
+        1383,
+        572,
+        25118,
+        257,
+        20923,
+        396,
+        64,
+        368,
+        2420,
+        30576,
+        13,
+        51175
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1581699946155287,
+      "compression_ratio": 1.3265306122448979,
+      "no_speech_prob": 0.0022688673343509436,
+      "words": [
+        {
+          "word": " E",
+          "start": 277.08,
+          "end": 278.02,
+          "probability": 0.9928394556045532
+        },
+        {
+          "word": " tem",
+          "start": 278.02,
+          "end": 278.32,
+          "probability": 0.9956780076026917
+        },
+        {
+          "word": " no",
+          "start": 278.32,
+          "end": 278.48,
+          "probability": 0.998393714427948
+        },
+        {
+          "word": " café",
+          "start": 278.48,
+          "end": 278.84,
+          "probability": 0.9805185794830322
+        },
+        {
+          "word": " a",
+          "start": 278.84,
+          "end": 279.78,
+          "probability": 0.9780526757240295
+        },
+        {
+          "word": " lavoura",
+          "start": 279.78,
+          "end": 280.48,
+          "probability": 0.9980991085370382
+        },
+        {
+          "word": " de",
+          "start": 280.48,
+          "end": 280.54,
+          "probability": 0.9984171390533447
+        },
+        {
+          "word": " mais",
+          "start": 280.54,
+          "end": 280.76,
+          "probability": 0.8164893388748169
+        },
+        {
+          "word": " cultura.",
+          "start": 280.76,
+          "end": 281.18,
+          "probability": 0.9743096232414246
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "seek": 26522,
+      "start": 281.88000000000005,
+      "end": 290.7,
+      "text": " Precisa, por exemplo, congregar as agremiações trabalhistas à mão de obra que lhe garante tão excepcional situação.",
+      "tokens": [
+        51198,
+        6001,
+        66,
+        3837,
+        11,
+        1515,
+        16496,
+        11,
+        416,
+        33248,
+        2976,
+        382,
+        623,
+        2579,
+        654,
+        8001,
+        48180,
+        14858,
+        1531,
+        31639,
+        368,
+        22798,
+        631,
+        287,
+        675,
+        3691,
+        2879,
+        18012,
+        454,
+        27493,
+        42395,
+        36768,
+        13,
+        51648
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1581699946155287,
+      "compression_ratio": 1.3265306122448979,
+      "no_speech_prob": 0.0022688673343509436,
+      "words": [
+        {
+          "word": " Precisa,",
+          "start": 281.54,
+          "end": 282.12,
+          "probability": 0.7401313285032908
+        },
+        {
+          "word": " por",
+          "start": 282.12,
+          "end": 282.28,
+          "probability": 0.9923451542854309
+        },
+        {
+          "word": " exemplo,",
+          "start": 282.28,
+          "end": 282.72,
+          "probability": 0.9995936751365662
+        },
+        {
+          "word": " congregar",
+          "start": 282.94,
+          "end": 283.94,
+          "probability": 0.9101708928743998
+        },
+        {
+          "word": " as",
+          "start": 283.94,
+          "end": 284.68,
+          "probability": 0.8763021230697632
+        },
+        {
+          "word": " agremiações",
+          "start": 284.68,
+          "end": 285.48,
+          "probability": 0.976903647184372
+        },
+        {
+          "word": " trabalhistas",
+          "start": 285.48,
+          "end": 286.54,
+          "probability": 0.9997470378875732
+        },
+        {
+          "word": " à",
+          "start": 286.54,
+          "end": 287.16,
+          "probability": 0.6713138818740845
+        },
+        {
+          "word": " mão",
+          "start": 287.16,
+          "end": 287.48,
+          "probability": 0.9999409914016724
+        },
+        {
+          "word": " de",
+          "start": 287.48,
+          "end": 287.58,
+          "probability": 0.9973940849304199
+        },
+        {
+          "word": " obra",
+          "start": 287.58,
+          "end": 287.94,
+          "probability": 0.9969245791435242
+        },
+        {
+          "word": " que",
+          "start": 287.94,
+          "end": 288.18,
+          "probability": 0.9988183379173279
+        },
+        {
+          "word": " lhe",
+          "start": 288.18,
+          "end": 288.38,
+          "probability": 0.9963855445384979
+        },
+        {
+          "word": " garante",
+          "start": 288.38,
+          "end": 288.96,
+          "probability": 0.999858170747757
+        },
+        {
+          "word": " tão",
+          "start": 288.96,
+          "end": 289.54,
+          "probability": 0.9677549004554749
+        },
+        {
+          "word": " excepcional",
+          "start": 289.54,
+          "end": 290.36,
+          "probability": 0.9961422284444174
+        },
+        {
+          "word": " situação.",
+          "start": 290.36,
+          "end": 290.7,
+          "probability": 0.9850190281867981
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "seek": 29522,
+      "start": 295.22,
+      "end": 295.46,
+      "text": " Aplausos.",
+      "tokens": [
+        50365,
+        316,
+        564,
+        8463,
+        329,
+        13,
+        50415
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12467131614685059,
+      "compression_ratio": 1.4976076555023923,
+      "no_speech_prob": 0.0037935967557132244,
+      "words": [
+        {
+          "word": " Aplausos.",
+          "start": 295.22,
+          "end": 295.46,
+          "probability": 0.5095403699669987
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "seek": 29522,
+      "start": 296.54,
+      "end": 305.28,
+      "text": " Essa modificação de mentalidade é tanto mais imperiosa e fácil de apreender",
+      "tokens": [
+        50415,
+        22818,
+        1072,
+        1089,
+        6670,
+        368,
+        4973,
+        6014,
+        1136,
+        10331,
+        2420,
+        10100,
+        37050,
+        308,
+        17474,
+        368,
+        1882,
+        265,
+        3216,
+        50886
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12467131614685059,
+      "compression_ratio": 1.4976076555023923,
+      "no_speech_prob": 0.0037935967557132244,
+      "words": [
+        {
+          "word": " Essa",
+          "start": 296.54,
+          "end": 297.68,
+          "probability": 0.5306926965713501
+        },
+        {
+          "word": " modificação",
+          "start": 297.68,
+          "end": 299.22,
+          "probability": 0.9989925026893616
+        },
+        {
+          "word": " de",
+          "start": 299.22,
+          "end": 299.44,
+          "probability": 0.9975812435150146
+        },
+        {
+          "word": " mentalidade",
+          "start": 299.44,
+          "end": 300.38,
+          "probability": 0.9992075264453888
+        },
+        {
+          "word": " é",
+          "start": 300.38,
+          "end": 301.34,
+          "probability": 0.9695684313774109
+        },
+        {
+          "word": " tanto",
+          "start": 301.34,
+          "end": 301.68,
+          "probability": 0.9969620108604431
+        },
+        {
+          "word": " mais",
+          "start": 301.68,
+          "end": 302.2,
+          "probability": 0.9992936849594116
+        },
+        {
+          "word": " imperiosa",
+          "start": 302.2,
+          "end": 303.08,
+          "probability": 0.991236686706543
+        },
+        {
+          "word": " e",
+          "start": 303.08,
+          "end": 303.78,
+          "probability": 0.9901173710823059
+        },
+        {
+          "word": " fácil",
+          "start": 303.78,
+          "end": 304.38,
+          "probability": 0.9967339038848877
+        },
+        {
+          "word": " de",
+          "start": 304.38,
+          "end": 304.72,
+          "probability": 0.9998049139976501
+        },
+        {
+          "word": " apreender",
+          "start": 304.72,
+          "end": 305.28,
+          "probability": 0.8258936703205109
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "seek": 29522,
+      "start": 305.28,
+      "end": 314.58,
+      "text": " quando se considera a rapidez das transformações da vida econômica e a revisão do próprio conceito de capital",
+      "tokens": [
+        50886,
+        7770,
+        369,
+        1949,
+        64,
+        257,
+        5099,
+        45170,
+        1482,
+        4088,
+        17971,
+        1120,
+        7644,
+        23692,
+        25670,
+        2262,
+        308,
+        257,
+        20767,
+        1076,
+        360,
+        36394,
+        10413,
+        3528,
+        368,
+        4238,
+        51354
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12467131614685059,
+      "compression_ratio": 1.4976076555023923,
+      "no_speech_prob": 0.0037935967557132244,
+      "words": [
+        {
+          "word": " quando",
+          "start": 305.28,
+          "end": 306.36,
+          "probability": 0.9368292689323425
+        },
+        {
+          "word": " se",
+          "start": 306.36,
+          "end": 306.7,
+          "probability": 0.9997326731681824
+        },
+        {
+          "word": " considera",
+          "start": 306.7,
+          "end": 307.8,
+          "probability": 0.9993993937969208
+        },
+        {
+          "word": " a",
+          "start": 307.8,
+          "end": 308.28,
+          "probability": 0.999636173248291
+        },
+        {
+          "word": " rapidez",
+          "start": 308.28,
+          "end": 308.74,
+          "probability": 0.9992977976799011
+        },
+        {
+          "word": " das",
+          "start": 308.74,
+          "end": 309.16,
+          "probability": 0.9991744160652161
+        },
+        {
+          "word": " transformações",
+          "start": 309.16,
+          "end": 310.2,
+          "probability": 0.9998159408569336
+        },
+        {
+          "word": " da",
+          "start": 310.2,
+          "end": 310.3,
+          "probability": 0.9956996440887451
+        },
+        {
+          "word": " vida",
+          "start": 310.3,
+          "end": 310.52,
+          "probability": 0.9998427629470825
+        },
+        {
+          "word": " econômica",
+          "start": 310.52,
+          "end": 311.26,
+          "probability": 0.9996108015378317
+        },
+        {
+          "word": " e",
+          "start": 311.26,
+          "end": 311.94,
+          "probability": 0.9955477714538574
+        },
+        {
+          "word": " a",
+          "start": 311.94,
+          "end": 312.06,
+          "probability": 0.9995383024215698
+        },
+        {
+          "word": " revisão",
+          "start": 312.06,
+          "end": 312.76,
+          "probability": 0.999588817358017
+        },
+        {
+          "word": " do",
+          "start": 312.76,
+          "end": 312.94,
+          "probability": 0.9997851252555847
+        },
+        {
+          "word": " próprio",
+          "start": 312.94,
+          "end": 313.32,
+          "probability": 0.9993364214897156
+        },
+        {
+          "word": " conceito",
+          "start": 313.32,
+          "end": 314.12,
+          "probability": 0.9997507333755493
+        },
+        {
+          "word": " de",
+          "start": 314.12,
+          "end": 314.26,
+          "probability": 0.9994694590568542
+        },
+        {
+          "word": " capital",
+          "start": 314.26,
+          "end": 314.58,
+          "probability": 0.9982931017875671
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "seek": 29522,
+      "start": 314.58,
+      "end": 325.2,
+      "text": " que deixou de ser simples acumulação de dinheiro para representar energia social concentrada em incessão.",
+      "tokens": [
+        51354,
+        631,
+        9963,
+        263,
+        368,
+        816,
+        21730,
+        41343,
+        3780,
+        2917,
+        368,
+        23760,
+        1690,
+        2906,
+        289,
+        29469,
+        2093,
+        5512,
+        19120,
+        846,
+        294,
+        780,
+        1076,
+        13,
+        51854
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12467131614685059,
+      "compression_ratio": 1.4976076555023923,
+      "no_speech_prob": 0.0037935967557132244,
+      "words": [
+        {
+          "word": " que",
+          "start": 314.58,
+          "end": 315.72,
+          "probability": 0.30194327235221863
+        },
+        {
+          "word": " deixou",
+          "start": 315.72,
+          "end": 316.3,
+          "probability": 0.9997354447841644
+        },
+        {
+          "word": " de",
+          "start": 316.3,
+          "end": 316.44,
+          "probability": 0.9997368454933167
+        },
+        {
+          "word": " ser",
+          "start": 316.44,
+          "end": 316.82,
+          "probability": 0.999718964099884
+        },
+        {
+          "word": " simples",
+          "start": 316.82,
+          "end": 317.8,
+          "probability": 0.9968459010124207
+        },
+        {
+          "word": " acumulação",
+          "start": 317.8,
+          "end": 318.82,
+          "probability": 0.9996653993924459
+        },
+        {
+          "word": " de",
+          "start": 318.82,
+          "end": 319.0,
+          "probability": 0.9997515082359314
+        },
+        {
+          "word": " dinheiro",
+          "start": 319.0,
+          "end": 319.34,
+          "probability": 0.9994478821754456
+        },
+        {
+          "word": " para",
+          "start": 319.34,
+          "end": 320.36,
+          "probability": 0.9968020915985107
+        },
+        {
+          "word": " representar",
+          "start": 320.36,
+          "end": 321.3,
+          "probability": 0.9992612302303314
+        },
+        {
+          "word": " energia",
+          "start": 321.3,
+          "end": 321.54,
+          "probability": 0.9779869914054871
+        },
+        {
+          "word": " social",
+          "start": 321.54,
+          "end": 322.26,
+          "probability": 0.997825562953949
+        },
+        {
+          "word": " concentrada",
+          "start": 322.26,
+          "end": 324.0,
+          "probability": 0.9941377937793732
+        },
+        {
+          "word": " em",
+          "start": 324.0,
+          "end": 324.72,
+          "probability": 0.989194393157959
+        },
+        {
+          "word": " incessão.",
+          "start": 324.72,
+          "end": 325.2,
+          "probability": 0.7227088212966919
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "seek": 32522,
+      "start": 325.22,
+      "end": 326.52,
+      "text": " Tente segundo movimento.",
+      "tokens": [
+        50365,
+        314,
+        1576,
+        17954,
+        40798,
+        13,
+        50448
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.591655985514323,
+      "compression_ratio": 0.8292682926829268,
+      "no_speech_prob": 0.07894104719161987,
+      "words": [
+        {
+          "word": " Tente",
+          "start": 325.22,
+          "end": 325.48,
+          "probability": 0.2789896950125694
+        },
+        {
+          "word": " segundo",
+          "start": 325.48,
+          "end": 325.94,
+          "probability": 0.7013170719146729
+        },
+        {
+          "word": " movimento.",
+          "start": 325.94,
+          "end": 326.52,
+          "probability": 0.9658248424530029
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "seek": 32522,
+      "start": 327.28,
+      "end": 328.28,
+      "text": " Aplausos.",
+      "tokens": [
+        50448,
+        316,
+        564,
+        8463,
+        329,
+        13,
+        50548
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.591655985514323,
+      "compression_ratio": 0.8292682926829268,
+      "no_speech_prob": 0.07894104719161987,
+      "words": [
+        {
+          "word": " Aplausos.",
+          "start": 327.28,
+          "end": 328.28,
+          "probability": 0.7048264779150486
+        }
+      ]
+    }
+  ]
+}

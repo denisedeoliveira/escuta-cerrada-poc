@@ -1,0 +1,5819 @@
+{
+  "faixa": 5,
+  "arquivo": "5. Descobrimento do Brasil.mp4",
+  "condicao": "C",
+  "glossario": false,
+  "filtro": true,
+  "prompt_inicial": null,
+  "modelo": "large-v3",
+  "parametros": {
+    "language": "pt",
+    "word_timestamps": true,
+    "carry_initial_prompt": false,
+    "demais": "valores padrão da biblioteca"
+  },
+  "semente": 0,
+  "versoes": {
+    "openai-whisper": "20250625",
+    "noisereduce": "3.0.3",
+    "librosa": "0.11.0",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130"
+  },
+  "python": "3.13.15",
+  "gpu": "Tesla T4",
+  "data_execucao": "2026-10-09T16:35:25.192909+00:00",
+  "duracao_audio_s": 441.32,
+  "duracao_processamento_s": 122.72,
+  "texto": " E aí E aí E aí E aí É lindo, é linda, mas é saudável Saudáveis Do meu amor, que os salváveis Que saudade, maiores do que este mar. Que saudade. Que saudade. E a terra, por ser pequena, é pequenina. Mas por ser tão pequenina, de longe parece um altar. Diante do qual, companheiros, nós que somos marinheiros, vamos a joelhos rezar. Quando estáis longe, tão longe, oh terras de Portugal. Caminhos da minha aldeia, cheirosos a rosmaninho. Sorte negras do moí, macolas do meu trigal. Moças loiras, divimando. Morenas, roupas lavando, nas pedras do rio, cantando. Cantigas de amor. Cantares. Cantares da minha aldeia natal. Quando estáis longe, de longe, tão longe, tão longe, oh terras de Portugal. Que mares navegamos aqui nestas caravelas, ao vento soltando as velas. Para onde? Tanto Deus. Quem nos dirá? Nem mesmo, nem mesmo, nem mesmo o nosso almirante, o rural da Estadral. Não há isso não, meu amigo. Alguém sabe onde estamos. O rumo que navegamos em busca ao outro ideal. Oh, mas talvez, se as calmarias evitando a todo pano, nos possa levar a um dano irremediável. Fatal. Ou talvez, e ao mais possível, nos comerte a triunfar. Oh, oh, oh. Oh, oh, oh. Não, não, não. Mas que noite estrelajável. Olhai, ali na morada já está Mestre João. Há pouco o iam a farrar-se. E agora vendo-as colar-lhe, as estrelas não cuidam. E bem sabei, eles ficam. O lancelão, o mestrado, a filha do amor, o bacharel, ainda mais, e o guião do nosso rei Manuel. Silêncio. Vem doar-lhe as correias. Silêncio. Demandante do guartel. Silêncio. Boa noite. Silêncio. Silêncio. Silêncio. Silêncio. Senhor ambiente, a madrugada rompe, Olhai, Senhor, como no entanto, Na linha do horizonte, ali, Senhor, ali, Olhai como ainda reluz, Em cinco estrelas brancas, iluminada a cruz. Onde, Mestre João? Ali, Senhor almirante, não vê. Onde? Onde, Mestre João? Ali, Frei Henrique, ali, Frei Henrique. Ah, já vi, já vi, com toda a nitidez, A cruz, a cruz de Cristo. Cristo, bendito seja Deus que assim te seja, E vendo-te brilhar, ó cruz, Sobre as ondas revoltas, na paz do céu, Tão radiosa e calma, minha alma se ajoelha, E sinto dentro d'alma, numa bênção estelar, A alma de Jesus. O Cruzeiro, um eterno símbolo, No azul, a sinala, na terra, Eternamente o Sul. Senhor almirante, Senhor almirante. Olhai. Pela proa a este bordo, No claro horizonte, Sem dúvida, Senhor, desta sombra de um monte, As fergatas do mar passam a sua implante. Vejo ele, a ver. Sem dúvida, Senhor, desta sombra de um monte, Ali, Senhor. Eis, vato, por Deus, a que rumo, Quem sabe onde a providência nos levará, Aonde, sem enriquecer. É ter paciência, que é virtude cristã, Já por nós ensaiada. Sem ela, longe é o céu, E a terra é quase nada. O monte, o monte. Hoje é um dia de fé, É a Páscoa do Senhor. Oremos, pois, que a ele, Em nosso imenso amor, Agradeçamos ver, talvez, A terra ocidental. E esse monte, Que é surgido, Seja um monte pascual.",
+  "segmentos": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.44,
+      "text": " E aí",
+      "tokens": [
+        50365,
+        462,
+        7461,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8442203521728515,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.8477551937103271,
+      "words": [
+        {
+          "word": " E",
+          "start": 0.0,
+          "end": 0.78,
+          "probability": 0.285754919052124
+        },
+        {
+          "word": " aí",
+          "start": 0.78,
+          "end": 4.44,
+          "probability": 0.9835521578788757
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 3000,
+      "start": 30.560000000000002,
+      "end": 33.14,
+      "text": " E aí",
+      "tokens": [
+        50365,
+        462,
+        7461,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23509624004364013,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.025723077356815338,
+      "words": [
+        {
+          "word": " E",
+          "start": 30.560000000000002,
+          "end": 31.96,
+          "probability": 0.2913443446159363
+        },
+        {
+          "word": " aí",
+          "start": 31.96,
+          "end": 33.14,
+          "probability": 0.9871610403060913
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 6000,
+      "start": 60.440000000000005,
+      "end": 63.24,
+      "text": " E aí",
+      "tokens": [
+        50365,
+        462,
+        7461,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7198245048522949,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.028623826801776886,
+      "words": [
+        {
+          "word": " E",
+          "start": 60.440000000000005,
+          "end": 61.84,
+          "probability": 0.32738545536994934
+        },
+        {
+          "word": " aí",
+          "start": 61.84,
+          "end": 63.24,
+          "probability": 0.9840150475502014
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 9000,
+      "start": 91.44,
+      "end": 93.76,
+      "text": " E aí",
+      "tokens": [
+        50365,
+        462,
+        7461,
+        50465
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7997383348869554,
+      "compression_ratio": 1.0909090909090908,
+      "no_speech_prob": 0.0031970555428415537,
+      "words": [
+        {
+          "word": " E",
+          "start": 91.44,
+          "end": 92.6,
+          "probability": 0.008055493235588074
+        },
+        {
+          "word": " aí",
+          "start": 92.6,
+          "end": 93.76,
+          "probability": 0.786535918712616
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 9000,
+      "start": 111.24000000000001,
+      "end": 115.82,
+      "text": " É lindo, é linda, mas é saudável",
+      "tokens": [
+        50651,
+        4922,
+        48436,
+        11,
+        1136,
+        287,
+        6837,
+        11,
+        2300,
+        1136,
+        47863,
+        20224,
+        51662
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7997383348869554,
+      "compression_ratio": 1.0909090909090908,
+      "no_speech_prob": 0.0031970555428415537,
+      "words": [
+        {
+          "word": " É",
+          "start": 111.24000000000001,
+          "end": 112.4,
+          "probability": 0.15900123119354248
+        },
+        {
+          "word": " lindo,",
+          "start": 112.4,
+          "end": 112.9,
+          "probability": 0.6241527795791626
+        },
+        {
+          "word": " é",
+          "start": 113.06,
+          "end": 113.7,
+          "probability": 0.9901066422462463
+        },
+        {
+          "word": " linda,",
+          "start": 113.7,
+          "end": 114.28,
+          "probability": 0.6915903687477112
+        },
+        {
+          "word": " mas",
+          "start": 114.38,
+          "end": 114.96,
+          "probability": 0.9954198598861694
+        },
+        {
+          "word": " é",
+          "start": 114.96,
+          "end": 115.12,
+          "probability": 0.99543696641922
+        },
+        {
+          "word": " saudável",
+          "start": 115.12,
+          "end": 115.82,
+          "probability": 0.8523124158382416
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 9000,
+      "start": 115.82,
+      "end": 117.16,
+      "text": " Saudáveis",
+      "tokens": [
+        51662,
+        15717,
+        42530,
+        51728
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7997383348869554,
+      "compression_ratio": 1.0909090909090908,
+      "no_speech_prob": 0.0031970555428415537,
+      "words": [
+        {
+          "word": " Saudáveis",
+          "start": 115.82,
+          "end": 117.16,
+          "probability": 0.27449483377858996
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 9000,
+      "start": 117.16,
+      "end": 119.26,
+      "text": " Do meu amor, que os salváveis",
+      "tokens": [
+        51728,
+        1144,
+        9230,
+        15543,
+        11,
+        631,
+        3003,
+        26858,
+        42530,
+        51828
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.7997383348869554,
+      "compression_ratio": 1.0909090909090908,
+      "no_speech_prob": 0.0031970555428415537,
+      "words": [
+        {
+          "word": " Do",
+          "start": 117.16,
+          "end": 117.96,
+          "probability": 0.0401381254196167
+        },
+        {
+          "word": " meu",
+          "start": 117.96,
+          "end": 118.18,
+          "probability": 0.999531626701355
+        },
+        {
+          "word": " amor,",
+          "start": 118.18,
+          "end": 118.66,
+          "probability": 0.996349573135376
+        },
+        {
+          "word": " que",
+          "start": 118.66,
+          "end": 118.82,
+          "probability": 0.39481303095817566
+        },
+        {
+          "word": " os",
+          "start": 118.82,
+          "end": 118.92,
+          "probability": 0.5210045576095581
+        },
+        {
+          "word": " salváveis",
+          "start": 118.92,
+          "end": 119.5,
+          "probability": 0.5445167571306229
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 11950,
+      "start": 119.5,
+      "end": 122.12,
+      "text": " Que saudade, maiores do que este mar.",
+      "tokens": [
+        50365,
+        4493,
+        47863,
+        762,
+        11,
+        12698,
+        2706,
+        360,
+        631,
+        4065,
+        1849,
+        13,
+        50517
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3629570680506089,
+      "compression_ratio": 1.5286624203821657,
+      "no_speech_prob": 0.3737489879131317,
+      "words": [
+        {
+          "word": " Que",
+          "start": 119.5,
+          "end": 119.86,
+          "probability": 0.12743179500102997
+        },
+        {
+          "word": " saudade,",
+          "start": 119.86,
+          "end": 119.86,
+          "probability": 0.8880580365657806
+        },
+        {
+          "word": " maiores",
+          "start": 119.86,
+          "end": 121.34,
+          "probability": 0.7787055671215057
+        },
+        {
+          "word": " do",
+          "start": 121.34,
+          "end": 121.5,
+          "probability": 0.9353967308998108
+        },
+        {
+          "word": " que",
+          "start": 121.5,
+          "end": 121.64,
+          "probability": 0.9978175163269043
+        },
+        {
+          "word": " este",
+          "start": 121.64,
+          "end": 121.86,
+          "probability": 0.786173939704895
+        },
+        {
+          "word": " mar.",
+          "start": 121.86,
+          "end": 122.12,
+          "probability": 0.9395776987075806
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 11950,
+      "start": 122.56,
+      "end": 123.84,
+      "text": " Que saudade.",
+      "tokens": [
+        50543,
+        4493,
+        47863,
+        762,
+        13,
+        50585
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3629570680506089,
+      "compression_ratio": 1.5286624203821657,
+      "no_speech_prob": 0.3737489879131317,
+      "words": [
+        {
+          "word": " Que",
+          "start": 122.56,
+          "end": 122.9,
+          "probability": 0.46566808223724365
+        },
+        {
+          "word": " saudade.",
+          "start": 122.9,
+          "end": 123.84,
+          "probability": 0.989064633846283
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 11950,
+      "start": 125.34,
+      "end": 127.02,
+      "text": " Que saudade.",
+      "tokens": [
+        50645,
+        4493,
+        47863,
+        762,
+        13,
+        50743
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3629570680506089,
+      "compression_ratio": 1.5286624203821657,
+      "no_speech_prob": 0.3737489879131317,
+      "words": [
+        {
+          "word": " Que",
+          "start": 125.34,
+          "end": 126.18,
+          "probability": 0.9746856689453125
+        },
+        {
+          "word": " saudade.",
+          "start": 126.18,
+          "end": 127.02,
+          "probability": 0.9950219690799713
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 11950,
+      "start": 127.1,
+      "end": 131.96,
+      "text": " E a terra, por ser pequena, é pequenina.",
+      "tokens": [
+        50789,
+        462,
+        257,
+        26298,
+        11,
+        1515,
+        816,
+        26758,
+        4118,
+        11,
+        1136,
+        26758,
+        268,
+        1426,
+        13,
+        51004
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3629570680506089,
+      "compression_ratio": 1.5286624203821657,
+      "no_speech_prob": 0.3737489879131317,
+      "words": [
+        {
+          "word": " E",
+          "start": 127.1,
+          "end": 127.94,
+          "probability": 0.647771418094635
+        },
+        {
+          "word": " a",
+          "start": 127.94,
+          "end": 128.06,
+          "probability": 0.9979404807090759
+        },
+        {
+          "word": " terra,",
+          "start": 128.06,
+          "end": 128.72,
+          "probability": 0.9704799056053162
+        },
+        {
+          "word": " por",
+          "start": 128.76,
+          "end": 128.96,
+          "probability": 0.9992952346801758
+        },
+        {
+          "word": " ser",
+          "start": 128.96,
+          "end": 129.22,
+          "probability": 0.9986069798469543
+        },
+        {
+          "word": " pequena,",
+          "start": 129.22,
+          "end": 130.14,
+          "probability": 0.9994244575500488
+        },
+        {
+          "word": " é",
+          "start": 130.22,
+          "end": 131.06,
+          "probability": 0.9470382332801819
+        },
+        {
+          "word": " pequenina.",
+          "start": 131.06,
+          "end": 131.96,
+          "probability": 0.9732204675674438
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 11950,
+      "start": 132.3,
+      "end": 137.44,
+      "text": " Mas por ser tão pequenina, de longe parece um altar.",
+      "tokens": [
+        51029,
+        5224,
+        1515,
+        816,
+        18012,
+        26758,
+        268,
+        1426,
+        11,
+        368,
+        26052,
+        14120,
+        1105,
+        31435,
+        13,
+        51279
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3629570680506089,
+      "compression_ratio": 1.5286624203821657,
+      "no_speech_prob": 0.3737489879131317,
+      "words": [
+        {
+          "word": " Mas",
+          "start": 132.3,
+          "end": 132.86,
+          "probability": 0.9765411019325256
+        },
+        {
+          "word": " por",
+          "start": 132.86,
+          "end": 132.96,
+          "probability": 0.8317520618438721
+        },
+        {
+          "word": " ser",
+          "start": 132.96,
+          "end": 133.44,
+          "probability": 0.9998910427093506
+        },
+        {
+          "word": " tão",
+          "start": 133.44,
+          "end": 133.96,
+          "probability": 0.9994608759880066
+        },
+        {
+          "word": " pequenina,",
+          "start": 133.96,
+          "end": 135.18,
+          "probability": 0.9997276465098063
+        },
+        {
+          "word": " de",
+          "start": 135.24,
+          "end": 135.7,
+          "probability": 0.8251923322677612
+        },
+        {
+          "word": " longe",
+          "start": 135.7,
+          "end": 136.16,
+          "probability": 0.9883342981338501
+        },
+        {
+          "word": " parece",
+          "start": 136.16,
+          "end": 136.76,
+          "probability": 0.9853708744049072
+        },
+        {
+          "word": " um",
+          "start": 136.76,
+          "end": 137.18,
+          "probability": 0.9905012845993042
+        },
+        {
+          "word": " altar.",
+          "start": 137.18,
+          "end": 137.44,
+          "probability": 0.9945558309555054
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 11950,
+      "start": 137.86,
+      "end": 144.7,
+      "text": " Diante do qual, companheiros, nós que somos marinheiros, vamos a joelhos rezar.",
+      "tokens": [
+        51304,
+        8789,
+        2879,
+        360,
+        4101,
+        11,
+        3168,
+        675,
+        21633,
+        11,
+        9738,
+        631,
+        25244,
+        34652,
+        675,
+        21633,
+        11,
+        5295,
+        257,
+        1488,
+        338,
+        17631,
+        319,
+        26236,
+        13,
+        51640
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3629570680506089,
+      "compression_ratio": 1.5286624203821657,
+      "no_speech_prob": 0.3737489879131317,
+      "words": [
+        {
+          "word": " Diante",
+          "start": 137.86,
+          "end": 138.46,
+          "probability": 0.7880999743938446
+        },
+        {
+          "word": " do",
+          "start": 138.46,
+          "end": 138.6,
+          "probability": 0.8895840644836426
+        },
+        {
+          "word": " qual,",
+          "start": 138.6,
+          "end": 138.9,
+          "probability": 0.9914929270744324
+        },
+        {
+          "word": " companheiros,",
+          "start": 138.98,
+          "end": 139.96,
+          "probability": 0.987695594628652
+        },
+        {
+          "word": " nós",
+          "start": 140.2,
+          "end": 140.66,
+          "probability": 0.998121440410614
+        },
+        {
+          "word": " que",
+          "start": 140.66,
+          "end": 140.86,
+          "probability": 0.9915697574615479
+        },
+        {
+          "word": " somos",
+          "start": 140.86,
+          "end": 141.18,
+          "probability": 0.9998792409896851
+        },
+        {
+          "word": " marinheiros,",
+          "start": 141.18,
+          "end": 142.26,
+          "probability": 0.9950722455978394
+        },
+        {
+          "word": " vamos",
+          "start": 142.38,
+          "end": 143.0,
+          "probability": 0.9908592104911804
+        },
+        {
+          "word": " a",
+          "start": 143.0,
+          "end": 143.18,
+          "probability": 0.35848015546798706
+        },
+        {
+          "word": " joelhos",
+          "start": 143.18,
+          "end": 144.0,
+          "probability": 0.9625069499015808
+        },
+        {
+          "word": " rezar.",
+          "start": 144.0,
+          "end": 144.7,
+          "probability": 0.8591116070747375
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 14470,
+      "start": 144.7,
+      "end": 151.66,
+      "text": " Quando estáis longe, tão longe, oh terras de Portugal.",
+      "tokens": [
+        50365,
+        18725,
+        3192,
+        271,
+        26052,
+        11,
+        18012,
+        26052,
+        11,
+        1954,
+        1796,
+        3906,
+        368,
+        23011,
+        13,
+        50715
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32452294940040227,
+      "compression_ratio": 1.434782608695652,
+      "no_speech_prob": 0.0001609188038855791,
+      "words": [
+        {
+          "word": " Quando",
+          "start": 144.7,
+          "end": 145.72,
+          "probability": 0.1717878133058548
+        },
+        {
+          "word": " estáis",
+          "start": 145.72,
+          "end": 146.26,
+          "probability": 0.5990063697099686
+        },
+        {
+          "word": " longe,",
+          "start": 146.26,
+          "end": 146.62,
+          "probability": 0.9872931241989136
+        },
+        {
+          "word": " tão",
+          "start": 146.98,
+          "end": 148.02,
+          "probability": 0.9915949702262878
+        },
+        {
+          "word": " longe,",
+          "start": 148.02,
+          "end": 148.9,
+          "probability": 0.9992839694023132
+        },
+        {
+          "word": " oh",
+          "start": 149.1,
+          "end": 149.82,
+          "probability": 0.3360094726085663
+        },
+        {
+          "word": " terras",
+          "start": 149.82,
+          "end": 151.06,
+          "probability": 0.7579777836799622
+        },
+        {
+          "word": " de",
+          "start": 151.06,
+          "end": 151.24,
+          "probability": 0.9898294806480408
+        },
+        {
+          "word": " Portugal.",
+          "start": 151.24,
+          "end": 151.66,
+          "probability": 0.9939636588096619
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 14470,
+      "start": 152.34,
+      "end": 156.58,
+      "text": " Caminhos da minha aldeia, cheirosos a rosmaninho.",
+      "tokens": [
+        50768,
+        6886,
+        29140,
+        1120,
+        11720,
+        16798,
+        68,
+        654,
+        11,
+        947,
+        21633,
+        329,
+        257,
+        18953,
+        1601,
+        7775,
+        13,
+        50971
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32452294940040227,
+      "compression_ratio": 1.434782608695652,
+      "no_speech_prob": 0.0001609188038855791,
+      "words": [
+        {
+          "word": " Caminhos",
+          "start": 152.34,
+          "end": 153.2,
+          "probability": 0.7995987832546234
+        },
+        {
+          "word": " da",
+          "start": 153.2,
+          "end": 153.54,
+          "probability": 0.993518054485321
+        },
+        {
+          "word": " minha",
+          "start": 153.54,
+          "end": 153.74,
+          "probability": 0.9994626641273499
+        },
+        {
+          "word": " aldeia,",
+          "start": 153.74,
+          "end": 154.68,
+          "probability": 0.9996773600578308
+        },
+        {
+          "word": " cheirosos",
+          "start": 154.74,
+          "end": 155.72,
+          "probability": 0.999449094136556
+        },
+        {
+          "word": " a",
+          "start": 155.72,
+          "end": 155.84,
+          "probability": 0.8488335013389587
+        },
+        {
+          "word": " rosmaninho.",
+          "start": 155.84,
+          "end": 156.58,
+          "probability": 0.7364020844300588
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 14470,
+      "start": 157.72,
+      "end": 161.44,
+      "text": " Sorte negras do moí, macolas do meu trigal.",
+      "tokens": [
+        51016,
+        318,
+        12752,
+        408,
+        861,
+        296,
+        360,
+        705,
+        870,
+        11,
+        7912,
+        14104,
+        360,
+        9230,
+        35386,
+        304,
+        13,
+        51219
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32452294940040227,
+      "compression_ratio": 1.434782608695652,
+      "no_speech_prob": 0.0001609188038855791,
+      "words": [
+        {
+          "word": " Sorte",
+          "start": 157.51,
+          "end": 157.94,
+          "probability": 0.3618099242448807
+        },
+        {
+          "word": " negras",
+          "start": 157.94,
+          "end": 158.92,
+          "probability": 0.8702775835990906
+        },
+        {
+          "word": " do",
+          "start": 158.92,
+          "end": 159.06,
+          "probability": 0.9497815370559692
+        },
+        {
+          "word": " moí,",
+          "start": 159.06,
+          "end": 159.36,
+          "probability": 0.654082790017128
+        },
+        {
+          "word": " macolas",
+          "start": 159.6,
+          "end": 160.52,
+          "probability": 0.7905382513999939
+        },
+        {
+          "word": " do",
+          "start": 160.52,
+          "end": 160.86,
+          "probability": 0.9956845045089722
+        },
+        {
+          "word": " meu",
+          "start": 160.86,
+          "end": 161.0,
+          "probability": 0.9984492063522339
+        },
+        {
+          "word": " trigal.",
+          "start": 161.0,
+          "end": 161.44,
+          "probability": 0.7617504894733429
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 14470,
+      "start": 161.78,
+      "end": 164.0,
+      "text": " Moças loiras, divimando.",
+      "tokens": [
+        51240,
+        3335,
+        20016,
+        450,
+        23342,
+        11,
+        3414,
+        332,
+        1806,
+        13,
+        51336
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32452294940040227,
+      "compression_ratio": 1.434782608695652,
+      "no_speech_prob": 0.0001609188038855791,
+      "words": [
+        {
+          "word": " Moças",
+          "start": 161.78,
+          "end": 162.58,
+          "probability": 0.9955395460128784
+        },
+        {
+          "word": " loiras,",
+          "start": 162.58,
+          "end": 163.14,
+          "probability": 0.9944271743297577
+        },
+        {
+          "word": " divimando.",
+          "start": 163.2,
+          "end": 164.0,
+          "probability": 0.6655624806880951
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 14470,
+      "start": 164.24,
+      "end": 169.22,
+      "text": " Morenas, roupas lavando, nas pedras do rio, cantando.",
+      "tokens": [
+        51363,
+        5048,
+        18979,
+        11,
+        48485,
+        296,
+        20923,
+        1806,
+        11,
+        5382,
+        5670,
+        3906,
+        360,
+        367,
+        1004,
+        11,
+        11223,
+        1806,
+        13,
+        51603
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32452294940040227,
+      "compression_ratio": 1.434782608695652,
+      "no_speech_prob": 0.0001609188038855791,
+      "words": [
+        {
+          "word": " Morenas,",
+          "start": 164.24,
+          "end": 165.08,
+          "probability": 0.9869741201400757
+        },
+        {
+          "word": " roupas",
+          "start": 165.12,
+          "end": 165.74,
+          "probability": 0.9955300390720367
+        },
+        {
+          "word": " lavando,",
+          "start": 165.74,
+          "end": 166.3,
+          "probability": 0.9874471426010132
+        },
+        {
+          "word": " nas",
+          "start": 166.32,
+          "end": 166.46,
+          "probability": 0.9963248372077942
+        },
+        {
+          "word": " pedras",
+          "start": 166.46,
+          "end": 166.9,
+          "probability": 0.8914002180099487
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 167.0,
+          "probability": 0.6911104321479797
+        },
+        {
+          "word": " rio,",
+          "start": 167.0,
+          "end": 167.32,
+          "probability": 0.9779161810874939
+        },
+        {
+          "word": " cantando.",
+          "start": 167.74,
+          "end": 169.22,
+          "probability": 0.9984369575977325
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 17470,
+      "start": 174.79999999999998,
+      "end": 176.04,
+      "text": " Cantigas de amor.",
+      "tokens": [
+        50365,
+        26697,
+        328,
+        296,
+        368,
+        15543,
+        13,
+        50448
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Cantigas",
+          "start": 174.79999999999998,
+          "end": 175.66,
+          "probability": 0.6546590328216553
+        },
+        {
+          "word": " de",
+          "start": 175.66,
+          "end": 175.8,
+          "probability": 0.8138356804847717
+        },
+        {
+          "word": " amor.",
+          "start": 175.8,
+          "end": 176.04,
+          "probability": 0.9390972256660461
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 17470,
+      "start": 179.3,
+      "end": 180.16,
+      "text": " Cantares.",
+      "tokens": [
+        50593,
+        383,
+        5983,
+        495,
+        13,
+        50644
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Cantares.",
+          "start": 179.3,
+          "end": 180.16,
+          "probability": 0.8338255683581034
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 17470,
+      "start": 182.64,
+      "end": 185.24,
+      "text": " Cantares da minha aldeia natal.",
+      "tokens": [
+        50755,
+        383,
+        5983,
+        495,
+        1120,
+        11720,
+        16798,
+        68,
+        654,
+        2249,
+        304,
+        13,
+        50895
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Cantares",
+          "start": 182.64,
+          "end": 183.5,
+          "probability": 0.996279795964559
+        },
+        {
+          "word": " da",
+          "start": 183.5,
+          "end": 183.7,
+          "probability": 0.960474967956543
+        },
+        {
+          "word": " minha",
+          "start": 183.7,
+          "end": 183.88,
+          "probability": 0.9971418976783752
+        },
+        {
+          "word": " aldeia",
+          "start": 183.88,
+          "end": 184.5,
+          "probability": 0.9975523948669434
+        },
+        {
+          "word": " natal.",
+          "start": 184.5,
+          "end": 185.24,
+          "probability": 0.9892050325870514
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 17470,
+      "start": 185.28,
+      "end": 193.86,
+      "text": " Quando estáis longe, de longe, tão longe, tão longe, oh terras de Portugal.",
+      "tokens": [
+        50911,
+        18725,
+        3192,
+        271,
+        26052,
+        11,
+        368,
+        26052,
+        11,
+        18012,
+        26052,
+        11,
+        18012,
+        26052,
+        11,
+        1954,
+        1796,
+        3906,
+        368,
+        23011,
+        13,
+        51345
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Quando",
+          "start": 185.28,
+          "end": 185.64,
+          "probability": 0.003048519603908062
+        },
+        {
+          "word": " estáis",
+          "start": 185.64,
+          "end": 186.1,
+          "probability": 0.6696831285953522
+        },
+        {
+          "word": " longe,",
+          "start": 186.1,
+          "end": 186.5,
+          "probability": 0.9993498921394348
+        },
+        {
+          "word": " de",
+          "start": 186.64,
+          "end": 186.76,
+          "probability": 0.08926915377378464
+        },
+        {
+          "word": " longe,",
+          "start": 186.76,
+          "end": 187.18,
+          "probability": 8.530557533958927e-05
+        },
+        {
+          "word": " tão",
+          "start": 188.74,
+          "end": 189.38,
+          "probability": 0.7204596400260925
+        },
+        {
+          "word": " longe,",
+          "start": 189.38,
+          "end": 189.98,
+          "probability": 0.9997966885566711
+        },
+        {
+          "word": " tão",
+          "start": 190.38,
+          "end": 190.82,
+          "probability": 0.9954332113265991
+        },
+        {
+          "word": " longe,",
+          "start": 190.82,
+          "end": 191.68,
+          "probability": 0.9996622800827026
+        },
+        {
+          "word": " oh",
+          "start": 191.82,
+          "end": 192.28,
+          "probability": 0.17647522687911987
+        },
+        {
+          "word": " terras",
+          "start": 192.28,
+          "end": 193.28,
+          "probability": 0.46313579636625946
+        },
+        {
+          "word": " de",
+          "start": 193.28,
+          "end": 193.48,
+          "probability": 0.8872395753860474
+        },
+        {
+          "word": " Portugal.",
+          "start": 193.48,
+          "end": 193.86,
+          "probability": 0.9899498224258423
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 17470,
+      "start": 194.56,
+      "end": 199.7,
+      "text": " Que mares navegamos aqui nestas caravelas, ao vento soltando as velas.",
+      "tokens": [
+        51345,
+        4493,
+        463,
+        495,
+        39376,
+        70,
+        2151,
+        3871,
+        15646,
+        296,
+        10962,
+        779,
+        296,
+        11,
+        8130,
+        6931,
+        78,
+        1404,
+        83,
+        1806,
+        382,
+        14610,
+        296,
+        13,
+        51595
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Que",
+          "start": 194.56,
+          "end": 194.94,
+          "probability": 0.7904737591743469
+        },
+        {
+          "word": " mares",
+          "start": 194.94,
+          "end": 195.4,
+          "probability": 0.9716428518295288
+        },
+        {
+          "word": " navegamos",
+          "start": 195.4,
+          "end": 196.08,
+          "probability": 0.9985194802284241
+        },
+        {
+          "word": " aqui",
+          "start": 196.08,
+          "end": 196.4,
+          "probability": 0.8866268396377563
+        },
+        {
+          "word": " nestas",
+          "start": 196.4,
+          "end": 196.9,
+          "probability": 0.9939557313919067
+        },
+        {
+          "word": " caravelas,",
+          "start": 196.9,
+          "end": 197.72,
+          "probability": 0.8803818225860596
+        },
+        {
+          "word": " ao",
+          "start": 197.72,
+          "end": 198.08,
+          "probability": 0.897809624671936
+        },
+        {
+          "word": " vento",
+          "start": 198.08,
+          "end": 198.54,
+          "probability": 0.997869074344635
+        },
+        {
+          "word": " soltando",
+          "start": 198.54,
+          "end": 198.98,
+          "probability": 0.9904857277870178
+        },
+        {
+          "word": " as",
+          "start": 198.98,
+          "end": 199.12,
+          "probability": 0.998172402381897
+        },
+        {
+          "word": " velas.",
+          "start": 199.12,
+          "end": 199.7,
+          "probability": 0.9822651445865631
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 17470,
+      "start": 200.39999999999998,
+      "end": 200.98,
+      "text": " Para onde?",
+      "tokens": [
+        51650,
+        11107,
+        14396,
+        30,
+        51686
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Para",
+          "start": 200.03,
+          "end": 200.46,
+          "probability": 0.9985315799713135
+        },
+        {
+          "word": " onde?",
+          "start": 200.46,
+          "end": 200.98,
+          "probability": 0.9987047910690308
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 17470,
+      "start": 201.83999999999997,
+      "end": 202.52,
+      "text": " Tanto Deus.",
+      "tokens": [
+        51722,
+        314,
+        5857,
+        15057,
+        13,
+        51770
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Tanto",
+          "start": 201.65,
+          "end": 202.08,
+          "probability": 0.47739066556096077
+        },
+        {
+          "word": " Deus.",
+          "start": 202.08,
+          "end": 202.52,
+          "probability": 0.6483378410339355
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 17470,
+      "start": 203.56,
+      "end": 204.26,
+      "text": " Quem nos dirá?",
+      "tokens": [
+        51808,
+        32342,
+        3269,
+        4746,
+        842,
+        30,
+        51857
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34595501807428175,
+      "compression_ratio": 1.5308641975308641,
+      "no_speech_prob": 8.883676491677761e-05,
+      "words": [
+        {
+          "word": " Quem",
+          "start": 203.23,
+          "end": 203.66,
+          "probability": 0.9743630290031433
+        },
+        {
+          "word": " nos",
+          "start": 203.66,
+          "end": 203.92,
+          "probability": 0.4644143879413605
+        },
+        {
+          "word": " dirá?",
+          "start": 203.92,
+          "end": 204.26,
+          "probability": 0.9621560573577881
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 20470,
+      "start": 204.7,
+      "end": 211.52,
+      "text": " Nem mesmo, nem mesmo, nem mesmo o nosso almirante, o rural da Estadral.",
+      "tokens": [
+        50365,
+        22210,
+        9082,
+        11,
+        9939,
+        9082,
+        11,
+        9939,
+        9082,
+        277,
+        14347,
+        18667,
+        347,
+        2879,
+        11,
+        277,
+        11165,
+        1120,
+        4410,
+        345,
+        2155,
+        13,
+        50715
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Nem",
+          "start": 204.7,
+          "end": 205.28,
+          "probability": 0.13399791717529297
+        },
+        {
+          "word": " mesmo,",
+          "start": 205.28,
+          "end": 205.58,
+          "probability": 0.7683635354042053
+        },
+        {
+          "word": " nem",
+          "start": 205.58,
+          "end": 206.36,
+          "probability": 0.926800012588501
+        },
+        {
+          "word": " mesmo,",
+          "start": 206.36,
+          "end": 206.78,
+          "probability": 0.9906237721443176
+        },
+        {
+          "word": " nem",
+          "start": 206.98,
+          "end": 207.84,
+          "probability": 0.412729412317276
+        },
+        {
+          "word": " mesmo",
+          "start": 207.84,
+          "end": 208.44,
+          "probability": 0.981278657913208
+        },
+        {
+          "word": " o",
+          "start": 208.44,
+          "end": 208.62,
+          "probability": 0.5391481518745422
+        },
+        {
+          "word": " nosso",
+          "start": 208.62,
+          "end": 208.84,
+          "probability": 0.9721271991729736
+        },
+        {
+          "word": " almirante,",
+          "start": 208.84,
+          "end": 209.72,
+          "probability": 0.8510207732518514
+        },
+        {
+          "word": " o",
+          "start": 209.8,
+          "end": 210.34,
+          "probability": 0.3134368062019348
+        },
+        {
+          "word": " rural",
+          "start": 210.34,
+          "end": 210.74,
+          "probability": 0.08636776357889175
+        },
+        {
+          "word": " da",
+          "start": 210.74,
+          "end": 211.02,
+          "probability": 0.2005326896905899
+        },
+        {
+          "word": " Estadral.",
+          "start": 211.02,
+          "end": 211.52,
+          "probability": 0.8050429026285807
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 20470,
+      "start": 211.74,
+      "end": 213.2,
+      "text": " Não há isso não, meu amigo.",
+      "tokens": [
+        50726,
+        8010,
+        16448,
+        4616,
+        2431,
+        11,
+        9230,
+        24671,
+        13,
+        50800
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Não",
+          "start": 211.74,
+          "end": 211.9,
+          "probability": 0.22598925232887268
+        },
+        {
+          "word": " há",
+          "start": 211.9,
+          "end": 212.1,
+          "probability": 0.6472174525260925
+        },
+        {
+          "word": " isso",
+          "start": 212.1,
+          "end": 212.26,
+          "probability": 0.5760430693626404
+        },
+        {
+          "word": " não,",
+          "start": 212.26,
+          "end": 212.58,
+          "probability": 0.9637494087219238
+        },
+        {
+          "word": " meu",
+          "start": 212.7,
+          "end": 212.88,
+          "probability": 0.9912142753601074
+        },
+        {
+          "word": " amigo.",
+          "start": 212.88,
+          "end": 213.2,
+          "probability": 0.990639328956604
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 20470,
+      "start": 213.52,
+      "end": 214.78,
+      "text": " Alguém sabe onde estamos.",
+      "tokens": [
+        50820,
+        967,
+        2794,
+        4011,
+        12275,
+        14396,
+        10382,
+        13,
+        50888
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Alguém",
+          "start": 213.52,
+          "end": 214.0,
+          "probability": 0.7544501423835754
+        },
+        {
+          "word": " sabe",
+          "start": 214.0,
+          "end": 214.32,
+          "probability": 0.9678102731704712
+        },
+        {
+          "word": " onde",
+          "start": 214.32,
+          "end": 214.52,
+          "probability": 0.5379075407981873
+        },
+        {
+          "word": " estamos.",
+          "start": 214.52,
+          "end": 214.78,
+          "probability": 0.6630058884620667
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 20470,
+      "start": 215.28,
+      "end": 218.5,
+      "text": " O rumo que navegamos em busca ao outro ideal.",
+      "tokens": [
+        50913,
+        422,
+        8347,
+        78,
+        631,
+        39376,
+        70,
+        2151,
+        846,
+        37492,
+        8130,
+        13170,
+        7157,
+        13,
+        51067
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " O",
+          "start": 215.28,
+          "end": 215.62,
+          "probability": 0.7729226350784302
+        },
+        {
+          "word": " rumo",
+          "start": 215.62,
+          "end": 216.26,
+          "probability": 0.995852142572403
+        },
+        {
+          "word": " que",
+          "start": 216.26,
+          "end": 216.36,
+          "probability": 0.9785323143005371
+        },
+        {
+          "word": " navegamos",
+          "start": 216.36,
+          "end": 217.02,
+          "probability": 0.9983462691307068
+        },
+        {
+          "word": " em",
+          "start": 217.02,
+          "end": 217.32,
+          "probability": 0.9218906164169312
+        },
+        {
+          "word": " busca",
+          "start": 217.32,
+          "end": 217.74,
+          "probability": 0.9992581009864807
+        },
+        {
+          "word": " ao",
+          "start": 217.74,
+          "end": 218.02,
+          "probability": 0.5564799308776855
+        },
+        {
+          "word": " outro",
+          "start": 218.02,
+          "end": 218.2,
+          "probability": 0.915253758430481
+        },
+        {
+          "word": " ideal.",
+          "start": 218.2,
+          "end": 218.5,
+          "probability": 0.9531327486038208
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 20470,
+      "start": 218.86,
+      "end": 225.64,
+      "text": " Oh, mas talvez, se as calmarias evitando a todo pano, nos possa levar a um dano irremediável.",
+      "tokens": [
+        51079,
+        876,
+        11,
+        2300,
+        32320,
+        11,
+        369,
+        382,
+        2104,
+        6209,
+        4609,
+        1073,
+        270,
+        1806,
+        257,
+        5149,
+        2462,
+        78,
+        11,
+        3269,
+        41564,
+        34538,
+        257,
+        1105,
+        3277,
+        78,
+        16014,
+        3130,
+        20224,
+        13,
+        51419
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 218.86,
+          "end": 219.14,
+          "probability": 0.46291089057922363
+        },
+        {
+          "word": " mas",
+          "start": 219.2,
+          "end": 219.52,
+          "probability": 0.9965202808380127
+        },
+        {
+          "word": " talvez,",
+          "start": 219.52,
+          "end": 219.92,
+          "probability": 0.9837943911552429
+        },
+        {
+          "word": " se",
+          "start": 220.32,
+          "end": 220.86,
+          "probability": 0.7290641665458679
+        },
+        {
+          "word": " as",
+          "start": 220.86,
+          "end": 221.0,
+          "probability": 0.910358726978302
+        },
+        {
+          "word": " calmarias",
+          "start": 221.0,
+          "end": 221.64,
+          "probability": 0.8871991634368896
+        },
+        {
+          "word": " evitando",
+          "start": 221.64,
+          "end": 222.16,
+          "probability": 0.939521849155426
+        },
+        {
+          "word": " a",
+          "start": 222.16,
+          "end": 222.28,
+          "probability": 0.9023064970970154
+        },
+        {
+          "word": " todo",
+          "start": 222.28,
+          "end": 222.4,
+          "probability": 0.9241445660591125
+        },
+        {
+          "word": " pano,",
+          "start": 222.4,
+          "end": 223.08,
+          "probability": 0.7334074229001999
+        },
+        {
+          "word": " nos",
+          "start": 223.08,
+          "end": 223.66,
+          "probability": 0.40970781445503235
+        },
+        {
+          "word": " possa",
+          "start": 223.66,
+          "end": 224.06,
+          "probability": 0.8155881762504578
+        },
+        {
+          "word": " levar",
+          "start": 224.06,
+          "end": 224.34,
+          "probability": 0.9990633130073547
+        },
+        {
+          "word": " a",
+          "start": 224.34,
+          "end": 224.52,
+          "probability": 0.9974861145019531
+        },
+        {
+          "word": " um",
+          "start": 224.52,
+          "end": 224.54,
+          "probability": 0.9997562766075134
+        },
+        {
+          "word": " dano",
+          "start": 224.54,
+          "end": 224.98,
+          "probability": 0.8341180086135864
+        },
+        {
+          "word": " irremediável.",
+          "start": 224.98,
+          "end": 225.64,
+          "probability": 0.9983453750610352
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 20470,
+      "start": 226.18,
+      "end": 226.82,
+      "text": " Fatal.",
+      "tokens": [
+        51446,
+        16948,
+        304,
+        13,
+        51473
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Fatal.",
+          "start": 226.18,
+          "end": 226.82,
+          "probability": 0.9918574392795563
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 20470,
+      "start": 226.82,
+      "end": 230.78,
+      "text": " Ou talvez, e ao mais possível, nos comerte a triunfar.",
+      "tokens": [
+        51479,
+        11710,
+        32320,
+        11,
+        308,
+        8130,
+        2420,
+        29322,
+        11,
+        3269,
+        395,
+        10634,
+        257,
+        1376,
+        409,
+        21196,
+        13,
+        51676
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Ou",
+          "start": 226.82,
+          "end": 227.04,
+          "probability": 0.9588111639022827
+        },
+        {
+          "word": " talvez,",
+          "start": 227.04,
+          "end": 227.38,
+          "probability": 0.9934545755386353
+        },
+        {
+          "word": " e",
+          "start": 227.58,
+          "end": 227.88,
+          "probability": 0.7517563104629517
+        },
+        {
+          "word": " ao",
+          "start": 227.88,
+          "end": 228.0,
+          "probability": 0.8785378336906433
+        },
+        {
+          "word": " mais",
+          "start": 228.0,
+          "end": 228.14,
+          "probability": 0.9995741248130798
+        },
+        {
+          "word": " possível,",
+          "start": 228.14,
+          "end": 228.78,
+          "probability": 0.9937543272972107
+        },
+        {
+          "word": " nos",
+          "start": 229.1,
+          "end": 229.44,
+          "probability": 0.6406937837600708
+        },
+        {
+          "word": " comerte",
+          "start": 229.44,
+          "end": 230.02,
+          "probability": 0.36410243809223175
+        },
+        {
+          "word": " a",
+          "start": 230.02,
+          "end": 230.24,
+          "probability": 0.9942144751548767
+        },
+        {
+          "word": " triunfar.",
+          "start": 230.24,
+          "end": 230.78,
+          "probability": 0.9624568223953247
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 20470,
+      "start": 231.16,
+      "end": 232.68,
+      "text": " Oh, oh, oh.",
+      "tokens": [
+        51793,
+        876,
+        11,
+        1954,
+        11,
+        1954,
+        13,
+        51833
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 231.16,
+          "end": 231.36,
+          "probability": 0.026576664298772812
+        },
+        {
+          "word": " oh,",
+          "start": 231.36,
+          "end": 232.1,
+          "probability": 0.2974545657634735
+        },
+        {
+          "word": " oh.",
+          "start": 232.46,
+          "end": 232.68,
+          "probability": 0.9960909485816956
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 20470,
+      "start": 233.1,
+      "end": 233.1,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": []
+    },
+    {
+      "id": 35,
+      "seek": 20470,
+      "start": 234.04000000000002,
+      "end": 234.68,
+      "text": " Oh, oh, oh.",
+      "tokens": [
+        51836,
+        876,
+        11,
+        1954,
+        11,
+        1954,
+        13,
+        51837
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 234.04000000000002,
+          "end": 234.68,
+          "probability": 0.8978750705718994
+        },
+        {
+          "word": " oh,",
+          "start": 234.68,
+          "end": 234.68,
+          "probability": 0.9977444410324097
+        },
+        {
+          "word": " oh.",
+          "start": 234.68,
+          "end": 234.68,
+          "probability": 0.9985785484313965
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 20470,
+      "start": 234.68,
+      "end": 234.68,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": []
+    },
+    {
+      "id": 37,
+      "seek": 20470,
+      "start": 234.68,
+      "end": 234.68,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": []
+    },
+    {
+      "id": 38,
+      "seek": 20470,
+      "start": 234.68,
+      "end": 234.68,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": []
+    },
+    {
+      "id": 39,
+      "seek": 20470,
+      "start": 234.68,
+      "end": 234.68,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": []
+    },
+    {
+      "id": 40,
+      "seek": 20470,
+      "start": 234.68,
+      "end": 234.68,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3626307790929621,
+      "compression_ratio": 1.881578947368421,
+      "no_speech_prob": 0.0009693375905044377,
+      "words": []
+    },
+    {
+      "id": 41,
+      "seek": 23470,
+      "start": 234.7,
+      "end": 235.28,
+      "text": " Não, não, não.",
+      "tokens": [
+        50365,
+        8010,
+        11,
+        2431,
+        11,
+        2431,
+        13,
+        50415
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " Não,",
+          "start": 234.7,
+          "end": 234.7,
+          "probability": 0.0043082814663648605
+        },
+        {
+          "word": " não,",
+          "start": 234.84,
+          "end": 235.14,
+          "probability": 0.03912949562072754
+        },
+        {
+          "word": " não.",
+          "start": 235.14,
+          "end": 235.28,
+          "probability": 0.20246334373950958
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "seek": 23470,
+      "start": 235.88,
+      "end": 238.1,
+      "text": " Mas que noite estrelajável.",
+      "tokens": [
+        50465,
+        5224,
+        631,
+        34429,
+        36665,
+        875,
+        73,
+        20224,
+        13,
+        50515
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " Mas",
+          "start": 235.88,
+          "end": 236.5,
+          "probability": 0.37856486439704895
+        },
+        {
+          "word": " que",
+          "start": 236.5,
+          "end": 236.78,
+          "probability": 0.71949702501297
+        },
+        {
+          "word": " noite",
+          "start": 236.78,
+          "end": 237.14,
+          "probability": 0.737274169921875
+        },
+        {
+          "word": " estrelajável.",
+          "start": 237.14,
+          "end": 238.1,
+          "probability": 0.526867289096117
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "seek": 23470,
+      "start": 239.01999999999998,
+      "end": 242.52,
+      "text": " Olhai, ali na morada já está Mestre João.",
+      "tokens": [
+        50584,
+        6141,
+        18230,
+        11,
+        10198,
+        1667,
+        1896,
+        1538,
+        6242,
+        3192,
+        376,
+        41135,
+        21302,
+        13,
+        50763
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " Olhai,",
+          "start": 239.01999999999998,
+          "end": 239.64,
+          "probability": 0.5407920479774475
+        },
+        {
+          "word": " ali",
+          "start": 239.64,
+          "end": 240.26,
+          "probability": 0.9889556765556335
+        },
+        {
+          "word": " na",
+          "start": 240.26,
+          "end": 240.44,
+          "probability": 0.9788004755973816
+        },
+        {
+          "word": " morada",
+          "start": 240.44,
+          "end": 241.02,
+          "probability": 0.9653290808200836
+        },
+        {
+          "word": " já",
+          "start": 241.02,
+          "end": 241.54,
+          "probability": 0.8115845918655396
+        },
+        {
+          "word": " está",
+          "start": 241.54,
+          "end": 241.88,
+          "probability": 0.9972406625747681
+        },
+        {
+          "word": " Mestre",
+          "start": 241.88,
+          "end": 242.2,
+          "probability": 0.839375913143158
+        },
+        {
+          "word": " João.",
+          "start": 242.2,
+          "end": 242.52,
+          "probability": 0.9913535714149475
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "seek": 23470,
+      "start": 242.76,
+      "end": 244.8,
+      "text": " Há pouco o iam a farrar-se.",
+      "tokens": [
+        50775,
+        389,
+        842,
+        13920,
+        277,
+        741,
+        335,
+        257,
+        1400,
+        5352,
+        12,
+        405,
+        13,
+        50876
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " Há",
+          "start": 242.76,
+          "end": 243.02,
+          "probability": 0.9760549366474152
+        },
+        {
+          "word": " pouco",
+          "start": 243.02,
+          "end": 243.44,
+          "probability": 0.9994927644729614
+        },
+        {
+          "word": " o",
+          "start": 243.44,
+          "end": 243.6,
+          "probability": 0.5878499150276184
+        },
+        {
+          "word": " iam",
+          "start": 243.6,
+          "end": 243.98,
+          "probability": 0.6211646199226379
+        },
+        {
+          "word": " a",
+          "start": 243.98,
+          "end": 244.1,
+          "probability": 0.4453596770763397
+        },
+        {
+          "word": " farrar",
+          "start": 244.1,
+          "end": 244.56,
+          "probability": 0.4598032832145691
+        },
+        {
+          "word": "-se.",
+          "start": 244.56,
+          "end": 244.8,
+          "probability": 0.9083168506622314
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "seek": 23470,
+      "start": 244.9,
+      "end": 249.36,
+      "text": " E agora vendo-as colar-lhe, as estrelas não cuidam.",
+      "tokens": [
+        50898,
+        462,
+        9851,
+        33152,
+        12,
+        296,
+        1173,
+        289,
+        12,
+        75,
+        675,
+        11,
+        382,
+        871,
+        4419,
+        296,
+        2431,
+        20770,
+        335,
+        13,
+        51101
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " E",
+          "start": 244.9,
+          "end": 245.34,
+          "probability": 0.9919747710227966
+        },
+        {
+          "word": " agora",
+          "start": 245.34,
+          "end": 245.72,
+          "probability": 0.9978657364845276
+        },
+        {
+          "word": " vendo",
+          "start": 245.72,
+          "end": 246.18,
+          "probability": 0.09999024122953415
+        },
+        {
+          "word": "-as",
+          "start": 246.18,
+          "end": 246.34,
+          "probability": 0.3023141324520111
+        },
+        {
+          "word": " colar",
+          "start": 246.34,
+          "end": 246.84,
+          "probability": 0.23500917851924896
+        },
+        {
+          "word": "-lhe,",
+          "start": 246.84,
+          "end": 247.08,
+          "probability": 0.6838427086671194
+        },
+        {
+          "word": " as",
+          "start": 247.18,
+          "end": 247.78,
+          "probability": 0.9964593052864075
+        },
+        {
+          "word": " estrelas",
+          "start": 247.78,
+          "end": 248.62,
+          "probability": 0.9997204542160034
+        },
+        {
+          "word": " não",
+          "start": 248.62,
+          "end": 248.78,
+          "probability": 0.8630815148353577
+        },
+        {
+          "word": " cuidam.",
+          "start": 248.78,
+          "end": 249.36,
+          "probability": 0.6664193272590637
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "seek": 23470,
+      "start": 249.48,
+      "end": 251.68,
+      "text": " E bem sabei, eles ficam.",
+      "tokens": [
+        51101,
+        462,
+        7577,
+        12275,
+        72,
+        11,
+        10244,
+        14591,
+        335,
+        13,
+        51221
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " E",
+          "start": 249.48,
+          "end": 249.68,
+          "probability": 0.9893173575401306
+        },
+        {
+          "word": " bem",
+          "start": 249.68,
+          "end": 249.88,
+          "probability": 0.853279709815979
+        },
+        {
+          "word": " sabei,",
+          "start": 249.88,
+          "end": 250.46,
+          "probability": 0.5971890091896057
+        },
+        {
+          "word": " eles",
+          "start": 250.46,
+          "end": 251.06,
+          "probability": 0.8954508900642395
+        },
+        {
+          "word": " ficam.",
+          "start": 251.06,
+          "end": 251.68,
+          "probability": 0.6011467054486275
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "seek": 23470,
+      "start": 251.94,
+      "end": 258.44,
+      "text": " O lancelão, o mestrado, a filha do amor, o bacharel, ainda mais, e o guião do nosso rei Manuel.",
+      "tokens": [
+        51227,
+        422,
+        287,
+        4463,
+        338,
+        1076,
+        11,
+        277,
+        35621,
+        14974,
+        11,
+        257,
+        1387,
+        1641,
+        360,
+        15543,
+        11,
+        277,
+        272,
+        608,
+        37675,
+        11,
+        11804,
+        2420,
+        11,
+        308,
+        277,
+        695,
+        24660,
+        360,
+        14347,
+        319,
+        72,
+        34362,
+        13,
+        51571
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " O",
+          "start": 251.94,
+          "end": 251.96,
+          "probability": 0.26925674080848694
+        },
+        {
+          "word": " lancelão,",
+          "start": 251.96,
+          "end": 252.56,
+          "probability": 0.4135823859833181
+        },
+        {
+          "word": " o",
+          "start": 252.56,
+          "end": 252.7,
+          "probability": 0.4261484742164612
+        },
+        {
+          "word": " mestrado,",
+          "start": 252.7,
+          "end": 253.0,
+          "probability": 0.1724240817129612
+        },
+        {
+          "word": " a",
+          "start": 253.34,
+          "end": 253.48,
+          "probability": 0.7215484380722046
+        },
+        {
+          "word": " filha",
+          "start": 253.48,
+          "end": 253.66,
+          "probability": 0.5271716266870499
+        },
+        {
+          "word": " do",
+          "start": 253.66,
+          "end": 253.8,
+          "probability": 0.4934886395931244
+        },
+        {
+          "word": " amor,",
+          "start": 253.8,
+          "end": 254.14,
+          "probability": 0.09301599860191345
+        },
+        {
+          "word": " o",
+          "start": 254.34,
+          "end": 254.44,
+          "probability": 0.5325601696968079
+        },
+        {
+          "word": " bacharel,",
+          "start": 254.44,
+          "end": 254.8,
+          "probability": 0.8677584926287333
+        },
+        {
+          "word": " ainda",
+          "start": 255.04,
+          "end": 255.46,
+          "probability": 0.9111852049827576
+        },
+        {
+          "word": " mais,",
+          "start": 255.46,
+          "end": 255.92,
+          "probability": 0.9999688863754272
+        },
+        {
+          "word": " e",
+          "start": 255.96,
+          "end": 256.46,
+          "probability": 0.6873846054077148
+        },
+        {
+          "word": " o",
+          "start": 256.46,
+          "end": 256.64,
+          "probability": 0.9704720377922058
+        },
+        {
+          "word": " guião",
+          "start": 256.64,
+          "end": 257.14,
+          "probability": 0.7960145473480225
+        },
+        {
+          "word": " do",
+          "start": 257.14,
+          "end": 257.42,
+          "probability": 0.9544544816017151
+        },
+        {
+          "word": " nosso",
+          "start": 257.42,
+          "end": 257.66,
+          "probability": 0.9934727549552917
+        },
+        {
+          "word": " rei",
+          "start": 257.66,
+          "end": 258.2,
+          "probability": 0.7566811442375183
+        },
+        {
+          "word": " Manuel.",
+          "start": 258.2,
+          "end": 258.44,
+          "probability": 0.5492114424705505
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "seek": 23470,
+      "start": 261.8,
+      "end": 262.42,
+      "text": " Silêncio.",
+      "tokens": [
+        51727,
+        6943,
+        5050,
+        8529,
+        13,
+        51763
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " Silêncio.",
+          "start": 261.8,
+          "end": 262.42,
+          "probability": 0.7381017506122589
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "seek": 23470,
+      "start": 262.72,
+      "end": 264.44,
+      "text": " Vem doar-lhe as correias.",
+      "tokens": [
+        51788,
+        691,
+        443,
+        360,
+        289,
+        12,
+        75,
+        675,
+        382,
+        29731,
+        4609,
+        13,
+        51857
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " Vem",
+          "start": 262.72,
+          "end": 263.34,
+          "probability": 0.5676325410604477
+        },
+        {
+          "word": " doar",
+          "start": 263.34,
+          "end": 263.66,
+          "probability": 0.591861218214035
+        },
+        {
+          "word": "-lhe",
+          "start": 263.66,
+          "end": 263.8,
+          "probability": 0.7306903203328451
+        },
+        {
+          "word": " as",
+          "start": 263.8,
+          "end": 263.86,
+          "probability": 0.8950934410095215
+        },
+        {
+          "word": " correias.",
+          "start": 263.86,
+          "end": 264.44,
+          "probability": 0.9785416424274445
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "seek": 23470,
+      "start": 264.44,
+      "end": 264.68,
+      "text": " Silêncio.",
+      "tokens": [
+        51857,
+        6943,
+        5050,
+        8529,
+        13,
+        51863
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.6628118744978668,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.011407708749175072,
+      "words": [
+        {
+          "word": " Silêncio.",
+          "start": 264.44,
+          "end": 264.68,
+          "probability": 0.7789815465609232
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "seek": 26470,
+      "start": 264.7,
+      "end": 265.68,
+      "text": " Demandante do guartel.",
+      "tokens": [
+        50373,
+        4686,
+        474,
+        2879,
+        360,
+        695,
+        446,
+        338,
+        13,
+        50416
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.1580149332682292,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 0.0016870122635737062,
+      "words": [
+        {
+          "word": " Demandante",
+          "start": 264.7,
+          "end": 265.06,
+          "probability": 0.6446335878378401
+        },
+        {
+          "word": " do",
+          "start": 265.06,
+          "end": 265.2,
+          "probability": 0.6059435606002808
+        },
+        {
+          "word": " guartel.",
+          "start": 265.2,
+          "end": 265.68,
+          "probability": 0.25088600410769385
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "seek": 26470,
+      "start": 265.78,
+      "end": 266.64,
+      "text": " Silêncio.",
+      "tokens": [
+        50439,
+        6943,
+        5050,
+        8529,
+        13,
+        50468
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.1580149332682292,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 0.0016870122635737062,
+      "words": [
+        {
+          "word": " Silêncio.",
+          "start": 265.78,
+          "end": 266.64,
+          "probability": 0.9179818630218506
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "seek": 26470,
+      "start": 267.16,
+      "end": 268.14,
+      "text": " Boa noite.",
+      "tokens": [
+        50511,
+        3286,
+        64,
+        34429,
+        13,
+        50544
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.1580149332682292,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 0.0016870122635737062,
+      "words": [
+        {
+          "word": " Boa",
+          "start": 267.16,
+          "end": 267.82,
+          "probability": 0.9978132247924805
+        },
+        {
+          "word": " noite.",
+          "start": 267.82,
+          "end": 268.14,
+          "probability": 0.9992790818214417
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "seek": 26470,
+      "start": 277.28,
+      "end": 278.0,
+      "text": " Silêncio.",
+      "tokens": [
+        50994,
+        6943,
+        5050,
+        8529,
+        13,
+        51844
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.1580149332682292,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 0.0016870122635737062,
+      "words": [
+        {
+          "word": " Silêncio.",
+          "start": 277.28,
+          "end": 278.0,
+          "probability": 0.6829186802109083
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "seek": 26470,
+      "start": 278.9,
+      "end": 279.5,
+      "text": " Silêncio.",
+      "tokens": [
+        51844,
+        6943,
+        5050,
+        8529,
+        13,
+        51845
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.1580149332682292,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 0.0016870122635737062,
+      "words": [
+        {
+          "word": " Silêncio.",
+          "start": 278.9,
+          "end": 279.5,
+          "probability": 0.8501736720403036
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "seek": 26470,
+      "start": 282.88,
+      "end": 284.2,
+      "text": " Silêncio.",
+      "tokens": [
+        51845,
+        6943,
+        5050,
+        8529,
+        13,
+        51848
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.1580149332682292,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 0.0016870122635737062,
+      "words": [
+        {
+          "word": " Silêncio.",
+          "start": 282.88,
+          "end": 284.2,
+          "probability": 0.9800312519073486
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "seek": 26470,
+      "start": 285.4,
+      "end": 286.72,
+      "text": " Silêncio.",
+      "tokens": [
+        51854,
+        6943,
+        5050,
+        8529,
+        13,
+        51857
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -1.1580149332682292,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 0.0016870122635737062,
+      "words": [
+        {
+          "word": " Silêncio.",
+          "start": 285.4,
+          "end": 286.72,
+          "probability": 0.985650877157847
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "seek": 28672,
+      "start": 303.98,
+      "end": 307.94,
+      "text": " Senhor ambiente, a madrugada rompe,",
+      "tokens": [
+        50365,
+        43792,
+        34957,
+        11,
+        257,
+        5244,
+        81,
+        697,
+        1538,
+        7438,
+        494,
+        11,
+        51430
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36794032120123144,
+      "compression_ratio": 1.2413793103448276,
+      "no_speech_prob": 0.32878872752189636,
+      "words": [
+        {
+          "word": " Senhor",
+          "start": 303.98,
+          "end": 304.74,
+          "probability": 0.38537776470184326
+        },
+        {
+          "word": " ambiente,",
+          "start": 304.74,
+          "end": 305.12,
+          "probability": 0.2814352512359619
+        },
+        {
+          "word": " a",
+          "start": 305.74,
+          "end": 306.04,
+          "probability": 0.906474769115448
+        },
+        {
+          "word": " madrugada",
+          "start": 306.04,
+          "end": 306.92,
+          "probability": 0.9983762800693512
+        },
+        {
+          "word": " rompe,",
+          "start": 306.92,
+          "end": 307.94,
+          "probability": 0.8583760261535645
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "seek": 28672,
+      "start": 307.96,
+      "end": 310.8,
+      "text": " Olhai, Senhor, como no entanto,",
+      "tokens": [
+        51450,
+        6141,
+        18230,
+        11,
+        43792,
+        11,
+        2617,
+        572,
+        948,
+        5857,
+        11,
+        51574
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36794032120123144,
+      "compression_ratio": 1.2413793103448276,
+      "no_speech_prob": 0.32878872752189636,
+      "words": [
+        {
+          "word": " Olhai,",
+          "start": 307.96,
+          "end": 308.72,
+          "probability": 0.6624582409858704
+        },
+        {
+          "word": " Senhor,",
+          "start": 308.82,
+          "end": 309.2,
+          "probability": 0.5745447874069214
+        },
+        {
+          "word": " como",
+          "start": 309.58,
+          "end": 309.82,
+          "probability": 0.9862598180770874
+        },
+        {
+          "word": " no",
+          "start": 309.82,
+          "end": 310.04,
+          "probability": 0.8612877726554871
+        },
+        {
+          "word": " entanto,",
+          "start": 310.04,
+          "end": 310.8,
+          "probability": 0.7841156721115112
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "seek": 28672,
+      "start": 310.9,
+      "end": 314.2,
+      "text": " Na linha do horizonte, ali, Senhor, ali,",
+      "tokens": [
+        51574,
+        6056,
+        33768,
+        360,
+        7937,
+        10219,
+        11,
+        10198,
+        11,
+        43792,
+        11,
+        10198,
+        11,
+        51761
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36794032120123144,
+      "compression_ratio": 1.2413793103448276,
+      "no_speech_prob": 0.32878872752189636,
+      "words": [
+        {
+          "word": " Na",
+          "start": 310.9,
+          "end": 311.3,
+          "probability": 0.5765597224235535
+        },
+        {
+          "word": " linha",
+          "start": 311.3,
+          "end": 311.64,
+          "probability": 0.9773122072219849
+        },
+        {
+          "word": " do",
+          "start": 311.64,
+          "end": 311.8,
+          "probability": 0.9309947490692139
+        },
+        {
+          "word": " horizonte,",
+          "start": 311.8,
+          "end": 312.64,
+          "probability": 0.984967827796936
+        },
+        {
+          "word": " ali,",
+          "start": 312.66,
+          "end": 313.12,
+          "probability": 0.5494623780250549
+        },
+        {
+          "word": " Senhor,",
+          "start": 313.26,
+          "end": 313.7,
+          "probability": 0.9340366125106812
+        },
+        {
+          "word": " ali,",
+          "start": 313.82,
+          "end": 314.2,
+          "probability": 0.9874497652053833
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "seek": 31420,
+      "start": 314.2,
+      "end": 316.92,
+      "text": " Olhai como ainda reluz,",
+      "tokens": [
+        50365,
+        6141,
+        18230,
+        2617,
+        11804,
+        1039,
+        3334,
+        11,
+        50513
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " Olhai",
+          "start": 314.2,
+          "end": 315.42,
+          "probability": 0.1669107899069786
+        },
+        {
+          "word": " como",
+          "start": 315.42,
+          "end": 315.78,
+          "probability": 0.7954773902893066
+        },
+        {
+          "word": " ainda",
+          "start": 315.78,
+          "end": 316.16,
+          "probability": 0.9840394854545593
+        },
+        {
+          "word": " reluz,",
+          "start": 316.16,
+          "end": 316.92,
+          "probability": 0.7507488131523132
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "seek": 31420,
+      "start": 317.12,
+      "end": 322.0,
+      "text": " Em cinco estrelas brancas, iluminada a cruz.",
+      "tokens": [
+        50527,
+        3968,
+        21350,
+        871,
+        4419,
+        296,
+        738,
+        4463,
+        296,
+        11,
+        1930,
+        7112,
+        1538,
+        257,
+        5140,
+        89,
+        13,
+        50762
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " Em",
+          "start": 317.12,
+          "end": 317.48,
+          "probability": 0.1633017361164093
+        },
+        {
+          "word": " cinco",
+          "start": 317.48,
+          "end": 317.94,
+          "probability": 0.9452893137931824
+        },
+        {
+          "word": " estrelas",
+          "start": 317.94,
+          "end": 318.86,
+          "probability": 0.9939110279083252
+        },
+        {
+          "word": " brancas,",
+          "start": 318.86,
+          "end": 319.72,
+          "probability": 0.9972162246704102
+        },
+        {
+          "word": " iluminada",
+          "start": 319.72,
+          "end": 321.02,
+          "probability": 0.6935858801007271
+        },
+        {
+          "word": " a",
+          "start": 321.02,
+          "end": 321.2,
+          "probability": 0.9330244064331055
+        },
+        {
+          "word": " cruz.",
+          "start": 321.2,
+          "end": 322.0,
+          "probability": 0.913384199142456
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "seek": 31420,
+      "start": 322.02,
+      "end": 323.48,
+      "text": " Onde, Mestre João?",
+      "tokens": [
+        50770,
+        422,
+        16404,
+        11,
+        376,
+        41135,
+        21302,
+        30,
+        50846
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " Onde,",
+          "start": 322.02,
+          "end": 322.66,
+          "probability": 0.7630985975265503
+        },
+        {
+          "word": " Mestre",
+          "start": 322.78,
+          "end": 323.1,
+          "probability": 0.6552702486515045
+        },
+        {
+          "word": " João?",
+          "start": 323.1,
+          "end": 323.48,
+          "probability": 0.953032910823822
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "seek": 31420,
+      "start": 323.96,
+      "end": 326.6,
+      "text": " Ali, Senhor almirante, não vê.",
+      "tokens": [
+        50863,
+        12020,
+        11,
+        43792,
+        18667,
+        347,
+        2879,
+        11,
+        2431,
+        30384,
+        13,
+        51003
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " Ali,",
+          "start": 323.96,
+          "end": 324.34,
+          "probability": 0.953453540802002
+        },
+        {
+          "word": " Senhor",
+          "start": 324.54,
+          "end": 324.98,
+          "probability": 0.4653940200805664
+        },
+        {
+          "word": " almirante,",
+          "start": 324.98,
+          "end": 325.9,
+          "probability": 0.7050903414686521
+        },
+        {
+          "word": " não",
+          "start": 326.06,
+          "end": 326.24,
+          "probability": 0.974790096282959
+        },
+        {
+          "word": " vê.",
+          "start": 326.24,
+          "end": 326.6,
+          "probability": 0.9040517210960388
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "seek": 31420,
+      "start": 327.02,
+      "end": 329.68,
+      "text": " Onde? Onde, Mestre João?",
+      "tokens": [
+        51022,
+        422,
+        16404,
+        30,
+        422,
+        16404,
+        11,
+        376,
+        41135,
+        21302,
+        30,
+        51148
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " Onde?",
+          "start": 327.02,
+          "end": 327.64,
+          "probability": 0.9905427396297455
+        },
+        {
+          "word": " Onde,",
+          "start": 328.18,
+          "end": 328.96,
+          "probability": 0.9960418045520782
+        },
+        {
+          "word": " Mestre",
+          "start": 329.08,
+          "end": 329.3,
+          "probability": 0.9994009733200073
+        },
+        {
+          "word": " João?",
+          "start": 329.3,
+          "end": 329.68,
+          "probability": 0.9997192025184631
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "seek": 31420,
+      "start": 330.04,
+      "end": 332.98,
+      "text": " Ali, Frei Henrique, ali, Frei Henrique.",
+      "tokens": [
+        51169,
+        12020,
+        11,
+        35939,
+        8651,
+        22343,
+        11,
+        10198,
+        11,
+        35939,
+        8651,
+        22343,
+        13,
+        51324
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " Ali,",
+          "start": 330.04,
+          "end": 330.56,
+          "probability": 0.9933039546012878
+        },
+        {
+          "word": " Frei",
+          "start": 330.56,
+          "end": 330.96,
+          "probability": 0.31132999062538147
+        },
+        {
+          "word": " Henrique,",
+          "start": 330.96,
+          "end": 331.54,
+          "probability": 0.7928076684474945
+        },
+        {
+          "word": " ali,",
+          "start": 331.76,
+          "end": 332.0,
+          "probability": 0.8250033259391785
+        },
+        {
+          "word": " Frei",
+          "start": 332.2,
+          "end": 332.6,
+          "probability": 0.9946223497390747
+        },
+        {
+          "word": " Henrique.",
+          "start": 332.6,
+          "end": 332.98,
+          "probability": 0.999716579914093
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "seek": 31420,
+      "start": 333.46,
+      "end": 338.54,
+      "text": " Ah, já vi, já vi, com toda a nitidez,",
+      "tokens": [
+        51324,
+        2438,
+        11,
+        6242,
+        1932,
+        11,
+        6242,
+        1932,
+        11,
+        395,
+        11687,
+        257,
+        10900,
+        45170,
+        11,
+        51606
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " Ah,",
+          "start": 333.46,
+          "end": 333.54,
+          "probability": 0.2775499224662781
+        },
+        {
+          "word": " já",
+          "start": 333.8,
+          "end": 334.82,
+          "probability": 0.9911624193191528
+        },
+        {
+          "word": " vi,",
+          "start": 334.82,
+          "end": 335.14,
+          "probability": 0.9864912033081055
+        },
+        {
+          "word": " já",
+          "start": 335.6,
+          "end": 336.3,
+          "probability": 0.9981632828712463
+        },
+        {
+          "word": " vi,",
+          "start": 336.3,
+          "end": 336.76,
+          "probability": 0.9997976422309875
+        },
+        {
+          "word": " com",
+          "start": 336.94,
+          "end": 337.58,
+          "probability": 0.8854442834854126
+        },
+        {
+          "word": " toda",
+          "start": 337.58,
+          "end": 338.04,
+          "probability": 0.9994083642959595
+        },
+        {
+          "word": " a",
+          "start": 338.04,
+          "end": 338.18,
+          "probability": 0.9495323896408081
+        },
+        {
+          "word": " nitidez,",
+          "start": 338.18,
+          "end": 338.54,
+          "probability": 0.9935221076011658
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "seek": 31420,
+      "start": 338.78,
+      "end": 341.9,
+      "text": " A cruz, a cruz de Cristo.",
+      "tokens": [
+        51628,
+        316,
+        5140,
+        89,
+        11,
+        257,
+        5140,
+        89,
+        368,
+        36524,
+        13,
+        51772
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2754054436316857,
+      "compression_ratio": 1.505952380952381,
+      "no_speech_prob": 0.0007850149413570762,
+      "words": [
+        {
+          "word": " A",
+          "start": 338.78,
+          "end": 339.42,
+          "probability": 0.21178972721099854
+        },
+        {
+          "word": " cruz,",
+          "start": 339.42,
+          "end": 340.3,
+          "probability": 0.9930265545845032
+        },
+        {
+          "word": " a",
+          "start": 340.3,
+          "end": 340.8,
+          "probability": 0.9987930059432983
+        },
+        {
+          "word": " cruz",
+          "start": 340.8,
+          "end": 341.42,
+          "probability": 0.9993449151515961
+        },
+        {
+          "word": " de",
+          "start": 341.42,
+          "end": 341.48,
+          "probability": 0.9953150749206543
+        },
+        {
+          "word": " Cristo.",
+          "start": 341.48,
+          "end": 341.9,
+          "probability": 0.9986567497253418
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "seek": 34190,
+      "start": 341.9,
+      "end": 345.28,
+      "text": " Cristo, bendito seja Deus que assim te seja,",
+      "tokens": [
+        50365,
+        36524,
+        11,
+        11229,
+        3528,
+        13459,
+        15057,
+        631,
+        8249,
+        535,
+        13459,
+        11,
+        50555
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " Cristo,",
+          "start": 341.9,
+          "end": 342.24,
+          "probability": 0.004628607537597418
+        },
+        {
+          "word": " bendito",
+          "start": 342.38,
+          "end": 343.48,
+          "probability": 0.9595140814781189
+        },
+        {
+          "word": " seja",
+          "start": 343.48,
+          "end": 343.88,
+          "probability": 0.9937567710876465
+        },
+        {
+          "word": " Deus",
+          "start": 343.88,
+          "end": 344.32,
+          "probability": 0.9966553449630737
+        },
+        {
+          "word": " que",
+          "start": 344.32,
+          "end": 344.46,
+          "probability": 0.9628276228904724
+        },
+        {
+          "word": " assim",
+          "start": 344.46,
+          "end": 344.62,
+          "probability": 0.2394912987947464
+        },
+        {
+          "word": " te",
+          "start": 344.62,
+          "end": 344.84,
+          "probability": 0.8493902683258057
+        },
+        {
+          "word": " seja,",
+          "start": 344.84,
+          "end": 345.28,
+          "probability": 0.6614972352981567
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "seek": 34190,
+      "start": 345.48,
+      "end": 348.12,
+      "text": " E vendo-te brilhar, ó cruz,",
+      "tokens": [
+        50555,
+        462,
+        33152,
+        12,
+        975,
+        738,
+        388,
+        5854,
+        11,
+        11857,
+        5140,
+        89,
+        11,
+        50690
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " E",
+          "start": 345.48,
+          "end": 346.04,
+          "probability": 0.008649804629385471
+        },
+        {
+          "word": " vendo",
+          "start": 346.04,
+          "end": 346.34,
+          "probability": 0.9802863001823425
+        },
+        {
+          "word": "-te",
+          "start": 346.34,
+          "end": 346.5,
+          "probability": 0.9858008623123169
+        },
+        {
+          "word": " brilhar,",
+          "start": 346.5,
+          "end": 347.14,
+          "probability": 0.994136373202006
+        },
+        {
+          "word": " ó",
+          "start": 347.14,
+          "end": 347.4,
+          "probability": 0.921037495136261
+        },
+        {
+          "word": " cruz,",
+          "start": 347.4,
+          "end": 348.12,
+          "probability": 0.9078251123428345
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "seek": 34190,
+      "start": 348.12,
+      "end": 350.88,
+      "text": " Sobre as ondas revoltas, na paz do céu,",
+      "tokens": [
+        50690,
+        407,
+        2672,
+        382,
+        322,
+        27476,
+        42568,
+        296,
+        11,
+        1667,
+        30032,
+        360,
+        50052,
+        11,
+        50840
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " Sobre",
+          "start": 348.12,
+          "end": 348.76,
+          "probability": 0.6701448410749435
+        },
+        {
+          "word": " as",
+          "start": 348.76,
+          "end": 348.9,
+          "probability": 0.9995263814926147
+        },
+        {
+          "word": " ondas",
+          "start": 348.9,
+          "end": 349.24,
+          "probability": 0.9964183568954468
+        },
+        {
+          "word": " revoltas,",
+          "start": 349.24,
+          "end": 349.96,
+          "probability": 0.9695498943328857
+        },
+        {
+          "word": " na",
+          "start": 349.96,
+          "end": 350.1,
+          "probability": 0.7324172854423523
+        },
+        {
+          "word": " paz",
+          "start": 350.1,
+          "end": 350.34,
+          "probability": 0.9994712471961975
+        },
+        {
+          "word": " do",
+          "start": 350.34,
+          "end": 350.52,
+          "probability": 0.9756579995155334
+        },
+        {
+          "word": " céu,",
+          "start": 350.52,
+          "end": 350.88,
+          "probability": 0.9829728603363037
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "seek": 34190,
+      "start": 351.12,
+      "end": 354.8,
+      "text": " Tão radiosa e calma, minha alma se ajoelha,",
+      "tokens": [
+        50840,
+        314,
+        1076,
+        2843,
+        37050,
+        308,
+        2104,
+        1696,
+        11,
+        11720,
+        32634,
+        369,
+        257,
+        5134,
+        338,
+        1641,
+        11,
+        51015
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " Tão",
+          "start": 351.12,
+          "end": 351.5,
+          "probability": 0.9633787572383881
+        },
+        {
+          "word": " radiosa",
+          "start": 351.5,
+          "end": 352.1,
+          "probability": 0.9869898855686188
+        },
+        {
+          "word": " e",
+          "start": 352.1,
+          "end": 352.3,
+          "probability": 0.9982194304466248
+        },
+        {
+          "word": " calma,",
+          "start": 352.3,
+          "end": 352.9,
+          "probability": 0.9992857277393341
+        },
+        {
+          "word": " minha",
+          "start": 352.94,
+          "end": 353.36,
+          "probability": 0.44698041677474976
+        },
+        {
+          "word": " alma",
+          "start": 353.36,
+          "end": 353.78,
+          "probability": 0.9989117383956909
+        },
+        {
+          "word": " se",
+          "start": 353.78,
+          "end": 353.98,
+          "probability": 0.7938928008079529
+        },
+        {
+          "word": " ajoelha,",
+          "start": 353.98,
+          "end": 354.8,
+          "probability": 0.9956370741128922
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "seek": 34190,
+      "start": 354.82,
+      "end": 357.7,
+      "text": " E sinto dentro d'alma, numa bênção estelar,",
+      "tokens": [
+        51015,
+        462,
+        262,
+        17246,
+        10856,
+        274,
+        6,
+        304,
+        1696,
+        11,
+        29080,
+        43730,
+        2917,
+        871,
+        338,
+        289,
+        11,
+        51165
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " E",
+          "start": 354.82,
+          "end": 355.1,
+          "probability": 0.8662816286087036
+        },
+        {
+          "word": " sinto",
+          "start": 355.1,
+          "end": 355.56,
+          "probability": 0.984615832567215
+        },
+        {
+          "word": " dentro",
+          "start": 355.56,
+          "end": 355.86,
+          "probability": 0.9960047602653503
+        },
+        {
+          "word": " d",
+          "start": 355.86,
+          "end": 356.1,
+          "probability": 0.26115766167640686
+        },
+        {
+          "word": "'alma,",
+          "start": 356.1,
+          "end": 356.56,
+          "probability": 0.9952907959620158
+        },
+        {
+          "word": " numa",
+          "start": 356.56,
+          "end": 356.7,
+          "probability": 0.9963153004646301
+        },
+        {
+          "word": " bênção",
+          "start": 356.7,
+          "end": 357.18,
+          "probability": 0.9180977642536163
+        },
+        {
+          "word": " estelar,",
+          "start": 357.18,
+          "end": 357.7,
+          "probability": 0.9294712742169698
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "seek": 34190,
+      "start": 357.84,
+      "end": 359.18,
+      "text": " A alma de Jesus.",
+      "tokens": [
+        51165,
+        316,
+        32634,
+        368,
+        2705,
+        13,
+        51265
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " A",
+          "start": 357.84,
+          "end": 358.16,
+          "probability": 0.9770771861076355
+        },
+        {
+          "word": " alma",
+          "start": 358.16,
+          "end": 358.62,
+          "probability": 0.9983974099159241
+        },
+        {
+          "word": " de",
+          "start": 358.62,
+          "end": 358.84,
+          "probability": 0.9998258948326111
+        },
+        {
+          "word": " Jesus.",
+          "start": 358.84,
+          "end": 359.18,
+          "probability": 0.9981204867362976
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "seek": 34190,
+      "start": 359.66,
+      "end": 364.34,
+      "text": " O Cruzeiro, um eterno símbolo,",
+      "tokens": [
+        51265,
+        422,
+        13586,
+        1381,
+        5182,
+        11,
+        1105,
+        10533,
+        78,
+        8600,
+        5612,
+        78,
+        11,
+        51490
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " O",
+          "start": 359.66,
+          "end": 360.44,
+          "probability": 0.22436770796775818
+        },
+        {
+          "word": " Cruzeiro,",
+          "start": 360.44,
+          "end": 361.88,
+          "probability": 0.732722689708074
+        },
+        {
+          "word": " um",
+          "start": 361.96,
+          "end": 362.36,
+          "probability": 0.8041532039642334
+        },
+        {
+          "word": " eterno",
+          "start": 362.36,
+          "end": 363.32,
+          "probability": 0.9919754266738892
+        },
+        {
+          "word": " símbolo,",
+          "start": 363.32,
+          "end": 364.34,
+          "probability": 0.997053305308024
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "seek": 34190,
+      "start": 364.34,
+      "end": 368.28,
+      "text": " No azul, a sinala, na terra,",
+      "tokens": [
+        51490,
+        883,
+        39580,
+        11,
+        257,
+        3343,
+        5159,
+        11,
+        1667,
+        26298,
+        11,
+        51690
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " No",
+          "start": 364.34,
+          "end": 364.74,
+          "probability": 0.9174970984458923
+        },
+        {
+          "word": " azul,",
+          "start": 364.74,
+          "end": 365.2,
+          "probability": 0.9931962490081787
+        },
+        {
+          "word": " a",
+          "start": 365.64,
+          "end": 365.98,
+          "probability": 0.46606898307800293
+        },
+        {
+          "word": " sinala,",
+          "start": 365.98,
+          "end": 366.86,
+          "probability": 0.3000338152050972
+        },
+        {
+          "word": " na",
+          "start": 367.0,
+          "end": 367.54,
+          "probability": 0.6066311597824097
+        },
+        {
+          "word": " terra,",
+          "start": 367.54,
+          "end": 368.28,
+          "probability": 0.9802318811416626
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "seek": 34190,
+      "start": 369.48,
+      "end": 370.84,
+      "text": " Eternamente o Sul.",
+      "tokens": [
+        51690,
+        462,
+        2231,
+        3439,
+        277,
+        35897,
+        13,
+        51840
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3620958646138509,
+      "compression_ratio": 1.3835616438356164,
+      "no_speech_prob": 0.00011146414908580482,
+      "words": [
+        {
+          "word": " Eternamente",
+          "start": 369.48,
+          "end": 370.26,
+          "probability": 0.9607865611712137
+        },
+        {
+          "word": " o",
+          "start": 370.26,
+          "end": 370.42,
+          "probability": 0.2904958426952362
+        },
+        {
+          "word": " Sul.",
+          "start": 370.42,
+          "end": 370.84,
+          "probability": 0.06845982372760773
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "seek": 37190,
+      "start": 371.9,
+      "end": 373.94,
+      "text": " Senhor almirante, Senhor almirante.",
+      "tokens": [
+        50365,
+        43792,
+        18667,
+        347,
+        2879,
+        11,
+        43792,
+        18667,
+        347,
+        2879,
+        13,
+        50490
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Senhor",
+          "start": 371.9,
+          "end": 371.9,
+          "probability": 0.020638342946767807
+        },
+        {
+          "word": " almirante,",
+          "start": 371.9,
+          "end": 372.5,
+          "probability": 0.7518309454123179
+        },
+        {
+          "word": " Senhor",
+          "start": 372.66,
+          "end": 373.06,
+          "probability": 0.05220865085721016
+        },
+        {
+          "word": " almirante.",
+          "start": 373.06,
+          "end": 373.94,
+          "probability": 0.9748674631118774
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "seek": 37190,
+      "start": 374.18,
+      "end": 374.58,
+      "text": " Olhai.",
+      "tokens": [
+        50490,
+        6141,
+        18230,
+        13,
+        50540
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Olhai.",
+          "start": 374.18,
+          "end": 374.58,
+          "probability": 0.0033465034211985767
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "seek": 37190,
+      "start": 375.4,
+      "end": 376.66,
+      "text": " Pela proa a este bordo,",
+      "tokens": [
+        50540,
+        430,
+        4053,
+        447,
+        64,
+        257,
+        4065,
+        272,
+        23872,
+        11,
+        50640
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Pela",
+          "start": 375.11,
+          "end": 375.5,
+          "probability": 0.6070611849427223
+        },
+        {
+          "word": " proa",
+          "start": 375.5,
+          "end": 375.94,
+          "probability": 0.9129218459129333
+        },
+        {
+          "word": " a",
+          "start": 375.94,
+          "end": 376.0,
+          "probability": 0.30259793996810913
+        },
+        {
+          "word": " este",
+          "start": 376.0,
+          "end": 376.22,
+          "probability": 0.43104782700538635
+        },
+        {
+          "word": " bordo,",
+          "start": 376.22,
+          "end": 376.66,
+          "probability": 0.939582347869873
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "seek": 37190,
+      "start": 376.84,
+      "end": 378.62,
+      "text": " No claro horizonte,",
+      "tokens": [
+        50640,
+        883,
+        16742,
+        7937,
+        10219,
+        11,
+        50740
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " No",
+          "start": 376.84,
+          "end": 377.32,
+          "probability": 0.006675733253359795
+        },
+        {
+          "word": " claro",
+          "start": 377.32,
+          "end": 377.7,
+          "probability": 0.3183148205280304
+        },
+        {
+          "word": " horizonte,",
+          "start": 377.7,
+          "end": 378.62,
+          "probability": 0.9250138103961945
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "seek": 37190,
+      "start": 378.74,
+      "end": 382.3,
+      "text": " Sem dúvida, Senhor, desta sombra de um monte,",
+      "tokens": [
+        50740,
+        14421,
+        39299,
+        32500,
+        11,
+        43792,
+        11,
+        45943,
+        3307,
+        6198,
+        368,
+        1105,
+        35437,
+        11,
+        50915
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Sem",
+          "start": 378.74,
+          "end": 379.16,
+          "probability": 0.6855142116546631
+        },
+        {
+          "word": " dúvida,",
+          "start": 379.16,
+          "end": 379.72,
+          "probability": 0.8906702697277069
+        },
+        {
+          "word": " Senhor,",
+          "start": 379.72,
+          "end": 380.0,
+          "probability": 0.8839535713195801
+        },
+        {
+          "word": " desta",
+          "start": 380.28,
+          "end": 381.06,
+          "probability": 0.12466872483491898
+        },
+        {
+          "word": " sombra",
+          "start": 381.06,
+          "end": 381.74,
+          "probability": 0.9886942505836487
+        },
+        {
+          "word": " de",
+          "start": 381.74,
+          "end": 381.8,
+          "probability": 0.7523475289344788
+        },
+        {
+          "word": " um",
+          "start": 381.8,
+          "end": 381.88,
+          "probability": 0.9877710342407227
+        },
+        {
+          "word": " monte,",
+          "start": 381.88,
+          "end": 382.3,
+          "probability": 0.9571021795272827
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "seek": 37190,
+      "start": 382.54,
+      "end": 386.56,
+      "text": " As fergatas do mar passam a sua implante.",
+      "tokens": [
+        50915,
+        1018,
+        7202,
+        70,
+        37892,
+        360,
+        1849,
+        1320,
+        335,
+        257,
+        8233,
+        8484,
+        2879,
+        13,
+        51115
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " As",
+          "start": 382.54,
+          "end": 383.34,
+          "probability": 0.5268422365188599
+        },
+        {
+          "word": " fergatas",
+          "start": 383.34,
+          "end": 383.94,
+          "probability": 0.5198315680027008
+        },
+        {
+          "word": " do",
+          "start": 383.94,
+          "end": 384.38,
+          "probability": 0.4825396239757538
+        },
+        {
+          "word": " mar",
+          "start": 384.38,
+          "end": 384.68,
+          "probability": 0.9715402722358704
+        },
+        {
+          "word": " passam",
+          "start": 384.68,
+          "end": 385.54,
+          "probability": 0.7634068727493286
+        },
+        {
+          "word": " a",
+          "start": 385.54,
+          "end": 385.64,
+          "probability": 0.14944937825202942
+        },
+        {
+          "word": " sua",
+          "start": 385.64,
+          "end": 385.92,
+          "probability": 0.026607220992445946
+        },
+        {
+          "word": " implante.",
+          "start": 385.92,
+          "end": 386.56,
+          "probability": 0.42247648537158966
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "seek": 37190,
+      "start": 386.8,
+      "end": 388.26,
+      "text": " Vejo ele, a ver.",
+      "tokens": [
+        51115,
+        9706,
+        5134,
+        1118,
+        11,
+        257,
+        1306,
+        13,
+        51215
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Vejo",
+          "start": 386.8,
+          "end": 387.06,
+          "probability": 0.23724666982889175
+        },
+        {
+          "word": " ele,",
+          "start": 387.06,
+          "end": 387.32,
+          "probability": 0.23986254632472992
+        },
+        {
+          "word": " a",
+          "start": 387.5,
+          "end": 387.82,
+          "probability": 0.08100008219480515
+        },
+        {
+          "word": " ver.",
+          "start": 387.82,
+          "end": 388.26,
+          "probability": 0.7183470129966736
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "seek": 37190,
+      "start": 388.52,
+      "end": 392.22,
+      "text": " Sem dúvida, Senhor, desta sombra de um monte,",
+      "tokens": [
+        51215,
+        14421,
+        39299,
+        32500,
+        11,
+        43792,
+        11,
+        45943,
+        3307,
+        6198,
+        368,
+        1105,
+        35437,
+        11,
+        51415
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Sem",
+          "start": 388.52,
+          "end": 388.86,
+          "probability": 0.9523153901100159
+        },
+        {
+          "word": " dúvida,",
+          "start": 388.86,
+          "end": 389.42,
+          "probability": 0.9946205019950867
+        },
+        {
+          "word": " Senhor,",
+          "start": 389.44,
+          "end": 389.74,
+          "probability": 0.972427487373352
+        },
+        {
+          "word": " desta",
+          "start": 390.06,
+          "end": 390.88,
+          "probability": 0.7838113903999329
+        },
+        {
+          "word": " sombra",
+          "start": 390.88,
+          "end": 391.6,
+          "probability": 0.9978050291538239
+        },
+        {
+          "word": " de",
+          "start": 391.6,
+          "end": 391.74,
+          "probability": 0.9886273741722107
+        },
+        {
+          "word": " um",
+          "start": 391.74,
+          "end": 391.82,
+          "probability": 0.9988871216773987
+        },
+        {
+          "word": " monte,",
+          "start": 391.82,
+          "end": 392.22,
+          "probability": 0.9869248867034912
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "seek": 37190,
+      "start": 392.46,
+      "end": 394.16,
+      "text": " Ali, Senhor.",
+      "tokens": [
+        51415,
+        12020,
+        11,
+        43792,
+        13,
+        51515
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Ali,",
+          "start": 392.46,
+          "end": 393.22,
+          "probability": 0.6979303956031799
+        },
+        {
+          "word": " Senhor.",
+          "start": 393.42,
+          "end": 394.16,
+          "probability": 0.9501351118087769
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "seek": 37190,
+      "start": 394.88,
+      "end": 399.2,
+      "text": " Eis, vato, por Deus, a que rumo,",
+      "tokens": [
+        51515,
+        43174,
+        11,
+        371,
+        2513,
+        11,
+        1515,
+        15057,
+        11,
+        257,
+        631,
+        8347,
+        78,
+        11,
+        51740
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Eis,",
+          "start": 394.88,
+          "end": 395.54,
+          "probability": 0.7439292669296265
+        },
+        {
+          "word": " vato,",
+          "start": 395.54,
+          "end": 396.08,
+          "probability": 0.3761293366551399
+        },
+        {
+          "word": " por",
+          "start": 396.26,
+          "end": 396.82,
+          "probability": 0.9177040457725525
+        },
+        {
+          "word": " Deus,",
+          "start": 396.82,
+          "end": 397.4,
+          "probability": 0.9452593922615051
+        },
+        {
+          "word": " a",
+          "start": 397.78,
+          "end": 398.28,
+          "probability": 0.8680016398429871
+        },
+        {
+          "word": " que",
+          "start": 398.28,
+          "end": 398.44,
+          "probability": 0.9721142053604126
+        },
+        {
+          "word": " rumo,",
+          "start": 398.44,
+          "end": 399.2,
+          "probability": 0.9857648611068726
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "seek": 37190,
+      "start": 399.2,
+      "end": 401.8,
+      "text": " Quem sabe onde a providência nos levará,",
+      "tokens": [
+        51740,
+        32342,
+        12275,
+        14396,
+        257,
+        1439,
+        327,
+        9322,
+        3269,
+        34538,
+        842,
+        11,
+        51865
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41131779455369516,
+      "compression_ratio": 1.6734693877551021,
+      "no_speech_prob": 0.001273115398362279,
+      "words": [
+        {
+          "word": " Quem",
+          "start": 399.2,
+          "end": 399.74,
+          "probability": 0.7394509315490723
+        },
+        {
+          "word": " sabe",
+          "start": 399.74,
+          "end": 400.14,
+          "probability": 0.9648378491401672
+        },
+        {
+          "word": " onde",
+          "start": 400.14,
+          "end": 400.5,
+          "probability": 0.9431038498878479
+        },
+        {
+          "word": " a",
+          "start": 400.5,
+          "end": 400.56,
+          "probability": 0.9509486556053162
+        },
+        {
+          "word": " providência",
+          "start": 400.56,
+          "end": 401.14,
+          "probability": 0.930440088113149
+        },
+        {
+          "word": " nos",
+          "start": 401.14,
+          "end": 401.38,
+          "probability": 0.9572587609291077
+        },
+        {
+          "word": " levará,",
+          "start": 401.38,
+          "end": 401.8,
+          "probability": 0.995535671710968
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "seek": 40190,
+      "start": 401.9,
+      "end": 404.5,
+      "text": " Aonde, sem enriquecer.",
+      "tokens": [
+        50365,
+        316,
+        7259,
+        11,
+        4361,
+        465,
+        22343,
+        1776,
+        13,
+        50490
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " Aonde,",
+          "start": 401.9,
+          "end": 403.14,
+          "probability": 0.6372308880090714
+        },
+        {
+          "word": " sem",
+          "start": 403.18,
+          "end": 403.48,
+          "probability": 0.015035618096590042
+        },
+        {
+          "word": " enriquecer.",
+          "start": 403.48,
+          "end": 404.5,
+          "probability": 0.6876324713230133
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "seek": 40190,
+      "start": 404.5,
+      "end": 407.4,
+      "text": " É ter paciência, que é virtude cristã,",
+      "tokens": [
+        50490,
+        4922,
+        1796,
+        15165,
+        72,
+        9322,
+        11,
+        631,
+        1136,
+        4480,
+        2303,
+        35608,
+        1046,
+        11,
+        50640
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " É",
+          "start": 404.5,
+          "end": 404.64,
+          "probability": 0.9217560887336731
+        },
+        {
+          "word": " ter",
+          "start": 404.64,
+          "end": 404.84,
+          "probability": 0.9914838671684265
+        },
+        {
+          "word": " paciência,",
+          "start": 404.84,
+          "end": 405.8,
+          "probability": 0.997218648592631
+        },
+        {
+          "word": " que",
+          "start": 405.8,
+          "end": 406.08,
+          "probability": 0.9841319918632507
+        },
+        {
+          "word": " é",
+          "start": 406.08,
+          "end": 406.16,
+          "probability": 0.9649301767349243
+        },
+        {
+          "word": " virtude",
+          "start": 406.16,
+          "end": 406.68,
+          "probability": 0.9943369030952454
+        },
+        {
+          "word": " cristã,",
+          "start": 406.68,
+          "end": 407.4,
+          "probability": 0.9951371550559998
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "seek": 40190,
+      "start": 407.42,
+      "end": 409.16,
+      "text": " Já por nós ensaiada.",
+      "tokens": [
+        50640,
+        21237,
+        1515,
+        9738,
+        3489,
+        1301,
+        1538,
+        13,
+        50740
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " Já",
+          "start": 407.42,
+          "end": 407.84,
+          "probability": 0.0951734259724617
+        },
+        {
+          "word": " por",
+          "start": 407.84,
+          "end": 408.08,
+          "probability": 0.9964248538017273
+        },
+        {
+          "word": " nós",
+          "start": 408.08,
+          "end": 408.4,
+          "probability": 0.9916465878486633
+        },
+        {
+          "word": " ensaiada.",
+          "start": 408.4,
+          "end": 409.16,
+          "probability": 0.6594521254301071
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "seek": 40190,
+      "start": 409.52,
+      "end": 411.88,
+      "text": " Sem ela, longe é o céu,",
+      "tokens": [
+        50740,
+        14421,
+        7175,
+        11,
+        26052,
+        1136,
+        277,
+        50052,
+        11,
+        50890
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " Sem",
+          "start": 409.52,
+          "end": 409.92,
+          "probability": 0.9958194494247437
+        },
+        {
+          "word": " ela,",
+          "start": 409.92,
+          "end": 410.52,
+          "probability": 0.9978795051574707
+        },
+        {
+          "word": " longe",
+          "start": 410.56,
+          "end": 411.2,
+          "probability": 0.9948563575744629
+        },
+        {
+          "word": " é",
+          "start": 411.2,
+          "end": 411.46,
+          "probability": 0.9954003691673279
+        },
+        {
+          "word": " o",
+          "start": 411.46,
+          "end": 411.52,
+          "probability": 0.9993114471435547
+        },
+        {
+          "word": " céu,",
+          "start": 411.52,
+          "end": 411.88,
+          "probability": 0.9880375862121582
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "seek": 40190,
+      "start": 412.14,
+      "end": 414.1,
+      "text": " E a terra é quase nada.",
+      "tokens": [
+        50890,
+        462,
+        257,
+        26298,
+        1136,
+        28875,
+        8096,
+        13,
+        50990
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " E",
+          "start": 412.14,
+          "end": 412.6,
+          "probability": 0.9365977644920349
+        },
+        {
+          "word": " a",
+          "start": 412.6,
+          "end": 412.78,
+          "probability": 0.9949561953544617
+        },
+        {
+          "word": " terra",
+          "start": 412.78,
+          "end": 413.18,
+          "probability": 0.981423020362854
+        },
+        {
+          "word": " é",
+          "start": 413.18,
+          "end": 413.34,
+          "probability": 0.922126293182373
+        },
+        {
+          "word": " quase",
+          "start": 413.34,
+          "end": 413.7,
+          "probability": 0.9957892298698425
+        },
+        {
+          "word": " nada.",
+          "start": 413.7,
+          "end": 414.1,
+          "probability": 0.9513576030731201
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "seek": 40190,
+      "start": 414.62,
+      "end": 416.98,
+      "text": " O monte, o monte.",
+      "tokens": [
+        50990,
+        422,
+        35437,
+        11,
+        277,
+        35437,
+        13,
+        51140
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " O",
+          "start": 414.62,
+          "end": 414.78,
+          "probability": 0.8705428838729858
+        },
+        {
+          "word": " monte,",
+          "start": 414.78,
+          "end": 415.32,
+          "probability": 0.968805193901062
+        },
+        {
+          "word": " o",
+          "start": 415.56,
+          "end": 416.16,
+          "probability": 0.9286620616912842
+        },
+        {
+          "word": " monte.",
+          "start": 416.16,
+          "end": 416.98,
+          "probability": 0.9995149374008179
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "seek": 40190,
+      "start": 417.4,
+      "end": 419.12,
+      "text": " Hoje é um dia de fé,",
+      "tokens": [
+        51140,
+        34104,
+        1136,
+        1105,
+        6801,
+        368,
+        34271,
+        11,
+        51240
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " Hoje",
+          "start": 417.4,
+          "end": 418.12,
+          "probability": 0.9947628378868103
+        },
+        {
+          "word": " é",
+          "start": 418.12,
+          "end": 418.3,
+          "probability": 0.6965878009796143
+        },
+        {
+          "word": " um",
+          "start": 418.3,
+          "end": 418.4,
+          "probability": 0.9995324611663818
+        },
+        {
+          "word": " dia",
+          "start": 418.4,
+          "end": 418.68,
+          "probability": 0.9997510313987732
+        },
+        {
+          "word": " de",
+          "start": 418.68,
+          "end": 418.84,
+          "probability": 0.9975205063819885
+        },
+        {
+          "word": " fé,",
+          "start": 418.84,
+          "end": 419.12,
+          "probability": 0.9919986128807068
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "seek": 40190,
+      "start": 419.36,
+      "end": 420.96,
+      "text": " É a Páscoa do Senhor.",
+      "tokens": [
+        51240,
+        4922,
+        257,
+        430,
+        2490,
+        1291,
+        64,
+        360,
+        43792,
+        13,
+        51340
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " É",
+          "start": 419.36,
+          "end": 419.78,
+          "probability": 0.8850417733192444
+        },
+        {
+          "word": " a",
+          "start": 419.78,
+          "end": 419.96,
+          "probability": 0.9983878135681152
+        },
+        {
+          "word": " Páscoa",
+          "start": 419.96,
+          "end": 420.52,
+          "probability": 0.6625846587121487
+        },
+        {
+          "word": " do",
+          "start": 420.52,
+          "end": 420.62,
+          "probability": 0.8776751160621643
+        },
+        {
+          "word": " Senhor.",
+          "start": 420.62,
+          "end": 420.96,
+          "probability": 0.9905164837837219
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "seek": 40190,
+      "start": 421.46,
+      "end": 423.94,
+      "text": " Oremos, pois, que a ele,",
+      "tokens": [
+        51340,
+        422,
+        28343,
+        11,
+        31014,
+        11,
+        631,
+        257,
+        1118,
+        11,
+        51465
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " Oremos,",
+          "start": 421.46,
+          "end": 422.14,
+          "probability": 0.9886622428894043
+        },
+        {
+          "word": " pois,",
+          "start": 422.16,
+          "end": 422.6,
+          "probability": 0.9956575632095337
+        },
+        {
+          "word": " que",
+          "start": 422.76,
+          "end": 423.36,
+          "probability": 0.35801824927330017
+        },
+        {
+          "word": " a",
+          "start": 423.36,
+          "end": 423.46,
+          "probability": 0.9987215399742126
+        },
+        {
+          "word": " ele,",
+          "start": 423.46,
+          "end": 423.94,
+          "probability": 0.7566530108451843
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "seek": 40190,
+      "start": 424.0,
+      "end": 425.76,
+      "text": " Em nosso imenso amor,",
+      "tokens": [
+        51465,
+        3968,
+        14347,
+        566,
+        268,
+        539,
+        15543,
+        11,
+        51590
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " Em",
+          "start": 424.0,
+          "end": 424.34,
+          "probability": 0.5753529071807861
+        },
+        {
+          "word": " nosso",
+          "start": 424.34,
+          "end": 424.72,
+          "probability": 0.9981999397277832
+        },
+        {
+          "word": " imenso",
+          "start": 424.72,
+          "end": 425.48,
+          "probability": 0.999182919661204
+        },
+        {
+          "word": " amor,",
+          "start": 425.48,
+          "end": 425.76,
+          "probability": 0.9998143315315247
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "seek": 40190,
+      "start": 426.14,
+      "end": 428.1,
+      "text": " Agradeçamos ver, talvez,",
+      "tokens": [
+        51590,
+        316,
+        8692,
+        1138,
+        2151,
+        1306,
+        11,
+        32320,
+        11,
+        51690
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " Agradeçamos",
+          "start": 426.14,
+          "end": 427.16,
+          "probability": 0.9960399270057678
+        },
+        {
+          "word": " ver,",
+          "start": 427.16,
+          "end": 427.56,
+          "probability": 0.9842504262924194
+        },
+        {
+          "word": " talvez,",
+          "start": 427.72,
+          "end": 428.1,
+          "probability": 0.9891437888145447
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "seek": 40190,
+      "start": 428.58,
+      "end": 429.86,
+      "text": " A terra ocidental.",
+      "tokens": [
+        51690,
+        316,
+        26298,
+        10409,
+        47023,
+        13,
+        51790
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " A",
+          "start": 428.58,
+          "end": 428.96,
+          "probability": 0.7424946427345276
+        },
+        {
+          "word": " terra",
+          "start": 428.96,
+          "end": 429.28,
+          "probability": 0.8897750377655029
+        },
+        {
+          "word": " ocidental.",
+          "start": 429.28,
+          "end": 429.86,
+          "probability": 0.99747234582901
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "seek": 40190,
+      "start": 430.38,
+      "end": 431.42,
+      "text": " E esse monte,",
+      "tokens": [
+        51790,
+        462,
+        6755,
+        35437,
+        11,
+        51840
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667345561678446,
+      "compression_ratio": 1.4027149321266967,
+      "no_speech_prob": 0.00021631391427945346,
+      "words": [
+        {
+          "word": " E",
+          "start": 430.38,
+          "end": 430.8,
+          "probability": 0.8470891714096069
+        },
+        {
+          "word": " esse",
+          "start": 430.8,
+          "end": 431.04,
+          "probability": 0.8454874157905579
+        },
+        {
+          "word": " monte,",
+          "start": 431.04,
+          "end": 431.42,
+          "probability": 0.9987249970436096
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "seek": 43142,
+      "start": 431.42,
+      "end": 432.46,
+      "text": " Que é surgido,",
+      "tokens": [
+        50365,
+        4493,
+        1136,
+        19560,
+        2925,
+        11,
+        50440
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34441184997558594,
+      "compression_ratio": 0.8260869565217391,
+      "no_speech_prob": 0.00019410188542678952,
+      "words": [
+        {
+          "word": " Que",
+          "start": 431.42,
+          "end": 431.58,
+          "probability": 0.04944544658064842
+        },
+        {
+          "word": " é",
+          "start": 431.58,
+          "end": 431.64,
+          "probability": 0.18852689862251282
+        },
+        {
+          "word": " surgido,",
+          "start": 431.64,
+          "end": 432.46,
+          "probability": 0.6966510117053986
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "seek": 43142,
+      "start": 432.46,
+      "end": 434.62,
+      "text": " Seja um monte pascual.",
+      "tokens": [
+        50440,
+        1100,
+        2938,
+        1105,
+        35437,
+        1736,
+        66,
+        901,
+        13,
+        50540
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34441184997558594,
+      "compression_ratio": 0.8260869565217391,
+      "no_speech_prob": 0.00019410188542678952,
+      "words": [
+        {
+          "word": " Seja",
+          "start": 432.46,
+          "end": 433.22,
+          "probability": 0.4132360927760601
+        },
+        {
+          "word": " um",
+          "start": 433.22,
+          "end": 433.28,
+          "probability": 0.5208598375320435
+        },
+        {
+          "word": " monte",
+          "start": 433.28,
+          "end": 433.76,
+          "probability": 0.9874403476715088
+        },
+        {
+          "word": " pascual.",
+          "start": 433.76,
+          "end": 434.62,
+          "probability": 0.5406863788763682
+        }
+      ]
+    }
+  ]
+}

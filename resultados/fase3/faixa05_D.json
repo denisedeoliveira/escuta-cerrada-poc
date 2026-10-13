@@ -1,0 +1,815 @@
+{
+  "faixa": 5,
+  "arquivo": "5. Descobrimento do Brasil.mp4",
+  "condicao": "D",
+  "glossario": true,
+  "filtro": true,
+  "prompt_inicial": "Dom Aires Correia, batel, Portugal, Cabral, Vera Cruz.",
+  "modelo": "large-v3",
+  "parametros": {
+    "language": "pt",
+    "word_timestamps": true,
+    "carry_initial_prompt": true,
+    "demais": "valores padrão da biblioteca"
+  },
+  "semente": 0,
+  "versoes": {
+    "openai-whisper": "20250625",
+    "noisereduce": "3.0.3",
+    "librosa": "0.11.0",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130"
+  },
+  "python": "3.13.15",
+  "gpu": "Tesla T4",
+  "data_execucao": "2026-10-09T16:40:11.929641+00:00",
+  "duracao_audio_s": 441.32,
+  "duracao_processamento_s": 18.88,
+  "texto": " A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL",
+  "segmentos": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 27.1,
+      "end": 29.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.44005671414462005,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.027068432420492172,
+      "words": [
+        {
+          "word": " A",
+          "start": 27.1,
+          "end": 28.5,
+          "probability": 0.050095174461603165
+        },
+        {
+          "word": " CIDADE",
+          "start": 28.5,
+          "end": 29.9,
+          "probability": 0.6216871937115988
+        },
+        {
+          "word": " NO",
+          "start": 29.9,
+          "end": 29.92,
+          "probability": 0.9913538098335266
+        },
+        {
+          "word": " BRASIL",
+          "start": 29.92,
+          "end": 29.98,
+          "probability": 0.954419732093811
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 3000,
+      "start": 43.56,
+      "end": 59.5,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.011963508345864036,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.08363359421491623,
+      "words": [
+        {
+          "word": " A",
+          "start": 43.56,
+          "end": 44.96,
+          "probability": 0.050814855843782425
+        },
+        {
+          "word": " CIDADE",
+          "start": 44.96,
+          "end": 46.36,
+          "probability": 0.5825744966665903
+        },
+        {
+          "word": " NO",
+          "start": 46.36,
+          "end": 46.52,
+          "probability": 0.9873425960540771
+        },
+        {
+          "word": " BRASIL",
+          "start": 46.52,
+          "end": 59.5,
+          "probability": 0.9559505979220072
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 6000,
+      "start": 77.93999999999998,
+      "end": 89.52,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03896840052171187,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.10713823139667511,
+      "words": [
+        {
+          "word": " A",
+          "start": 77.93999999999998,
+          "end": 79.33999999999999,
+          "probability": 0.046492867171764374
+        },
+        {
+          "word": " CIDADE",
+          "start": 79.33999999999999,
+          "end": 80.74,
+          "probability": 0.5566766324142615
+        },
+        {
+          "word": " NO",
+          "start": 80.74,
+          "end": 80.9,
+          "probability": 0.9873508810997009
+        },
+        {
+          "word": " BRASIL",
+          "start": 80.9,
+          "end": 89.52,
+          "probability": 0.9480784138043722
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 9000,
+      "start": 112.61999999999999,
+      "end": 119.66,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20143094929781827,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.02382734790444374,
+      "words": [
+        {
+          "word": " A",
+          "start": 112.61999999999999,
+          "end": 114.02,
+          "probability": 0.06692217290401459
+        },
+        {
+          "word": " CIDADE",
+          "start": 114.02,
+          "end": 115.42,
+          "probability": 0.8010647694269816
+        },
+        {
+          "word": " NO",
+          "start": 115.42,
+          "end": 117.16,
+          "probability": 0.9807206988334656
+        },
+        {
+          "word": " BRASIL",
+          "start": 117.16,
+          "end": 119.66,
+          "probability": 0.9663470983505249
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 12000,
+      "start": 120.0,
+      "end": 149.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1834989461031827,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.4067358076572418,
+      "words": [
+        {
+          "word": " A",
+          "start": 120.0,
+          "end": 121.62,
+          "probability": 0.0012934564147144556
+        },
+        {
+          "word": " CIDADE",
+          "start": 121.62,
+          "end": 133.88,
+          "probability": 0.5506043334801992
+        },
+        {
+          "word": " NO",
+          "start": 133.88,
+          "end": 133.9,
+          "probability": 0.978207528591156
+        },
+        {
+          "word": " BRASIL",
+          "start": 133.9,
+          "end": 149.98,
+          "probability": 0.9700381358464559
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 15000,
+      "start": 150.0,
+      "end": 179.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21247053146362305,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.00966573879122734,
+      "words": [
+        {
+          "word": " A",
+          "start": 150.0,
+          "end": 150.12,
+          "probability": 0.001086745411157608
+        },
+        {
+          "word": " CIDADE",
+          "start": 150.12,
+          "end": 179.94,
+          "probability": 0.6164010390639305
+        },
+        {
+          "word": " NO",
+          "start": 179.94,
+          "end": 179.94,
+          "probability": 0.9705726504325867
+        },
+        {
+          "word": " BRASIL",
+          "start": 179.94,
+          "end": 179.98,
+          "probability": 0.9697951674461365
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 18000,
+      "start": 180.0,
+      "end": 209.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.07733285427093506,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.05634813755750656,
+      "words": [
+        {
+          "word": " A",
+          "start": 180.0,
+          "end": 181.32,
+          "probability": 0.008417472243309021
+        },
+        {
+          "word": " CIDADE",
+          "start": 181.32,
+          "end": 208.52,
+          "probability": 0.6096789886554083
+        },
+        {
+          "word": " NO",
+          "start": 208.52,
+          "end": 208.54,
+          "probability": 0.9668586850166321
+        },
+        {
+          "word": " BRASIL",
+          "start": 208.54,
+          "end": 209.98,
+          "probability": 0.9609242677688599
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 21000,
+      "start": 210.0,
+      "end": 239.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24079656600952148,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.10761376470327377,
+      "words": [
+        {
+          "word": " A",
+          "start": 210.0,
+          "end": 210.32,
+          "probability": 0.010493500158190727
+        },
+        {
+          "word": " CIDADE",
+          "start": 210.32,
+          "end": 239.8,
+          "probability": 0.5752449423695604
+        },
+        {
+          "word": " NO",
+          "start": 239.8,
+          "end": 239.82,
+          "probability": 0.9390022158622742
+        },
+        {
+          "word": " BRASIL",
+          "start": 239.82,
+          "end": 239.98,
+          "probability": 0.969756027062734
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 24000,
+      "start": 240.0,
+      "end": 269.84,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2844835194674405,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.00525362603366375,
+      "words": [
+        {
+          "word": " A",
+          "start": 240.0,
+          "end": 240.08,
+          "probability": 0.008820923045277596
+        },
+        {
+          "word": " CIDADE",
+          "start": 240.08,
+          "end": 267.92,
+          "probability": 0.45419732477360714
+        },
+        {
+          "word": " NO",
+          "start": 267.92,
+          "end": 267.94,
+          "probability": 0.7291120886802673
+        },
+        {
+          "word": " BRASIL",
+          "start": 267.94,
+          "end": 269.84,
+          "probability": 0.958174447218577
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 27000,
+      "start": 296.70000000000005,
+      "end": 299.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14727214249697598,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.06458394229412079,
+      "words": [
+        {
+          "word": " A",
+          "start": 296.70000000000005,
+          "end": 298.1,
+          "probability": 0.027374541386961937
+        },
+        {
+          "word": " CIDADE",
+          "start": 298.1,
+          "end": 299.5,
+          "probability": 0.5032490019996961
+        },
+        {
+          "word": " NO",
+          "start": 299.5,
+          "end": 299.56,
+          "probability": 0.9803103804588318
+        },
+        {
+          "word": " BRASIL",
+          "start": 299.56,
+          "end": 299.98,
+          "probability": 0.9533092776934305
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 30000,
+      "start": 315.76000000000005,
+      "end": 329.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17605090141296387,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.0046363347209990025,
+      "words": [
+        {
+          "word": " A",
+          "start": 315.76000000000005,
+          "end": 317.16,
+          "probability": 0.008612439036369324
+        },
+        {
+          "word": " CIDADE",
+          "start": 317.16,
+          "end": 318.56,
+          "probability": 0.6225906969824185
+        },
+        {
+          "word": " NO",
+          "start": 318.56,
+          "end": 318.84,
+          "probability": 0.9543635845184326
+        },
+        {
+          "word": " BRASIL",
+          "start": 318.84,
+          "end": 329.98,
+          "probability": 0.9630899826685587
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 33000,
+      "start": 330.0,
+      "end": 359.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2796791033311324,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.0005231201066635549,
+      "words": [
+        {
+          "word": " A",
+          "start": 330.0,
+          "end": 330.28,
+          "probability": 0.03482045978307724
+        },
+        {
+          "word": " CIDADE",
+          "start": 330.28,
+          "end": 346.78,
+          "probability": 0.3715011662619266
+        },
+        {
+          "word": " NO",
+          "start": 346.78,
+          "end": 347.16,
+          "probability": 0.8184076547622681
+        },
+        {
+          "word": " BRASIL",
+          "start": 347.16,
+          "end": 359.98,
+          "probability": 0.9802181919415792
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 36000,
+      "start": 360.0,
+      "end": 389.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.40498512441461737,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.16990512609481812,
+      "words": [
+        {
+          "word": " A",
+          "start": 360.0,
+          "end": 360.54,
+          "probability": 0.01977771334350109
+        },
+        {
+          "word": " CIDADE",
+          "start": 360.54,
+          "end": 361.94,
+          "probability": 0.4344950796415408
+        },
+        {
+          "word": " NO",
+          "start": 361.94,
+          "end": 361.94,
+          "probability": 0.9611260294914246
+        },
+        {
+          "word": " BRASIL",
+          "start": 361.94,
+          "end": 389.98,
+          "probability": 0.96491938829422
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 39000,
+      "start": 406.14000000000004,
+      "end": 419.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27110379392450507,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.20572859048843384,
+      "words": [
+        {
+          "word": " A",
+          "start": 406.14000000000004,
+          "end": 407.54,
+          "probability": 0.027254240587353706
+        },
+        {
+          "word": " CIDADE",
+          "start": 407.54,
+          "end": 408.94,
+          "probability": 0.5415432001464069
+        },
+        {
+          "word": " NO",
+          "start": 408.94,
+          "end": 410.62,
+          "probability": 0.9608993530273438
+        },
+        {
+          "word": " BRASIL",
+          "start": 410.62,
+          "end": 419.98,
+          "probability": 0.9739469885826111
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 42000,
+      "start": 420.0,
+      "end": 421.26,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        50865
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35144017991565524,
+      "compression_ratio": 1.2333333333333334,
+      "no_speech_prob": 0.006427849642932415,
+      "words": [
+        {
+          "word": " A",
+          "start": 420.0,
+          "end": 420.04,
+          "probability": 0.012075752951204777
+        },
+        {
+          "word": " CIDADE",
+          "start": 420.04,
+          "end": 421.2,
+          "probability": 0.3486557085319267
+        },
+        {
+          "word": " NO",
+          "start": 421.2,
+          "end": 421.2,
+          "probability": 0.9590586423873901
+        },
+        {
+          "word": " BRASIL",
+          "start": 421.2,
+          "end": 421.26,
+          "probability": 0.9782787760098776
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 42000,
+      "start": 421.26,
+      "end": 440.0,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50865,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51365
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35144017991565524,
+      "compression_ratio": 1.2333333333333334,
+      "no_speech_prob": 0.006427849642932415,
+      "words": [
+        {
+          "word": " A",
+          "start": 421.26,
+          "end": 421.26,
+          "probability": 0.49166664481163025
+        },
+        {
+          "word": " CIDADE",
+          "start": 421.26,
+          "end": 427.12,
+          "probability": 0.9254639744758606
+        },
+        {
+          "word": " NO",
+          "start": 427.12,
+          "end": 431.72,
+          "probability": 0.9969024062156677
+        },
+        {
+          "word": " BRASIL",
+          "start": 431.72,
+          "end": 440.0,
+          "probability": 0.9995920260747274
+        }
+      ]
+    }
+  ]
+}

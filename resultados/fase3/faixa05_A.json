@@ -1,0 +1,1572 @@
+{
+  "faixa": 5,
+  "arquivo": "5. Descobrimento do Brasil.mp4",
+  "condicao": "A",
+  "glossario": false,
+  "filtro": false,
+  "prompt_inicial": null,
+  "modelo": "large-v3",
+  "parametros": {
+    "language": "pt",
+    "word_timestamps": true,
+    "carry_initial_prompt": false,
+    "demais": "valores padrão da biblioteca"
+  },
+  "semente": 0,
+  "versoes": {
+    "openai-whisper": "20250625",
+    "noisereduce": "3.0.3",
+    "librosa": "0.11.0",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130"
+  },
+  "python": "3.13.15",
+  "gpu": "Tesla T4",
+  "data_execucao": "2026-10-09T16:25:02.894917+00:00",
+  "duracao_audio_s": 441.32,
+  "duracao_processamento_s": 31.47,
+  "texto": " A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL A CIDADE NO BRASIL Não duvida, senhor, desta sombra de um monte, ali, senhor. Exato, por Deus, a que rumos, quem sabe onde a providência nos levará, aonde, Fray Henrique? É ter paciência que é virtude cristã já por nós ensaiada. Sem ela, longe é o céu e a terra é quase nada. Um monte, um monte! Hoje é um dia de fé, é a Páscoa do Senhor. Oremos, pois, e a ele, em nosso imenso amor, agradeçamos ver, talvez, a terra ocidental. E esse monte a surgir seja um monte pascual.",
+  "segmentos": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 25.020000000000003,
+      "end": 29.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23428422754461115,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.7913297414779663,
+      "words": [
+        {
+          "word": " A",
+          "start": 25.020000000000003,
+          "end": 26.42,
+          "probability": 0.1494463086128235
+        },
+        {
+          "word": " CIDADE",
+          "start": 26.42,
+          "end": 27.82,
+          "probability": 0.8427554170290629
+        },
+        {
+          "word": " NO",
+          "start": 27.82,
+          "end": 27.84,
+          "probability": 0.9844351410865784
+        },
+        {
+          "word": " BRASIL",
+          "start": 27.84,
+          "end": 29.98,
+          "probability": 0.9539180795351664
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 3000,
+      "start": 57.1,
+      "end": 59.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.035787915641611275,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.0436599925160408,
+      "words": [
+        {
+          "word": " A",
+          "start": 57.1,
+          "end": 58.5,
+          "probability": 0.0948307141661644
+        },
+        {
+          "word": " CIDADE",
+          "start": 58.5,
+          "end": 59.9,
+          "probability": 0.5377122213443121
+        },
+        {
+          "word": " NO",
+          "start": 59.9,
+          "end": 59.92,
+          "probability": 0.9924706220626831
+        },
+        {
+          "word": " BRASIL",
+          "start": 59.92,
+          "end": 59.98,
+          "probability": 0.9474777380625407
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 6000,
+      "start": 86.41999999999999,
+      "end": 89.9,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.016137837008996445,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.10789749771356583,
+      "words": [
+        {
+          "word": " A",
+          "start": 86.41999999999999,
+          "end": 87.82,
+          "probability": 0.12377643585205078
+        },
+        {
+          "word": " CIDADE",
+          "start": 87.82,
+          "end": 89.22,
+          "probability": 0.5955820282300314
+        },
+        {
+          "word": " NO",
+          "start": 89.22,
+          "end": 89.24,
+          "probability": 0.9923823475837708
+        },
+        {
+          "word": " BRASIL",
+          "start": 89.24,
+          "end": 89.9,
+          "probability": 0.9538865486780802
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 9000,
+      "start": 112.63999999999999,
+      "end": 119.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27138749035921966,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.005210575181990862,
+      "words": [
+        {
+          "word": " A",
+          "start": 112.63999999999999,
+          "end": 114.03999999999999,
+          "probability": 0.04728400334715843
+        },
+        {
+          "word": " CIDADE",
+          "start": 114.03999999999999,
+          "end": 115.44,
+          "probability": 0.8081786235173544
+        },
+        {
+          "word": " NO",
+          "start": 115.44,
+          "end": 117.14,
+          "probability": 0.9537084698677063
+        },
+        {
+          "word": " BRASIL",
+          "start": 117.14,
+          "end": 119.98,
+          "probability": 0.9718820452690125
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 12000,
+      "start": 120.0,
+      "end": 149.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50366,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1594829884442416,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.019222507253289223,
+      "words": [
+        {
+          "word": " A",
+          "start": 120.0,
+          "end": 121.6,
+          "probability": 0.0006233386811800301
+        },
+        {
+          "word": " CIDADE",
+          "start": 121.6,
+          "end": 133.86,
+          "probability": 0.594252867003282
+        },
+        {
+          "word": " NO",
+          "start": 133.86,
+          "end": 133.88,
+          "probability": 0.9669607877731323
+        },
+        {
+          "word": " BRASIL",
+          "start": 133.88,
+          "end": 149.98,
+          "probability": 0.9733122984568278
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 15000,
+      "start": 150.0,
+      "end": 179.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50366,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.28733951395208185,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.0065927025862038136,
+      "words": [
+        {
+          "word": " A",
+          "start": 150.0,
+          "end": 150.14,
+          "probability": 0.0005003942060284317
+        },
+        {
+          "word": " CIDADE",
+          "start": 150.14,
+          "end": 179.96,
+          "probability": 0.6153179630637169
+        },
+        {
+          "word": " NO",
+          "start": 179.96,
+          "end": 179.96,
+          "probability": 0.9655860662460327
+        },
+        {
+          "word": " BRASIL",
+          "start": 179.96,
+          "end": 179.98,
+          "probability": 0.9712590177853903
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 18000,
+      "start": 180.0,
+      "end": 209.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19404706087979404,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.020725930109620094,
+      "words": [
+        {
+          "word": " A",
+          "start": 180.0,
+          "end": 180.82,
+          "probability": 0.0027365591377019882
+        },
+        {
+          "word": " CIDADE",
+          "start": 180.82,
+          "end": 208.52,
+          "probability": 0.5074759243677059
+        },
+        {
+          "word": " NO",
+          "start": 208.52,
+          "end": 208.54,
+          "probability": 0.9574238657951355
+        },
+        {
+          "word": " BRASIL",
+          "start": 208.54,
+          "end": 209.98,
+          "probability": 0.9670627315839132
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 21000,
+      "start": 210.0,
+      "end": 239.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50366,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29437416250055487,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.016872137784957886,
+      "words": [
+        {
+          "word": " A",
+          "start": 210.0,
+          "end": 210.32,
+          "probability": 0.00614898232743144
+        },
+        {
+          "word": " CIDADE",
+          "start": 210.32,
+          "end": 237.66,
+          "probability": 0.5893930263506869
+        },
+        {
+          "word": " NO",
+          "start": 237.66,
+          "end": 238.2,
+          "probability": 0.9738161563873291
+        },
+        {
+          "word": " BRASIL",
+          "start": 238.2,
+          "end": 239.98,
+          "probability": 0.9707683126131693
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 24000,
+      "start": 240.0,
+      "end": 269.92,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50366,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3600650267167525,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.01982876844704151,
+      "words": [
+        {
+          "word": " A",
+          "start": 240.0,
+          "end": 240.1,
+          "probability": 0.007129372097551823
+        },
+        {
+          "word": " CIDADE",
+          "start": 240.1,
+          "end": 267.94,
+          "probability": 0.4947587673862775
+        },
+        {
+          "word": " NO",
+          "start": 267.94,
+          "end": 267.96,
+          "probability": 0.9362508058547974
+        },
+        {
+          "word": " BRASIL",
+          "start": 267.96,
+          "end": 269.92,
+          "probability": 0.9712252616882324
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 27000,
+      "start": 296.74000000000007,
+      "end": 299.56,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10563051700592041,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.33594876527786255,
+      "words": [
+        {
+          "word": " A",
+          "start": 296.74000000000007,
+          "end": 298.14000000000004,
+          "probability": 0.07919341325759888
+        },
+        {
+          "word": " CIDADE",
+          "start": 298.14000000000004,
+          "end": 299.54,
+          "probability": 0.5766286253929138
+        },
+        {
+          "word": " NO",
+          "start": 299.54,
+          "end": 299.56,
+          "probability": 0.9924833178520203
+        },
+        {
+          "word": " BRASIL",
+          "start": 299.56,
+          "end": 299.56,
+          "probability": 0.9449133475621542
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 30000,
+      "start": 322.32000000000005,
+      "end": 329.98,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2722174037586559,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.04786814749240875,
+      "words": [
+        {
+          "word": " A",
+          "start": 322.32000000000005,
+          "end": 323.72,
+          "probability": 0.002876904560253024
+        },
+        {
+          "word": " CIDADE",
+          "start": 323.72,
+          "end": 325.12,
+          "probability": 0.5944522681335608
+        },
+        {
+          "word": " NO",
+          "start": 325.12,
+          "end": 325.24,
+          "probability": 0.933386504650116
+        },
+        {
+          "word": " BRASIL",
+          "start": 325.24,
+          "end": 329.98,
+          "probability": 0.9690653681755066
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 33000,
+      "start": 330.0,
+      "end": 358.88,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50366,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3421889001672918,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 0.01937183551490307,
+      "words": [
+        {
+          "word": " A",
+          "start": 330.0,
+          "end": 330.26,
+          "probability": 0.0036015522200614214
+        },
+        {
+          "word": " CIDADE",
+          "start": 330.26,
+          "end": 345.44,
+          "probability": 0.3639373758584649
+        },
+        {
+          "word": " NO",
+          "start": 345.44,
+          "end": 345.74,
+          "probability": 0.8212565779685974
+        },
+        {
+          "word": " BRASIL",
+          "start": 345.74,
+          "end": 358.88,
+          "probability": 0.9827001094818115
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 36000,
+      "start": 360.0,
+      "end": 361.66,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50365,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        50912
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.6260881423950195,
+      "compression_ratio": 1.8666666666666667,
+      "no_speech_prob": 0.014962841756641865,
+      "words": [
+        {
+          "word": " A",
+          "start": 360.0,
+          "end": 360.58,
+          "probability": 0.006692024413496256
+        },
+        {
+          "word": " CIDADE",
+          "start": 360.58,
+          "end": 361.66,
+          "probability": 0.41707701484362286
+        },
+        {
+          "word": " NO",
+          "start": 361.66,
+          "end": 361.66,
+          "probability": 0.9391298294067383
+        },
+        {
+          "word": " BRASIL",
+          "start": 361.66,
+          "end": 361.66,
+          "probability": 0.9650167425473531
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 36000,
+      "start": 361.66,
+      "end": 365.06,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        50919,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51614
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.6260881423950195,
+      "compression_ratio": 1.8666666666666667,
+      "no_speech_prob": 0.014962841756641865,
+      "words": [
+        {
+          "word": " A",
+          "start": 361.66,
+          "end": 361.66,
+          "probability": 0.20806549489498138
+        },
+        {
+          "word": " CIDADE",
+          "start": 361.66,
+          "end": 362.88,
+          "probability": 0.9717321395874023
+        },
+        {
+          "word": " NO",
+          "start": 362.88,
+          "end": 363.02,
+          "probability": 0.9957730174064636
+        },
+        {
+          "word": " BRASIL",
+          "start": 363.02,
+          "end": 365.06,
+          "probability": 0.9989647070566813
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 36000,
+      "start": 365.06,
+      "end": 389.0,
+      "text": " A CIDADE NO BRASIL",
+      "tokens": [
+        51615,
+        316,
+        383,
+        2777,
+        41671,
+        9146,
+        10262,
+        3160,
+        4620,
+        51815
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.6260881423950195,
+      "compression_ratio": 1.8666666666666667,
+      "no_speech_prob": 0.014962841756641865,
+      "words": [
+        {
+          "word": " A",
+          "start": 365.06,
+          "end": 365.72,
+          "probability": 0.8639075756072998
+        },
+        {
+          "word": " CIDADE",
+          "start": 365.72,
+          "end": 366.48,
+          "probability": 0.9968804717063904
+        },
+        {
+          "word": " NO",
+          "start": 366.48,
+          "end": 372.74,
+          "probability": 0.9988093376159668
+        },
+        {
+          "word": " BRASIL",
+          "start": 372.74,
+          "end": 389.0,
+          "probability": 0.999484638373057
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 38900,
+      "start": 389.0,
+      "end": 394.04,
+      "text": " Não duvida, senhor, desta sombra de um monte, ali, senhor.",
+      "tokens": [
+        50365,
+        8010,
+        1581,
+        32500,
+        11,
+        46464,
+        11,
+        45943,
+        3307,
+        6198,
+        368,
+        1105,
+        35437,
+        11,
+        10198,
+        11,
+        46464,
+        13,
+        50639
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2268765439692232,
+      "compression_ratio": 1.3980582524271845,
+      "no_speech_prob": 0.11352120339870453,
+      "words": [
+        {
+          "word": " Não",
+          "start": 389.0,
+          "end": 389.0,
+          "probability": 0.2210693210363388
+        },
+        {
+          "word": " duvida,",
+          "start": 389.0,
+          "end": 389.42,
+          "probability": 0.7027150094509125
+        },
+        {
+          "word": " senhor,",
+          "start": 389.46,
+          "end": 389.72,
+          "probability": 0.8343016505241394
+        },
+        {
+          "word": " desta",
+          "start": 390.12,
+          "end": 390.86,
+          "probability": 0.7520648837089539
+        },
+        {
+          "word": " sombra",
+          "start": 390.86,
+          "end": 391.64,
+          "probability": 0.9975039064884186
+        },
+        {
+          "word": " de",
+          "start": 391.64,
+          "end": 391.74,
+          "probability": 0.96315997838974
+        },
+        {
+          "word": " um",
+          "start": 391.74,
+          "end": 391.82,
+          "probability": 0.9922326803207397
+        },
+        {
+          "word": " monte,",
+          "start": 391.82,
+          "end": 392.18,
+          "probability": 0.9978513717651367
+        },
+        {
+          "word": " ali,",
+          "start": 392.44,
+          "end": 393.2,
+          "probability": 0.9595248699188232
+        },
+        {
+          "word": " senhor.",
+          "start": 393.42,
+          "end": 394.04,
+          "probability": 0.9986878037452698
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 38900,
+      "start": 395.24,
+      "end": 404.18,
+      "text": " Exato, por Deus, a que rumos, quem sabe onde a providência nos levará, aonde, Fray Henrique?",
+      "tokens": [
+        50680,
+        2111,
+        2513,
+        11,
+        1515,
+        15057,
+        11,
+        257,
+        631,
+        8347,
+        329,
+        11,
+        13026,
+        12275,
+        14396,
+        257,
+        1439,
+        327,
+        9322,
+        3269,
+        34538,
+        842,
+        11,
+        257,
+        7259,
+        11,
+        1526,
+        320,
+        8651,
+        22343,
+        30,
+        51135
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2268765439692232,
+      "compression_ratio": 1.3980582524271845,
+      "no_speech_prob": 0.11352120339870453,
+      "words": [
+        {
+          "word": " Exato,",
+          "start": 395.24,
+          "end": 396.04,
+          "probability": 0.9699915945529938
+        },
+        {
+          "word": " por",
+          "start": 396.26,
+          "end": 396.84,
+          "probability": 0.9970730543136597
+        },
+        {
+          "word": " Deus,",
+          "start": 396.84,
+          "end": 397.4,
+          "probability": 0.9989655017852783
+        },
+        {
+          "word": " a",
+          "start": 397.88,
+          "end": 398.28,
+          "probability": 0.9908286333084106
+        },
+        {
+          "word": " que",
+          "start": 398.28,
+          "end": 398.44,
+          "probability": 0.9936419129371643
+        },
+        {
+          "word": " rumos,",
+          "start": 398.44,
+          "end": 399.28,
+          "probability": 0.9785963296890259
+        },
+        {
+          "word": " quem",
+          "start": 399.28,
+          "end": 399.74,
+          "probability": 0.9983698725700378
+        },
+        {
+          "word": " sabe",
+          "start": 399.74,
+          "end": 400.16,
+          "probability": 0.9986295700073242
+        },
+        {
+          "word": " onde",
+          "start": 400.16,
+          "end": 400.48,
+          "probability": 0.9899393916130066
+        },
+        {
+          "word": " a",
+          "start": 400.48,
+          "end": 400.6,
+          "probability": 0.999607264995575
+        },
+        {
+          "word": " providência",
+          "start": 400.6,
+          "end": 401.1,
+          "probability": 0.9938839475313822
+        },
+        {
+          "word": " nos",
+          "start": 401.1,
+          "end": 401.36,
+          "probability": 0.9995666146278381
+        },
+        {
+          "word": " levará,",
+          "start": 401.36,
+          "end": 402.0,
+          "probability": 0.9999563694000244
+        },
+        {
+          "word": " aonde,",
+          "start": 402.06,
+          "end": 403.16,
+          "probability": 0.9785863757133484
+        },
+        {
+          "word": " Fray",
+          "start": 403.18,
+          "end": 403.58,
+          "probability": 0.529871329665184
+        },
+        {
+          "word": " Henrique?",
+          "start": 403.58,
+          "end": 404.18,
+          "probability": 0.9593304097652435
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 38900,
+      "start": 404.52,
+      "end": 409.2,
+      "text": " É ter paciência que é virtude cristã já por nós ensaiada.",
+      "tokens": [
+        51144,
+        4922,
+        1796,
+        15165,
+        72,
+        9322,
+        631,
+        1136,
+        4480,
+        2303,
+        35608,
+        1046,
+        6242,
+        1515,
+        9738,
+        3489,
+        1301,
+        1538,
+        13,
+        51381
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2268765439692232,
+      "compression_ratio": 1.3980582524271845,
+      "no_speech_prob": 0.11352120339870453,
+      "words": [
+        {
+          "word": " É",
+          "start": 404.52,
+          "end": 404.62,
+          "probability": 0.9962359070777893
+        },
+        {
+          "word": " ter",
+          "start": 404.62,
+          "end": 404.82,
+          "probability": 0.9999090433120728
+        },
+        {
+          "word": " paciência",
+          "start": 404.82,
+          "end": 405.82,
+          "probability": 0.9997745156288147
+        },
+        {
+          "word": " que",
+          "start": 405.82,
+          "end": 406.1,
+          "probability": 0.4454600512981415
+        },
+        {
+          "word": " é",
+          "start": 406.1,
+          "end": 406.16,
+          "probability": 0.9792414307594299
+        },
+        {
+          "word": " virtude",
+          "start": 406.16,
+          "end": 406.7,
+          "probability": 0.9993164837360382
+        },
+        {
+          "word": " cristã",
+          "start": 406.7,
+          "end": 407.4,
+          "probability": 0.9998148381710052
+        },
+        {
+          "word": " já",
+          "start": 407.4,
+          "end": 407.86,
+          "probability": 0.7215622663497925
+        },
+        {
+          "word": " por",
+          "start": 407.86,
+          "end": 408.08,
+          "probability": 0.9999548196792603
+        },
+        {
+          "word": " nós",
+          "start": 408.08,
+          "end": 408.38,
+          "probability": 0.9996602535247803
+        },
+        {
+          "word": " ensaiada.",
+          "start": 408.38,
+          "end": 409.2,
+          "probability": 0.9993597865104675
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 38900,
+      "start": 409.4,
+      "end": 414.1,
+      "text": " Sem ela, longe é o céu e a terra é quase nada.",
+      "tokens": [
+        51411,
+        14421,
+        7175,
+        11,
+        26052,
+        1136,
+        277,
+        50052,
+        308,
+        257,
+        26298,
+        1136,
+        28875,
+        8096,
+        13,
+        51635
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2268765439692232,
+      "compression_ratio": 1.3980582524271845,
+      "no_speech_prob": 0.11352120339870453,
+      "words": [
+        {
+          "word": " Sem",
+          "start": 409.4,
+          "end": 409.92,
+          "probability": 0.9978728294372559
+        },
+        {
+          "word": " ela,",
+          "start": 409.92,
+          "end": 410.46,
+          "probability": 0.9999717473983765
+        },
+        {
+          "word": " longe",
+          "start": 410.52,
+          "end": 411.24,
+          "probability": 0.9999419450759888
+        },
+        {
+          "word": " é",
+          "start": 411.24,
+          "end": 411.46,
+          "probability": 0.9959839582443237
+        },
+        {
+          "word": " o",
+          "start": 411.46,
+          "end": 411.52,
+          "probability": 0.9999514818191528
+        },
+        {
+          "word": " céu",
+          "start": 411.52,
+          "end": 411.9,
+          "probability": 0.9996368885040283
+        },
+        {
+          "word": " e",
+          "start": 411.9,
+          "end": 412.54,
+          "probability": 0.9219847321510315
+        },
+        {
+          "word": " a",
+          "start": 412.54,
+          "end": 412.76,
+          "probability": 0.9989701509475708
+        },
+        {
+          "word": " terra",
+          "start": 412.76,
+          "end": 413.18,
+          "probability": 0.9980226755142212
+        },
+        {
+          "word": " é",
+          "start": 413.18,
+          "end": 413.36,
+          "probability": 0.9971412420272827
+        },
+        {
+          "word": " quase",
+          "start": 413.36,
+          "end": 413.66,
+          "probability": 0.9999713897705078
+        },
+        {
+          "word": " nada.",
+          "start": 413.66,
+          "end": 414.1,
+          "probability": 0.9999181032180786
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 38900,
+      "start": 414.56,
+      "end": 417.0,
+      "text": " Um monte, um monte!",
+      "tokens": [
+        51654,
+        3301,
+        35437,
+        11,
+        1105,
+        35437,
+        0,
+        51782
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2268765439692232,
+      "compression_ratio": 1.3980582524271845,
+      "no_speech_prob": 0.11352120339870453,
+      "words": [
+        {
+          "word": " Um",
+          "start": 414.56,
+          "end": 414.82,
+          "probability": 0.4869295656681061
+        },
+        {
+          "word": " monte,",
+          "start": 414.82,
+          "end": 415.34,
+          "probability": 0.9997056126594543
+        },
+        {
+          "word": " um",
+          "start": 415.62,
+          "end": 416.22,
+          "probability": 0.9998346567153931
+        },
+        {
+          "word": " monte!",
+          "start": 416.22,
+          "end": 417.0,
+          "probability": 0.9999395608901978
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 41700,
+      "start": 417.0,
+      "end": 420.98,
+      "text": " Hoje é um dia de fé, é a Páscoa do Senhor.",
+      "tokens": [
+        50365,
+        34104,
+        1136,
+        1105,
+        6801,
+        368,
+        34271,
+        11,
+        1136,
+        257,
+        430,
+        2490,
+        1291,
+        64,
+        360,
+        43792,
+        13,
+        50576
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11051853001117706,
+      "compression_ratio": 1.2657342657342658,
+      "no_speech_prob": 0.00048777463962323964,
+      "words": [
+        {
+          "word": " Hoje",
+          "start": 417.0,
+          "end": 417.96,
+          "probability": 0.7413168549537659
+        },
+        {
+          "word": " é",
+          "start": 417.96,
+          "end": 418.3,
+          "probability": 0.821025550365448
+        },
+        {
+          "word": " um",
+          "start": 418.3,
+          "end": 418.38,
+          "probability": 0.9972196817398071
+        },
+        {
+          "word": " dia",
+          "start": 418.38,
+          "end": 418.68,
+          "probability": 0.9975265860557556
+        },
+        {
+          "word": " de",
+          "start": 418.68,
+          "end": 418.82,
+          "probability": 0.9944646954536438
+        },
+        {
+          "word": " fé,",
+          "start": 418.82,
+          "end": 419.12,
+          "probability": 0.9969130754470825
+        },
+        {
+          "word": " é",
+          "start": 419.28,
+          "end": 419.8,
+          "probability": 0.9906691312789917
+        },
+        {
+          "word": " a",
+          "start": 419.8,
+          "end": 419.94,
+          "probability": 0.9988454580307007
+        },
+        {
+          "word": " Páscoa",
+          "start": 419.94,
+          "end": 420.56,
+          "probability": 0.9937490075826645
+        },
+        {
+          "word": " do",
+          "start": 420.56,
+          "end": 420.62,
+          "probability": 0.9984620809555054
+        },
+        {
+          "word": " Senhor.",
+          "start": 420.62,
+          "end": 420.98,
+          "probability": 0.9902156591415405
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 41700,
+      "start": 421.44,
+      "end": 429.9,
+      "text": " Oremos, pois, e a ele, em nosso imenso amor, agradeçamos ver, talvez, a terra ocidental.",
+      "tokens": [
+        50608,
+        422,
+        28343,
+        11,
+        31014,
+        11,
+        308,
+        257,
+        1118,
+        11,
+        846,
+        14347,
+        566,
+        268,
+        539,
+        15543,
+        11,
+        31469,
+        1138,
+        2151,
+        1306,
+        11,
+        32320,
+        11,
+        257,
+        26298,
+        10409,
+        47023,
+        13,
+        51018
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11051853001117706,
+      "compression_ratio": 1.2657342657342658,
+      "no_speech_prob": 0.00048777463962323964,
+      "words": [
+        {
+          "word": " Oremos,",
+          "start": 421.44,
+          "end": 422.16,
+          "probability": 0.9989944696426392
+        },
+        {
+          "word": " pois,",
+          "start": 422.16,
+          "end": 422.66,
+          "probability": 0.9994208812713623
+        },
+        {
+          "word": " e",
+          "start": 422.84,
+          "end": 423.3,
+          "probability": 0.7376756072044373
+        },
+        {
+          "word": " a",
+          "start": 423.3,
+          "end": 423.48,
+          "probability": 0.9993603825569153
+        },
+        {
+          "word": " ele,",
+          "start": 423.48,
+          "end": 423.92,
+          "probability": 0.7629216909408569
+        },
+        {
+          "word": " em",
+          "start": 424.0,
+          "end": 424.32,
+          "probability": 0.999864935874939
+        },
+        {
+          "word": " nosso",
+          "start": 424.32,
+          "end": 424.68,
+          "probability": 0.9997294545173645
+        },
+        {
+          "word": " imenso",
+          "start": 424.68,
+          "end": 425.52,
+          "probability": 0.9996312657992045
+        },
+        {
+          "word": " amor,",
+          "start": 425.52,
+          "end": 425.76,
+          "probability": 0.9997178912162781
+        },
+        {
+          "word": " agradeçamos",
+          "start": 426.1,
+          "end": 427.18,
+          "probability": 0.9540091156959534
+        },
+        {
+          "word": " ver,",
+          "start": 427.18,
+          "end": 427.54,
+          "probability": 0.9975029826164246
+        },
+        {
+          "word": " talvez,",
+          "start": 427.7,
+          "end": 428.14,
+          "probability": 0.9986586570739746
+        },
+        {
+          "word": " a",
+          "start": 428.64,
+          "end": 428.96,
+          "probability": 0.9998440742492676
+        },
+        {
+          "word": " terra",
+          "start": 428.96,
+          "end": 429.26,
+          "probability": 0.6788842678070068
+        },
+        {
+          "word": " ocidental.",
+          "start": 429.26,
+          "end": 429.9,
+          "probability": 0.9992733001708984
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 41700,
+      "start": 430.38,
+      "end": 434.58,
+      "text": " E esse monte a surgir seja um monte pascual.",
+      "tokens": [
+        51056,
+        462,
+        6755,
+        35437,
+        257,
+        19560,
+        347,
+        13459,
+        1105,
+        35437,
+        1736,
+        66,
+        901,
+        13,
+        51251
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11051853001117706,
+      "compression_ratio": 1.2657342657342658,
+      "no_speech_prob": 0.00048777463962323964,
+      "words": [
+        {
+          "word": " E",
+          "start": 430.38,
+          "end": 430.78,
+          "probability": 0.9241815209388733
+        },
+        {
+          "word": " esse",
+          "start": 430.78,
+          "end": 431.04,
+          "probability": 0.9616498351097107
+        },
+        {
+          "word": " monte",
+          "start": 431.04,
+          "end": 431.42,
+          "probability": 0.9897743463516235
+        },
+        {
+          "word": " a",
+          "start": 431.42,
+          "end": 431.64,
+          "probability": 0.9983491897583008
+        },
+        {
+          "word": " surgir",
+          "start": 431.64,
+          "end": 432.38,
+          "probability": 0.9999531507492065
+        },
+        {
+          "word": " seja",
+          "start": 432.38,
+          "end": 433.06,
+          "probability": 0.7757551074028015
+        },
+        {
+          "word": " um",
+          "start": 433.06,
+          "end": 433.3,
+          "probability": 0.7878047227859497
+        },
+        {
+          "word": " monte",
+          "start": 433.3,
+          "end": 433.78,
+          "probability": 0.9506844878196716
+        },
+        {
+          "word": " pascual.",
+          "start": 433.78,
+          "end": 434.58,
+          "probability": 0.9446980357170105
+        }
+      ]
+    }
+  ]
+}

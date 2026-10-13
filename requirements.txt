@@ -1,0 +1,18 @@
+# Bibliotecas usadas nos cadernos, nas versões registradas no Google Colab (Python 3.13).
+# Instalação: pip install -r requirements.txt
+# A leitura de áudio depende também do ffmpeg, instalado fora do Python.
+
+# Fase 2 · primeiro contato técnico
+librosa==0.11.0
+numpy==2.1.3
+pandas==2.2.3
+matplotlib==3.10.0
+
+# Fase 3 · reconhecimento de fala e medição
+torch==2.11.0
+openai-whisper==20250625
+noisereduce==3.0.3
+jiwer==4.0.0
+
+# Testes
+pytest
