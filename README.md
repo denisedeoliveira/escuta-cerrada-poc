@@ -21,6 +21,7 @@ Cinco gravações da primeira metade dos anos 1940, preservadas na Coleção da 
 - `docs/fase1/` · corpus, escuta prévia, referências humanas e expectativas, registrados antes de qualquer processamento (release `v0.1-fase1`).
 - `docs/fase2/` · primeiro contato técnico com os áudios, com dados técnicos dos arquivos, espectrogramas, decisão sobre a entrada dos modelos e medição da velocidade de rotação (release `v0.2-fase2`).
 - `docs/fase3/` · reconhecimento de fala com o Whisper em quatro condições, taxa de erro de palavra, termos críticos e escuta dirigida dos trechos em que a máquina escreveu algo sem correspondência na referência (release `v0.3-fase3`).
+- `docs/fase4/` · detecção de eventos sonoros com o PANNs e o CLAP, sem e com filtro, comparação com a tabela de eventos registrada pela escuta, cotejo com a taxonomia de Almirante e escuta dirigida dos trechos apontados pelos detectores (release `v0.4-fase4`).
 - `resultados/` · saídas dos modelos em JSON e tabelas de medidas, por fase.
 - `src/` · funções reutilizadas pelos cadernos e testadas em `tests/`.
 - `tests/` · testes automáticos (`python -m pytest -q tests`).

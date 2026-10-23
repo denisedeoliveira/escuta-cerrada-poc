@@ -1,0 +1,402 @@
+trecho,faixa,inicio,fim,modelo,condicao,criterio,rotulo,valor
+1,1,0.0,2.0,PANNs,sem,1,Applause,0.61
+1,1,1.0,3.0,PANNs,sem,1,Applause,0.4
+1,1,2.0,4.0,PANNs,sem,1,Applause,0.59
+1,1,3.0,5.0,PANNs,sem,1,Applause,0.56
+1,1,4.0,6.0,PANNs,sem,1,Applause,0.64
+2,1,94.0,96.0,PANNs,com,1,Clicking,0.35
+3,1,251.0,253.0,PANNs,com,1,Clicking,0.44
+4,1,270.0,272.0,CLAP,sem e com,1,a skipping record,1.0
+5,1,294.0,296.0,PANNs,com,1,Clicking,0.33
+5,1,296.0,298.0,PANNs,sem,2,Sheep,0.57
+6,1,327.0,329.0,PANNs,com,2,Crunch,0.54
+6,1,328.0,330.0,PANNs,com,2,Crunch,0.61
+6,1,329.0,331.0,PANNs,com,2,Crunch,0.58
+6,1,333.517,335.517,CLAP,sem e com,2,silence,1.0
+7,2,2.0,4.0,PANNs,com,2,Speech synthesizer,0.57
+7,2,6.0,8.0,PANNs,com,2,Speech synthesizer,0.56
+7,2,7.0,9.0,PANNs,com,2,Speech synthesizer,0.71
+7,2,8.0,10.0,PANNs,com,2,Speech synthesizer,0.67
+7,2,11.0,13.0,PANNs,com,2,Speech synthesizer,0.69
+7,2,17.0,19.0,PANNs,com,2,Speech synthesizer,0.59
+8,2,29.0,31.0,PANNs,com,2,Speech synthesizer,0.52
+8,2,30.0,32.0,PANNs,com,2,Speech synthesizer,0.52
+8,2,33.0,35.0,PANNs,com,2,Speech synthesizer,0.5
+8,2,37.0,39.0,PANNs,com,2,Speech synthesizer,0.64
+8,2,44.0,46.0,PANNs,com,2,Speech synthesizer,0.52
+8,2,48.0,50.0,PANNs,com,2,Speech synthesizer,0.56
+8,2,50.0,52.0,PANNs,sem,1,Music,0.35
+8,2,50.0,52.0,PANNs,com,2,Speech synthesizer,0.5
+8,2,51.0,53.0,PANNs,com,2,Speech synthesizer,0.67
+8,2,52.0,54.0,PANNs,com,2,Speech synthesizer,0.67
+8,2,53.0,55.0,PANNs,com,2,Speech synthesizer,0.63
+8,2,54.0,56.0,PANNs,com,2,Speech synthesizer,0.51
+8,2,57.0,59.0,PANNs,com,2,Speech synthesizer,0.6
+8,2,59.0,61.0,PANNs,sem,1,Music,0.37
+8,2,59.0,61.0,PANNs,com,2,Speech synthesizer,0.51
+8,2,62.0,64.0,PANNs,com,2,Speech synthesizer,0.56
+8,2,67.0,69.0,PANNs,sem,1,Music,0.64
+8,2,71.0,73.0,PANNs,sem,1,Music,0.31
+9,2,81.0,83.0,PANNs,sem,1,Music,0.46
+9,2,82.0,84.0,PANNs,sem,1,Music,0.6
+9,2,84.0,86.0,PANNs,com,2,Speech synthesizer,0.59
+9,2,85.0,87.0,PANNs,com,2,Speech synthesizer,0.61
+9,2,89.0,91.0,PANNs,com,2,Speech synthesizer,0.53
+9,2,90.0,92.0,PANNs,com,2,Speech synthesizer,0.64
+9,2,94.0,96.0,PANNs,sem,1,Music,0.49
+9,2,95.0,97.0,PANNs,sem,1,Music,0.69
+9,2,95.0,97.0,PANNs,com,2,Plop,0.65
+10,2,109.0,111.0,PANNs,sem,1,Music,0.73
+10,2,110.0,112.0,PANNs,sem,1,Music,0.31
+10,2,117.0,119.0,PANNs,sem,1,Music,0.5
+11,2,127.0,129.0,PANNs,sem,1,Music,0.6
+11,2,128.0,130.0,PANNs,sem,1,Music,0.34
+11,2,134.0,136.0,PANNs,sem,1,Music,0.39
+11,2,139.0,141.0,PANNs,sem,1,Music,0.32
+11,2,141.0,143.0,PANNs,com,2,Speech synthesizer,0.62
+11,2,142.0,144.0,PANNs,com,2,Speech synthesizer,0.58
+11,2,144.0,146.0,PANNs,com,2,Speech synthesizer,0.56
+11,2,145.0,147.0,PANNs,com,2,Speech synthesizer,0.58
+11,2,148.0,150.0,PANNs,sem,1,Music,0.33
+11,2,150.0,152.0,PANNs,com,2,Speech synthesizer,0.61
+11,2,151.0,153.0,PANNs,sem,1,Music,0.49
+11,2,152.0,154.0,PANNs,sem,1,Music,0.7
+11,2,153.0,155.0,PANNs,sem,1,Music,0.46
+12,2,163.0,165.0,PANNs,sem,1,Music,0.35
+13,2,173.0,175.0,PANNs,com,2,Speech synthesizer,0.64
+13,2,175.0,177.0,PANNs,sem,1,Music,0.41
+13,2,178.0,180.0,PANNs,sem,1,Music,0.31
+13,2,182.0,184.0,PANNs,sem,1,Music,0.5
+13,2,183.0,185.0,PANNs,sem,1,Music,0.48
+13,2,187.0,189.0,PANNs,com,2,Speech synthesizer,0.58
+13,2,188.0,190.0,PANNs,sem,1,Music,0.45
+13,2,188.0,190.0,PANNs,com,2,Speech synthesizer,0.52
+13,2,189.0,191.0,PANNs,sem,1,Music,0.67
+13,2,194.0,196.0,PANNs,com,2,Speech synthesizer,0.52
+13,2,195.0,197.0,PANNs,com,2,Speech synthesizer,0.65
+14,3,10.0,12.0,PANNs,com,2,Speech synthesizer,0.56
+15,3,132.0,134.0,PANNs,com,1,Clicking,0.3
+16,3,181.0,183.0,PANNs,com,2,Speech synthesizer,0.58
+17,3,222.0,224.0,PANNs,sem,2,"Gunshot, gunfire",0.5
+18,3,285.0,287.0,PANNs,com,2,Speech synthesizer,0.75
+18,3,286.0,288.0,PANNs,com,2,Speech synthesizer,0.59
+19,3,338.0,340.0,PANNs,com,2,Speech synthesizer,0.55
+20,3,357.0,359.0,PANNs,com,2,Crunch,0.7
+20,3,358.0,360.0,PANNs,com,2,Crunch,0.51
+20,3,360.057,362.057,CLAP,sem e com,2,silence,1.0
+21,4,0.0,2.0,PANNs,com,1,Tearing,0.37
+22,4,11.0,13.0,PANNs,com,1,Speech,0.73
+22,4,12.0,14.0,PANNs,com,1,Speech,0.46
+22,4,17.0,19.0,PANNs,com,1,Speech,0.58
+22,4,24.0,26.0,PANNs,sem,1,Music,0.7
+22,4,24.0,26.0,PANNs,com,1,Speech,0.32
+22,4,25.0,27.0,PANNs,sem,1,Music,0.79
+22,4,25.0,27.0,PANNs,com,1,Speech,0.46
+22,4,26.0,28.0,PANNs,sem,1,Music,0.66
+22,4,26.0,28.0,PANNs,com,1,Music,0.59
+22,4,26.0,28.0,PANNs,com,1,Speech,0.32
+22,4,27.0,29.0,PANNs,sem,1,Music,0.69
+22,4,28.0,30.0,PANNs,sem,1,Music,0.83
+22,4,29.0,31.0,PANNs,sem,1,Music,0.86
+22,4,29.0,31.0,PANNs,sem,1,Musical instrument,0.31
+22,4,30.0,32.0,PANNs,sem,1,Music,0.78
+22,4,30.0,32.0,PANNs,sem,1,Wood block,0.31
+22,4,30.0,32.0,PANNs,com,1,Speech,0.52
+22,4,31.0,33.0,PANNs,sem,1,Music,0.86
+22,4,31.0,33.0,PANNs,sem,1,Wood block,0.39
+22,4,32.0,34.0,PANNs,sem,1,Music,0.82
+22,4,32.0,34.0,PANNs,com,1,Speech,0.6
+22,4,32.0,34.0,PANNs,com,1,Music,0.34
+22,4,33.0,35.0,PANNs,sem,1,Music,0.9
+22,4,33.0,35.0,PANNs,sem,1,Musical instrument,0.3
+22,4,34.0,36.0,PANNs,sem,1,Music,0.88
+22,4,34.0,36.0,PANNs,sem,1,Musical instrument,0.36
+22,4,35.0,37.0,PANNs,sem,1,Music,0.83
+22,4,35.0,37.0,PANNs,sem,1,Musical instrument,0.49
+22,4,35.0,37.0,PANNs,com,1,Speech,0.48
+22,4,36.0,38.0,PANNs,sem,1,Music,0.89
+22,4,36.0,38.0,PANNs,sem,1,Musical instrument,0.54
+22,4,36.0,38.0,PANNs,com,1,Music,0.62
+22,4,36.0,38.0,PANNs,com,1,Speech,0.4
+22,4,37.0,39.0,PANNs,sem,1,Music,0.8
+22,4,37.0,39.0,PANNs,com,1,Music,0.44
+22,4,38.0,40.0,PANNs,sem,1,Music,0.73
+22,4,39.0,41.0,PANNs,sem,1,Music,0.78
+22,4,40.0,42.0,PANNs,sem,1,Music,0.6
+22,4,44.0,46.0,PANNs,sem,1,Speech,0.53
+22,4,44.0,46.0,PANNs,sem,1,Music,0.3
+22,4,44.0,46.0,PANNs,com,1,Speech,0.49
+22,4,45.0,47.0,PANNs,sem,1,Music,0.85
+22,4,45.0,47.0,PANNs,sem,1,Musical instrument,0.48
+22,4,46.0,48.0,PANNs,sem,1,Music,0.72
+22,4,46.0,48.0,PANNs,sem,1,Musical instrument,0.35
+22,4,47.0,49.0,PANNs,sem,1,Music,0.85
+22,4,47.0,49.0,PANNs,sem,1,Musical instrument,0.4
+22,4,48.0,50.0,PANNs,sem,1,Music,0.88
+22,4,48.0,50.0,PANNs,sem,1,Musical instrument,0.43
+22,4,49.0,51.0,PANNs,sem,1,Music,0.86
+22,4,50.0,52.0,PANNs,sem,1,Music,0.69
+22,4,51.0,53.0,PANNs,sem,1,Music,0.81
+22,4,51.0,53.0,PANNs,sem,1,Musical instrument,0.34
+22,4,51.0,53.0,PANNs,com,1,Speech,0.32
+22,4,52.0,54.0,PANNs,sem,1,Music,0.68
+22,4,53.0,55.0,PANNs,sem,1,Music,0.65
+22,4,53.0,55.0,PANNs,com,1,Speech,0.43
+22,4,54.0,56.0,PANNs,sem,1,Music,0.82
+22,4,55.0,57.0,PANNs,sem,1,Music,0.8
+22,4,55.0,57.0,PANNs,com,1,Speech,0.31
+22,4,56.0,58.0,PANNs,sem,1,Speech,0.53
+22,4,56.0,58.0,PANNs,sem,1,Music,0.49
+22,4,56.0,58.0,PANNs,com,1,Speech,0.74
+22,4,57.0,59.0,PANNs,sem,1,Speech,0.56
+22,4,57.0,59.0,PANNs,com,1,Speech,0.72
+22,4,58.0,60.0,PANNs,sem,1,Speech,0.37
+22,4,58.0,60.0,PANNs,com,1,Speech,0.66
+22,4,59.0,61.0,PANNs,sem,1,Music,0.73
+22,4,59.0,61.0,PANNs,sem,1,Speech,0.57
+22,4,59.0,61.0,PANNs,com,1,Speech,0.66
+22,4,60.0,62.0,PANNs,sem,1,Music,0.88
+22,4,61.0,63.0,PANNs,sem,1,Music,0.8
+22,4,62.0,64.0,PANNs,sem,1,Music,0.5
+22,4,62.864,64.864,PANNs,sem,1,Music,0.32
+23,5,18.0,20.0,CLAP,sem e com,1,surdo,1.0
+23,5,19.0,21.0,CLAP,sem e com,1,surdo,1.0
+24,5,69.0,71.0,PANNs,sem,1,Gong,0.45
+24,5,70.0,72.0,PANNs,sem,1,Gong,0.39
+25,5,84.0,86.0,PANNs,sem,2,Vehicle,0.51
+26,5,113.0,115.0,PANNs,sem,2,"Bee, wasp, etc.",0.71
+26,5,113.0,115.0,PANNs,sem,2,Insect,0.61
+26,5,116.0,118.0,PANNs,sem,2,"Bee, wasp, etc.",0.7
+26,5,116.0,118.0,PANNs,sem,2,Insect,0.59
+26,5,117.0,119.0,PANNs,sem,2,"Bee, wasp, etc.",0.84
+26,5,117.0,119.0,PANNs,sem,2,Insect,0.73
+26,5,117.0,119.0,PANNs,sem,2,"Fly, housefly",0.56
+26,5,119.0,121.0,CLAP,sem e com,1,surdo,1.0
+27,5,128.0,130.0,CLAP,sem e com,1,a man coughing,1.0
+27,5,130.0,132.0,PANNs,sem,2,"Bee, wasp, etc.",0.82
+27,5,130.0,132.0,PANNs,sem,2,Insect,0.76
+27,5,130.0,132.0,PANNs,sem,2,"Fly, housefly",0.56
+27,5,131.0,133.0,PANNs,sem,2,"Bee, wasp, etc.",0.69
+27,5,131.0,133.0,PANNs,sem,2,Insect,0.62
+28,5,145.0,147.0,PANNs,sem,2,Insect,0.54
+28,5,147.0,149.0,CLAP,sem e com,2,silence,1.0
+29,5,164.0,166.0,PANNs,sem,2,"Bee, wasp, etc.",0.58
+29,5,169.0,171.0,PANNs,sem,1,Speech,0.56
+29,5,171.0,173.0,PANNs,sem,2,Insect,0.57
+29,5,172.0,174.0,PANNs,sem,1,Speech,0.38
+29,5,173.0,175.0,PANNs,sem,1,Speech,0.67
+29,5,174.0,176.0,PANNs,sem,1,Speech,0.66
+29,5,174.0,176.0,PANNs,com,1,Speech,0.66
+29,5,175.0,177.0,PANNs,sem,2,Owl,0.6
+29,5,175.0,177.0,PANNs,sem,2,Hoot,0.5
+29,5,175.0,177.0,PANNs,sem,1,Speech,0.46
+29,5,175.0,177.0,PANNs,com,1,Speech,0.74
+29,5,175.0,177.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,176.0,178.0,PANNs,sem,1,Speech,0.78
+29,5,178.0,180.0,PANNs,sem,1,Speech,0.35
+29,5,179.0,181.0,PANNs,com,1,Speech,0.74
+29,5,181.0,183.0,PANNs,sem,1,Speech,0.45
+29,5,182.0,184.0,PANNs,com,1,Speech,0.59
+29,5,183.0,185.0,PANNs,com,1,Speech,0.7
+29,5,184.0,186.0,PANNs,sem,1,Speech,0.43
+29,5,184.0,186.0,PANNs,com,1,Speech,0.73
+29,5,185.0,187.0,PANNs,sem,1,Speech,0.85
+29,5,185.0,187.0,PANNs,sem,1,"Narration, monologue",0.39
+29,5,185.0,187.0,PANNs,sem,1,"Male speech, man speaking",0.38
+29,5,185.0,187.0,PANNs,com,1,Speech,0.79
+29,5,186.0,188.0,PANNs,sem,1,Speech,0.68
+29,5,186.0,188.0,PANNs,sem,1,"Male speech, man speaking",0.32
+29,5,186.0,188.0,PANNs,com,1,Speech,0.79
+29,5,187.0,189.0,PANNs,sem,1,Speech,0.65
+29,5,187.0,189.0,PANNs,com,1,Speech,0.33
+29,5,188.0,190.0,PANNs,sem,1,Speech,0.55
+29,5,188.0,190.0,PANNs,com,1,Speech,0.66
+29,5,189.0,191.0,PANNs,sem,1,Speech,0.74
+29,5,189.0,191.0,PANNs,com,1,Speech,0.71
+29,5,190.0,192.0,PANNs,sem,1,Speech,0.62
+29,5,190.0,192.0,PANNs,com,1,Speech,0.72
+29,5,191.0,193.0,PANNs,sem,1,Speech,0.71
+29,5,191.0,193.0,PANNs,com,1,Speech,0.68
+29,5,192.0,194.0,PANNs,sem,1,Speech,0.77
+29,5,192.0,194.0,PANNs,com,1,Speech,0.64
+29,5,193.0,195.0,PANNs,sem,1,Speech,0.75
+29,5,194.0,196.0,PANNs,sem,1,Speech,0.81
+29,5,194.0,196.0,PANNs,com,1,Speech,0.75
+29,5,195.0,197.0,PANNs,sem,1,Speech,0.86
+29,5,195.0,197.0,PANNs,com,1,Speech,0.86
+29,5,196.0,198.0,PANNs,sem,1,Speech,0.85
+29,5,196.0,198.0,PANNs,com,1,Speech,0.87
+29,5,197.0,199.0,PANNs,sem,1,Speech,0.87
+29,5,197.0,199.0,PANNs,sem,1,"Male speech, man speaking",0.34
+29,5,197.0,199.0,PANNs,com,1,Speech,0.8
+29,5,198.0,200.0,PANNs,sem,1,Speech,0.76
+29,5,198.0,200.0,PANNs,com,1,Speech,0.86
+29,5,199.0,201.0,PANNs,sem,1,Speech,0.82
+29,5,199.0,201.0,PANNs,com,1,Speech,0.84
+29,5,200.0,202.0,PANNs,sem,1,Speech,0.77
+29,5,201.0,203.0,PANNs,sem,1,Speech,0.82
+29,5,201.0,203.0,PANNs,com,1,Speech,0.71
+29,5,202.0,204.0,PANNs,sem,1,Speech,0.79
+29,5,202.0,204.0,PANNs,com,1,Speech,0.62
+29,5,203.0,205.0,PANNs,sem,1,Speech,0.77
+29,5,203.0,205.0,PANNs,com,1,Speech,0.61
+29,5,204.0,206.0,PANNs,sem,1,Speech,0.65
+29,5,204.0,206.0,PANNs,com,1,Speech,0.68
+29,5,205.0,207.0,PANNs,sem,1,Speech,0.69
+29,5,205.0,207.0,PANNs,com,1,Speech,0.34
+29,5,205.0,207.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,206.0,208.0,PANNs,sem,1,Speech,0.64
+29,5,206.0,208.0,PANNs,com,1,Speech,0.78
+29,5,207.0,209.0,PANNs,sem,1,Speech,0.66
+29,5,207.0,209.0,PANNs,com,1,Speech,0.35
+29,5,208.0,210.0,PANNs,sem,1,Speech,0.77
+29,5,208.0,210.0,PANNs,com,1,Speech,0.63
+29,5,209.0,211.0,PANNs,sem,1,Speech,0.74
+29,5,209.0,211.0,PANNs,com,1,Speech,0.75
+29,5,209.0,211.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,210.0,212.0,PANNs,sem,1,Speech,0.73
+29,5,210.0,212.0,PANNs,com,1,Speech,0.78
+29,5,211.0,213.0,PANNs,sem,1,Speech,0.82
+29,5,211.0,213.0,PANNs,com,1,Speech,0.72
+29,5,212.0,214.0,PANNs,sem,1,Speech,0.79
+29,5,212.0,214.0,PANNs,com,1,Speech,0.85
+29,5,213.0,215.0,PANNs,sem,1,Speech,0.82
+29,5,213.0,215.0,PANNs,sem,1,"Narration, monologue",0.45
+29,5,213.0,215.0,PANNs,sem,1,"Male speech, man speaking",0.4
+29,5,213.0,215.0,PANNs,com,1,Speech,0.32
+29,5,214.0,216.0,PANNs,sem,1,Speech,0.37
+29,5,214.0,216.0,PANNs,com,1,Speech,0.76
+29,5,214.0,216.0,CLAP,sem e com,1,a crowd cheering and shouting,1.0
+29,5,215.0,217.0,PANNs,sem,1,Speech,0.58
+29,5,215.0,217.0,PANNs,com,1,Speech,0.72
+29,5,216.0,218.0,PANNs,sem,1,Speech,0.8
+29,5,216.0,218.0,PANNs,com,1,Speech,0.75
+29,5,217.0,219.0,PANNs,sem,1,Speech,0.85
+29,5,217.0,219.0,PANNs,com,1,Speech,0.78
+29,5,218.0,220.0,PANNs,sem,1,Speech,0.87
+29,5,218.0,220.0,PANNs,sem,1,"Male speech, man speaking",0.54
+29,5,218.0,220.0,PANNs,sem,1,"Narration, monologue",0.5
+29,5,218.0,220.0,PANNs,com,1,Speech,0.76
+29,5,219.0,221.0,PANNs,sem,2,"Bee, wasp, etc.",0.52
+29,5,219.0,221.0,PANNs,sem,1,Speech,0.35
+29,5,219.0,221.0,PANNs,com,1,Speech,0.72
+29,5,220.0,222.0,PANNs,sem,2,"Bee, wasp, etc.",0.85
+29,5,220.0,222.0,PANNs,sem,2,Insect,0.74
+29,5,220.0,222.0,PANNs,sem,2,"Fly, housefly",0.51
+29,5,220.0,222.0,PANNs,sem,1,Speech,0.4
+29,5,220.0,222.0,PANNs,com,1,Speech,0.75
+29,5,221.0,223.0,PANNs,sem,1,Speech,0.84
+29,5,221.0,223.0,PANNs,com,1,Speech,0.89
+29,5,222.0,224.0,PANNs,sem,1,Speech,0.66
+29,5,222.0,224.0,PANNs,sem,2,"Bee, wasp, etc.",0.54
+29,5,222.0,224.0,PANNs,com,1,Speech,0.86
+29,5,223.0,225.0,PANNs,sem,1,Speech,0.7
+29,5,223.0,225.0,PANNs,com,1,Speech,0.81
+29,5,224.0,226.0,PANNs,sem,1,Speech,0.84
+29,5,224.0,226.0,PANNs,sem,1,"Male speech, man speaking",0.36
+29,5,224.0,226.0,PANNs,sem,1,"Narration, monologue",0.33
+29,5,224.0,226.0,PANNs,com,1,Speech,0.86
+29,5,225.0,227.0,PANNs,sem,1,Speech,0.84
+29,5,225.0,227.0,PANNs,com,1,Speech,0.77
+29,5,226.0,228.0,PANNs,sem,1,Speech,0.91
+29,5,226.0,228.0,PANNs,sem,1,"Male speech, man speaking",0.59
+29,5,226.0,228.0,PANNs,sem,1,"Narration, monologue",0.58
+29,5,226.0,228.0,PANNs,com,1,Speech,0.77
+29,5,227.0,229.0,PANNs,sem,1,Speech,0.84
+29,5,227.0,229.0,PANNs,sem,1,"Male speech, man speaking",0.33
+29,5,227.0,229.0,PANNs,com,1,Speech,0.87
+29,5,228.0,230.0,PANNs,sem,1,Speech,0.76
+29,5,228.0,230.0,PANNs,com,1,Speech,0.84
+29,5,229.0,231.0,PANNs,sem,1,Speech,0.74
+29,5,229.0,231.0,PANNs,com,1,Speech,0.77
+29,5,230.0,232.0,PANNs,sem,1,Speech,0.68
+29,5,230.0,232.0,PANNs,com,1,Speech,0.85
+29,5,233.0,235.0,PANNs,sem,1,Speech,0.83
+29,5,233.0,235.0,PANNs,com,1,Speech,0.82
+29,5,234.0,236.0,PANNs,sem,1,Speech,0.6
+29,5,234.0,236.0,PANNs,com,1,Speech,0.62
+29,5,235.0,237.0,PANNs,sem,1,Wind chime,0.34
+29,5,235.0,237.0,PANNs,sem,1,Speech,0.33
+29,5,235.0,237.0,PANNs,com,1,Speech,0.68
+29,5,236.0,238.0,PANNs,sem,1,Speech,0.57
+29,5,236.0,238.0,PANNs,com,1,Speech,0.63
+29,5,236.0,238.0,PANNs,com,2,Speech synthesizer,0.54
+29,5,237.0,239.0,PANNs,sem,1,Speech,0.63
+29,5,237.0,239.0,PANNs,sem,1,Music,0.32
+29,5,237.0,239.0,PANNs,com,1,Speech,0.84
+29,5,237.0,239.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,238.0,240.0,PANNs,sem,1,Speech,0.7
+29,5,239.0,241.0,PANNs,sem,1,Speech,0.82
+29,5,239.0,241.0,PANNs,com,1,Speech,0.63
+29,5,240.0,242.0,PANNs,sem,1,Speech,0.7
+29,5,240.0,242.0,PANNs,com,1,Speech,0.77
+29,5,240.0,242.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,241.0,243.0,PANNs,sem,1,Speech,0.67
+29,5,241.0,243.0,PANNs,com,1,Speech,0.83
+29,5,241.0,243.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,242.0,244.0,PANNs,sem,1,Speech,0.74
+29,5,242.0,244.0,PANNs,com,1,Speech,0.79
+29,5,243.0,245.0,PANNs,sem,1,Speech,0.4
+29,5,243.0,245.0,PANNs,com,1,Speech,0.66
+29,5,244.0,246.0,PANNs,sem,1,Speech,0.44
+29,5,244.0,246.0,PANNs,com,1,Speech,0.78
+29,5,245.0,247.0,PANNs,sem,1,Speech,0.67
+29,5,245.0,247.0,PANNs,com,1,Speech,0.72
+29,5,246.0,248.0,PANNs,sem,2,"Cattle, bovinae",0.69
+29,5,246.0,248.0,PANNs,sem,2,"Livestock, farm animals, working animals",0.61
+29,5,246.0,248.0,PANNs,sem,2,Moo,0.6
+29,5,246.0,248.0,PANNs,com,1,Speech,0.81
+29,5,246.0,248.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,247.0,249.0,PANNs,sem,1,Speech,0.48
+29,5,247.0,249.0,PANNs,com,1,Speech,0.69
+29,5,247.0,249.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,248.0,250.0,PANNs,sem,1,Speech,0.84
+29,5,248.0,250.0,PANNs,com,1,Speech,0.79
+29,5,248.0,250.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,249.0,251.0,PANNs,sem,1,Speech,0.83
+29,5,249.0,251.0,PANNs,sem,1,"Male speech, man speaking",0.37
+29,5,249.0,251.0,PANNs,sem,1,"Narration, monologue",0.33
+29,5,249.0,251.0,PANNs,com,1,Speech,0.74
+29,5,250.0,252.0,PANNs,sem,1,Speech,0.61
+29,5,250.0,252.0,PANNs,com,1,Speech,0.8
+29,5,251.0,253.0,PANNs,sem,1,Speech,0.66
+29,5,251.0,253.0,PANNs,com,1,Speech,0.8
+29,5,252.0,254.0,PANNs,sem,1,Speech,0.77
+29,5,252.0,254.0,PANNs,com,1,Speech,0.92
+29,5,253.0,255.0,PANNs,sem,1,Speech,0.74
+29,5,253.0,255.0,PANNs,com,1,Speech,0.88
+29,5,253.0,255.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,254.0,256.0,PANNs,sem,1,Speech,0.83
+29,5,254.0,256.0,PANNs,com,1,Speech,0.73
+29,5,255.0,257.0,PANNs,sem,1,Speech,0.82
+29,5,255.0,257.0,PANNs,com,1,Speech,0.76
+29,5,256.0,258.0,PANNs,sem,1,Speech,0.78
+29,5,256.0,258.0,PANNs,com,1,Speech,0.77
+29,5,257.0,259.0,PANNs,sem,1,Speech,0.87
+29,5,257.0,259.0,PANNs,com,1,Speech,0.82
+29,5,258.0,260.0,PANNs,sem,1,Speech,0.72
+29,5,258.0,260.0,PANNs,com,1,Speech,0.87
+29,5,261.0,263.0,PANNs,sem,1,Speech,0.72
+29,5,261.0,263.0,PANNs,com,1,Speech,0.6
+29,5,262.0,264.0,PANNs,sem,1,Speech,0.8
+29,5,262.0,264.0,PANNs,com,1,Speech,0.71
+29,5,263.0,265.0,PANNs,sem,1,Speech,0.82
+29,5,263.0,265.0,PANNs,com,1,Speech,0.66
+29,5,263.0,265.0,PANNs,com,2,Speech synthesizer,0.64
+29,5,264.0,266.0,PANNs,sem,1,Speech,0.84
+29,5,264.0,266.0,PANNs,com,1,Speech,0.77
+29,5,264.0,266.0,CLAP,sem e com,1,a man giving a speech,1.0
+29,5,265.0,267.0,PANNs,sem,1,Speech,0.83
+29,5,265.0,267.0,PANNs,com,1,Speech,0.76
+29,5,266.0,268.0,PANNs,sem,1,Speech,0.72
+29,5,266.0,268.0,PANNs,com,1,Speech,0.76
+29,5,266.0,268.0,CLAP,sem e com,2,ocean waves,1.0
+29,5,267.0,269.0,PANNs,sem,1,Speech,0.71
+29,5,268.0,270.0,PANNs,sem,1,Speech,0.6
+29,5,268.0,270.0,CLAP,sem e com,1,surdo,1.0
+29,5,270.0,272.0,CLAP,sem e com,2,silence,1.0
+30,5,284.0,286.0,CLAP,sem e com,2,silence,1.0
+31,5,313.0,315.0,CLAP,sem e com,1,women singing,1.0
+32,5,376.0,378.0,CLAP,sem e com,1,surdo,1.0
+33,5,391.0,393.0,CLAP,sem e com,1,surdo,1.0
+34,5,435.0,437.0,PANNs,sem,2,"Boat, Water vehicle",0.51

@@ -1,0 +1,213 @@
+id,faixa,classe,modelo,condicao,situacao,rotulo,valor,tempo
+1.1,1,aplauso,panns,sem,nomeado,Applause,0.3131,"0:44,0"
+1.1,1,aplauso,panns,com,não nomeado,,,
+1.1,1,aplauso,clap,sem,não nomeado,applause,9.0,"0:43,0"
+1.1,1,aplauso,clap,com,não nomeado,applause,9.0,"0:44,0"
+1.2,1,voz alterada,panns,sem,não nomeado,,,
+1.2,1,voz alterada,panns,com,não nomeado,,,
+1.2,1,voz alterada,clap,sem,não nomeado,a distorted voice,9.0,"1:18,0"
+1.2,1,voz alterada,clap,com,nomeado,a distorted voice,1.0,"1:12,0"
+1.3,1,aplauso,panns,sem,nomeado,Applause,0.8139,"1:35,0"
+1.3,1,aplauso,panns,com,não nomeado,,,
+1.3,1,aplauso,clap,sem,não nomeado,applause,4.0,"1:39,0"
+1.3,1,aplauso,clap,com,não nomeado,applause,8.0,"1:39,0"
+1.4,1,pausa,panns,sem,sem correspondência,,,
+1.4,1,pausa,panns,com,sem correspondência,,,
+1.4,1,pausa,clap,sem,sem correspondência,,,
+1.4,1,pausa,clap,com,sem correspondência,,,
+1.5,1,aplauso,panns,sem,nomeado,Applause,0.7816,"2:20,0"
+1.5,1,aplauso,panns,com,não nomeado,,,
+1.5,1,aplauso,clap,sem,não nomeado,applause,6.0,"2:21,0"
+1.5,1,aplauso,clap,com,não nomeado,applause,9.0,"2:23,0"
+1.5,1,grito de plateia,panns,sem,indício,"Hubbub, speech noise, speech babble",0.1362,"2:19,0"
+1.5,1,grito de plateia,panns,com,não nomeado,,,
+1.5,1,grito de plateia,clap,sem,não nomeado,a crowd cheering and shouting,5.0,"2:26,0"
+1.5,1,grito de plateia,clap,com,não nomeado,a crowd cheering and shouting,4.0,"2:26,0"
+1.6,1,pausa,panns,sem,sem correspondência,,,
+1.6,1,pausa,panns,com,sem correspondência,,,
+1.6,1,pausa,clap,sem,sem correspondência,,,
+1.6,1,pausa,clap,com,sem correspondência,,,
+1.7,1,aplauso,panns,sem,nomeado,Applause,0.4556,"3:20,0"
+1.7,1,aplauso,panns,com,não nomeado,,,
+1.7,1,aplauso,clap,sem,não nomeado,applause,6.0,"3:21,0"
+1.7,1,aplauso,clap,com,não nomeado,applause,10.0,"3:20,0"
+1.7,1,grito de plateia,panns,sem,não nomeado,"Hubbub, speech noise, speech babble",0.087,"3:18,0"
+1.7,1,grito de plateia,panns,com,não nomeado,,,
+1.7,1,grito de plateia,clap,sem,não nomeado,a crowd cheering and shouting,7.0,"3:18,0"
+1.7,1,grito de plateia,clap,com,não nomeado,a crowd cheering and shouting,9.0,"3:19,0"
+1.8,1,aplauso,panns,sem,nomeado,Applause,0.8235,"3:57,0"
+1.8,1,aplauso,panns,com,não nomeado,,,
+1.8,1,aplauso,clap,sem,não nomeado,applause,7.0,"3:58,0"
+1.8,1,aplauso,clap,com,não nomeado,applause,9.0,"3:58,0"
+1.8,1,grito de plateia,panns,sem,indício,Crowd,0.1765,"3:56,0"
+1.8,1,grito de plateia,panns,com,não nomeado,,,
+1.8,1,grito de plateia,clap,sem,não nomeado,a crowd cheering and shouting,5.0,"3:56,0"
+1.8,1,grito de plateia,clap,com,não nomeado,a crowd cheering and shouting,8.0,"4:03,0"
+1.9,1,aplauso,panns,sem,nomeado,Applause,0.66,"4:12,0"
+1.9,1,aplauso,panns,com,não nomeado,,,
+1.9,1,aplauso,clap,sem,não nomeado,applause,7.0,"4:12,0"
+1.9,1,aplauso,clap,com,não nomeado,applause,12.0,"4:14,0"
+1.10,1,aplauso,panns,sem,não nomeado,Applause,0.0968,"4:53,0"
+1.10,1,aplauso,panns,com,não nomeado,,,
+1.10,1,aplauso,clap,sem,não nomeado,applause,16.0,"4:53,0"
+1.10,1,aplauso,clap,com,não nomeado,applause,22.0,"4:52,0"
+1.11,1,tosse,panns,sem,não nomeado,,,
+1.11,1,tosse,panns,com,não nomeado,,,
+1.11,1,tosse,clap,sem,não nomeado,a man coughing,11.0,"4:55,0"
+1.11,1,tosse,clap,com,não nomeado,a man coughing,21.0,"4:55,0"
+1.12,1,aplauso,panns,sem,nomeado,Applause,0.3449,"5:28,0"
+1.12,1,aplauso,panns,com,não nomeado,,,
+1.12,1,aplauso,clap,sem,não nomeado,applause,10.0,"5:28,0"
+1.12,1,aplauso,clap,com,não nomeado,applause,16.0,"5:29,0"
+1.12,1,grito de plateia,panns,sem,não nomeado,Crowd,0.091,"5:28,0"
+1.12,1,grito de plateia,panns,com,não nomeado,,,
+1.12,1,grito de plateia,clap,sem,não nomeado,a crowd cheering and shouting,7.0,"5:27,0"
+1.12,1,grito de plateia,clap,com,não nomeado,a crowd cheering and shouting,12.0,"5:27,0"
+1.13,1,ruído de disco,panns,sem,nomeado,Noise,0.4412,"2:24,0"
+1.13,1,ruído de disco,panns,com,não nomeado,Static,0.0395,"0:44,0"
+1.13,1,ruído de disco,clap,sem,nomeado,the surface noise of an old record,1.0,"0:00,0"
+1.13,1,ruído de disco,clap,com,nomeado,the surface noise of an old record,1.0,"0:37,0"
+2.1,2,ruído de disco,panns,sem,indício,Static,0.2713,"1:07,0"
+2.1,2,ruído de disco,panns,com,não nomeado,Static,0.0107,"1:59,0"
+2.1,2,ruído de disco,clap,sem,nomeado,the surface noise of an old record,1.0,"1:02,0"
+2.1,2,ruído de disco,clap,com,nomeado,the surface noise of an old record,2.0,"1:11,0"
+2.2,2,estalos regulares,panns,sem,não nomeado,Crackle,0.0861,"1:37,0"
+2.2,2,estalos regulares,panns,com,não nomeado,Tick,0.0429,"1:55,0"
+2.2,2,estalos regulares,clap,sem,nomeado,clicks of a scratched record,2.0,"1:31,0"
+2.2,2,estalos regulares,clap,com,nomeado,clicks of a scratched record,2.0,"1:31,0"
+2.3,2,ruído de disco,panns,sem,indício,Static,0.1024,"1:50,0"
+2.3,2,ruído de disco,panns,com,não nomeado,Static,0.0107,"1:59,0"
+2.3,2,ruído de disco,clap,sem,nomeado,the surface noise of an old record,1.0,"1:44,0"
+2.3,2,ruído de disco,clap,com,nomeado,the surface noise of an old record,3.0,"1:50,0"
+2.4,2,ruído de disco,panns,sem,não nomeado,Crackle,0.0422,"3:19,3"
+2.4,2,ruído de disco,panns,com,não nomeado,,,
+2.4,2,ruído de disco,clap,sem,nomeado,the surface noise of an old record,1.0,"3:16,0"
+2.4,2,ruído de disco,clap,com,não nomeado,the surface noise of an old record,4.0,"3:19,0"
+2.5,2,pulos,panns,sem,sem correspondência,,,
+2.5,2,pulos,panns,com,sem correspondência,,,
+2.5,2,pulos,clap,sem,nomeado,a skipping record,2.0,"1:50,0"
+2.5,2,pulos,clap,com,nomeado,a skipping record,1.0,"1:47,0"
+3.1,3,papel,panns,sem,não nomeado,Rustle,0.0126,"2:04,0"
+3.1,3,papel,panns,com,não nomeado,,,
+3.1,3,papel,clap,sem,não nomeado,a page of paper being turned,21.0,"2:04,0"
+3.1,3,papel,clap,com,não nomeado,a page of paper being turned,25.0,"2:03,0"
+3.2,3,papel,panns,sem,não nomeado,Rustle,0.0273,"4:15,0"
+3.2,3,papel,panns,com,não nomeado,,,
+3.2,3,papel,clap,sem,não nomeado,a page of paper being turned,13.0,"4:15,0"
+3.2,3,papel,clap,com,não nomeado,a page of paper being turned,20.0,"4:17,0"
+3.3,3,papel,panns,sem,não nomeado,,,
+3.3,3,papel,panns,com,não nomeado,,,
+3.3,3,papel,clap,sem,não nomeado,a page of paper being turned,16.0,"4:16,0"
+3.3,3,papel,clap,com,não nomeado,a page of paper being turned,20.0,"4:17,0"
+3.4,3,ruído de disco,panns,sem,indício,Static,0.1376,"5:59,0"
+3.4,3,ruído de disco,panns,com,não nomeado,White noise,0.0111,"5:41,0"
+3.4,3,ruído de disco,clap,sem,nomeado,the surface noise of an old record,1.0,"5:39,0"
+3.4,3,ruído de disco,clap,com,nomeado,the surface noise of an old record,2.0,"5:58,0"
+3.5,3,ruído de disco,panns,sem,indício,Static,0.1987,"0:18,0"
+3.5,3,ruído de disco,panns,com,não nomeado,Static,0.0129,"4:50,0"
+3.5,3,ruído de disco,clap,sem,nomeado,the surface noise of an old record,1.0,"0:00,0"
+3.5,3,ruído de disco,clap,com,nomeado,the surface noise of an old record,2.0,"5:58,0"
+4.1,4,fala,panns,sem,nomeado,Speech,0.7777,"0:06,0"
+4.1,4,fala,panns,com,nomeado,Speech,0.847,"0:02,0"
+4.1,4,fala,clap,sem,nomeado,a man giving a speech,1.0,"0:03,0"
+4.1,4,fala,clap,com,nomeado,a man giving a speech,1.0,"0:01,0"
+4.2,4,surdo,panns,sem,não nomeado,Drum,0.0142,"0:10,0"
+4.2,4,surdo,panns,com,não nomeado,,,
+4.2,4,surdo,clap,sem,não nomeado,surdo,6.0,"0:14,0"
+4.2,4,surdo,clap,com,nomeado,a bass drum,2.0,"0:15,0"
+4.3,4,fala,panns,sem,nomeado,Speech,0.7872,"0:22,0"
+4.3,4,fala,panns,com,nomeado,Speech,0.8163,"0:22,0"
+4.3,4,fala,clap,sem,nomeado,a man giving a speech,2.0,"0:19,0"
+4.3,4,fala,clap,com,nomeado,a man giving a speech,1.0,"0:22,0"
+4.4,4,tamborim,panns,sem,indício,Percussion,0.2631,"0:31,0"
+4.4,4,tamborim,panns,com,não nomeado,Percussion,0.0154,"0:26,0"
+4.4,4,tamborim,clap,sem,nomeado,tamborim,2.0,"0:32,0"
+4.4,4,tamborim,clap,com,nomeado,tamborim,1.0,"0:25,0"
+4.5,4,fala,panns,sem,nomeado,Speech,0.7374,"0:42,0"
+4.5,4,fala,panns,com,nomeado,Speech,0.8176,"0:43,0"
+4.5,4,fala,clap,sem,não nomeado,a man giving a speech,5.0,"0:42,0"
+4.5,4,fala,clap,com,não nomeado,a man giving a speech,11.0,"0:42,0"
+4.6,4,tamborim,panns,sem,não nomeado,Percussion,0.072,"0:54,0"
+4.6,4,tamborim,panns,com,não nomeado,,,
+4.6,4,tamborim,clap,sem,não nomeado,tamborim,5.0,"0:45,0"
+4.6,4,tamborim,clap,com,não nomeado,tamborim,4.0,"0:45,0"
+4.7,4,pulos,panns,sem,sem correspondência,,,
+4.7,4,pulos,panns,com,sem correspondência,,,
+4.7,4,pulos,clap,sem,nomeado,a skipping record,2.0,"0:56,0"
+4.7,4,pulos,clap,com,nomeado,a skipping record,1.0,"0:56,0"
+5.1,5,ruído de disco,panns,sem,não nomeado,White noise,0.0131,"0:01,0"
+5.1,5,ruído de disco,panns,com,não nomeado,,,
+5.1,5,ruído de disco,clap,sem,nomeado,the surface noise of an old record,1.0,"0:00,0"
+5.1,5,ruído de disco,clap,com,não nomeado,the surface noise of an old record,6.0,"0:02,0"
+5.2,5,música,panns,sem,nomeado,Music,0.8881,"0:27,0"
+5.2,5,música,panns,com,nomeado,Music,0.847,"0:23,0"
+5.2,5,música,clap,sem,nomeado,music,1.0,"0:13,0"
+5.2,5,música,clap,com,nomeado,music,1.0,"0:04,0"
+5.3,5,vento,panns,sem,não nomeado,Wind,0.0111,"1:15,0"
+5.3,5,vento,panns,com,não nomeado,,,
+5.3,5,vento,clap,sem,nomeado,wind,1.0,"1:07,0"
+5.3,5,vento,clap,com,nomeado,wind,1.0,"1:14,0"
+5.4,5,música,panns,sem,nomeado,Music,0.9462,"1:40,0"
+5.4,5,música,panns,com,nomeado,Music,0.895,"1:34,0"
+5.4,5,música,clap,sem,nomeado,music,1.0,"1:27,0"
+5.4,5,música,clap,com,nomeado,music,1.0,"1:31,0"
+5.4,5,vento,panns,sem,não nomeado,,,
+5.4,5,vento,panns,com,não nomeado,,,
+5.4,5,vento,clap,sem,nomeado,wind,1.0,"1:25,0"
+5.4,5,vento,clap,com,nomeado,wind,1.0,"1:25,0"
+5.5,5,fala,panns,sem,nomeado,Speech,0.8677,"2:23,0"
+5.5,5,fala,panns,com,nomeado,Speech,0.8718,"2:45,0"
+5.5,5,fala,clap,sem,nomeado,a man giving a speech,1.0,"1:52,0"
+5.5,5,fala,clap,com,nomeado,a man giving a speech,1.0,"2:22,0"
+5.5,5,música,panns,sem,nomeado,Music,0.7755,"2:04,0"
+5.5,5,música,panns,com,indício,Music,0.1531,"2:36,0"
+5.5,5,música,clap,sem,nomeado,music,1.0,"2:01,0"
+5.5,5,música,clap,com,nomeado,music,1.0,"2:13,0"
+5.5,5,vento,panns,sem,não nomeado,,,
+5.5,5,vento,panns,com,não nomeado,,,
+5.5,5,vento,clap,sem,nomeado,wind,3.0,"2:22,0"
+5.5,5,vento,clap,com,nomeado,wind,2.0,"2:06,0"
+5.6,5,canto,panns,sem,indício,Female singing,0.2273,"2:59,0"
+5.6,5,canto,panns,com,não nomeado,Singing,0.0116,"2:58,0"
+5.6,5,canto,clap,sem,nomeado,women singing,1.0,"2:49,0"
+5.6,5,canto,clap,com,nomeado,women singing,1.0,"3:11,0"
+5.7,5,vento,panns,sem,não nomeado,,,
+5.7,5,vento,panns,com,não nomeado,,,
+5.7,5,vento,clap,sem,nomeado,wind,3.0,"3:21,0"
+5.7,5,vento,clap,com,nomeado,wind,3.0,"3:23,0"
+5.8,5,sino,panns,sem,nomeado,Chime,0.3104,"3:55,0"
+5.8,5,sino,panns,com,não nomeado,,,
+5.8,5,sino,clap,sem,não nomeado,a church bell,5.0,"3:55,0"
+5.8,5,sino,clap,com,não nomeado,a church bell,7.0,"4:05,0"
+5.9,5,passos,panns,sem,não nomeado,,,
+5.9,5,passos,panns,com,não nomeado,,,
+5.9,5,passos,clap,sem,nomeado,footsteps,3.0,"4:20,0"
+5.9,5,passos,clap,com,não nomeado,footsteps,5.0,"4:20,0"
+5.10,5,vento,panns,sem,não nomeado,Wind,0.0232,"4:27,0"
+5.10,5,vento,panns,com,não nomeado,,,
+5.10,5,vento,clap,sem,nomeado,wind,1.0,"4:29,0"
+5.10,5,vento,clap,com,nomeado,wind,3.0,"4:34,0"
+5.10,5,ruído de disco,panns,sem,não nomeado,White noise,0.0807,"4:35,0"
+5.10,5,ruído de disco,panns,com,não nomeado,,,
+5.10,5,ruído de disco,clap,sem,não nomeado,the surface noise of an old record,4.0,"4:31,0"
+5.10,5,ruído de disco,clap,com,não nomeado,the surface noise of an old record,5.0,"4:34,0"
+5.11,5,música,panns,sem,nomeado,Music,0.7846,"4:54,0"
+5.11,5,música,panns,com,indício,Music,0.1497,"4:53,0"
+5.11,5,música,clap,sem,nomeado,music,1.0,"4:56,0"
+5.11,5,música,clap,com,nomeado,music,1.0,"4:37,0"
+5.12,5,mudança de intensidade,panns,sem,sem correspondência,,,
+5.12,5,mudança de intensidade,panns,com,sem correspondência,,,
+5.12,5,mudança de intensidade,clap,sem,sem correspondência,,,
+5.12,5,mudança de intensidade,clap,com,sem correspondência,,,
+5.13,5,fala,panns,sem,nomeado,Speech,0.9028,"5:05,0"
+5.13,5,fala,panns,com,nomeado,Speech,0.8522,"6:08,0"
+5.13,5,fala,clap,sem,nomeado,a man giving a speech,1.0,"5:05,0"
+5.13,5,fala,clap,com,nomeado,a man giving a speech,1.0,"5:43,0"
+5.13,5,música,panns,sem,nomeado,Music,0.868,"5:36,0"
+5.13,5,música,panns,com,nomeado,Music,0.3851,"6:26,0"
+5.13,5,música,clap,sem,nomeado,music,1.0,"5:03,0"
+5.13,5,música,clap,com,nomeado,music,1.0,"6:12,0"
+5.14,5,zumbido,panns,sem,indício,Hum,0.103,"2:27,0"
+5.14,5,zumbido,panns,com,não nomeado,,,
+5.14,5,zumbido,clap,sem,nomeado,electrical hum,1.0,"0:03,0"
+5.14,5,zumbido,clap,com,nomeado,electrical hum,1.0,"3:26,0"

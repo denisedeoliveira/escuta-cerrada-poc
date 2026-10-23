@@ -15,7 +15,7 @@ Meta: tudo pronto até 16/11, defesa entre 18 e 30/11 (a data depende da agenda 
 | Fase 1 · Corpus e registro prévio | concluída | `v0.1-fase1` |
 | Fase 2 · Primeiro contato técnico | concluída | `v0.2-fase2` |
 | Fase 3 · Reconhecimento de fala e medição | concluída (09 a 13/10) | `v0.3-fase3` |
-| Fase 4 · Eventos sonoros | 23/10 a 31/10 | `v0.4-fase4` |
+| Fase 4 · Eventos sonoros | concluída (19 a 23/10) | `v0.4-fase4` |
 | Contato com o orientador (resultados das fases 3 e 4) | 1ª semana de novembro | |
 | Fase 5 · Síntese, restrição e voz | 01/11 a 10/11 | `v0.5-fase5` |
 | Fase 6 · Formalização | 11/11 a 16/11 | `v1.0-final` |
@@ -60,7 +60,7 @@ O README é o trabalho escrito. Não há monografia à parte.
 
 - [x] `.gitignore` bloqueando áudio e `.env`
 - [x] `docs/` com as decisões de cada fase
-- [x] Releases `v0.1-fase1` e `v0.2-fase2`
+- [x] Releases `v0.1-fase1`, `v0.2-fase2` e `v0.3-fase3`
 - [x] Cadernos publicados sem saídas de áudio
 - [x] `requirements.txt` com as versões das bibliotecas (fase 3)
 - [x] Pasta para os cadernos e pasta para os resultados em JSON (fase 3)
@@ -82,14 +82,18 @@ O README é o trabalho escrito. Não há monografia à parte.
 - [x] Tabela comparativa dos experimentos
 - [x] Escuta dirigida dos trechos selecionados
 - [x] Diário da fase
-- [ ] Release `v0.3-fase3`
+- [x] Release `v0.3-fase3`
 
 ### Fase 4 · Eventos sonoros
 
-- [ ] PANNs e CLAP nas mesmas faixas, com saídas em JSON
-- [ ] Cotejo entre os rótulos dos modelos e a taxonomia enunciada por Almirante
-- [ ] Comparação nas duas direções, entre o que os detectores apontaram e a escuta não registrou e o que a escuta registrou e nenhuma categoria nomeia
-- [ ] Diário da fase e release `v0.4-fase4`
+- [x] Tabela de eventos de referência e desenho experimental registrados antes das execuções
+- [x] PANNs e CLAP nas mesmas faixas, com saídas em JSON
+- [x] Cotejo entre os rótulos dos modelos e a taxonomia enunciada por Almirante
+- [x] Comparação nas duas direções, entre o que os detectores apontaram e a escuta não registrou e o que a escuta registrou e nenhuma categoria nomeia
+- [x] Escuta dirigida dos trechos apontados
+- [x] `src/eventos.py` e `tests/test_eventos.py`
+- [x] Diário da fase
+- [ ] Release `v0.4-fase4`
 - [ ] Contato com o orientador, levando os resultados e as perguntas marcadas como **(confirmar)**
 
 ### Fase 5 · Síntese, restrição e voz

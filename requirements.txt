@@ -14,5 +14,10 @@ openai-whisper==20250625
 noisereduce==3.0.3
 jiwer==4.0.0
 
+# Fase 4 · eventos sonoros
+panns-inference==0.1.1
+torchlibrosa==0.1.0
+transformers==5.20.1
+
 # Testes
 pytest

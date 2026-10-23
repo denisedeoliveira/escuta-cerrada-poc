@@ -1,0 +1,281 @@
+faixa,condicao,termo,janelas,1º lugar,top 3,top 3 fora da classe
+1,sem,tamborim,335,0,0,0
+1,sem,surdo,335,0,1,1
+1,sem,batucada,335,2,106,
+1,sem,samba,335,0,28,
+1,sem,"a tamborim, a small Brazilian frame drum played with a stick",335,0,0,0
+1,sem,"a surdo, a large Brazilian bass drum",335,0,0,0
+1,sem,"a batucada, a Brazilian samba percussion group",335,0,2,
+1,sem,applause,335,0,0,0
+1,sem,a crowd cheering and shouting,335,0,0,0
+1,sem,a man coughing,335,0,0,0
+1,sem,a man giving a speech,335,88,228,228
+1,sem,a distorted voice,335,0,4,4
+1,sem,the surface noise of an old record,335,241,333,0
+1,sem,clicks of a scratched record,335,0,108,108
+1,sem,a skipping record,335,2,151,151
+1,sem,a page of paper being turned,335,0,0,0
+1,sem,music,335,0,40,40
+1,sem,wind,335,0,0,0
+1,sem,women singing,335,1,1,1
+1,sem,a church bell,335,0,0,0
+1,sem,footsteps,335,0,0,0
+1,sem,electrical hum,335,0,1,1
+1,sem,silence,335,1,1,
+1,sem,a tambourine,335,0,0,
+1,sem,a snare drum,335,0,0,0
+1,sem,a bass drum,335,0,1,1
+1,sem,a door knocking,335,0,0,
+1,sem,ocean waves,335,0,0,
+1,com,tamborim,335,0,4,4
+1,com,surdo,335,154,305,305
+1,com,batucada,335,0,7,
+1,com,samba,335,0,3,
+1,com,"a tamborim, a small Brazilian frame drum played with a stick",335,0,0,0
+1,com,"a surdo, a large Brazilian bass drum",335,0,0,0
+1,com,"a batucada, a Brazilian samba percussion group",335,0,0,
+1,com,applause,335,0,0,0
+1,com,a crowd cheering and shouting,335,0,5,5
+1,com,a man coughing,335,0,1,1
+1,com,a man giving a speech,335,40,114,114
+1,com,a distorted voice,335,64,191,182
+1,com,the surface noise of an old record,335,3,24,0
+1,com,clicks of a scratched record,335,3,43,43
+1,com,a skipping record,335,64,208,208
+1,com,a page of paper being turned,335,0,1,1
+1,com,music,335,2,51,51
+1,com,wind,335,0,13,13
+1,com,women singing,335,2,5,5
+1,com,a church bell,335,0,0,0
+1,com,footsteps,335,0,5,5
+1,com,electrical hum,335,0,0,0
+1,com,silence,335,1,2,
+1,com,a tambourine,335,0,0,
+1,com,a snare drum,335,0,0,0
+1,com,a bass drum,335,0,1,1
+1,com,a door knocking,335,0,0,
+1,com,ocean waves,335,2,22,
+2,sem,tamborim,201,0,0,0
+2,sem,surdo,201,0,6,6
+2,sem,batucada,201,0,16,
+2,sem,samba,201,0,2,
+2,sem,"a tamborim, a small Brazilian frame drum played with a stick",201,0,0,0
+2,sem,"a surdo, a large Brazilian bass drum",201,0,0,0
+2,sem,"a batucada, a Brazilian samba percussion group",201,0,0,
+2,sem,applause,201,0,0,0
+2,sem,a crowd cheering and shouting,201,0,0,0
+2,sem,a man coughing,201,0,0,0
+2,sem,a man giving a speech,201,2,38,38
+2,sem,a distorted voice,201,0,0,0
+2,sem,the surface noise of an old record,201,199,201,118
+2,sem,clicks of a scratched record,201,0,161,116
+2,sem,a skipping record,201,0,149,132
+2,sem,a page of paper being turned,201,0,0,0
+2,sem,music,201,0,26,26
+2,sem,wind,201,0,0,0
+2,sem,women singing,201,0,1,1
+2,sem,a church bell,201,0,0,0
+2,sem,footsteps,201,0,0,0
+2,sem,electrical hum,201,0,3,3
+2,sem,silence,201,0,0,
+2,sem,a tambourine,201,0,0,
+2,sem,a snare drum,201,0,0,0
+2,sem,a bass drum,201,0,0,0
+2,sem,a door knocking,201,0,0,
+2,sem,ocean waves,201,0,0,
+2,com,tamborim,201,0,1,1
+2,com,surdo,201,8,84,84
+2,com,batucada,201,0,0,
+2,com,samba,201,0,0,
+2,com,"a tamborim, a small Brazilian frame drum played with a stick",201,0,0,0
+2,com,"a surdo, a large Brazilian bass drum",201,0,0,0
+2,com,"a batucada, a Brazilian samba percussion group",201,0,0,
+2,com,applause,201,0,0,0
+2,com,a crowd cheering and shouting,201,0,0,0
+2,com,a man coughing,201,2,18,18
+2,com,a man giving a speech,201,59,75,75
+2,com,a distorted voice,201,3,29,29
+2,com,the surface noise of an old record,201,3,23,14
+2,com,clicks of a scratched record,201,0,54,21
+2,com,a skipping record,201,63,114,97
+2,com,a page of paper being turned,201,1,3,3
+2,com,music,201,9,89,89
+2,com,wind,201,0,0,0
+2,com,women singing,201,0,0,0
+2,com,a church bell,201,0,0,0
+2,com,footsteps,201,52,106,106
+2,com,electrical hum,201,0,4,4
+2,com,silence,201,0,0,
+2,com,a tambourine,201,0,0,
+2,com,a snare drum,201,0,0,0
+2,com,a bass drum,201,0,1,1
+2,com,a door knocking,201,0,0,
+2,com,ocean waves,201,1,2,
+3,sem,tamborim,362,0,0,0
+3,sem,surdo,362,0,5,5
+3,sem,batucada,362,1,48,
+3,sem,samba,362,0,42,
+3,sem,"a tamborim, a small Brazilian frame drum played with a stick",362,0,0,0
+3,sem,"a surdo, a large Brazilian bass drum",362,0,0,0
+3,sem,"a batucada, a Brazilian samba percussion group",362,0,3,
+3,sem,applause,362,0,0,0
+3,sem,a crowd cheering and shouting,362,0,0,0
+3,sem,a man coughing,362,0,0,0
+3,sem,a man giving a speech,362,203,330,330
+3,sem,a distorted voice,362,0,0,0
+3,sem,the surface noise of an old record,362,151,347,0
+3,sem,clicks of a scratched record,362,0,68,68
+3,sem,a skipping record,362,0,28,28
+3,sem,a page of paper being turned,362,0,0,0
+3,sem,music,362,5,209,209
+3,sem,wind,362,0,0,0
+3,sem,women singing,362,0,0,0
+3,sem,a church bell,362,0,0,0
+3,sem,footsteps,362,1,1,1
+3,sem,electrical hum,362,0,2,2
+3,sem,silence,362,1,2,
+3,sem,a tambourine,362,0,0,
+3,sem,a snare drum,362,0,0,0
+3,sem,a bass drum,362,0,1,1
+3,sem,a door knocking,362,0,0,
+3,sem,ocean waves,362,0,0,
+3,com,tamborim,362,0,3,3
+3,com,surdo,362,207,353,353
+3,com,batucada,362,0,12,
+3,com,samba,362,0,7,
+3,com,"a tamborim, a small Brazilian frame drum played with a stick",362,0,0,0
+3,com,"a surdo, a large Brazilian bass drum",362,0,1,1
+3,com,"a batucada, a Brazilian samba percussion group",362,0,0,
+3,com,applause,362,0,0,0
+3,com,a crowd cheering and shouting,362,0,0,0
+3,com,a man coughing,362,0,9,9
+3,com,a man giving a speech,362,135,326,326
+3,com,a distorted voice,362,1,67,67
+3,com,the surface noise of an old record,362,0,6,0
+3,com,clicks of a scratched record,362,0,8,8
+3,com,a skipping record,362,16,47,47
+3,com,a page of paper being turned,362,0,1,1
+3,com,music,362,0,72,72
+3,com,wind,362,0,0,0
+3,com,women singing,362,0,0,0
+3,com,a church bell,362,0,0,0
+3,com,footsteps,362,0,7,7
+3,com,electrical hum,362,0,2,2
+3,com,silence,362,1,8,
+3,com,a tambourine,362,1,2,
+3,com,a snare drum,362,0,0,0
+3,com,a bass drum,362,0,1,1
+3,com,a door knocking,362,0,0,
+3,com,ocean waves,362,1,154,
+4,sem,tamborim,64,0,1,0
+4,sem,surdo,64,0,0,0
+4,sem,batucada,64,0,4,
+4,sem,samba,64,0,16,
+4,sem,"a tamborim, a small Brazilian frame drum played with a stick",64,0,0,0
+4,sem,"a surdo, a large Brazilian bass drum",64,0,0,0
+4,sem,"a batucada, a Brazilian samba percussion group",64,0,1,
+4,sem,applause,64,0,0,0
+4,sem,a crowd cheering and shouting,64,0,0,0
+4,sem,a man coughing,64,0,0,0
+4,sem,a man giving a speech,64,1,10,0
+4,sem,a distorted voice,64,0,0,0
+4,sem,the surface noise of an old record,64,63,64,64
+4,sem,clicks of a scratched record,64,0,45,45
+4,sem,a skipping record,64,0,42,34
+4,sem,a page of paper being turned,64,0,0,0
+4,sem,music,64,0,9,9
+4,sem,wind,64,0,0,0
+4,sem,women singing,64,0,0,0
+4,sem,a church bell,64,0,0,0
+4,sem,footsteps,64,0,0,0
+4,sem,electrical hum,64,0,0,0
+4,sem,silence,64,0,0,
+4,sem,a tambourine,64,0,0,
+4,sem,a snare drum,64,0,0,0
+4,sem,a bass drum,64,0,0,0
+4,sem,a door knocking,64,0,0,
+4,sem,ocean waves,64,0,0,
+4,com,tamborim,64,10,15,1
+4,com,surdo,64,2,17,16
+4,com,batucada,64,0,0,
+4,com,samba,64,2,14,
+4,com,"a tamborim, a small Brazilian frame drum played with a stick",64,0,0,0
+4,com,"a surdo, a large Brazilian bass drum",64,0,1,0
+4,com,"a batucada, a Brazilian samba percussion group",64,0,0,
+4,com,applause,64,0,0,0
+4,com,a crowd cheering and shouting,64,0,0,0
+4,com,a man coughing,64,0,1,1
+4,com,a man giving a speech,64,8,10,0
+4,com,a distorted voice,64,3,10,10
+4,com,the surface noise of an old record,64,0,21,21
+4,com,clicks of a scratched record,64,0,15,15
+4,com,a skipping record,64,25,40,32
+4,com,a page of paper being turned,64,0,0,0
+4,com,music,64,2,15,15
+4,com,wind,64,0,0,0
+4,com,women singing,64,0,0,0
+4,com,a church bell,64,0,0,0
+4,com,footsteps,64,12,24,24
+4,com,electrical hum,64,0,0,0
+4,com,silence,64,0,0,
+4,com,a tambourine,64,0,0,
+4,com,a snare drum,64,0,0,0
+4,com,a bass drum,64,0,3,0
+4,com,a door knocking,64,0,6,
+4,com,ocean waves,64,0,0,
+5,sem,tamborim,441,2,13,13
+5,sem,surdo,441,59,329,329
+5,sem,batucada,441,23,125,
+5,sem,samba,441,1,14,
+5,sem,"a tamborim, a small Brazilian frame drum played with a stick",441,0,0,0
+5,sem,"a surdo, a large Brazilian bass drum",441,0,0,0
+5,sem,"a batucada, a Brazilian samba percussion group",441,0,0,
+5,sem,applause,441,0,0,0
+5,sem,a crowd cheering and shouting,441,6,25,25
+5,sem,a man coughing,441,6,23,23
+5,sem,a man giving a speech,441,155,224,80
+5,sem,a distorted voice,441,0,4,4
+5,sem,the surface noise of an old record,441,2,23,20
+5,sem,clicks of a scratched record,441,0,0,0
+5,sem,a skipping record,441,4,35,35
+5,sem,a page of paper being turned,441,0,0,0
+5,sem,music,441,76,210,22
+5,sem,wind,441,19,41,11
+5,sem,women singing,441,29,87,72
+5,sem,a church bell,441,13,31,31
+5,sem,footsteps,441,0,4,3
+5,sem,electrical hum,441,36,80,0
+5,sem,silence,441,9,39,
+5,sem,a tambourine,441,0,0,
+5,sem,a snare drum,441,0,0,0
+5,sem,a bass drum,441,0,0,0
+5,sem,a door knocking,441,0,0,
+5,sem,ocean waves,441,1,16,
+5,com,tamborim,441,1,9,9
+5,com,surdo,441,54,285,285
+5,com,batucada,441,0,6,
+5,com,samba,441,0,0,
+5,com,"a tamborim, a small Brazilian frame drum played with a stick",441,0,0,0
+5,com,"a surdo, a large Brazilian bass drum",441,0,1,1
+5,com,"a batucada, a Brazilian samba percussion group",441,0,0,
+5,com,applause,441,0,0,0
+5,com,a crowd cheering and shouting,441,2,30,30
+5,com,a man coughing,441,6,20,20
+5,com,a man giving a speech,441,27,74,29
+5,com,a distorted voice,441,2,18,18
+5,com,the surface noise of an old record,441,0,0,0
+5,com,clicks of a scratched record,441,1,2,2
+5,com,a skipping record,441,0,1,1
+5,com,a page of paper being turned,441,0,0,0
+5,com,music,441,31,195,42
+5,com,wind,441,5,59,41
+5,com,women singing,441,5,18,14
+5,com,a church bell,441,0,4,4
+5,com,footsteps,441,0,0,0
+5,com,electrical hum,441,1,15,0
+5,com,silence,441,169,325,
+5,com,a tambourine,441,0,0,
+5,com,a snare drum,441,0,0,0
+5,com,a bass drum,441,0,4,4
+5,com,a door knocking,441,2,16,
+5,com,ocean waves,441,135,241,

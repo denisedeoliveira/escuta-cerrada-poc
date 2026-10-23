@@ -1,0 +1,6733 @@
+{
+ "faixa": 3,
+ "arquivo": "3. 27240 - Doutrina policial - é a prostituição um mal necessário - 1944 - Experiência de gravação (B).mp3",
+ "modelo": "PANNs Cnn14",
+ "pesos": "Cnn14_mAP=0.431.pth",
+ "condicao": "com",
+ "filtro": true,
+ "taxa_hz": 32000,
+ "janela_s": 2.0,
+ "passo_s": 1.0,
+ "limiar_registro": 0.01,
+ "versoes": {
+  "panns-inference": "0.1.1",
+  "torchlibrosa": "0.1.0",
+  "transformers": "5.20.1",
+  "noisereduce": "3.0.3",
+  "librosa": "0.11.0",
+  "numpy": "2.1.3",
+  "torch": "2.11.0+cu130"
+ },
+ "python": "3.13.15",
+ "gpu": "Tesla T4",
+ "data_execucao": "2026-10-20T15:33:58.712839+00:00",
+ "duracao_audio_s": 362.06,
+ "duracao_processamento_s": 0.77,
+ "janelas": [
+  {
+   "inicio": 0.0,
+   "fim": 2.0,
+   "rotulos": {
+    "Crack": 0.2864,
+    "Speech": 0.0752,
+    "Crunch": 0.0507,
+    "Breaking": 0.0505,
+    "Crushing": 0.0444,
+    "Music": 0.0344,
+    "Biting": 0.0256,
+    "Single-lens reflex camera": 0.0207,
+    "Sound effect": 0.0205,
+    "Silence": 0.0195,
+    "Coin (dropping)": 0.0173,
+    "Inside, small room": 0.0108
+   }
+  },
+  {
+   "inicio": 1.0,
+   "fim": 3.0,
+   "rotulos": {
+    "Music": 0.058,
+    "Biting": 0.0518,
+    "Crack": 0.0306,
+    "Single-lens reflex camera": 0.029,
+    "Squish": 0.0254,
+    "Silence": 0.0249,
+    "Sound effect": 0.0244,
+    "Speech": 0.0239,
+    "Crunch": 0.0167,
+    "Animal": 0.0164,
+    "Vehicle": 0.015,
+    "Tick": 0.0142,
+    "Plop": 0.0136,
+    "Tick-tock": 0.0112,
+    "Scrape": 0.0111,
+    "Chink, clink": 0.0111,
+    "Crackle": 0.0103
+   }
+  },
+  {
+   "inicio": 2.0,
+   "fim": 4.0,
+   "rotulos": {
+    "Speech": 0.1624,
+    "Music": 0.121,
+    "Inside, small room": 0.0217,
+    "Vehicle": 0.0202,
+    "Animal": 0.0149,
+    "Musical instrument": 0.0135
+   }
+  },
+  {
+   "inicio": 3.0,
+   "fim": 5.0,
+   "rotulos": {
+    "Speech": 0.7193,
+    "Speech synthesizer": 0.2699,
+    "Narration, monologue": 0.0653,
+    "Music": 0.0482,
+    "Silence": 0.0341,
+    "Male speech, man speaking": 0.0332,
+    "Inside, small room": 0.0271,
+    "Tick": 0.0201,
+    "Tick-tock": 0.0192,
+    "Animal": 0.017,
+    "Vehicle": 0.0153,
+    "Female speech, woman speaking": 0.014,
+    "Conversation": 0.013,
+    "Zipper (clothing)": 0.012
+   }
+  },
+  {
+   "inicio": 4.0,
+   "fim": 6.0,
+   "rotulos": {
+    "Speech": 0.7399,
+    "Speech synthesizer": 0.2246,
+    "Narration, monologue": 0.0592,
+    "Silence": 0.0531,
+    "Music": 0.0487,
+    "Male speech, man speaking": 0.0299,
+    "Inside, small room": 0.0271,
+    "Animal": 0.0186,
+    "Vehicle": 0.0181,
+    "Tick": 0.0158,
+    "Tick-tock": 0.0154,
+    "Female speech, woman speaking": 0.0147,
+    "Clicking": 0.014,
+    "Spray": 0.0104,
+    "Gasp": 0.0104
+   }
+  },
+  {
+   "inicio": 5.0,
+   "fim": 7.0,
+   "rotulos": {
+    "Speech": 0.6422,
+    "Speech synthesizer": 0.3862,
+    "Clicking": 0.0631,
+    "Narration, monologue": 0.0556,
+    "Inside, small room": 0.0315,
+    "Music": 0.0295,
+    "Male speech, man speaking": 0.0255,
+    "Animal": 0.0175,
+    "Silence": 0.0131,
+    "Vehicle": 0.0121
+   }
+  },
+  {
+   "inicio": 6.0,
+   "fim": 8.0,
+   "rotulos": {
+    "Speech": 0.7517,
+    "Speech synthesizer": 0.3384,
+    "Narration, monologue": 0.0874,
+    "Male speech, man speaking": 0.05,
+    "Music": 0.0362,
+    "Inside, small room": 0.02,
+    "Animal": 0.0131,
+    "Conversation": 0.0111,
+    "Musical instrument": 0.0104,
+    "Vehicle": 0.0101
+   }
+  },
+  {
+   "inicio": 7.0,
+   "fim": 9.0,
+   "rotulos": {
+    "Speech": 0.7869,
+    "Speech synthesizer": 0.2368,
+    "Narration, monologue": 0.0639,
+    "Music": 0.0478,
+    "Male speech, man speaking": 0.0447,
+    "Inside, small room": 0.0199,
+    "Tick": 0.018,
+    "Tick-tock": 0.0166,
+    "Vehicle": 0.0149,
+    "Silence": 0.0122,
+    "Animal": 0.0113,
+    "Musical instrument": 0.01
+   }
+  },
+  {
+   "inicio": 8.0,
+   "fim": 10.0,
+   "rotulos": {
+    "Speech": 0.8065,
+    "Speech synthesizer": 0.2058,
+    "Music": 0.0673,
+    "Narration, monologue": 0.0426,
+    "Male speech, man speaking": 0.0353,
+    "Vehicle": 0.0258,
+    "Silence": 0.022,
+    "Tick-tock": 0.0201,
+    "Tick": 0.0173,
+    "Inside, small room": 0.0172,
+    "Animal": 0.0162,
+    "Spray": 0.0129,
+    "Female speech, woman speaking": 0.0118,
+    "Bicycle bell": 0.0116,
+    "Musical instrument": 0.0112,
+    "Outside, urban or manmade": 0.0104
+   }
+  },
+  {
+   "inicio": 9.0,
+   "fim": 11.0,
+   "rotulos": {
+    "Speech": 0.6271,
+    "Speech synthesizer": 0.1215,
+    "Music": 0.0639,
+    "Narration, monologue": 0.0457,
+    "Inside, small room": 0.0369,
+    "Male speech, man speaking": 0.0191,
+    "Vehicle": 0.0179,
+    "Silence": 0.017,
+    "Animal": 0.0163,
+    "Musical instrument": 0.0107
+   }
+  },
+  {
+   "inicio": 10.0,
+   "fim": 12.0,
+   "rotulos": {
+    "Speech": 0.6369,
+    "Speech synthesizer": 0.559,
+    "Narration, monologue": 0.06,
+    "Male speech, man speaking": 0.0304,
+    "Music": 0.0234,
+    "Inside, small room": 0.0173,
+    "Vehicle": 0.0106,
+    "Animal": 0.0105
+   }
+  },
+  {
+   "inicio": 11.0,
+   "fim": 13.0,
+   "rotulos": {
+    "Speech": 0.7131,
+    "Speech synthesizer": 0.3634,
+    "Narration, monologue": 0.0926,
+    "Male speech, man speaking": 0.0521,
+    "Music": 0.0403,
+    "Tick": 0.0172,
+    "Inside, small room": 0.0162,
+    "Tick-tock": 0.0159,
+    "Animal": 0.0156,
+    "Vehicle": 0.0132,
+    "Female speech, woman speaking": 0.0108,
+    "Silence": 0.0104
+   }
+  },
+  {
+   "inicio": 12.0,
+   "fim": 14.0,
+   "rotulos": {
+    "Speech": 0.7808,
+    "Speech synthesizer": 0.1086,
+    "Music": 0.0608,
+    "Narration, monologue": 0.044,
+    "Male speech, man speaking": 0.0354,
+    "Tick-tock": 0.0304,
+    "Tick": 0.0248,
+    "Silence": 0.0231,
+    "Inside, small room": 0.0211,
+    "Vehicle": 0.0192,
+    "Animal": 0.0171,
+    "Spray": 0.0162,
+    "Female speech, woman speaking": 0.0147,
+    "Musical instrument": 0.0117
+   }
+  },
+  {
+   "inicio": 13.0,
+   "fim": 15.0,
+   "rotulos": {
+    "Speech": 0.7802,
+    "Speech synthesizer": 0.1466,
+    "Narration, monologue": 0.0643,
+    "Male speech, man speaking": 0.0581,
+    "Music": 0.0461,
+    "Inside, small room": 0.0315,
+    "Vehicle": 0.0194,
+    "Animal": 0.015,
+    "Outside, urban or manmade": 0.014,
+    "Musical instrument": 0.0114,
+    "Tick-tock": 0.0108,
+    "Silence": 0.01
+   }
+  },
+  {
+   "inicio": 14.0,
+   "fim": 16.0,
+   "rotulos": {
+    "Speech": 0.8473,
+    "Speech synthesizer": 0.1067,
+    "Music": 0.0484,
+    "Male speech, man speaking": 0.0294,
+    "Narration, monologue": 0.0268,
+    "Vehicle": 0.0219,
+    "Tick-tock": 0.0193,
+    "Tick": 0.0172,
+    "Animal": 0.015,
+    "Bicycle bell": 0.0138,
+    "Inside, small room": 0.0129,
+    "Bird": 0.0112,
+    "Outside, urban or manmade": 0.0107,
+    "Spray": 0.0101,
+    "Bell": 0.0101
+   }
+  },
+  {
+   "inicio": 15.0,
+   "fim": 17.0,
+   "rotulos": {
+    "Speech": 0.6519,
+    "Music": 0.115,
+    "Silence": 0.0398,
+    "Vehicle": 0.0377,
+    "Speech synthesizer": 0.0309,
+    "Inside, small room": 0.0209,
+    "Animal": 0.0197,
+    "Tick-tock": 0.0192,
+    "Tick": 0.0171,
+    "Male speech, man speaking": 0.0163,
+    "Female speech, woman speaking": 0.0152,
+    "Musical instrument": 0.0141,
+    "Static": 0.0115,
+    "White noise": 0.0113,
+    "Bird": 0.0113,
+    "Spray": 0.0106,
+    "Narration, monologue": 0.0105,
+    "Outside, urban or manmade": 0.0104
+   }
+  },
+  {
+   "inicio": 16.0,
+   "fim": 18.0,
+   "rotulos": {
+    "Speech": 0.6691,
+    "Speech synthesizer": 0.1134,
+    "Narration, monologue": 0.0504,
+    "Silence": 0.0472,
+    "Music": 0.0443,
+    "Inside, small room": 0.0406,
+    "Male speech, man speaking": 0.0281,
+    "Animal": 0.0205,
+    "Vehicle": 0.0197,
+    "Writing": 0.0132,
+    "Female speech, woman speaking": 0.0113
+   }
+  },
+  {
+   "inicio": 17.0,
+   "fim": 19.0,
+   "rotulos": {
+    "Speech": 0.6672,
+    "Speech synthesizer": 0.093,
+    "Biting": 0.0478,
+    "Narration, monologue": 0.0409,
+    "Single-lens reflex camera": 0.0393,
+    "Music": 0.0359,
+    "Zipper (clothing)": 0.0285,
+    "Shuffling cards": 0.0259,
+    "Crack": 0.0237,
+    "Animal": 0.0221,
+    "Inside, small room": 0.0221,
+    "Coin (dropping)": 0.0215,
+    "Male speech, man speaking": 0.0198,
+    "Camera": 0.015,
+    "Mechanisms": 0.0142,
+    "Crunch": 0.0141,
+    "Vehicle": 0.0128,
+    "Silence": 0.011,
+    "Typing": 0.0108,
+    "Clicking": 0.0102,
+    "Chink, clink": 0.0102
+   }
+  },
+  {
+   "inicio": 18.0,
+   "fim": 20.0,
+   "rotulos": {
+    "Speech": 0.5658,
+    "Music": 0.1148,
+    "Silence": 0.0303,
+    "Inside, small room": 0.029,
+    "Vehicle": 0.0275,
+    "Speech synthesizer": 0.0205,
+    "Animal": 0.0187,
+    "Tick-tock": 0.0171,
+    "Narration, monologue": 0.0155,
+    "Tick": 0.015,
+    "Musical instrument": 0.0147,
+    "Male speech, man speaking": 0.014,
+    "Female speech, woman speaking": 0.0112
+   }
+  },
+  {
+   "inicio": 19.0,
+   "fim": 21.0,
+   "rotulos": {
+    "Speech": 0.6864,
+    "Speech synthesizer": 0.2102,
+    "Narration, monologue": 0.0619,
+    "Inside, small room": 0.046,
+    "Music": 0.0325,
+    "Male speech, man speaking": 0.0311,
+    "Silence": 0.0203,
+    "Animal": 0.0117,
+    "Vehicle": 0.0106,
+    "Conversation": 0.0102
+   }
+  },
+  {
+   "inicio": 20.0,
+   "fim": 22.0,
+   "rotulos": {
+    "Speech": 0.7571,
+    "Speech synthesizer": 0.2993,
+    "Narration, monologue": 0.1007,
+    "Male speech, man speaking": 0.0529,
+    "Music": 0.0359,
+    "Inside, small room": 0.0206,
+    "Musical instrument": 0.0122,
+    "Tick": 0.0109,
+    "Animal": 0.0106,
+    "Tick-tock": 0.0105
+   }
+  },
+  {
+   "inicio": 21.0,
+   "fim": 23.0,
+   "rotulos": {
+    "Speech": 0.7963,
+    "Speech synthesizer": 0.2507,
+    "Narration, monologue": 0.0739,
+    "Male speech, man speaking": 0.0418,
+    "Music": 0.0407,
+    "Inside, small room": 0.017,
+    "Tick-tock": 0.0155,
+    "Tick": 0.015,
+    "Female speech, woman speaking": 0.0146,
+    "Vehicle": 0.0145,
+    "Animal": 0.0133
+   }
+  },
+  {
+   "inicio": 22.0,
+   "fim": 24.0,
+   "rotulos": {
+    "Speech": 0.7993,
+    "Music": 0.0836,
+    "Speech synthesizer": 0.0685,
+    "Narration, monologue": 0.0375,
+    "Silence": 0.0357,
+    "Male speech, man speaking": 0.0285,
+    "Tick-tock": 0.0274,
+    "Vehicle": 0.0267,
+    "Inside, small room": 0.0222,
+    "Tick": 0.0213,
+    "Animal": 0.0193,
+    "Spray": 0.0169,
+    "Female speech, woman speaking": 0.016,
+    "Musical instrument": 0.0139,
+    "Outside, urban or manmade": 0.0128
+   }
+  },
+  {
+   "inicio": 23.0,
+   "fim": 25.0,
+   "rotulos": {
+    "Speech": 0.7544,
+    "Speech synthesizer": 0.0909,
+    "Narration, monologue": 0.0613,
+    "Male speech, man speaking": 0.049,
+    "Inside, small room": 0.0413,
+    "Music": 0.0408,
+    "Vehicle": 0.014,
+    "Animal": 0.012,
+    "Outside, urban or manmade": 0.0108,
+    "Conversation": 0.0104,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 24.0,
+   "fim": 26.0,
+   "rotulos": {
+    "Speech": 0.8312,
+    "Speech synthesizer": 0.0935,
+    "Music": 0.0692,
+    "Narration, monologue": 0.0379,
+    "Male speech, man speaking": 0.0376,
+    "Tick-tock": 0.0317,
+    "Tick": 0.0247,
+    "Vehicle": 0.0245,
+    "Silence": 0.0205,
+    "Animal": 0.0179,
+    "Inside, small room": 0.0176,
+    "Spray": 0.0168,
+    "Outside, urban or manmade": 0.0157,
+    "Female speech, woman speaking": 0.013,
+    "Musical instrument": 0.0114,
+    "Bird": 0.0102
+   }
+  },
+  {
+   "inicio": 25.0,
+   "fim": 27.0,
+   "rotulos": {
+    "Speech": 0.7403,
+    "Speech synthesizer": 0.1847,
+    "Narration, monologue": 0.0596,
+    "Male speech, man speaking": 0.0468,
+    "Music": 0.0459,
+    "Inside, small room": 0.0323,
+    "Silence": 0.0212,
+    "Vehicle": 0.019,
+    "Animal": 0.0133,
+    "Musical instrument": 0.0118
+   }
+  },
+  {
+   "inicio": 26.0,
+   "fim": 28.0,
+   "rotulos": {
+    "Speech": 0.8648,
+    "Speech synthesizer": 0.0796,
+    "Music": 0.0619,
+    "Male speech, man speaking": 0.0319,
+    "Vehicle": 0.0314,
+    "Narration, monologue": 0.0214,
+    "Outside, urban or manmade": 0.0181,
+    "Animal": 0.0179,
+    "Tick-tock": 0.0174,
+    "Bird": 0.0141,
+    "Tick": 0.013,
+    "Bicycle bell": 0.0129,
+    "Spray": 0.0124,
+    "Inside, small room": 0.0123
+   }
+  },
+  {
+   "inicio": 27.0,
+   "fim": 29.0,
+   "rotulos": {
+    "Speech": 0.7623,
+    "Speech synthesizer": 0.2285,
+    "Narration, monologue": 0.0817,
+    "Male speech, man speaking": 0.06,
+    "Music": 0.0408,
+    "Inside, small room": 0.0322,
+    "Silence": 0.0179,
+    "Vehicle": 0.0115,
+    "Conversation": 0.0112,
+    "Musical instrument": 0.0106
+   }
+  },
+  {
+   "inicio": 28.0,
+   "fim": 30.0,
+   "rotulos": {
+    "Speech": 0.726,
+    "Speech synthesizer": 0.3074,
+    "Narration, monologue": 0.0566,
+    "Music": 0.0436,
+    "Male speech, man speaking": 0.0393,
+    "Vehicle": 0.0151,
+    "Inside, small room": 0.0138,
+    "Animal": 0.0133,
+    "Silence": 0.0132,
+    "Spray": 0.0113,
+    "Tick-tock": 0.0113,
+    "Tick": 0.0108,
+    "Conversation": 0.0105
+   }
+  },
+  {
+   "inicio": 29.0,
+   "fim": 31.0,
+   "rotulos": {
+    "Music": 0.135,
+    "Speech": 0.0444,
+    "Vehicle": 0.0243,
+    "Inside, small room": 0.0191,
+    "Musical instrument": 0.0141,
+    "Animal": 0.0133,
+    "Silence": 0.0122,
+    "Tick-tock": 0.0112,
+    "Tick": 0.011
+   }
+  },
+  {
+   "inicio": 30.0,
+   "fim": 32.0,
+   "rotulos": {
+    "Speech": 0.6807,
+    "Speech synthesizer": 0.2839,
+    "Narration, monologue": 0.0642,
+    "Music": 0.0423,
+    "Male speech, man speaking": 0.0385,
+    "Inside, small room": 0.0302,
+    "Silence": 0.0162,
+    "Vehicle": 0.0128,
+    "Animal": 0.0127,
+    "Tick": 0.0122,
+    "Tick-tock": 0.0114,
+    "Musical instrument": 0.0109
+   }
+  },
+  {
+   "inicio": 31.0,
+   "fim": 33.0,
+   "rotulos": {
+    "Speech": 0.7822,
+    "Speech synthesizer": 0.315,
+    "Narration, monologue": 0.0891,
+    "Male speech, man speaking": 0.0487,
+    "Music": 0.0405,
+    "Inside, small room": 0.0244,
+    "Tick": 0.018,
+    "Tick-tock": 0.0174,
+    "Musical instrument": 0.0127,
+    "Animal": 0.0112,
+    "Vehicle": 0.0111
+   }
+  },
+  {
+   "inicio": 32.0,
+   "fim": 34.0,
+   "rotulos": {
+    "Speech": 0.811,
+    "Speech synthesizer": 0.2438,
+    "Narration, monologue": 0.0755,
+    "Male speech, man speaking": 0.0552,
+    "Music": 0.0481,
+    "Inside, small room": 0.021,
+    "Tick-tock": 0.0204,
+    "Tick": 0.0179,
+    "Vehicle": 0.0116,
+    "Animal": 0.0112,
+    "Musical instrument": 0.011,
+    "Female speech, woman speaking": 0.0102,
+    "Spray": 0.0101
+   }
+  },
+  {
+   "inicio": 33.0,
+   "fim": 35.0,
+   "rotulos": {
+    "Speech": 0.8153,
+    "Speech synthesizer": 0.0852,
+    "Music": 0.0796,
+    "Narration, monologue": 0.0499,
+    "Male speech, man speaking": 0.0334,
+    "Silence": 0.0291,
+    "Tick-tock": 0.025,
+    "Inside, small room": 0.0226,
+    "Vehicle": 0.022,
+    "Tick": 0.0199,
+    "Animal": 0.0195,
+    "Female speech, woman speaking": 0.0194,
+    "Spray": 0.0183,
+    "Musical instrument": 0.0119,
+    "Outside, urban or manmade": 0.0105,
+    "Conversation": 0.0104
+   }
+  },
+  {
+   "inicio": 34.0,
+   "fim": 36.0,
+   "rotulos": {
+    "Speech": 0.6972,
+    "Speech synthesizer": 0.1082,
+    "Narration, monologue": 0.0696,
+    "Inside, small room": 0.0511,
+    "Music": 0.0451,
+    "Male speech, man speaking": 0.0347,
+    "Silence": 0.0177,
+    "Animal": 0.0158,
+    "Female speech, woman speaking": 0.0142,
+    "Vehicle": 0.0132,
+    "Conversation": 0.013,
+    "Writing": 0.0106,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 35.0,
+   "fim": 37.0,
+   "rotulos": {
+    "Speech": 0.7161,
+    "Speech synthesizer": 0.2654,
+    "Narration, monologue": 0.0794,
+    "Music": 0.0525,
+    "Male speech, man speaking": 0.0399,
+    "Silence": 0.0228,
+    "Inside, small room": 0.021,
+    "Animal": 0.0189,
+    "Female speech, woman speaking": 0.0164,
+    "Vehicle": 0.0142,
+    "Tick-tock": 0.0132,
+    "Tick": 0.0126,
+    "Conversation": 0.012
+   }
+  },
+  {
+   "inicio": 36.0,
+   "fim": 38.0,
+   "rotulos": {
+    "Speech": 0.762,
+    "Speech synthesizer": 0.2364,
+    "Narration, monologue": 0.0934,
+    "Male speech, man speaking": 0.047,
+    "Inside, small room": 0.0378,
+    "Music": 0.0313,
+    "Clicking": 0.0166,
+    "Silence": 0.0145,
+    "Musical instrument": 0.01
+   }
+  },
+  {
+   "inicio": 37.0,
+   "fim": 39.0,
+   "rotulos": {
+    "Speech": 0.7876,
+    "Speech synthesizer": 0.1933,
+    "Narration, monologue": 0.0706,
+    "Male speech, man speaking": 0.0494,
+    "Music": 0.0327,
+    "Inside, small room": 0.0208,
+    "Vehicle": 0.0139,
+    "Animal": 0.0101
+   }
+  },
+  {
+   "inicio": 38.0,
+   "fim": 40.0,
+   "rotulos": {
+    "Speech": 0.8101,
+    "Speech synthesizer": 0.1386,
+    "Narration, monologue": 0.0822,
+    "Male speech, man speaking": 0.0676,
+    "Music": 0.0509,
+    "Inside, small room": 0.028,
+    "Vehicle": 0.0193,
+    "Tick-tock": 0.0149,
+    "Musical instrument": 0.0138,
+    "Tick": 0.0129,
+    "Outside, urban or manmade": 0.0123,
+    "Animal": 0.0106
+   }
+  },
+  {
+   "inicio": 39.0,
+   "fim": 41.0,
+   "rotulos": {
+    "Speech": 0.8193,
+    "Speech synthesizer": 0.1762,
+    "Narration, monologue": 0.1046,
+    "Male speech, man speaking": 0.0596,
+    "Music": 0.0451,
+    "Inside, small room": 0.0316,
+    "Musical instrument": 0.0148,
+    "Female speech, woman speaking": 0.0134,
+    "Vehicle": 0.0115,
+    "Conversation": 0.0101,
+    "Tick": 0.0101
+   }
+  },
+  {
+   "inicio": 40.0,
+   "fim": 42.0,
+   "rotulos": {
+    "Speech": 0.8452,
+    "Music": 0.0792,
+    "Speech synthesizer": 0.0787,
+    "Narration, monologue": 0.041,
+    "Male speech, man speaking": 0.0321,
+    "Inside, small room": 0.0257,
+    "Silence": 0.0235,
+    "Tick-tock": 0.0233,
+    "Female speech, woman speaking": 0.023,
+    "Vehicle": 0.0196,
+    "Animal": 0.0167,
+    "Spray": 0.0158,
+    "Tick": 0.0158,
+    "Bicycle bell": 0.0144,
+    "Conversation": 0.0129,
+    "Outside, urban or manmade": 0.0101,
+    "Musical instrument": 0.0101
+   }
+  },
+  {
+   "inicio": 41.0,
+   "fim": 43.0,
+   "rotulos": {
+    "Speech": 0.645,
+    "Speech synthesizer": 0.1877,
+    "Narration, monologue": 0.0425,
+    "Music": 0.0376,
+    "Silence": 0.0357,
+    "Inside, small room": 0.0334,
+    "Male speech, man speaking": 0.02,
+    "Clicking": 0.0157,
+    "Vehicle": 0.0151,
+    "Animal": 0.0131,
+    "Writing": 0.0124
+   }
+  },
+  {
+   "inicio": 42.0,
+   "fim": 44.0,
+   "rotulos": {
+    "Speech": 0.8378,
+    "Speech synthesizer": 0.157,
+    "Music": 0.0618,
+    "Narration, monologue": 0.0357,
+    "Male speech, man speaking": 0.0321,
+    "Tick-tock": 0.0214,
+    "Vehicle": 0.0208,
+    "Tick": 0.0169,
+    "Silence": 0.0158,
+    "Inside, small room": 0.015,
+    "Bicycle bell": 0.0141,
+    "Animal": 0.0137,
+    "Spray": 0.0125,
+    "Female speech, woman speaking": 0.0115,
+    "Outside, urban or manmade": 0.011,
+    "Bird": 0.0101
+   }
+  },
+  {
+   "inicio": 43.0,
+   "fim": 45.0,
+   "rotulos": {
+    "Speech": 0.7711,
+    "Speech synthesizer": 0.1175,
+    "Male speech, man speaking": 0.05,
+    "Narration, monologue": 0.049,
+    "Music": 0.0427,
+    "Inside, small room": 0.0349,
+    "Silence": 0.023,
+    "Vehicle": 0.0218,
+    "Outside, urban or manmade": 0.0179,
+    "Animal": 0.0152,
+    "Musical instrument": 0.0118,
+    "Outside, rural or natural": 0.0103
+   }
+  },
+  {
+   "inicio": 44.0,
+   "fim": 46.0,
+   "rotulos": {
+    "Speech": 0.8383,
+    "Speech synthesizer": 0.1552,
+    "Narration, monologue": 0.0521,
+    "Male speech, man speaking": 0.0482,
+    "Music": 0.0313,
+    "Inside, small room": 0.0193,
+    "Vehicle": 0.0127,
+    "Outside, urban or manmade": 0.0124,
+    "Musical instrument": 0.0108
+   }
+  },
+  {
+   "inicio": 45.0,
+   "fim": 47.0,
+   "rotulos": {
+    "Speech": 0.8286,
+    "Speech synthesizer": 0.1433,
+    "Music": 0.0571,
+    "Narration, monologue": 0.0396,
+    "Male speech, man speaking": 0.0346,
+    "Tick-tock": 0.024,
+    "Inside, small room": 0.0224,
+    "Tick": 0.0196,
+    "Vehicle": 0.0185,
+    "Silence": 0.0176,
+    "Animal": 0.014,
+    "Musical instrument": 0.0138,
+    "Spray": 0.0127,
+    "Outside, urban or manmade": 0.012,
+    "Bicycle bell": 0.0104,
+    "Female speech, woman speaking": 0.01
+   }
+  },
+  {
+   "inicio": 46.0,
+   "fim": 48.0,
+   "rotulos": {
+    "Speech": 0.7091,
+    "Speech synthesizer": 0.1186,
+    "Narration, monologue": 0.0682,
+    "Male speech, man speaking": 0.0443,
+    "Inside, small room": 0.0421,
+    "Music": 0.0401,
+    "Vehicle": 0.0149,
+    "Animal": 0.0119,
+    "Musical instrument": 0.0106
+   }
+  },
+  {
+   "inicio": 47.0,
+   "fim": 49.0,
+   "rotulos": {
+    "Speech": 0.8248,
+    "Speech synthesizer": 0.1613,
+    "Narration, monologue": 0.073,
+    "Male speech, man speaking": 0.0494,
+    "Music": 0.0345,
+    "Inside, small room": 0.0304,
+    "Vehicle": 0.0132,
+    "Musical instrument": 0.0103
+   }
+  },
+  {
+   "inicio": 48.0,
+   "fim": 50.0,
+   "rotulos": {
+    "Speech": 0.8666,
+    "Music": 0.0863,
+    "Vehicle": 0.0429,
+    "Speech synthesizer": 0.0395,
+    "Tick-tock": 0.0256,
+    "Male speech, man speaking": 0.0202,
+    "Bicycle bell": 0.0197,
+    "Narration, monologue": 0.0192,
+    "Tick": 0.018,
+    "Outside, urban or manmade": 0.0173,
+    "Inside, small room": 0.0172,
+    "Silence": 0.0168,
+    "Animal": 0.0162,
+    "Bird": 0.0146,
+    "Bell": 0.0127,
+    "Spray": 0.012,
+    "Female speech, woman speaking": 0.0112,
+    "Musical instrument": 0.0107
+   }
+  },
+  {
+   "inicio": 49.0,
+   "fim": 51.0,
+   "rotulos": {
+    "Speech": 0.7547,
+    "Speech synthesizer": 0.2082,
+    "Narration, monologue": 0.0589,
+    "Inside, small room": 0.0414,
+    "Male speech, man speaking": 0.037,
+    "Music": 0.0353,
+    "Vehicle": 0.0163,
+    "Silence": 0.0157,
+    "Animal": 0.0118,
+    "Musical instrument": 0.011,
+    "Outside, urban or manmade": 0.0101
+   }
+  },
+  {
+   "inicio": 50.0,
+   "fim": 52.0,
+   "rotulos": {
+    "Speech": 0.7955,
+    "Speech synthesizer": 0.2705,
+    "Narration, monologue": 0.189,
+    "Male speech, man speaking": 0.0864,
+    "Music": 0.0297,
+    "Female speech, woman speaking": 0.0229,
+    "Inside, small room": 0.0222,
+    "Conversation": 0.0176,
+    "Vehicle": 0.0116,
+    "Animal": 0.0109
+   }
+  },
+  {
+   "inicio": 51.0,
+   "fim": 53.0,
+   "rotulos": {
+    "Speech": 0.7158,
+    "Speech synthesizer": 0.3192,
+    "Narration, monologue": 0.0744,
+    "Male speech, man speaking": 0.054,
+    "Music": 0.0313,
+    "Vehicle": 0.0169,
+    "Animal": 0.0157,
+    "Inside, small room": 0.0139,
+    "Silence": 0.0139,
+    "Conversation": 0.0118,
+    "Female speech, woman speaking": 0.0117
+   }
+  },
+  {
+   "inicio": 52.0,
+   "fim": 54.0,
+   "rotulos": {
+    "Speech": 0.8684,
+    "Music": 0.0817,
+    "Speech synthesizer": 0.0499,
+    "Vehicle": 0.0334,
+    "Silence": 0.0307,
+    "Tick-tock": 0.0262,
+    "Outside, urban or manmade": 0.0208,
+    "Narration, monologue": 0.0207,
+    "Male speech, man speaking": 0.0201,
+    "Inside, small room": 0.0198,
+    "Tick": 0.0189,
+    "Animal": 0.016,
+    "Spray": 0.0158,
+    "Bicycle bell": 0.0138,
+    "Bird": 0.013,
+    "Musical instrument": 0.0107,
+    "Outside, rural or natural": 0.0104
+   }
+  },
+  {
+   "inicio": 53.0,
+   "fim": 55.0,
+   "rotulos": {
+    "Speech": 0.7638,
+    "Speech synthesizer": 0.0664,
+    "Music": 0.0487,
+    "Inside, small room": 0.0418,
+    "Narration, monologue": 0.0335,
+    "Male speech, man speaking": 0.0271,
+    "Vehicle": 0.0243,
+    "Silence": 0.0189,
+    "Outside, urban or manmade": 0.0159,
+    "Musical instrument": 0.013,
+    "Animal": 0.0119
+   }
+  },
+  {
+   "inicio": 54.0,
+   "fim": 56.0,
+   "rotulos": {
+    "Speech": 0.7952,
+    "Music": 0.0938,
+    "Speech synthesizer": 0.0608,
+    "Silence": 0.0338,
+    "Narration, monologue": 0.0296,
+    "Male speech, man speaking": 0.0282,
+    "Vehicle": 0.0278,
+    "Inside, small room": 0.026,
+    "Tick-tock": 0.0192,
+    "Animal": 0.0177,
+    "Musical instrument": 0.0165,
+    "Tick": 0.0157,
+    "Female speech, woman speaking": 0.0137,
+    "Outside, urban or manmade": 0.0124,
+    "Spray": 0.0122
+   }
+  },
+  {
+   "inicio": 55.0,
+   "fim": 57.0,
+   "rotulos": {
+    "Speech": 0.7118,
+    "Speech synthesizer": 0.177,
+    "Narration, monologue": 0.0608,
+    "Male speech, man speaking": 0.0423,
+    "Music": 0.0415,
+    "Inside, small room": 0.0304,
+    "Animal": 0.019,
+    "Vehicle": 0.0173,
+    "Female speech, woman speaking": 0.0115,
+    "Conversation": 0.0109,
+    "Silence": 0.0107,
+    "Outside, urban or manmade": 0.0106
+   }
+  },
+  {
+   "inicio": 56.0,
+   "fim": 58.0,
+   "rotulos": {
+    "Speech": 0.7442,
+    "Speech synthesizer": 0.2223,
+    "Narration, monologue": 0.074,
+    "Male speech, man speaking": 0.0505,
+    "Music": 0.0354,
+    "Inside, small room": 0.0248,
+    "Conversation": 0.0117,
+    "Animal": 0.0115,
+    "Vehicle": 0.0114,
+    "Musical instrument": 0.0107
+   }
+  },
+  {
+   "inicio": 57.0,
+   "fim": 59.0,
+   "rotulos": {
+    "Speech": 0.7744,
+    "Speech synthesizer": 0.1518,
+    "Narration, monologue": 0.0778,
+    "Music": 0.0541,
+    "Male speech, man speaking": 0.0492,
+    "Inside, small room": 0.0271,
+    "Animal": 0.0149,
+    "Tick-tock": 0.0144,
+    "Vehicle": 0.0141,
+    "Musical instrument": 0.0131,
+    "Tick": 0.0129,
+    "Female speech, woman speaking": 0.0108
+   }
+  },
+  {
+   "inicio": 58.0,
+   "fim": 60.0,
+   "rotulos": {
+    "Speech": 0.7056,
+    "Speech synthesizer": 0.2797,
+    "Narration, monologue": 0.096,
+    "Male speech, man speaking": 0.0379,
+    "Music": 0.0375,
+    "Inside, small room": 0.0322,
+    "Animal": 0.0152,
+    "Vehicle": 0.0139,
+    "Female speech, woman speaking": 0.0135,
+    "Conversation": 0.0118,
+    "Musical instrument": 0.0117
+   }
+  },
+  {
+   "inicio": 59.0,
+   "fim": 61.0,
+   "rotulos": {
+    "Speech": 0.8374,
+    "Music": 0.0904,
+    "Speech synthesizer": 0.0834,
+    "Animal": 0.0326,
+    "Vehicle": 0.0322,
+    "Narration, monologue": 0.0299,
+    "Bird": 0.0219,
+    "Male speech, man speaking": 0.0218,
+    "Female speech, woman speaking": 0.0218,
+    "Silence": 0.0194,
+    "Inside, small room": 0.0182,
+    "Tick-tock": 0.0169,
+    "Meow": 0.0158,
+    "Domestic animals, pets": 0.0139,
+    "Outside, urban or manmade": 0.0134,
+    "Tick": 0.0128,
+    "Spray": 0.0112,
+    "Cat": 0.0106,
+    "Musical instrument": 0.0105
+   }
+  },
+  {
+   "inicio": 60.0,
+   "fim": 62.0,
+   "rotulos": {
+    "Speech": 0.7148,
+    "Speech synthesizer": 0.2133,
+    "Silence": 0.0514,
+    "Inside, small room": 0.0482,
+    "Music": 0.0455,
+    "Narration, monologue": 0.0444,
+    "Male speech, man speaking": 0.0215,
+    "Vehicle": 0.0209,
+    "Animal": 0.0156,
+    "Outside, urban or manmade": 0.0116,
+    "Musical instrument": 0.0116
+   }
+  },
+  {
+   "inicio": 61.0,
+   "fim": 63.0,
+   "rotulos": {
+    "Speech": 0.8002,
+    "Speech synthesizer": 0.1636,
+    "Narration, monologue": 0.0729,
+    "Male speech, man speaking": 0.0649,
+    "Music": 0.0384,
+    "Inside, small room": 0.0197,
+    "Animal": 0.0143,
+    "Vehicle": 0.0137,
+    "Musical instrument": 0.0136,
+    "Outside, urban or manmade": 0.0119
+   }
+  },
+  {
+   "inicio": 62.0,
+   "fim": 64.0,
+   "rotulos": {
+    "Speech": 0.8557,
+    "Speech synthesizer": 0.0896,
+    "Music": 0.0622,
+    "Male speech, man speaking": 0.0433,
+    "Narration, monologue": 0.0315,
+    "Vehicle": 0.0214,
+    "Tick-tock": 0.0195,
+    "Outside, urban or manmade": 0.0163,
+    "Bird": 0.0159,
+    "Animal": 0.0157,
+    "Tick": 0.0148,
+    "Inside, small room": 0.0144,
+    "Musical instrument": 0.0128,
+    "Spray": 0.0113,
+    "Bicycle bell": 0.0105
+   }
+  },
+  {
+   "inicio": 63.0,
+   "fim": 65.0,
+   "rotulos": {
+    "Music": 0.1406,
+    "Silence": 0.1007,
+    "Speech": 0.0455,
+    "Vehicle": 0.032,
+    "Inside, small room": 0.0243,
+    "Musical instrument": 0.0162,
+    "Tick-tock": 0.0122,
+    "Animal": 0.0119,
+    "Tick": 0.0106
+   }
+  },
+  {
+   "inicio": 64.0,
+   "fim": 66.0,
+   "rotulos": {
+    "Speech": 0.7218,
+    "Speech synthesizer": 0.1526,
+    "Narration, monologue": 0.0846,
+    "Male speech, man speaking": 0.0449,
+    "Inside, small room": 0.0428,
+    "Music": 0.0316,
+    "Silence": 0.0168,
+    "Vehicle": 0.0157,
+    "Animal": 0.0127,
+    "Conversation": 0.0117,
+    "Female speech, woman speaking": 0.0105
+   }
+  },
+  {
+   "inicio": 65.0,
+   "fim": 67.0,
+   "rotulos": {
+    "Speech": 0.7938,
+    "Speech synthesizer": 0.1862,
+    "Narration, monologue": 0.1044,
+    "Male speech, man speaking": 0.0785,
+    "Music": 0.0357,
+    "Inside, small room": 0.0188,
+    "Vehicle": 0.0159,
+    "Animal": 0.0148,
+    "Outside, urban or manmade": 0.0134,
+    "Radio": 0.012
+   }
+  },
+  {
+   "inicio": 66.0,
+   "fim": 68.0,
+   "rotulos": {
+    "Speech": 0.8088,
+    "Speech synthesizer": 0.1706,
+    "Music": 0.06,
+    "Narration, monologue": 0.0554,
+    "Male speech, man speaking": 0.0486,
+    "Silence": 0.0241,
+    "Vehicle": 0.0192,
+    "Tick-tock": 0.0186,
+    "Animal": 0.0162,
+    "Tick": 0.0152,
+    "Inside, small room": 0.015,
+    "Spray": 0.0131,
+    "Outside, urban or manmade": 0.0128,
+    "Musical instrument": 0.0103,
+    "Bird": 0.0101
+   }
+  },
+  {
+   "inicio": 67.0,
+   "fim": 69.0,
+   "rotulos": {
+    "Speech": 0.7132,
+    "Narration, monologue": 0.0715,
+    "Speech synthesizer": 0.0614,
+    "Music": 0.0544,
+    "Male speech, man speaking": 0.045,
+    "Inside, small room": 0.03,
+    "Vehicle": 0.0221,
+    "Animal": 0.0211,
+    "Silence": 0.0144,
+    "Female speech, woman speaking": 0.0136,
+    "Conversation": 0.0122,
+    "Musical instrument": 0.011,
+    "Outside, urban or manmade": 0.0102
+   }
+  },
+  {
+   "inicio": 68.0,
+   "fim": 70.0,
+   "rotulos": {
+    "Speech": 0.8306,
+    "Speech synthesizer": 0.1241,
+    "Music": 0.0774,
+    "Narration, monologue": 0.0446,
+    "Male speech, man speaking": 0.0349,
+    "Silence": 0.0292,
+    "Vehicle": 0.0227,
+    "Inside, small room": 0.0223,
+    "Tick-tock": 0.0211,
+    "Tick": 0.0161,
+    "Animal": 0.0149,
+    "Musical instrument": 0.0132,
+    "Bird": 0.0119,
+    "Spray": 0.0119,
+    "Female speech, woman speaking": 0.0119,
+    "Outside, urban or manmade": 0.011
+   }
+  },
+  {
+   "inicio": 69.0,
+   "fim": 71.0,
+   "rotulos": {
+    "Speech": 0.553,
+    "Music": 0.0622,
+    "Speech synthesizer": 0.0443,
+    "Male speech, man speaking": 0.03,
+    "Vehicle": 0.0294,
+    "Narration, monologue": 0.0288,
+    "Animal": 0.023,
+    "Inside, small room": 0.0226,
+    "Silence": 0.015,
+    "Outside, urban or manmade": 0.0119
+   }
+  },
+  {
+   "inicio": 70.0,
+   "fim": 72.0,
+   "rotulos": {
+    "Speech": 0.8566,
+    "Music": 0.0778,
+    "Speech synthesizer": 0.0712,
+    "Male speech, man speaking": 0.0385,
+    "Vehicle": 0.0353,
+    "Narration, monologue": 0.0292,
+    "Animal": 0.0198,
+    "Outside, urban or manmade": 0.0182,
+    "Bird": 0.0165,
+    "Silence": 0.0162,
+    "Tick-tock": 0.016,
+    "Inside, small room": 0.0138,
+    "Tick": 0.0123,
+    "Radio": 0.0118,
+    "Spray": 0.0114,
+    "Female speech, woman speaking": 0.0111
+   }
+  },
+  {
+   "inicio": 71.0,
+   "fim": 73.0,
+   "rotulos": {
+    "Speech": 0.6636,
+    "Speech synthesizer": 0.2355,
+    "Narration, monologue": 0.066,
+    "Music": 0.0445,
+    "Inside, small room": 0.0369,
+    "Male speech, man speaking": 0.0335,
+    "Animal": 0.0189,
+    "Silence": 0.0176,
+    "Vehicle": 0.0141,
+    "Clicking": 0.0127,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 72.0,
+   "fim": 74.0,
+   "rotulos": {
+    "Speech": 0.8187,
+    "Speech synthesizer": 0.131,
+    "Narration, monologue": 0.0757,
+    "Male speech, man speaking": 0.0754,
+    "Music": 0.0457,
+    "Inside, small room": 0.0191,
+    "Vehicle": 0.0173,
+    "Animal": 0.0168,
+    "Outside, urban or manmade": 0.0113,
+    "Tick-tock": 0.0113
+   }
+  },
+  {
+   "inicio": 73.0,
+   "fim": 75.0,
+   "rotulos": {
+    "Speech": 0.8215,
+    "Music": 0.0691,
+    "Speech synthesizer": 0.0655,
+    "Narration, monologue": 0.0438,
+    "Male speech, man speaking": 0.0429,
+    "Silence": 0.0268,
+    "Vehicle": 0.0257,
+    "Inside, small room": 0.0197,
+    "Tick-tock": 0.0174,
+    "Animal": 0.016,
+    "Female speech, woman speaking": 0.0145,
+    "Bicycle bell": 0.0133,
+    "Outside, urban or manmade": 0.0133,
+    "Tick": 0.0132,
+    "Musical instrument": 0.0128,
+    "Bird": 0.0118,
+    "Spray": 0.0115
+   }
+  },
+  {
+   "inicio": 74.0,
+   "fim": 76.0,
+   "rotulos": {
+    "Speech": 0.3996,
+    "Silence": 0.1315,
+    "Music": 0.0925,
+    "Vehicle": 0.0323,
+    "Inside, small room": 0.0259,
+    "Speech synthesizer": 0.0205,
+    "Animal": 0.0174,
+    "Musical instrument": 0.0126,
+    "Outside, urban or manmade": 0.0109
+   }
+  },
+  {
+   "inicio": 75.0,
+   "fim": 77.0,
+   "rotulos": {
+    "Speech": 0.752,
+    "Speech synthesizer": 0.2009,
+    "Narration, monologue": 0.0866,
+    "Music": 0.0509,
+    "Male speech, man speaking": 0.0473,
+    "Silence": 0.0265,
+    "Inside, small room": 0.0202,
+    "Animal": 0.0167,
+    "Female speech, woman speaking": 0.0161,
+    "Vehicle": 0.0149,
+    "Conversation": 0.0119,
+    "Tick": 0.0118,
+    "Tick-tock": 0.0115,
+    "Spray": 0.0103,
+    "Zipper (clothing)": 0.0103
+   }
+  },
+  {
+   "inicio": 76.0,
+   "fim": 78.0,
+   "rotulos": {
+    "Speech": 0.7375,
+    "Speech synthesizer": 0.1836,
+    "Narration, monologue": 0.0905,
+    "Male speech, man speaking": 0.0714,
+    "Music": 0.049,
+    "Inside, small room": 0.0203,
+    "Animal": 0.0181,
+    "Vehicle": 0.0181,
+    "Female speech, woman speaking": 0.0151,
+    "Conversation": 0.0135,
+    "Outside, urban or manmade": 0.0126
+   }
+  },
+  {
+   "inicio": 77.0,
+   "fim": 79.0,
+   "rotulos": {
+    "Speech": 0.8134,
+    "Speech synthesizer": 0.1458,
+    "Male speech, man speaking": 0.0617,
+    "Narration, monologue": 0.0544,
+    "Music": 0.0531,
+    "Vehicle": 0.018,
+    "Tick-tock": 0.0169,
+    "Tick": 0.0158,
+    "Animal": 0.0154,
+    "Inside, small room": 0.013,
+    "Female speech, woman speaking": 0.0121,
+    "Bird": 0.0117,
+    "Outside, urban or manmade": 0.0116,
+    "Conversation": 0.0101,
+    "Radio": 0.0101
+   }
+  },
+  {
+   "inicio": 78.0,
+   "fim": 80.0,
+   "rotulos": {
+    "Speech": 0.8461,
+    "Speech synthesizer": 0.0933,
+    "Music": 0.0717,
+    "Narration, monologue": 0.0388,
+    "Male speech, man speaking": 0.0388,
+    "Tick-tock": 0.0306,
+    "Vehicle": 0.0288,
+    "Tick": 0.0227,
+    "Animal": 0.0183,
+    "Silence": 0.0179,
+    "Spray": 0.0169,
+    "Female speech, woman speaking": 0.0164,
+    "Inside, small room": 0.0157,
+    "Outside, urban or manmade": 0.0139,
+    "Bird": 0.0135,
+    "Bicycle bell": 0.0128
+   }
+  },
+  {
+   "inicio": 79.0,
+   "fim": 81.0,
+   "rotulos": {
+    "Speech": 0.7659,
+    "Speech synthesizer": 0.1529,
+    "Narration, monologue": 0.089,
+    "Male speech, man speaking": 0.0739,
+    "Music": 0.0434,
+    "Inside, small room": 0.033,
+    "Silence": 0.0162,
+    "Vehicle": 0.0151,
+    "Animal": 0.0139,
+    "Outside, urban or manmade": 0.0124,
+    "Musical instrument": 0.012,
+    "Conversation": 0.0107
+   }
+  },
+  {
+   "inicio": 80.0,
+   "fim": 82.0,
+   "rotulos": {
+    "Speech": 0.7282,
+    "Speech synthesizer": 0.284,
+    "Narration, monologue": 0.0656,
+    "Male speech, man speaking": 0.0593,
+    "Music": 0.0307,
+    "Inside, small room": 0.0213,
+    "Vehicle": 0.0135,
+    "Conversation": 0.011,
+    "Musical instrument": 0.0106
+   }
+  },
+  {
+   "inicio": 81.0,
+   "fim": 83.0,
+   "rotulos": {
+    "Speech": 0.8258,
+    "Speech synthesizer": 0.1274,
+    "Music": 0.059,
+    "Narration, monologue": 0.0512,
+    "Male speech, man speaking": 0.0405,
+    "Inside, small room": 0.0257,
+    "Tick-tock": 0.0254,
+    "Silence": 0.0232,
+    "Tick": 0.0198,
+    "Vehicle": 0.0177,
+    "Musical instrument": 0.0147,
+    "Spray": 0.0144,
+    "Animal": 0.0137,
+    "Outside, urban or manmade": 0.0125,
+    "Female speech, woman speaking": 0.0115
+   }
+  },
+  {
+   "inicio": 82.0,
+   "fim": 84.0,
+   "rotulos": {
+    "Speech": 0.7352,
+    "Speech synthesizer": 0.1437,
+    "Narration, monologue": 0.0584,
+    "Male speech, man speaking": 0.0534,
+    "Music": 0.0466,
+    "Inside, small room": 0.0383,
+    "Vehicle": 0.0173,
+    "Animal": 0.0169,
+    "Silence": 0.0165,
+    "Musical instrument": 0.0131,
+    "Outside, urban or manmade": 0.0124
+   }
+  },
+  {
+   "inicio": 83.0,
+   "fim": 85.0,
+   "rotulos": {
+    "Speech": 0.8412,
+    "Music": 0.0693,
+    "Speech synthesizer": 0.057,
+    "Male speech, man speaking": 0.0532,
+    "Narration, monologue": 0.0391,
+    "Tick-tock": 0.0317,
+    "Vehicle": 0.0223,
+    "Tick": 0.0218,
+    "Inside, small room": 0.0186,
+    "Silence": 0.018,
+    "Animal": 0.0165,
+    "Bird": 0.015,
+    "Musical instrument": 0.0145,
+    "Outside, urban or manmade": 0.0144,
+    "Spray": 0.0139,
+    "Female speech, woman speaking": 0.0101
+   }
+  },
+  {
+   "inicio": 84.0,
+   "fim": 86.0,
+   "rotulos": {
+    "Speech": 0.7282,
+    "Speech synthesizer": 0.1847,
+    "Narration, monologue": 0.0822,
+    "Male speech, man speaking": 0.0581,
+    "Music": 0.0495,
+    "Inside, small room": 0.0301,
+    "Vehicle": 0.0176,
+    "Animal": 0.0174,
+    "Silence": 0.0157,
+    "Musical instrument": 0.0124,
+    "Outside, urban or manmade": 0.0103
+   }
+  },
+  {
+   "inicio": 85.0,
+   "fim": 87.0,
+   "rotulos": {
+    "Speech": 0.8203,
+    "Speech synthesizer": 0.2785,
+    "Narration, monologue": 0.0449,
+    "Male speech, man speaking": 0.041,
+    "Music": 0.0401,
+    "Vehicle": 0.0165,
+    "Animal": 0.0161,
+    "Inside, small room": 0.016,
+    "Tick-tock": 0.0117,
+    "Tick": 0.011,
+    "Bird": 0.0104
+   }
+  },
+  {
+   "inicio": 86.0,
+   "fim": 88.0,
+   "rotulos": {
+    "Speech": 0.8339,
+    "Speech synthesizer": 0.0962,
+    "Music": 0.0854,
+    "Narration, monologue": 0.0302,
+    "Vehicle": 0.0302,
+    "Silence": 0.0287,
+    "Male speech, man speaking": 0.0276,
+    "Tick-tock": 0.0242,
+    "Tick": 0.0197,
+    "Spray": 0.0173,
+    "Animal": 0.0169,
+    "Inside, small room": 0.0158,
+    "Female speech, woman speaking": 0.0127,
+    "Outside, urban or manmade": 0.0126,
+    "Musical instrument": 0.0112,
+    "Bird": 0.0103
+   }
+  },
+  {
+   "inicio": 87.0,
+   "fim": 89.0,
+   "rotulos": {
+    "Speech": 0.6145,
+    "Speech synthesizer": 0.1146,
+    "Music": 0.0559,
+    "Silence": 0.0445,
+    "Narration, monologue": 0.0431,
+    "Inside, small room": 0.0334,
+    "Male speech, man speaking": 0.0257,
+    "Animal": 0.0257,
+    "Vehicle": 0.0233,
+    "Outside, urban or manmade": 0.0109,
+    "Outside, rural or natural": 0.0101
+   }
+  },
+  {
+   "inicio": 88.0,
+   "fim": 90.0,
+   "rotulos": {
+    "Speech": 0.8033,
+    "Speech synthesizer": 0.1268,
+    "Music": 0.0766,
+    "Narration, monologue": 0.0569,
+    "Male speech, man speaking": 0.0355,
+    "Silence": 0.0297,
+    "Animal": 0.0275,
+    "Tick-tock": 0.0241,
+    "Vehicle": 0.0212,
+    "Inside, small room": 0.0208,
+    "Tick": 0.0208,
+    "Female speech, woman speaking": 0.0174,
+    "Spray": 0.015,
+    "Domestic animals, pets": 0.0116,
+    "Zipper (clothing)": 0.0112,
+    "Conversation": 0.0105,
+    "Musical instrument": 0.0103
+   }
+  },
+  {
+   "inicio": 89.0,
+   "fim": 91.0,
+   "rotulos": {
+    "Speech": 0.6822,
+    "Speech synthesizer": 0.375,
+    "Narration, monologue": 0.073,
+    "Male speech, man speaking": 0.0481,
+    "Music": 0.0372,
+    "Inside, small room": 0.0213,
+    "Animal": 0.0166,
+    "Conversation": 0.0157,
+    "Vehicle": 0.0136,
+    "Female speech, woman speaking": 0.0131,
+    "Silence": 0.0103
+   }
+  },
+  {
+   "inicio": 90.0,
+   "fim": 92.0,
+   "rotulos": {
+    "Speech": 0.8032,
+    "Speech synthesizer": 0.1513,
+    "Male speech, man speaking": 0.0944,
+    "Narration, monologue": 0.0914,
+    "Music": 0.047,
+    "Radio": 0.0226,
+    "Animal": 0.0178,
+    "Vehicle": 0.0148,
+    "Inside, small room": 0.0127,
+    "Musical instrument": 0.0124,
+    "Outside, urban or manmade": 0.0122
+   }
+  },
+  {
+   "inicio": 91.0,
+   "fim": 93.0,
+   "rotulos": {
+    "Speech": 0.8463,
+    "Music": 0.0893,
+    "Speech synthesizer": 0.0526,
+    "Male speech, man speaking": 0.0446,
+    "Narration, monologue": 0.0347,
+    "Vehicle": 0.0264,
+    "Tick-tock": 0.0234,
+    "Silence": 0.0208,
+    "Inside, small room": 0.02,
+    "Tick": 0.0184,
+    "Animal": 0.0182,
+    "Outside, urban or manmade": 0.0158,
+    "Musical instrument": 0.0151,
+    "Bird": 0.0124,
+    "Spray": 0.0112
+   }
+  },
+  {
+   "inicio": 92.0,
+   "fim": 94.0,
+   "rotulos": {
+    "Speech": 0.825,
+    "Speech synthesizer": 0.0784,
+    "Music": 0.057,
+    "Narration, monologue": 0.0453,
+    "Male speech, man speaking": 0.0404,
+    "Vehicle": 0.031,
+    "Silence": 0.0288,
+    "Inside, small room": 0.0239,
+    "Female speech, woman speaking": 0.0198,
+    "Animal": 0.0193,
+    "Outside, urban or manmade": 0.0193,
+    "Tick-tock": 0.0188,
+    "Tick": 0.0162,
+    "Spray": 0.0132,
+    "Conversation": 0.0124,
+    "Outside, rural or natural": 0.0112
+   }
+  },
+  {
+   "inicio": 93.0,
+   "fim": 95.0,
+   "rotulos": {
+    "Speech": 0.8527,
+    "Music": 0.0786,
+    "Speech synthesizer": 0.0434,
+    "Vehicle": 0.041,
+    "Silence": 0.029,
+    "Narration, monologue": 0.0243,
+    "Animal": 0.0236,
+    "Male speech, man speaking": 0.0236,
+    "Outside, urban or manmade": 0.021,
+    "Tick-tock": 0.0197,
+    "Tick": 0.0174,
+    "Inside, small room": 0.0161,
+    "Female speech, woman speaking": 0.0153,
+    "Spray": 0.014,
+    "Outside, rural or natural": 0.0125,
+    "Musical instrument": 0.0111,
+    "Bird": 0.011
+   }
+  },
+  {
+   "inicio": 94.0,
+   "fim": 96.0,
+   "rotulos": {
+    "Speech": 0.7737,
+    "Speech synthesizer": 0.0835,
+    "Narration, monologue": 0.0568,
+    "Male speech, man speaking": 0.0537,
+    "Music": 0.0512,
+    "Inside, small room": 0.0351,
+    "Vehicle": 0.02,
+    "Silence": 0.016,
+    "Animal": 0.0153,
+    "Outside, urban or manmade": 0.0132,
+    "Musical instrument": 0.0117
+   }
+  },
+  {
+   "inicio": 95.0,
+   "fim": 97.0,
+   "rotulos": {
+    "Speech": 0.8682,
+    "Music": 0.0811,
+    "Speech synthesizer": 0.0321,
+    "Vehicle": 0.0298,
+    "Male speech, man speaking": 0.0283,
+    "Tick-tock": 0.0272,
+    "Silence": 0.023,
+    "Outside, urban or manmade": 0.0211,
+    "Inside, small room": 0.0209,
+    "Narration, monologue": 0.0202,
+    "Tick": 0.0195,
+    "Animal": 0.0158,
+    "Bicycle bell": 0.0156,
+    "Spray": 0.0143,
+    "Bird": 0.0139,
+    "Musical instrument": 0.0132,
+    "Bell": 0.0106
+   }
+  },
+  {
+   "inicio": 96.0,
+   "fim": 98.0,
+   "rotulos": {
+    "Speech": 0.6237,
+    "Speech synthesizer": 0.1684,
+    "Narration, monologue": 0.0866,
+    "Music": 0.0534,
+    "Male speech, man speaking": 0.0436,
+    "Vehicle": 0.0231,
+    "Inside, small room": 0.0216,
+    "Animal": 0.0204,
+    "Female speech, woman speaking": 0.0187,
+    "Silence": 0.0183,
+    "Conversation": 0.0133,
+    "Outside, urban or manmade": 0.0102
+   }
+  },
+  {
+   "inicio": 97.0,
+   "fim": 99.0,
+   "rotulos": {
+    "Speech": 0.7122,
+    "Speech synthesizer": 0.3277,
+    "Narration, monologue": 0.0854,
+    "Male speech, man speaking": 0.0503,
+    "Music": 0.032,
+    "Animal": 0.0158,
+    "Vehicle": 0.0143,
+    "Inside, small room": 0.0142,
+    "Conversation": 0.0119,
+    "Female speech, woman speaking": 0.0106
+   }
+  },
+  {
+   "inicio": 98.0,
+   "fim": 100.0,
+   "rotulos": {
+    "Speech": 0.7975,
+    "Speech synthesizer": 0.12,
+    "Music": 0.0756,
+    "Narration, monologue": 0.0523,
+    "Male speech, man speaking": 0.0382,
+    "Tick-tock": 0.0274,
+    "Inside, small room": 0.0252,
+    "Silence": 0.0243,
+    "Tick": 0.0203,
+    "Vehicle": 0.0194,
+    "Animal": 0.0193,
+    "Musical instrument": 0.0143,
+    "Female speech, woman speaking": 0.0142,
+    "Spray": 0.0127,
+    "Bird": 0.0124
+   }
+  },
+  {
+   "inicio": 99.0,
+   "fim": 101.0,
+   "rotulos": {
+    "Speech": 0.6914,
+    "Speech synthesizer": 0.2334,
+    "Narration, monologue": 0.0744,
+    "Male speech, man speaking": 0.0475,
+    "Music": 0.0372,
+    "Inside, small room": 0.0351,
+    "Silence": 0.0171,
+    "Vehicle": 0.0146,
+    "Animal": 0.0142
+   }
+  },
+  {
+   "inicio": 100.0,
+   "fim": 102.0,
+   "rotulos": {
+    "Speech": 0.8031,
+    "Speech synthesizer": 0.1309,
+    "Narration, monologue": 0.098,
+    "Male speech, man speaking": 0.0703,
+    "Music": 0.0568,
+    "Inside, small room": 0.0242,
+    "Silence": 0.0209,
+    "Tick-tock": 0.0173,
+    "Animal": 0.0167,
+    "Vehicle": 0.0152,
+    "Female speech, woman speaking": 0.0152,
+    "Tick": 0.0134,
+    "Conversation": 0.0118,
+    "Musical instrument": 0.0104,
+    "Spray": 0.0102,
+    "Outside, urban or manmade": 0.01
+   }
+  },
+  {
+   "inicio": 101.0,
+   "fim": 103.0,
+   "rotulos": {
+    "Speech": 0.7528,
+    "Speech synthesizer": 0.2594,
+    "Narration, monologue": 0.1274,
+    "Male speech, man speaking": 0.0843,
+    "Music": 0.0392,
+    "Inside, small room": 0.0233,
+    "Animal": 0.0141,
+    "Vehicle": 0.0132,
+    "Conversation": 0.012,
+    "Musical instrument": 0.0113,
+    "Radio": 0.0106
+   }
+  },
+  {
+   "inicio": 102.0,
+   "fim": 104.0,
+   "rotulos": {
+    "Speech": 0.8181,
+    "Speech synthesizer": 0.2679,
+    "Narration, monologue": 0.134,
+    "Male speech, man speaking": 0.116,
+    "Music": 0.0399,
+    "Inside, small room": 0.0202,
+    "Radio": 0.016,
+    "Vehicle": 0.0126,
+    "Conversation": 0.0121,
+    "Tick-tock": 0.0111,
+    "Animal": 0.0107,
+    "Silence": 0.0102,
+    "Tick": 0.0101
+   }
+  },
+  {
+   "inicio": 103.0,
+   "fim": 105.0,
+   "rotulos": {
+    "Speech": 0.7113,
+    "Speech synthesizer": 0.3696,
+    "Narration, monologue": 0.086,
+    "Clicking": 0.0479,
+    "Male speech, man speaking": 0.0339,
+    "Music": 0.0308,
+    "Inside, small room": 0.0273,
+    "Computer keyboard": 0.0144,
+    "Typing": 0.0127,
+    "Tick": 0.0108
+   }
+  },
+  {
+   "inicio": 104.0,
+   "fim": 106.0,
+   "rotulos": {
+    "Speech": 0.7858,
+    "Speech synthesizer": 0.2503,
+    "Music": 0.0599,
+    "Narration, monologue": 0.0538,
+    "Male speech, man speaking": 0.0423,
+    "Tick-tock": 0.0243,
+    "Tick": 0.0216,
+    "Vehicle": 0.0158,
+    "Animal": 0.0154,
+    "Inside, small room": 0.0152,
+    "Silence": 0.0148,
+    "Spray": 0.0128,
+    "Female speech, woman speaking": 0.0123,
+    "Musical instrument": 0.0116
+   }
+  },
+  {
+   "inicio": 105.0,
+   "fim": 107.0,
+   "rotulos": {
+    "Speech": 0.1581,
+    "Music": 0.1225,
+    "Inside, small room": 0.0243,
+    "Vehicle": 0.022,
+    "Silence": 0.0199,
+    "Musical instrument": 0.0145,
+    "Animal": 0.0144
+   }
+  },
+  {
+   "inicio": 106.0,
+   "fim": 108.0,
+   "rotulos": {
+    "Speech": 0.7923,
+    "Speech synthesizer": 0.1155,
+    "Music": 0.0697,
+    "Narration, monologue": 0.0602,
+    "Male speech, man speaking": 0.0358,
+    "Inside, small room": 0.032,
+    "Silence": 0.0318,
+    "Tick-tock": 0.027,
+    "Female speech, woman speaking": 0.0243,
+    "Animal": 0.0212,
+    "Tick": 0.0211,
+    "Vehicle": 0.0205,
+    "Spray": 0.0186,
+    "Conversation": 0.0142,
+    "Musical instrument": 0.0104,
+    "White noise": 0.0104,
+    "Writing": 0.0102
+   }
+  },
+  {
+   "inicio": 107.0,
+   "fim": 109.0,
+   "rotulos": {
+    "Speech": 0.803,
+    "Speech synthesizer": 0.1598,
+    "Narration, monologue": 0.1178,
+    "Male speech, man speaking": 0.0643,
+    "Music": 0.0404,
+    "Inside, small room": 0.0355,
+    "Female speech, woman speaking": 0.0231,
+    "Conversation": 0.0223,
+    "Animal": 0.012,
+    "Tick-tock": 0.0119,
+    "Tick": 0.0117,
+    "Vehicle": 0.0112,
+    "Zipper (clothing)": 0.0105,
+    "Musical instrument": 0.01
+   }
+  },
+  {
+   "inicio": 108.0,
+   "fim": 110.0,
+   "rotulos": {
+    "Speech": 0.7769,
+    "Speech synthesizer": 0.2068,
+    "Music": 0.0558,
+    "Narration, monologue": 0.0493,
+    "Male speech, man speaking": 0.0412,
+    "Silence": 0.023,
+    "Vehicle": 0.0197,
+    "Animal": 0.0191,
+    "Tick-tock": 0.0184,
+    "Female speech, woman speaking": 0.0168,
+    "Inside, small room": 0.0163,
+    "Tick": 0.0153,
+    "Bicycle bell": 0.0143,
+    "Conversation": 0.0137,
+    "Spray": 0.0124,
+    "Outside, urban or manmade": 0.0104
+   }
+  },
+  {
+   "inicio": 109.0,
+   "fim": 111.0,
+   "rotulos": {
+    "Speech": 0.6658,
+    "Speech synthesizer": 0.3277,
+    "Narration, monologue": 0.0849,
+    "Male speech, man speaking": 0.078,
+    "Music": 0.0414,
+    "Silence": 0.0204,
+    "Inside, small room": 0.0184,
+    "Conversation": 0.016,
+    "Vehicle": 0.0159,
+    "Radio": 0.0154,
+    "Animal": 0.0129
+   }
+  },
+  {
+   "inicio": 110.0,
+   "fim": 112.0,
+   "rotulos": {
+    "Speech": 0.7697,
+    "Speech synthesizer": 0.4201,
+    "Male speech, man speaking": 0.1047,
+    "Narration, monologue": 0.0865,
+    "Radio": 0.0292,
+    "Music": 0.0289,
+    "Conversation": 0.0164,
+    "Television": 0.0135,
+    "Vehicle": 0.0135,
+    "Animal": 0.0124
+   }
+  },
+  {
+   "inicio": 111.0,
+   "fim": 113.0,
+   "rotulos": {
+    "Speech": 0.8124,
+    "Speech synthesizer": 0.0995,
+    "Narration, monologue": 0.0668,
+    "Music": 0.0627,
+    "Male speech, man speaking": 0.0559,
+    "Inside, small room": 0.0245,
+    "Tick-tock": 0.024,
+    "Animal": 0.02,
+    "Vehicle": 0.0196,
+    "Silence": 0.0195,
+    "Spray": 0.0193,
+    "Tick": 0.0187,
+    "Female speech, woman speaking": 0.0165,
+    "Zipper (clothing)": 0.0137,
+    "Musical instrument": 0.0121,
+    "Outside, urban or manmade": 0.0111,
+    "Conversation": 0.0106
+   }
+  },
+  {
+   "inicio": 112.0,
+   "fim": 114.0,
+   "rotulos": {
+    "Speech": 0.8115,
+    "Speech synthesizer": 0.2285,
+    "Narration, monologue": 0.0849,
+    "Male speech, man speaking": 0.0515,
+    "Inside, small room": 0.0355,
+    "Music": 0.0323,
+    "Vehicle": 0.0122,
+    "Musical instrument": 0.0104
+   }
+  },
+  {
+   "inicio": 113.0,
+   "fim": 115.0,
+   "rotulos": {
+    "Speech": 0.831,
+    "Speech synthesizer": 0.1513,
+    "Narration, monologue": 0.0802,
+    "Male speech, man speaking": 0.0654,
+    "Music": 0.0341,
+    "Inside, small room": 0.018,
+    "Radio": 0.0113,
+    "Musical instrument": 0.0109
+   }
+  },
+  {
+   "inicio": 114.0,
+   "fim": 116.0,
+   "rotulos": {
+    "Speech": 0.8285,
+    "Speech synthesizer": 0.1082,
+    "Music": 0.0648,
+    "Narration, monologue": 0.0456,
+    "Male speech, man speaking": 0.0409,
+    "Tick-tock": 0.0275,
+    "Tick": 0.0219,
+    "Silence": 0.0192,
+    "Inside, small room": 0.0187,
+    "Vehicle": 0.0173,
+    "Spray": 0.0157,
+    "Animal": 0.0154,
+    "Female speech, woman speaking": 0.0121,
+    "Musical instrument": 0.0115,
+    "Outside, urban or manmade": 0.0107,
+    "Bicycle bell": 0.0101
+   }
+  },
+  {
+   "inicio": 115.0,
+   "fim": 117.0,
+   "rotulos": {
+    "Speech": 0.6887,
+    "Speech synthesizer": 0.0873,
+    "Narration, monologue": 0.0648,
+    "Music": 0.0602,
+    "Inside, small room": 0.0386,
+    "Male speech, man speaking": 0.0382,
+    "Animal": 0.0224,
+    "Vehicle": 0.018,
+    "Silence": 0.0141,
+    "Female speech, woman speaking": 0.0113,
+    "Conversation": 0.0111,
+    "Musical instrument": 0.0111
+   }
+  },
+  {
+   "inicio": 116.0,
+   "fim": 118.0,
+   "rotulos": {
+    "Speech": 0.8165,
+    "Speech synthesizer": 0.1562,
+    "Narration, monologue": 0.1065,
+    "Male speech, man speaking": 0.0673,
+    "Music": 0.0428,
+    "Inside, small room": 0.0284,
+    "Vehicle": 0.0127,
+    "Musical instrument": 0.0122,
+    "Animal": 0.0115,
+    "Female speech, woman speaking": 0.0113,
+    "Silence": 0.0105
+   }
+  },
+  {
+   "inicio": 117.0,
+   "fim": 119.0,
+   "rotulos": {
+    "Speech": 0.7851,
+    "Speech synthesizer": 0.2824,
+    "Narration, monologue": 0.1584,
+    "Male speech, man speaking": 0.0949,
+    "Music": 0.0382,
+    "Conversation": 0.0175,
+    "Female speech, woman speaking": 0.017,
+    "Inside, small room": 0.0163,
+    "Vehicle": 0.0137,
+    "Animal": 0.0137
+   }
+  },
+  {
+   "inicio": 118.0,
+   "fim": 120.0,
+   "rotulos": {
+    "Speech": 0.7384,
+    "Speech synthesizer": 0.2415,
+    "Narration, monologue": 0.0572,
+    "Music": 0.0383,
+    "Male speech, man speaking": 0.033,
+    "Animal": 0.0258,
+    "Vehicle": 0.0192,
+    "Female speech, woman speaking": 0.0154,
+    "Conversation": 0.0123,
+    "Inside, small room": 0.0122,
+    "Meow": 0.0107,
+    "Domestic animals, pets": 0.0104
+   }
+  },
+  {
+   "inicio": 119.0,
+   "fim": 121.0,
+   "rotulos": {
+    "Speech": 0.7936,
+    "Speech synthesizer": 0.0765,
+    "Music": 0.0652,
+    "Silence": 0.0303,
+    "Narration, monologue": 0.0282,
+    "Male speech, man speaking": 0.0271,
+    "Vehicle": 0.0261,
+    "Inside, small room": 0.0222,
+    "Animal": 0.0182,
+    "Female speech, woman speaking": 0.0165,
+    "Tick-tock": 0.0157,
+    "Tick": 0.014,
+    "Spray": 0.0136,
+    "Gasp": 0.0136,
+    "Outside, urban or manmade": 0.0113
+   }
+  },
+  {
+   "inicio": 120.0,
+   "fim": 122.0,
+   "rotulos": {
+    "Speech": 0.7165,
+    "Speech synthesizer": 0.1663,
+    "Narration, monologue": 0.0834,
+    "Music": 0.0493,
+    "Male speech, man speaking": 0.0478,
+    "Inside, small room": 0.0369,
+    "Clicking": 0.021,
+    "Animal": 0.0155,
+    "Vehicle": 0.0141,
+    "Musical instrument": 0.0126,
+    "Silence": 0.0125,
+    "Tick": 0.012,
+    "Tick-tock": 0.0119,
+    "Female speech, woman speaking": 0.0107
+   }
+  },
+  {
+   "inicio": 121.0,
+   "fim": 123.0,
+   "rotulos": {
+    "Speech": 0.8156,
+    "Speech synthesizer": 0.1122,
+    "Music": 0.0763,
+    "Narration, monologue": 0.0458,
+    "Male speech, man speaking": 0.0373,
+    "Tick-tock": 0.0339,
+    "Tick": 0.0261,
+    "Inside, small room": 0.0215,
+    "Silence": 0.0202,
+    "Vehicle": 0.0192,
+    "Animal": 0.0155,
+    "Musical instrument": 0.0152,
+    "Female speech, woman speaking": 0.0136,
+    "Spray": 0.0136,
+    "Bird": 0.0116,
+    "Bicycle bell": 0.0102
+   }
+  },
+  {
+   "inicio": 122.0,
+   "fim": 124.0,
+   "rotulos": {
+    "Speech": 0.6868,
+    "Speech synthesizer": 0.1745,
+    "Narration, monologue": 0.0988,
+    "Male speech, man speaking": 0.0546,
+    "Music": 0.0356,
+    "Inside, small room": 0.0318,
+    "Conversation": 0.0204,
+    "Female speech, woman speaking": 0.0147,
+    "Vehicle": 0.0134,
+    "Animal": 0.0107
+   }
+  },
+  {
+   "inicio": 123.0,
+   "fim": 125.0,
+   "rotulos": {
+    "Speech": 0.8351,
+    "Speech synthesizer": 0.1867,
+    "Narration, monologue": 0.0881,
+    "Male speech, man speaking": 0.0711,
+    "Music": 0.04,
+    "Inside, small room": 0.0185,
+    "Tick-tock": 0.0148,
+    "Tick": 0.0137,
+    "Vehicle": 0.0111,
+    "Animal": 0.0108,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 124.0,
+   "fim": 126.0,
+   "rotulos": {
+    "Speech": 0.7654,
+    "Music": 0.0882,
+    "Speech synthesizer": 0.0692,
+    "Silence": 0.039,
+    "Narration, monologue": 0.0361,
+    "Male speech, man speaking": 0.0282,
+    "Tick-tock": 0.0273,
+    "Inside, small room": 0.0249,
+    "Vehicle": 0.0231,
+    "Tick": 0.0224,
+    "Animal": 0.0195,
+    "Female speech, woman speaking": 0.0166,
+    "Spray": 0.0148,
+    "Musical instrument": 0.0141,
+    "Outside, urban or manmade": 0.0115,
+    "White noise": 0.0102
+   }
+  },
+  {
+   "inicio": 125.0,
+   "fim": 127.0,
+   "rotulos": {
+    "Speech": 0.7505,
+    "Speech synthesizer": 0.1591,
+    "Narration, monologue": 0.0958,
+    "Male speech, man speaking": 0.0786,
+    "Music": 0.048,
+    "Silence": 0.0228,
+    "Inside, small room": 0.0205,
+    "Vehicle": 0.0202,
+    "Animal": 0.0194,
+    "Tick-tock": 0.0153,
+    "Tick": 0.013,
+    "Female speech, woman speaking": 0.0128,
+    "Conversation": 0.0105,
+    "Outside, urban or manmade": 0.0101
+   }
+  },
+  {
+   "inicio": 126.0,
+   "fim": 128.0,
+   "rotulos": {
+    "Speech": 0.8118,
+    "Speech synthesizer": 0.0868,
+    "Male speech, man speaking": 0.0629,
+    "Music": 0.0613,
+    "Narration, monologue": 0.0599,
+    "Vehicle": 0.0255,
+    "Silence": 0.022,
+    "Tick-tock": 0.0209,
+    "Animal": 0.0182,
+    "Tick": 0.0174,
+    "Inside, small room": 0.0174,
+    "Spray": 0.0149,
+    "Female speech, woman speaking": 0.0144,
+    "Outside, urban or manmade": 0.0143,
+    "Bird": 0.0112,
+    "Musical instrument": 0.0107
+   }
+  },
+  {
+   "inicio": 127.0,
+   "fim": 129.0,
+   "rotulos": {
+    "Speech": 0.7595,
+    "Speech synthesizer": 0.1019,
+    "Narration, monologue": 0.0933,
+    "Male speech, man speaking": 0.0744,
+    "Music": 0.062,
+    "Inside, small room": 0.0248,
+    "Vehicle": 0.0202,
+    "Animal": 0.017,
+    "Radio": 0.0149,
+    "Musical instrument": 0.0141,
+    "Silence": 0.0104
+   }
+  },
+  {
+   "inicio": 128.0,
+   "fim": 130.0,
+   "rotulos": {
+    "Speech": 0.8251,
+    "Music": 0.0624,
+    "Speech synthesizer": 0.0514,
+    "Male speech, man speaking": 0.0452,
+    "Vehicle": 0.0336,
+    "Narration, monologue": 0.0301,
+    "Animal": 0.024,
+    "Outside, urban or manmade": 0.021,
+    "Inside, small room": 0.0197,
+    "Silence": 0.0195,
+    "Outside, rural or natural": 0.0136,
+    "Tick-tock": 0.0117,
+    "Spray": 0.0104,
+    "Musical instrument": 0.0102,
+    "Tick": 0.0102,
+    "Bird": 0.0102
+   }
+  },
+  {
+   "inicio": 129.0,
+   "fim": 131.0,
+   "rotulos": {
+    "Speech": 0.8085,
+    "Speech synthesizer": 0.0764,
+    "Music": 0.0699,
+    "Silence": 0.0404,
+    "Vehicle": 0.034,
+    "Narration, monologue": 0.0249,
+    "Male speech, man speaking": 0.0221,
+    "Tick-tock": 0.0211,
+    "Animal": 0.0207,
+    "Inside, small room": 0.0196,
+    "Outside, urban or manmade": 0.0192,
+    "Tick": 0.0182,
+    "Spray": 0.0145,
+    "Female speech, woman speaking": 0.0127,
+    "Outside, rural or natural": 0.0122,
+    "Bird": 0.01
+   }
+  },
+  {
+   "inicio": 130.0,
+   "fim": 132.0,
+   "rotulos": {
+    "Speech": 0.7243,
+    "Speech synthesizer": 0.4252,
+    "Narration, monologue": 0.0904,
+    "Male speech, man speaking": 0.0454,
+    "Music": 0.0327,
+    "Inside, small room": 0.0209,
+    "Animal": 0.0123,
+    "Vehicle": 0.0114,
+    "Conversation": 0.011
+   }
+  },
+  {
+   "inicio": 131.0,
+   "fim": 133.0,
+   "rotulos": {
+    "Speech": 0.635,
+    "Speech synthesizer": 0.4554,
+    "Clicking": 0.1507,
+    "Narration, monologue": 0.0667,
+    "Computer keyboard": 0.0294,
+    "Male speech, man speaking": 0.0294,
+    "Inside, small room": 0.0252,
+    "Music": 0.0232,
+    "Typing": 0.0221,
+    "Animal": 0.0106
+   }
+  },
+  {
+   "inicio": 132.0,
+   "fim": 134.0,
+   "rotulos": {
+    "Speech": 0.6645,
+    "Clicking": 0.3005,
+    "Speech synthesizer": 0.2223,
+    "Computer keyboard": 0.0662,
+    "Typing": 0.061,
+    "Narration, monologue": 0.058,
+    "Inside, small room": 0.0291,
+    "Music": 0.0273,
+    "Male speech, man speaking": 0.0256,
+    "Tick": 0.013,
+    "Animal": 0.0127,
+    "Vehicle": 0.011
+   }
+  },
+  {
+   "inicio": 133.0,
+   "fim": 135.0,
+   "rotulos": {
+    "Speech": 0.7797,
+    "Speech synthesizer": 0.2135,
+    "Narration, monologue": 0.0831,
+    "Male speech, man speaking": 0.042,
+    "Music": 0.0366,
+    "Inside, small room": 0.024,
+    "Animal": 0.0144,
+    "Tick": 0.0132,
+    "Single-lens reflex camera": 0.0121,
+    "Vehicle": 0.0118,
+    "Tick-tock": 0.0101,
+    "Zipper (clothing)": 0.0101
+   }
+  },
+  {
+   "inicio": 134.0,
+   "fim": 136.0,
+   "rotulos": {
+    "Speech": 0.8426,
+    "Speech synthesizer": 0.1836,
+    "Narration, monologue": 0.0888,
+    "Male speech, man speaking": 0.0812,
+    "Music": 0.0435,
+    "Inside, small room": 0.021,
+    "Vehicle": 0.0176,
+    "Animal": 0.0137,
+    "Outside, urban or manmade": 0.0105
+   }
+  },
+  {
+   "inicio": 135.0,
+   "fim": 137.0,
+   "rotulos": {
+    "Speech": 0.7549,
+    "Music": 0.0818,
+    "Speech synthesizer": 0.0745,
+    "Silence": 0.0393,
+    "Male speech, man speaking": 0.0341,
+    "Vehicle": 0.0303,
+    "Narration, monologue": 0.0237,
+    "Tick-tock": 0.0213,
+    "Animal": 0.02,
+    "Tick": 0.0189,
+    "Inside, small room": 0.0188,
+    "Female speech, woman speaking": 0.0148,
+    "Outside, urban or manmade": 0.0138,
+    "Spray": 0.0121,
+    "Outside, rural or natural": 0.0107,
+    "Bird": 0.0104,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 136.0,
+   "fim": 138.0,
+   "rotulos": {
+    "Speech": 0.7982,
+    "Speech synthesizer": 0.1012,
+    "Narration, monologue": 0.0617,
+    "Male speech, man speaking": 0.0526,
+    "Music": 0.0474,
+    "Inside, small room": 0.035,
+    "Vehicle": 0.0227,
+    "Silence": 0.019,
+    "Outside, urban or manmade": 0.016,
+    "Animal": 0.0135,
+    "Female speech, woman speaking": 0.012,
+    "Musical instrument": 0.0119
+   }
+  },
+  {
+   "inicio": 137.0,
+   "fim": 139.0,
+   "rotulos": {
+    "Speech": 0.8227,
+    "Speech synthesizer": 0.1037,
+    "Narration, monologue": 0.0494,
+    "Male speech, man speaking": 0.0474,
+    "Music": 0.0453,
+    "Vehicle": 0.0231,
+    "Inside, small room": 0.022,
+    "Outside, urban or manmade": 0.0154,
+    "Tick-tock": 0.0133,
+    "Tick": 0.0129,
+    "Silence": 0.0118,
+    "Animal": 0.0116,
+    "Spray": 0.0101
+   }
+  },
+  {
+   "inicio": 138.0,
+   "fim": 140.0,
+   "rotulos": {
+    "Speech": 0.8305,
+    "Speech synthesizer": 0.0865,
+    "Music": 0.057,
+    "Male speech, man speaking": 0.055,
+    "Narration, monologue": 0.0478,
+    "Vehicle": 0.0235,
+    "Animal": 0.0186,
+    "Inside, small room": 0.0183,
+    "Tick-tock": 0.0173,
+    "Outside, urban or manmade": 0.0155,
+    "Silence": 0.0153,
+    "Tick": 0.0142,
+    "Musical instrument": 0.0112,
+    "Spray": 0.0109
+   }
+  },
+  {
+   "inicio": 139.0,
+   "fim": 141.0,
+   "rotulos": {
+    "Speech": 0.8049,
+    "Speech synthesizer": 0.2476,
+    "Narration, monologue": 0.0895,
+    "Male speech, man speaking": 0.0479,
+    "Music": 0.0305,
+    "Inside, small room": 0.0289,
+    "Clicking": 0.0112,
+    "Vehicle": 0.011
+   }
+  },
+  {
+   "inicio": 140.0,
+   "fim": 142.0,
+   "rotulos": {
+    "Speech": 0.7868,
+    "Speech synthesizer": 0.2526,
+    "Narration, monologue": 0.0956,
+    "Male speech, man speaking": 0.0689,
+    "Music": 0.0353,
+    "Inside, small room": 0.0266,
+    "Musical instrument": 0.0109,
+    "Animal": 0.0102
+   }
+  },
+  {
+   "inicio": 141.0,
+   "fim": 143.0,
+   "rotulos": {
+    "Speech": 0.8001,
+    "Speech synthesizer": 0.241,
+    "Narration, monologue": 0.0935,
+    "Male speech, man speaking": 0.055,
+    "Music": 0.0413,
+    "Inside, small room": 0.0269,
+    "Tick": 0.0168,
+    "Vehicle": 0.0164,
+    "Tick-tock": 0.016,
+    "Animal": 0.0151,
+    "Silence": 0.0146,
+    "Female speech, woman speaking": 0.0119,
+    "Musical instrument": 0.0112,
+    "Clicking": 0.0107
+   }
+  },
+  {
+   "inicio": 142.0,
+   "fim": 144.0,
+   "rotulos": {
+    "Speech": 0.7635,
+    "Speech synthesizer": 0.3293,
+    "Narration, monologue": 0.1086,
+    "Male speech, man speaking": 0.0547,
+    "Music": 0.0423,
+    "Inside, small room": 0.0259,
+    "Clicking": 0.0178,
+    "Vehicle": 0.013,
+    "Animal": 0.0123,
+    "Musical instrument": 0.0121,
+    "Female speech, woman speaking": 0.0105,
+    "Silence": 0.0102
+   }
+  },
+  {
+   "inicio": 143.0,
+   "fim": 145.0,
+   "rotulos": {
+    "Speech": 0.8153,
+    "Speech synthesizer": 0.1522,
+    "Music": 0.0652,
+    "Narration, monologue": 0.0432,
+    "Male speech, man speaking": 0.0408,
+    "Vehicle": 0.0223,
+    "Tick-tock": 0.0196,
+    "Animal": 0.0171,
+    "Tick": 0.0164,
+    "Silence": 0.0158,
+    "Inside, small room": 0.0152,
+    "Spray": 0.0142,
+    "Outside, urban or manmade": 0.0121,
+    "Musical instrument": 0.0108,
+    "Female speech, woman speaking": 0.0103
+   }
+  },
+  {
+   "inicio": 144.0,
+   "fim": 146.0,
+   "rotulos": {
+    "Music": 0.135,
+    "Speech": 0.0434,
+    "Silence": 0.0263,
+    "Vehicle": 0.0255,
+    "Inside, small room": 0.022,
+    "Musical instrument": 0.0153,
+    "Animal": 0.0129,
+    "Tick-tock": 0.0104
+   }
+  },
+  {
+   "inicio": 145.0,
+   "fim": 147.0,
+   "rotulos": {
+    "Speech": 0.6964,
+    "Speech synthesizer": 0.2001,
+    "Narration, monologue": 0.08,
+    "Male speech, man speaking": 0.055,
+    "Music": 0.0393,
+    "Inside, small room": 0.0247,
+    "Animal": 0.0206,
+    "Vehicle": 0.0169,
+    "Conversation": 0.0123,
+    "Female speech, woman speaking": 0.0107,
+    "Musical instrument": 0.01
+   }
+  },
+  {
+   "inicio": 146.0,
+   "fim": 148.0,
+   "rotulos": {
+    "Speech": 0.8284,
+    "Speech synthesizer": 0.0923,
+    "Music": 0.0683,
+    "Male speech, man speaking": 0.0515,
+    "Narration, monologue": 0.0395,
+    "Vehicle": 0.0294,
+    "Animal": 0.0208,
+    "Tick-tock": 0.0146,
+    "Inside, small room": 0.0146,
+    "Outside, urban or manmade": 0.0144,
+    "Silence": 0.0143,
+    "Female speech, woman speaking": 0.0132,
+    "Bird": 0.0128,
+    "Tick": 0.0124,
+    "Radio": 0.0118,
+    "Musical instrument": 0.0111,
+    "Spray": 0.0105
+   }
+  },
+  {
+   "inicio": 147.0,
+   "fim": 149.0,
+   "rotulos": {
+    "Speech": 0.685,
+    "Speech synthesizer": 0.1753,
+    "Narration, monologue": 0.0571,
+    "Music": 0.0407,
+    "Silence": 0.036,
+    "Male speech, man speaking": 0.0338,
+    "Inside, small room": 0.0274,
+    "Vehicle": 0.0232,
+    "Animal": 0.0151,
+    "Outside, urban or manmade": 0.0125,
+    "Female speech, woman speaking": 0.0124,
+    "Musical instrument": 0.0105
+   }
+  },
+  {
+   "inicio": 148.0,
+   "fim": 150.0,
+   "rotulos": {
+    "Speech": 0.8183,
+    "Speech synthesizer": 0.0868,
+    "Music": 0.07,
+    "Narration, monologue": 0.0413,
+    "Male speech, man speaking": 0.0312,
+    "Vehicle": 0.0254,
+    "Inside, small room": 0.0236,
+    "Silence": 0.0216,
+    "Tick-tock": 0.0206,
+    "Animal": 0.02,
+    "Female speech, woman speaking": 0.0187,
+    "Tick": 0.0176,
+    "Musical instrument": 0.0155,
+    "Spray": 0.0135,
+    "Outside, urban or manmade": 0.0125,
+    "Bird": 0.0121
+   }
+  },
+  {
+   "inicio": 149.0,
+   "fim": 151.0,
+   "rotulos": {
+    "Speech": 0.7655,
+    "Speech synthesizer": 0.1629,
+    "Narration, monologue": 0.0853,
+    "Male speech, man speaking": 0.0625,
+    "Music": 0.0374,
+    "Inside, small room": 0.0291,
+    "Vehicle": 0.0122,
+    "Conversation": 0.0112,
+    "Animal": 0.0112,
+    "Musical instrument": 0.0109
+   }
+  },
+  {
+   "inicio": 150.0,
+   "fim": 152.0,
+   "rotulos": {
+    "Speech": 0.8528,
+    "Speech synthesizer": 0.1128,
+    "Male speech, man speaking": 0.0607,
+    "Narration, monologue": 0.049,
+    "Music": 0.0467,
+    "Vehicle": 0.0208,
+    "Inside, small room": 0.0139,
+    "Tick-tock": 0.0139,
+    "Outside, urban or manmade": 0.0137,
+    "Animal": 0.0123,
+    "Tick": 0.0112
+   }
+  },
+  {
+   "inicio": 151.0,
+   "fim": 153.0,
+   "rotulos": {
+    "Speech": 0.7854,
+    "Speech synthesizer": 0.2428,
+    "Narration, monologue": 0.071,
+    "Male speech, man speaking": 0.0645,
+    "Music": 0.0435,
+    "Vehicle": 0.0186,
+    "Inside, small room": 0.0169,
+    "Outside, urban or manmade": 0.0124,
+    "Tick-tock": 0.0123,
+    "Tick": 0.0113,
+    "Animal": 0.0112
+   }
+  },
+  {
+   "inicio": 152.0,
+   "fim": 154.0,
+   "rotulos": {
+    "Speech": 0.6943,
+    "Speech synthesizer": 0.3944,
+    "Narration, monologue": 0.0785,
+    "Male speech, man speaking": 0.0404,
+    "Music": 0.0285,
+    "Inside, small room": 0.0257,
+    "Animal": 0.0119,
+    "Vehicle": 0.0103
+   }
+  },
+  {
+   "inicio": 153.0,
+   "fim": 155.0,
+   "rotulos": {
+    "Speech": 0.8022,
+    "Speech synthesizer": 0.1725,
+    "Narration, monologue": 0.089,
+    "Male speech, man speaking": 0.0711,
+    "Music": 0.0452,
+    "Inside, small room": 0.0321,
+    "Animal": 0.0142,
+    "Vehicle": 0.0123,
+    "Musical instrument": 0.0119,
+    "Tick-tock": 0.0113
+   }
+  },
+  {
+   "inicio": 154.0,
+   "fim": 156.0,
+   "rotulos": {
+    "Speech": 0.8361,
+    "Speech synthesizer": 0.087,
+    "Music": 0.0618,
+    "Narration, monologue": 0.0347,
+    "Male speech, man speaking": 0.0335,
+    "Tick-tock": 0.0236,
+    "Inside, small room": 0.0235,
+    "Silence": 0.0217,
+    "Vehicle": 0.0204,
+    "Tick": 0.0177,
+    "Animal": 0.0149,
+    "Spray": 0.0146,
+    "Bicycle bell": 0.0136,
+    "Bird": 0.0122,
+    "Female speech, woman speaking": 0.012,
+    "Outside, urban or manmade": 0.0114,
+    "Musical instrument": 0.0112
+   }
+  },
+  {
+   "inicio": 155.0,
+   "fim": 157.0,
+   "rotulos": {
+    "Music": 0.137,
+    "Speech": 0.1204,
+    "Silence": 0.1033,
+    "Vehicle": 0.0349,
+    "Inside, small room": 0.0253,
+    "Musical instrument": 0.0153,
+    "Animal": 0.0149,
+    "Tick-tock": 0.014,
+    "Tick": 0.0133
+   }
+  },
+  {
+   "inicio": 156.0,
+   "fim": 158.0,
+   "rotulos": {
+    "Speech": 0.6209,
+    "Speech synthesizer": 0.2816,
+    "Narration, monologue": 0.0547,
+    "Inside, small room": 0.0324,
+    "Music": 0.0314,
+    "Male speech, man speaking": 0.0222,
+    "Silence": 0.0172,
+    "Animal": 0.0148,
+    "Vehicle": 0.0121,
+    "Conversation": 0.0117
+   }
+  },
+  {
+   "inicio": 157.0,
+   "fim": 159.0,
+   "rotulos": {
+    "Speech": 0.6838,
+    "Speech synthesizer": 0.372,
+    "Narration, monologue": 0.0606,
+    "Male speech, man speaking": 0.0344,
+    "Music": 0.0297,
+    "Animal": 0.0143,
+    "Inside, small room": 0.0127,
+    "Female speech, woman speaking": 0.0117,
+    "Vehicle": 0.0116
+   }
+  },
+  {
+   "inicio": 158.0,
+   "fim": 160.0,
+   "rotulos": {
+    "Speech": 0.8171,
+    "Music": 0.0832,
+    "Speech synthesizer": 0.0544,
+    "Vehicle": 0.0535,
+    "Male speech, man speaking": 0.0355,
+    "Narration, monologue": 0.025,
+    "Silence": 0.0229,
+    "Female speech, woman speaking": 0.0226,
+    "Animal": 0.0221,
+    "Outside, urban or manmade": 0.021,
+    "Tick-tock": 0.0156,
+    "Inside, small room": 0.0138,
+    "Tick": 0.0133,
+    "Bird": 0.0119,
+    "Spray": 0.0117,
+    "Static": 0.0108,
+    "Bicycle bell": 0.0104,
+    "Car": 0.0102
+   }
+  },
+  {
+   "inicio": 159.0,
+   "fim": 161.0,
+   "rotulos": {
+    "Speech": 0.5876,
+    "Speech synthesizer": 0.3378,
+    "Narration, monologue": 0.0973,
+    "Female speech, woman speaking": 0.0346,
+    "Male speech, man speaking": 0.0329,
+    "Music": 0.0291,
+    "Conversation": 0.0258,
+    "Inside, small room": 0.0214,
+    "Heart murmur": 0.018,
+    "Silence": 0.0163,
+    "Animal": 0.0138
+   }
+  },
+  {
+   "inicio": 160.0,
+   "fim": 162.0,
+   "rotulos": {
+    "Speech": 0.7378,
+    "Speech synthesizer": 0.2369,
+    "Narration, monologue": 0.0971,
+    "Male speech, man speaking": 0.0577,
+    "Music": 0.0401,
+    "Inside, small room": 0.019,
+    "Female speech, woman speaking": 0.0175,
+    "Conversation": 0.016,
+    "Animal": 0.016,
+    "Vehicle": 0.0118,
+    "Musical instrument": 0.0106
+   }
+  },
+  {
+   "inicio": 161.0,
+   "fim": 163.0,
+   "rotulos": {
+    "Speech": 0.8028,
+    "Speech synthesizer": 0.1297,
+    "Music": 0.0723,
+    "Narration, monologue": 0.0346,
+    "Male speech, man speaking": 0.0324,
+    "Silence": 0.0269,
+    "Vehicle": 0.0232,
+    "Tick-tock": 0.0191,
+    "Animal": 0.0191,
+    "Inside, small room": 0.0182,
+    "Tick": 0.017,
+    "Spray": 0.0152,
+    "Female speech, woman speaking": 0.013,
+    "Outside, urban or manmade": 0.012,
+    "Musical instrument": 0.0111,
+    "Bird": 0.011
+   }
+  },
+  {
+   "inicio": 162.0,
+   "fim": 164.0,
+   "rotulos": {
+    "Speech": 0.6533,
+    "Speech synthesizer": 0.2102,
+    "Narration, monologue": 0.0767,
+    "Male speech, man speaking": 0.0384,
+    "Inside, small room": 0.0377,
+    "Music": 0.0355,
+    "Silence": 0.0289,
+    "Animal": 0.0155,
+    "Vehicle": 0.014,
+    "Conversation": 0.0118,
+    "Female speech, woman speaking": 0.0117
+   }
+  },
+  {
+   "inicio": 163.0,
+   "fim": 165.0,
+   "rotulos": {
+    "Speech": 0.8495,
+    "Speech synthesizer": 0.0987,
+    "Music": 0.0506,
+    "Male speech, man speaking": 0.0364,
+    "Narration, monologue": 0.0302,
+    "Vehicle": 0.0207,
+    "Tick-tock": 0.0197,
+    "Animal": 0.016,
+    "Tick": 0.0157,
+    "Inside, small room": 0.0157,
+    "Bicycle bell": 0.0143,
+    "Outside, urban or manmade": 0.0139,
+    "Spray": 0.0123,
+    "Bird": 0.0121,
+    "Bell": 0.0106
+   }
+  },
+  {
+   "inicio": 164.0,
+   "fim": 166.0,
+   "rotulos": {
+    "Speech": 0.7969,
+    "Music": 0.08,
+    "Speech synthesizer": 0.0546,
+    "Silence": 0.0379,
+    "Vehicle": 0.0373,
+    "Inside, small room": 0.0212,
+    "Tick-tock": 0.0207,
+    "Male speech, man speaking": 0.0207,
+    "Animal": 0.0196,
+    "Narration, monologue": 0.0181,
+    "Tick": 0.0173,
+    "Outside, urban or manmade": 0.0173,
+    "Spray": 0.013,
+    "Musical instrument": 0.0122,
+    "Female speech, woman speaking": 0.0113,
+    "Bird": 0.0109,
+    "Bicycle bell": 0.0106
+   }
+  },
+  {
+   "inicio": 165.0,
+   "fim": 167.0,
+   "rotulos": {
+    "Speech": 0.6593,
+    "Speech synthesizer": 0.3261,
+    "Narration, monologue": 0.1221,
+    "Male speech, man speaking": 0.0603,
+    "Music": 0.0468,
+    "Inside, small room": 0.0195,
+    "Animal": 0.0193,
+    "Radio": 0.0128,
+    "Heart murmur": 0.0128,
+    "Conversation": 0.0126,
+    "Vehicle": 0.012,
+    "Female speech, woman speaking": 0.0119,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 166.0,
+   "fim": 168.0,
+   "rotulos": {
+    "Speech": 0.736,
+    "Speech synthesizer": 0.2721,
+    "Narration, monologue": 0.1548,
+    "Male speech, man speaking": 0.0678,
+    "Clicking": 0.0336,
+    "Music": 0.0251,
+    "Inside, small room": 0.022,
+    "Female speech, woman speaking": 0.0204,
+    "Conversation": 0.0177,
+    "Heart murmur": 0.0167,
+    "Animal": 0.0109
+   }
+  },
+  {
+   "inicio": 167.0,
+   "fim": 169.0,
+   "rotulos": {
+    "Speech": 0.7581,
+    "Speech synthesizer": 0.2007,
+    "Clicking": 0.1165,
+    "Narration, monologue": 0.1055,
+    "Male speech, man speaking": 0.0444,
+    "Inside, small room": 0.0383,
+    "Music": 0.0291,
+    "Computer keyboard": 0.0182,
+    "Typing": 0.0162,
+    "Female speech, woman speaking": 0.0107
+   }
+  },
+  {
+   "inicio": 168.0,
+   "fim": 170.0,
+   "rotulos": {
+    "Speech": 0.8256,
+    "Speech synthesizer": 0.2,
+    "Narration, monologue": 0.1071,
+    "Male speech, man speaking": 0.0594,
+    "Music": 0.0334,
+    "Inside, small room": 0.0276,
+    "Female speech, woman speaking": 0.0173,
+    "Conversation": 0.0123,
+    "Vehicle": 0.0107,
+    "Musical instrument": 0.01
+   }
+  },
+  {
+   "inicio": 169.0,
+   "fim": 171.0,
+   "rotulos": {
+    "Speech": 0.7844,
+    "Speech synthesizer": 0.1551,
+    "Narration, monologue": 0.077,
+    "Male speech, man speaking": 0.0682,
+    "Music": 0.0391,
+    "Vehicle": 0.0263,
+    "Animal": 0.0188,
+    "Outside, urban or manmade": 0.0157,
+    "Inside, small room": 0.012,
+    "Conversation": 0.0112,
+    "Outside, rural or natural": 0.0108,
+    "Radio": 0.0103,
+    "Boat, Water vehicle": 0.0103,
+    "Female speech, woman speaking": 0.0102,
+    "Bird": 0.01
+   }
+  },
+  {
+   "inicio": 170.0,
+   "fim": 172.0,
+   "rotulos": {
+    "Speech": 0.7527,
+    "Speech synthesizer": 0.2367,
+    "Narration, monologue": 0.0654,
+    "Male speech, man speaking": 0.0543,
+    "Music": 0.0336,
+    "Inside, small room": 0.0181,
+    "Vehicle": 0.0176,
+    "Animal": 0.0172,
+    "Outside, urban or manmade": 0.0111
+   }
+  },
+  {
+   "inicio": 171.0,
+   "fim": 173.0,
+   "rotulos": {
+    "Speech": 0.7453,
+    "Speech synthesizer": 0.1753,
+    "Narration, monologue": 0.1003,
+    "Male speech, man speaking": 0.0616,
+    "Music": 0.0445,
+    "Inside, small room": 0.0257,
+    "Animal": 0.0153,
+    "Vehicle": 0.0126,
+    "Musical instrument": 0.0123,
+    "Conversation": 0.0111
+   }
+  },
+  {
+   "inicio": 172.0,
+   "fim": 174.0,
+   "rotulos": {
+    "Speech": 0.7773,
+    "Speech synthesizer": 0.132,
+    "Music": 0.0696,
+    "Narration, monologue": 0.0509,
+    "Male speech, man speaking": 0.0391,
+    "Tick-tock": 0.0286,
+    "Silence": 0.0261,
+    "Tick": 0.0225,
+    "Inside, small room": 0.0191,
+    "Vehicle": 0.0175,
+    "Animal": 0.0173,
+    "Female speech, woman speaking": 0.017,
+    "Spray": 0.0146,
+    "Musical instrument": 0.0127
+   }
+  },
+  {
+   "inicio": 173.0,
+   "fim": 175.0,
+   "rotulos": {
+    "Speech": 0.7554,
+    "Narration, monologue": 0.0699,
+    "Music": 0.0695,
+    "Speech synthesizer": 0.0688,
+    "Male speech, man speaking": 0.0578,
+    "Silence": 0.0371,
+    "Vehicle": 0.0283,
+    "Inside, small room": 0.0258,
+    "Animal": 0.0209,
+    "Outside, urban or manmade": 0.0176,
+    "Female speech, woman speaking": 0.013,
+    "Outside, rural or natural": 0.012,
+    "Tick-tock": 0.0114,
+    "Conversation": 0.0111,
+    "Musical instrument": 0.0102,
+    "Tick": 0.01
+   }
+  },
+  {
+   "inicio": 174.0,
+   "fim": 176.0,
+   "rotulos": {
+    "Speech": 0.8644,
+    "Music": 0.0704,
+    "Speech synthesizer": 0.0671,
+    "Vehicle": 0.0377,
+    "Male speech, man speaking": 0.0342,
+    "Narration, monologue": 0.0279,
+    "Animal": 0.0229,
+    "Tick-tock": 0.0206,
+    "Outside, urban or manmade": 0.0194,
+    "Silence": 0.0186,
+    "Tick": 0.0161,
+    "Bird": 0.0158,
+    "Spray": 0.0151,
+    "Bicycle bell": 0.0142,
+    "Inside, small room": 0.0131,
+    "Bell": 0.0102,
+    "Outside, rural or natural": 0.01
+   }
+  },
+  {
+   "inicio": 175.0,
+   "fim": 177.0,
+   "rotulos": {
+    "Speech": 0.7458,
+    "Speech synthesizer": 0.1277,
+    "Narration, monologue": 0.0751,
+    "Male speech, man speaking": 0.0527,
+    "Music": 0.0454,
+    "Inside, small room": 0.0293,
+    "Tick-tock": 0.0189,
+    "Silence": 0.018,
+    "Tick": 0.0168,
+    "Vehicle": 0.0145,
+    "Animal": 0.0128,
+    "Musical instrument": 0.0113
+   }
+  },
+  {
+   "inicio": 176.0,
+   "fim": 178.0,
+   "rotulos": {
+    "Speech": 0.8343,
+    "Speech synthesizer": 0.162,
+    "Narration, monologue": 0.0544,
+    "Music": 0.0523,
+    "Male speech, man speaking": 0.0353,
+    "Inside, small room": 0.0265,
+    "Tick-tock": 0.0237,
+    "Tick": 0.0233,
+    "Silence": 0.0153,
+    "Vehicle": 0.0146,
+    "Animal": 0.0109,
+    "Musical instrument": 0.0107
+   }
+  },
+  {
+   "inicio": 177.0,
+   "fim": 179.0,
+   "rotulos": {
+    "Speech": 0.7755,
+    "Speech synthesizer": 0.0907,
+    "Music": 0.0662,
+    "Silence": 0.0343,
+    "Narration, monologue": 0.0315,
+    "Male speech, man speaking": 0.0293,
+    "Vehicle": 0.0273,
+    "Inside, small room": 0.0218,
+    "Animal": 0.0189,
+    "Tick-tock": 0.0182,
+    "Outside, urban or manmade": 0.0156,
+    "Tick": 0.0148,
+    "Spray": 0.0142,
+    "Musical instrument": 0.0128,
+    "Bird": 0.0113,
+    "Gasp": 0.0104
+   }
+  },
+  {
+   "inicio": 178.0,
+   "fim": 180.0,
+   "rotulos": {
+    "Speech": 0.7903,
+    "Narration, monologue": 0.0963,
+    "Male speech, man speaking": 0.086,
+    "Speech synthesizer": 0.0797,
+    "Inside, small room": 0.0447,
+    "Music": 0.0398,
+    "Silence": 0.0242,
+    "Vehicle": 0.0184,
+    "Animal": 0.0135,
+    "Musical instrument": 0.0125,
+    "Gasp": 0.0112
+   }
+  },
+  {
+   "inicio": 179.0,
+   "fim": 181.0,
+   "rotulos": {
+    "Speech": 0.7812,
+    "Speech synthesizer": 0.114,
+    "Music": 0.0629,
+    "Narration, monologue": 0.0594,
+    "Male speech, man speaking": 0.0523,
+    "Vehicle": 0.022,
+    "Animal": 0.0213,
+    "Silence": 0.0207,
+    "Inside, small room": 0.0187,
+    "Female speech, woman speaking": 0.0176,
+    "Tick-tock": 0.0152,
+    "Tick": 0.0131,
+    "Bird": 0.0118,
+    "Conversation": 0.0114,
+    "Spray": 0.0113,
+    "Outside, urban or manmade": 0.0104
+   }
+  },
+  {
+   "inicio": 180.0,
+   "fim": 182.0,
+   "rotulos": {
+    "Speech": 0.6412,
+    "Speech synthesizer": 0.2606,
+    "Narration, monologue": 0.0778,
+    "Male speech, man speaking": 0.0474,
+    "Music": 0.0449,
+    "Vehicle": 0.0212,
+    "Silence": 0.0183,
+    "Animal": 0.017,
+    "Inside, small room": 0.0142,
+    "Conversation": 0.0118,
+    "Outside, urban or manmade": 0.0108,
+    "Female speech, woman speaking": 0.0101
+   }
+  },
+  {
+   "inicio": 181.0,
+   "fim": 183.0,
+   "rotulos": {
+    "Speech synthesizer": 0.5785,
+    "Speech": 0.5358,
+    "Narration, monologue": 0.0632,
+    "Music": 0.0296,
+    "Male speech, man speaking": 0.0295,
+    "Animal": 0.0125,
+    "Inside, small room": 0.0113,
+    "Sidetone": 0.0107
+   }
+  },
+  {
+   "inicio": 182.0,
+   "fim": 184.0,
+   "rotulos": {
+    "Speech": 0.7377,
+    "Speech synthesizer": 0.3807,
+    "Narration, monologue": 0.0986,
+    "Male speech, man speaking": 0.0312,
+    "Inside, small room": 0.0238,
+    "Music": 0.023,
+    "Clicking": 0.0221,
+    "Computer keyboard": 0.013,
+    "Typing": 0.0126,
+    "Conversation": 0.0118,
+    "Female speech, woman speaking": 0.0113
+   }
+  },
+  {
+   "inicio": 183.0,
+   "fim": 185.0,
+   "rotulos": {
+    "Speech": 0.7255,
+    "Speech synthesizer": 0.3886,
+    "Narration, monologue": 0.0962,
+    "Male speech, man speaking": 0.0376,
+    "Music": 0.0279,
+    "Inside, small room": 0.0242,
+    "Clicking": 0.0175,
+    "Conversation": 0.0127,
+    "Female speech, woman speaking": 0.012
+   }
+  },
+  {
+   "inicio": 184.0,
+   "fim": 186.0,
+   "rotulos": {
+    "Speech": 0.7802,
+    "Speech synthesizer": 0.3737,
+    "Narration, monologue": 0.1137,
+    "Male speech, man speaking": 0.0512,
+    "Music": 0.0357,
+    "Inside, small room": 0.0229,
+    "Tick": 0.0163,
+    "Tick-tock": 0.0161,
+    "Clicking": 0.0149,
+    "Musical instrument": 0.0139
+   }
+  },
+  {
+   "inicio": 185.0,
+   "fim": 187.0,
+   "rotulos": {
+    "Speech": 0.8333,
+    "Speech synthesizer": 0.2393,
+    "Music": 0.066,
+    "Narration, monologue": 0.0371,
+    "Male speech, man speaking": 0.0334,
+    "Tick-tock": 0.0255,
+    "Vehicle": 0.0219,
+    "Tick": 0.0202,
+    "Silence": 0.0173,
+    "Spray": 0.0144,
+    "Animal": 0.0144,
+    "Inside, small room": 0.0135,
+    "Bicycle bell": 0.0127,
+    "Outside, urban or manmade": 0.012
+   }
+  },
+  {
+   "inicio": 186.0,
+   "fim": 188.0,
+   "rotulos": {
+    "Speech": 0.6929,
+    "Speech synthesizer": 0.0533,
+    "Male speech, man speaking": 0.0453,
+    "Narration, monologue": 0.0429,
+    "Music": 0.0421,
+    "Vehicle": 0.0294,
+    "Inside, small room": 0.0254,
+    "Animal": 0.0208,
+    "Silence": 0.0199,
+    "Outside, urban or manmade": 0.0156,
+    "Conversation": 0.0111,
+    "Outside, rural or natural": 0.0108
+   }
+  },
+  {
+   "inicio": 187.0,
+   "fim": 189.0,
+   "rotulos": {
+    "Speech": 0.8664,
+    "Male speech, man speaking": 0.1946,
+    "Narration, monologue": 0.1647,
+    "Speech synthesizer": 0.0745,
+    "Music": 0.0483,
+    "Radio": 0.0276,
+    "Vehicle": 0.0224,
+    "Inside, small room": 0.018,
+    "Outside, urban or manmade": 0.0147,
+    "Animal": 0.0131,
+    "Musical instrument": 0.012,
+    "Bird": 0.0117,
+    "Conversation": 0.0116
+   }
+  },
+  {
+   "inicio": 188.0,
+   "fim": 190.0,
+   "rotulos": {
+    "Speech": 0.8427,
+    "Music": 0.0809,
+    "Speech synthesizer": 0.0754,
+    "Narration, monologue": 0.0387,
+    "Male speech, man speaking": 0.0347,
+    "Vehicle": 0.03,
+    "Tick-tock": 0.0265,
+    "Silence": 0.0264,
+    "Inside, small room": 0.0208,
+    "Tick": 0.02,
+    "Animal": 0.0197,
+    "Outside, urban or manmade": 0.0173,
+    "Spray": 0.0145,
+    "Female speech, woman speaking": 0.0134,
+    "Musical instrument": 0.0125,
+    "Bird": 0.0123,
+    "Outside, rural or natural": 0.0107
+   }
+  },
+  {
+   "inicio": 189.0,
+   "fim": 191.0,
+   "rotulos": {
+    "Speech": 0.6757,
+    "Speech synthesizer": 0.2462,
+    "Narration, monologue": 0.0765,
+    "Male speech, man speaking": 0.0473,
+    "Music": 0.0379,
+    "Inside, small room": 0.0241,
+    "Vehicle": 0.0146,
+    "Animal": 0.0137,
+    "Silence": 0.0105,
+    "Musical instrument": 0.0103
+   }
+  },
+  {
+   "inicio": 190.0,
+   "fim": 192.0,
+   "rotulos": {
+    "Speech": 0.8,
+    "Speech synthesizer": 0.2077,
+    "Narration, monologue": 0.0839,
+    "Male speech, man speaking": 0.0783,
+    "Music": 0.0358,
+    "Inside, small room": 0.0197,
+    "Vehicle": 0.0135,
+    "Animal": 0.0119,
+    "Outside, urban or manmade": 0.0105,
+    "Musical instrument": 0.0103
+   }
+  },
+  {
+   "inicio": 191.0,
+   "fim": 193.0,
+   "rotulos": {
+    "Speech": 0.7992,
+    "Speech synthesizer": 0.1762,
+    "Narration, monologue": 0.0729,
+    "Male speech, man speaking": 0.0446,
+    "Music": 0.0345,
+    "Inside, small room": 0.0329,
+    "Tick-tock": 0.0161,
+    "Tick": 0.0155,
+    "Vehicle": 0.0134,
+    "Spray": 0.0105
+   }
+  },
+  {
+   "inicio": 192.0,
+   "fim": 194.0,
+   "rotulos": {
+    "Speech": 0.7984,
+    "Speech synthesizer": 0.2705,
+    "Narration, monologue": 0.1303,
+    "Male speech, man speaking": 0.0592,
+    "Music": 0.0345,
+    "Inside, small room": 0.0284,
+    "Clicking": 0.0143,
+    "Musical instrument": 0.0111,
+    "Conversation": 0.011
+   }
+  },
+  {
+   "inicio": 193.0,
+   "fim": 195.0,
+   "rotulos": {
+    "Speech": 0.8172,
+    "Speech synthesizer": 0.1609,
+    "Narration, monologue": 0.0626,
+    "Music": 0.0484,
+    "Male speech, man speaking": 0.0481,
+    "Inside, small room": 0.0184,
+    "Vehicle": 0.0147,
+    "Silence": 0.0143,
+    "Tick-tock": 0.014,
+    "Tick": 0.0126,
+    "Animal": 0.0118,
+    "Female speech, woman speaking": 0.0118,
+    "Spray": 0.0101
+   }
+  },
+  {
+   "inicio": 194.0,
+   "fim": 196.0,
+   "rotulos": {
+    "Speech": 0.6571,
+    "Music": 0.1203,
+    "Silence": 0.0598,
+    "Vehicle": 0.0383,
+    "Inside, small room": 0.0255,
+    "Speech synthesizer": 0.0253,
+    "Animal": 0.0242,
+    "Tick-tock": 0.0182,
+    "Female speech, woman speaking": 0.0166,
+    "Tick": 0.0162,
+    "Male speech, man speaking": 0.0143,
+    "Musical instrument": 0.0143,
+    "Narration, monologue": 0.0118,
+    "Outside, urban or manmade": 0.0109,
+    "Domestic animals, pets": 0.0109,
+    "Bird": 0.0105
+   }
+  },
+  {
+   "inicio": 195.0,
+   "fim": 197.0,
+   "rotulos": {
+    "Speech": 0.6332,
+    "Speech synthesizer": 0.1001,
+    "Music": 0.0465,
+    "Narration, monologue": 0.039,
+    "Male speech, man speaking": 0.0288,
+    "Inside, small room": 0.028,
+    "Animal": 0.0245,
+    "Vehicle": 0.0218,
+    "Silence": 0.0191
+   }
+  },
+  {
+   "inicio": 196.0,
+   "fim": 198.0,
+   "rotulos": {
+    "Speech": 0.7711,
+    "Speech synthesizer": 0.3551,
+    "Narration, monologue": 0.1164,
+    "Male speech, man speaking": 0.0845,
+    "Music": 0.0376,
+    "Conversation": 0.0204,
+    "Animal": 0.0157,
+    "Zipper (clothing)": 0.0136,
+    "Vehicle": 0.0135,
+    "Female speech, woman speaking": 0.0127,
+    "Silence": 0.0116,
+    "Spray": 0.0103,
+    "Inside, small room": 0.0102
+   }
+  },
+  {
+   "inicio": 197.0,
+   "fim": 199.0,
+   "rotulos": {
+    "Speech": 0.6107,
+    "Speech synthesizer": 0.3034,
+    "Narration, monologue": 0.0724,
+    "Music": 0.0356,
+    "Male speech, man speaking": 0.0332,
+    "Inside, small room": 0.0276,
+    "Animal": 0.0134,
+    "Conversation": 0.0128,
+    "Silence": 0.0126,
+    "Vehicle": 0.0126,
+    "Female speech, woman speaking": 0.0106
+   }
+  },
+  {
+   "inicio": 198.0,
+   "fim": 200.0,
+   "rotulos": {
+    "Speech": 0.7529,
+    "Speech synthesizer": 0.2136,
+    "Narration, monologue": 0.1056,
+    "Male speech, man speaking": 0.072,
+    "Music": 0.0369,
+    "Inside, small room": 0.0156,
+    "Animal": 0.0143,
+    "Vehicle": 0.0124,
+    "Conversation": 0.0123,
+    "Female speech, woman speaking": 0.0115
+   }
+  },
+  {
+   "inicio": 199.0,
+   "fim": 201.0,
+   "rotulos": {
+    "Speech": 0.6821,
+    "Speech synthesizer": 0.3278,
+    "Narration, monologue": 0.0608,
+    "Male speech, man speaking": 0.0605,
+    "Music": 0.033,
+    "Animal": 0.0176,
+    "Conversation": 0.0158,
+    "Vehicle": 0.0126,
+    "Inside, small room": 0.0125,
+    "Television": 0.0113,
+    "Silence": 0.01
+   }
+  },
+  {
+   "inicio": 200.0,
+   "fim": 202.0,
+   "rotulos": {
+    "Speech": 0.8292,
+    "Music": 0.093,
+    "Speech synthesizer": 0.0577,
+    "Vehicle": 0.0332,
+    "Male speech, man speaking": 0.0263,
+    "Tick-tock": 0.0254,
+    "Narration, monologue": 0.0254,
+    "Animal": 0.0233,
+    "Silence": 0.0221,
+    "Inside, small room": 0.0208,
+    "Tick": 0.0202,
+    "Female speech, woman speaking": 0.0154,
+    "Outside, urban or manmade": 0.0139,
+    "Bird": 0.0138,
+    "Bicycle bell": 0.0131,
+    "Spray": 0.0124,
+    "Musical instrument": 0.0121,
+    "Bell": 0.012
+   }
+  },
+  {
+   "inicio": 201.0,
+   "fim": 203.0,
+   "rotulos": {
+    "Speech": 0.1943,
+    "Music": 0.1199,
+    "Silence": 0.0275,
+    "Vehicle": 0.0259,
+    "Inside, small room": 0.0211,
+    "Animal": 0.0155,
+    "Musical instrument": 0.0124,
+    "Tick-tock": 0.012,
+    "Tick": 0.0119
+   }
+  },
+  {
+   "inicio": 202.0,
+   "fim": 204.0,
+   "rotulos": {
+    "Speech": 0.7463,
+    "Speech synthesizer": 0.2505,
+    "Narration, monologue": 0.1017,
+    "Male speech, man speaking": 0.0756,
+    "Music": 0.0331,
+    "Inside, small room": 0.03,
+    "Vehicle": 0.013,
+    "Animal": 0.0122,
+    "Conversation": 0.0105,
+    "Silence": 0.0104,
+    "Musical instrument": 0.0101
+   }
+  },
+  {
+   "inicio": 203.0,
+   "fim": 205.0,
+   "rotulos": {
+    "Speech": 0.8115,
+    "Speech synthesizer": 0.1332,
+    "Narration, monologue": 0.0541,
+    "Music": 0.0515,
+    "Male speech, man speaking": 0.0509,
+    "Vehicle": 0.0222,
+    "Inside, small room": 0.0209,
+    "Silence": 0.019,
+    "Animal": 0.0162,
+    "Female speech, woman speaking": 0.0156,
+    "Tick-tock": 0.0155,
+    "Outside, urban or manmade": 0.0142,
+    "Spray": 0.0141,
+    "Tick": 0.0124,
+    "Conversation": 0.0114,
+    "Musical instrument": 0.0108
+   }
+  },
+  {
+   "inicio": 204.0,
+   "fim": 206.0,
+   "rotulos": {
+    "Speech": 0.6539,
+    "Speech synthesizer": 0.2677,
+    "Narration, monologue": 0.0742,
+    "Music": 0.0495,
+    "Male speech, man speaking": 0.0409,
+    "Silence": 0.0325,
+    "Inside, small room": 0.0245,
+    "Vehicle": 0.0183,
+    "Animal": 0.0183,
+    "Tick": 0.0111,
+    "Female speech, woman speaking": 0.0109,
+    "Tick-tock": 0.0105,
+    "Conversation": 0.0101
+   }
+  },
+  {
+   "inicio": 205.0,
+   "fim": 207.0,
+   "rotulos": {
+    "Speech": 0.7265,
+    "Speech synthesizer": 0.4126,
+    "Narration, monologue": 0.0547,
+    "Male speech, man speaking": 0.0449,
+    "Music": 0.0418,
+    "Animal": 0.0185,
+    "Vehicle": 0.0142,
+    "Silence": 0.0115,
+    "Bird": 0.011,
+    "Inside, small room": 0.0104
+   }
+  },
+  {
+   "inicio": 206.0,
+   "fim": 208.0,
+   "rotulos": {
+    "Speech": 0.6394,
+    "Music": 0.0926,
+    "Silence": 0.0782,
+    "Speech synthesizer": 0.0454,
+    "Inside, small room": 0.0314,
+    "Vehicle": 0.0302,
+    "Animal": 0.022,
+    "Narration, monologue": 0.0165,
+    "Male speech, man speaking": 0.0155,
+    "Tick-tock": 0.0155,
+    "Musical instrument": 0.0146,
+    "Tick": 0.0141,
+    "Female speech, woman speaking": 0.0137,
+    "Outside, urban or manmade": 0.0121
+   }
+  },
+  {
+   "inicio": 207.0,
+   "fim": 209.0,
+   "rotulos": {
+    "Speech": 0.7644,
+    "Speech synthesizer": 0.2217,
+    "Narration, monologue": 0.1079,
+    "Male speech, man speaking": 0.0898,
+    "Music": 0.0455,
+    "Animal": 0.0218,
+    "Silence": 0.0216,
+    "Inside, small room": 0.019,
+    "Vehicle": 0.0171,
+    "Conversation": 0.0127,
+    "Heart sounds, heartbeat": 0.0115,
+    "Female speech, woman speaking": 0.0107
+   }
+  },
+  {
+   "inicio": 208.0,
+   "fim": 210.0,
+   "rotulos": {
+    "Speech": 0.7903,
+    "Speech synthesizer": 0.1783,
+    "Narration, monologue": 0.0999,
+    "Male speech, man speaking": 0.082,
+    "Music": 0.0517,
+    "Inside, small room": 0.0197,
+    "Conversation": 0.0196,
+    "Silence": 0.0184,
+    "Female speech, woman speaking": 0.018,
+    "Vehicle": 0.0168,
+    "Animal": 0.0129,
+    "Zipper (clothing)": 0.0121,
+    "Tick-tock": 0.0117,
+    "Tick": 0.0116,
+    "Outside, urban or manmade": 0.0108
+   }
+  },
+  {
+   "inicio": 209.0,
+   "fim": 211.0,
+   "rotulos": {
+    "Speech": 0.7191,
+    "Speech synthesizer": 0.1618,
+    "Narration, monologue": 0.115,
+    "Male speech, man speaking": 0.0716,
+    "Music": 0.0405,
+    "Vehicle": 0.0234,
+    "Female speech, woman speaking": 0.0223,
+    "Conversation": 0.0209,
+    "Inside, small room": 0.0183,
+    "Animal": 0.0171,
+    "Outside, urban or manmade": 0.0134
+   }
+  },
+  {
+   "inicio": 210.0,
+   "fim": 212.0,
+   "rotulos": {
+    "Speech": 0.8306,
+    "Speech synthesizer": 0.1396,
+    "Narration, monologue": 0.0501,
+    "Male speech, man speaking": 0.0463,
+    "Music": 0.045,
+    "Vehicle": 0.02,
+    "Female speech, woman speaking": 0.0187,
+    "Inside, small room": 0.0163,
+    "Animal": 0.015,
+    "Outside, urban or manmade": 0.0119,
+    "Tick-tock": 0.0115,
+    "Tick": 0.011,
+    "Musical instrument": 0.0105,
+    "Conversation": 0.0104
+   }
+  },
+  {
+   "inicio": 211.0,
+   "fim": 213.0,
+   "rotulos": {
+    "Speech": 0.8393,
+    "Music": 0.0967,
+    "Speech synthesizer": 0.0504,
+    "Vehicle": 0.04,
+    "Tick-tock": 0.031,
+    "Silence": 0.0235,
+    "Tick": 0.0231,
+    "Inside, small room": 0.0189,
+    "Male speech, man speaking": 0.018,
+    "Animal": 0.0177,
+    "Outside, urban or manmade": 0.0175,
+    "Narration, monologue": 0.0164,
+    "Bicycle bell": 0.0163,
+    "Bell": 0.0146,
+    "Musical instrument": 0.014,
+    "Spray": 0.013,
+    "Bird": 0.0129,
+    "Female speech, woman speaking": 0.0109
+   }
+  },
+  {
+   "inicio": 212.0,
+   "fim": 214.0,
+   "rotulos": {
+    "Speech": 0.7215,
+    "Speech synthesizer": 0.1147,
+    "Narration, monologue": 0.0507,
+    "Music": 0.0452,
+    "Male speech, man speaking": 0.0405,
+    "Inside, small room": 0.0312,
+    "Vehicle": 0.0219,
+    "Silence": 0.0209,
+    "Animal": 0.0158,
+    "Outside, urban or manmade": 0.0127,
+    "Musical instrument": 0.0103
+   }
+  },
+  {
+   "inicio": 213.0,
+   "fim": 215.0,
+   "rotulos": {
+    "Speech": 0.8086,
+    "Speech synthesizer": 0.1146,
+    "Narration, monologue": 0.0853,
+    "Male speech, man speaking": 0.0564,
+    "Music": 0.0472,
+    "Inside, small room": 0.0314,
+    "Female speech, woman speaking": 0.0141,
+    "Vehicle": 0.0135,
+    "Animal": 0.0133,
+    "Musical instrument": 0.0122,
+    "Conversation": 0.0107,
+    "Tick": 0.0106,
+    "Tick-tock": 0.0105
+   }
+  },
+  {
+   "inicio": 214.0,
+   "fim": 216.0,
+   "rotulos": {
+    "Speech": 0.8075,
+    "Speech synthesizer": 0.1406,
+    "Music": 0.0649,
+    "Narration, monologue": 0.0493,
+    "Male speech, man speaking": 0.0366,
+    "Silence": 0.0225,
+    "Female speech, woman speaking": 0.0213,
+    "Animal": 0.0185,
+    "Inside, small room": 0.0184,
+    "Vehicle": 0.0179,
+    "Tick-tock": 0.0155,
+    "Conversation": 0.013,
+    "Spray": 0.0127,
+    "Tick": 0.0126
+   }
+  },
+  {
+   "inicio": 215.0,
+   "fim": 217.0,
+   "rotulos": {
+    "Speech": 0.6935,
+    "Music": 0.095,
+    "Silence": 0.0568,
+    "Speech synthesizer": 0.0413,
+    "Vehicle": 0.0339,
+    "Inside, small room": 0.0264,
+    "Animal": 0.0234,
+    "Tick-tock": 0.0184,
+    "Male speech, man speaking": 0.018,
+    "Tick": 0.0174,
+    "Narration, monologue": 0.0161,
+    "Female speech, woman speaking": 0.0154,
+    "Musical instrument": 0.0144,
+    "Outside, urban or manmade": 0.0134,
+    "Spray": 0.0113,
+    "White noise": 0.0106
+   }
+  },
+  {
+   "inicio": 216.0,
+   "fim": 218.0,
+   "rotulos": {
+    "Speech": 0.6605,
+    "Speech synthesizer": 0.1871,
+    "Narration, monologue": 0.0807,
+    "Music": 0.04,
+    "Male speech, man speaking": 0.0369,
+    "Inside, small room": 0.0226,
+    "Animal": 0.0209,
+    "Vehicle": 0.019,
+    "Female speech, woman speaking": 0.0161,
+    "Silence": 0.0158,
+    "Conversation": 0.0115
+   }
+  },
+  {
+   "inicio": 217.0,
+   "fim": 219.0,
+   "rotulos": {
+    "Speech": 0.7844,
+    "Music": 0.0824,
+    "Speech synthesizer": 0.0764,
+    "Narration, monologue": 0.0521,
+    "Silence": 0.0373,
+    "Male speech, man speaking": 0.0358,
+    "Inside, small room": 0.0278,
+    "Tick-tock": 0.0225,
+    "Animal": 0.0199,
+    "Vehicle": 0.0195,
+    "Tick": 0.0169,
+    "Musical instrument": 0.015,
+    "Female speech, woman speaking": 0.0143,
+    "Spray": 0.0128,
+    "Bird": 0.0103
+   }
+  },
+  {
+   "inicio": 218.0,
+   "fim": 220.0,
+   "rotulos": {
+    "Speech": 0.7526,
+    "Speech synthesizer": 0.1446,
+    "Narration, monologue": 0.0549,
+    "Male speech, man speaking": 0.0521,
+    "Music": 0.0458,
+    "Inside, small room": 0.0245,
+    "Vehicle": 0.0202,
+    "Animal": 0.0169,
+    "Outside, urban or manmade": 0.0165,
+    "Musical instrument": 0.012,
+    "Outside, rural or natural": 0.0101
+   }
+  },
+  {
+   "inicio": 219.0,
+   "fim": 221.0,
+   "rotulos": {
+    "Speech": 0.7587,
+    "Speech synthesizer": 0.2211,
+    "Narration, monologue": 0.0821,
+    "Male speech, man speaking": 0.064,
+    "Music": 0.0406,
+    "Inside, small room": 0.0196,
+    "Animal": 0.0176,
+    "Vehicle": 0.0168,
+    "Musical instrument": 0.0109,
+    "Outside, urban or manmade": 0.0105
+   }
+  },
+  {
+   "inicio": 220.0,
+   "fim": 222.0,
+   "rotulos": {
+    "Speech": 0.7868,
+    "Speech synthesizer": 0.2217,
+    "Narration, monologue": 0.1148,
+    "Male speech, man speaking": 0.0697,
+    "Music": 0.0429,
+    "Inside, small room": 0.0273,
+    "Animal": 0.0153,
+    "Musical instrument": 0.0144
+   }
+  },
+  {
+   "inicio": 221.0,
+   "fim": 223.0,
+   "rotulos": {
+    "Speech": 0.8448,
+    "Music": 0.0839,
+    "Speech synthesizer": 0.0826,
+    "Tick-tock": 0.0333,
+    "Narration, monologue": 0.0313,
+    "Male speech, man speaking": 0.0307,
+    "Tick": 0.023,
+    "Vehicle": 0.0224,
+    "Inside, small room": 0.0222,
+    "Silence": 0.0197,
+    "Animal": 0.0163,
+    "Musical instrument": 0.0149,
+    "Spray": 0.0143,
+    "Bird": 0.013,
+    "Outside, urban or manmade": 0.0119
+   }
+  },
+  {
+   "inicio": 222.0,
+   "fim": 224.0,
+   "rotulos": {
+    "Speech": 0.548,
+    "Music": 0.0797,
+    "Inside, small room": 0.0336,
+    "Silence": 0.0265,
+    "Vehicle": 0.0258,
+    "Speech synthesizer": 0.0245,
+    "Animal": 0.0203,
+    "Narration, monologue": 0.0168,
+    "Male speech, man speaking": 0.0152,
+    "Outside, urban or manmade": 0.0134,
+    "Musical instrument": 0.0123
+   }
+  },
+  {
+   "inicio": 223.0,
+   "fim": 225.0,
+   "rotulos": {
+    "Speech": 0.7446,
+    "Speech synthesizer": 0.2796,
+    "Narration, monologue": 0.0661,
+    "Male speech, man speaking": 0.064,
+    "Music": 0.0437,
+    "Animal": 0.0196,
+    "Conversation": 0.0176,
+    "Silence": 0.0158,
+    "Vehicle": 0.0158,
+    "Female speech, woman speaking": 0.014,
+    "Tick-tock": 0.0132,
+    "Spray": 0.0124,
+    "Inside, small room": 0.0124,
+    "Tick": 0.012,
+    "Radio": 0.0116,
+    "Bird": 0.0109
+   }
+  },
+  {
+   "inicio": 224.0,
+   "fim": 226.0,
+   "rotulos": {
+    "Speech": 0.6585,
+    "Music": 0.0798,
+    "Silence": 0.0644,
+    "Speech synthesizer": 0.0568,
+    "Vehicle": 0.0308,
+    "Inside, small room": 0.0294,
+    "Animal": 0.0247,
+    "Male speech, man speaking": 0.0238,
+    "Narration, monologue": 0.0234,
+    "Outside, urban or manmade": 0.0144,
+    "Musical instrument": 0.0144,
+    "Tick-tock": 0.011,
+    "Female speech, woman speaking": 0.0109,
+    "Bird": 0.0104,
+    "Domestic animals, pets": 0.0102
+   }
+  },
+  {
+   "inicio": 225.0,
+   "fim": 227.0,
+   "rotulos": {
+    "Speech": 0.6821,
+    "Speech synthesizer": 0.3033,
+    "Narration, monologue": 0.0728,
+    "Male speech, man speaking": 0.0572,
+    "Music": 0.0352,
+    "Inside, small room": 0.0171,
+    "Vehicle": 0.0144,
+    "Animal": 0.014
+   }
+  },
+  {
+   "inicio": 226.0,
+   "fim": 228.0,
+   "rotulos": {
+    "Speech": 0.7844,
+    "Speech synthesizer": 0.1793,
+    "Narration, monologue": 0.1166,
+    "Male speech, man speaking": 0.0884,
+    "Music": 0.0418,
+    "Inside, small room": 0.0185,
+    "Animal": 0.0138,
+    "Female speech, woman speaking": 0.012,
+    "Vehicle": 0.0111,
+    "Tick-tock": 0.0111,
+    "Conversation": 0.0106,
+    "Tick": 0.0101,
+    "Musical instrument": 0.0101
+   }
+  },
+  {
+   "inicio": 227.0,
+   "fim": 229.0,
+   "rotulos": {
+    "Speech": 0.8113,
+    "Music": 0.0883,
+    "Speech synthesizer": 0.0697,
+    "Male speech, man speaking": 0.0439,
+    "Tick-tock": 0.0341,
+    "Narration, monologue": 0.0303,
+    "Tick": 0.0248,
+    "Vehicle": 0.0242,
+    "Silence": 0.0195,
+    "Animal": 0.0182,
+    "Inside, small room": 0.0146,
+    "Spray": 0.0132,
+    "Outside, urban or manmade": 0.0131,
+    "Female speech, woman speaking": 0.0127,
+    "Bird": 0.0108,
+    "Bicycle bell": 0.0107,
+    "Musical instrument": 0.0106
+   }
+  },
+  {
+   "inicio": 228.0,
+   "fim": 230.0,
+   "rotulos": {
+    "Speech": 0.6348,
+    "Music": 0.0604,
+    "Silence": 0.0532,
+    "Speech synthesizer": 0.0471,
+    "Inside, small room": 0.0285,
+    "Vehicle": 0.0279,
+    "Narration, monologue": 0.0215,
+    "Animal": 0.0209,
+    "Outside, urban or manmade": 0.0136,
+    "Male speech, man speaking": 0.0131
+   }
+  },
+  {
+   "inicio": 229.0,
+   "fim": 231.0,
+   "rotulos": {
+    "Speech": 0.7244,
+    "Speech synthesizer": 0.3091,
+    "Narration, monologue": 0.1042,
+    "Male speech, man speaking": 0.0592,
+    "Music": 0.0274,
+    "Inside, small room": 0.0239,
+    "Conversation": 0.0142,
+    "Animal": 0.0122,
+    "Clicking": 0.0104
+   }
+  },
+  {
+   "inicio": 230.0,
+   "fim": 232.0,
+   "rotulos": {
+    "Speech": 0.8393,
+    "Speech synthesizer": 0.0837,
+    "Music": 0.0705,
+    "Narration, monologue": 0.0291,
+    "Male speech, man speaking": 0.0273,
+    "Silence": 0.0271,
+    "Vehicle": 0.0265,
+    "Inside, small room": 0.0241,
+    "Tick-tock": 0.0204,
+    "Animal": 0.0192,
+    "Bicycle bell": 0.0155,
+    "Tick": 0.015,
+    "Outside, urban or manmade": 0.0123,
+    "Female speech, woman speaking": 0.0123,
+    "Spray": 0.0118,
+    "Bird": 0.0113
+   }
+  },
+  {
+   "inicio": 231.0,
+   "fim": 233.0,
+   "rotulos": {
+    "Speech": 0.6685,
+    "Speech synthesizer": 0.1961,
+    "Narration, monologue": 0.0548,
+    "Male speech, man speaking": 0.0454,
+    "Music": 0.0371,
+    "Vehicle": 0.0249,
+    "Inside, small room": 0.021,
+    "Silence": 0.0201,
+    "Animal": 0.0197,
+    "Outside, urban or manmade": 0.0137,
+    "Outside, rural or natural": 0.0105
+   }
+  },
+  {
+   "inicio": 232.0,
+   "fim": 234.0,
+   "rotulos": {
+    "Speech": 0.7777,
+    "Speech synthesizer": 0.1626,
+    "Narration, monologue": 0.0911,
+    "Male speech, man speaking": 0.0855,
+    "Music": 0.0449,
+    "Animal": 0.0186,
+    "Vehicle": 0.0163,
+    "Tick-tock": 0.0133,
+    "Inside, small room": 0.0126,
+    "Tick": 0.0125,
+    "Female speech, woman speaking": 0.0111,
+    "Musical instrument": 0.0103,
+    "Conversation": 0.0102,
+    "Outside, urban or manmade": 0.0101
+   }
+  },
+  {
+   "inicio": 233.0,
+   "fim": 235.0,
+   "rotulos": {
+    "Speech": 0.8005,
+    "Music": 0.081,
+    "Speech synthesizer": 0.0773,
+    "Male speech, man speaking": 0.0407,
+    "Narration, monologue": 0.0341,
+    "Vehicle": 0.0254,
+    "Silence": 0.0215,
+    "Tick-tock": 0.0204,
+    "Female speech, woman speaking": 0.0178,
+    "Tick": 0.0177,
+    "Inside, small room": 0.0177,
+    "Animal": 0.0149,
+    "Bicycle bell": 0.0119,
+    "Outside, urban or manmade": 0.0109,
+    "Musical instrument": 0.0108,
+    "Bird": 0.0102
+   }
+  },
+  {
+   "inicio": 234.0,
+   "fim": 236.0,
+   "rotulos": {
+    "Music": 0.1451,
+    "Silence": 0.0797,
+    "Speech": 0.0425,
+    "Vehicle": 0.0311,
+    "Inside, small room": 0.0194,
+    "Musical instrument": 0.0157,
+    "Tick-tock": 0.0133,
+    "Tick": 0.0125,
+    "Animal": 0.0113
+   }
+  },
+  {
+   "inicio": 235.0,
+   "fim": 237.0,
+   "rotulos": {
+    "Speech": 0.7623,
+    "Speech synthesizer": 0.1085,
+    "Narration, monologue": 0.0502,
+    "Male speech, man speaking": 0.0491,
+    "Music": 0.0421,
+    "Vehicle": 0.0271,
+    "Silence": 0.0262,
+    "Female speech, woman speaking": 0.0261,
+    "Animal": 0.0216,
+    "Conversation": 0.0216,
+    "Inside, small room": 0.0201,
+    "Outside, urban or manmade": 0.0134
+   }
+  },
+  {
+   "inicio": 236.0,
+   "fim": 238.0,
+   "rotulos": {
+    "Speech": 0.8341,
+    "Speech synthesizer": 0.1046,
+    "Music": 0.0608,
+    "Narration, monologue": 0.0539,
+    "Male speech, man speaking": 0.0444,
+    "Female speech, woman speaking": 0.0237,
+    "Vehicle": 0.0235,
+    "Tick-tock": 0.0208,
+    "Tick": 0.0182,
+    "Animal": 0.0179,
+    "Spray": 0.0174,
+    "Silence": 0.0161,
+    "Inside, small room": 0.0157,
+    "Conversation": 0.0145,
+    "Outside, urban or manmade": 0.0122,
+    "Bird": 0.0107
+   }
+  },
+  {
+   "inicio": 237.0,
+   "fim": 239.0,
+   "rotulos": {
+    "Speech": 0.7179,
+    "Speech synthesizer": 0.2954,
+    "Narration, monologue": 0.1463,
+    "Male speech, man speaking": 0.1206,
+    "Music": 0.037,
+    "Radio": 0.0207,
+    "Animal": 0.0175,
+    "Inside, small room": 0.0158,
+    "Vehicle": 0.0131
+   }
+  },
+  {
+   "inicio": 238.0,
+   "fim": 240.0,
+   "rotulos": {
+    "Speech": 0.7806,
+    "Music": 0.0874,
+    "Speech synthesizer": 0.0479,
+    "Silence": 0.0365,
+    "Narration, monologue": 0.0337,
+    "Vehicle": 0.0331,
+    "Male speech, man speaking": 0.0297,
+    "Tick-tock": 0.0221,
+    "Inside, small room": 0.0215,
+    "Animal": 0.0211,
+    "Female speech, woman speaking": 0.0189,
+    "Tick": 0.0184,
+    "Outside, urban or manmade": 0.0148,
+    "Musical instrument": 0.0134,
+    "Spray": 0.0125
+   }
+  },
+  {
+   "inicio": 239.0,
+   "fim": 241.0,
+   "rotulos": {
+    "Speech": 0.7392,
+    "Speech synthesizer": 0.1072,
+    "Narration, monologue": 0.0979,
+    "Male speech, man speaking": 0.0631,
+    "Music": 0.0431,
+    "Inside, small room": 0.0381,
+    "Animal": 0.0149,
+    "Vehicle": 0.0142,
+    "Musical instrument": 0.0117,
+    "Clicking": 0.011
+   }
+  },
+  {
+   "inicio": 240.0,
+   "fim": 242.0,
+   "rotulos": {
+    "Speech": 0.7963,
+    "Speech synthesizer": 0.1027,
+    "Narration, monologue": 0.0684,
+    "Music": 0.0676,
+    "Male speech, man speaking": 0.0485,
+    "Tick-tock": 0.0244,
+    "Inside, small room": 0.0239,
+    "Female speech, woman speaking": 0.0229,
+    "Silence": 0.0215,
+    "Tick": 0.0203,
+    "Vehicle": 0.017,
+    "Animal": 0.0166,
+    "Musical instrument": 0.0139,
+    "Spray": 0.0131,
+    "Conversation": 0.0112
+   }
+  },
+  {
+   "inicio": 241.0,
+   "fim": 243.0,
+   "rotulos": {
+    "Speech": 0.8018,
+    "Speech synthesizer": 0.1265,
+    "Male speech, man speaking": 0.0722,
+    "Narration, monologue": 0.0708,
+    "Music": 0.0499,
+    "Inside, small room": 0.0255,
+    "Vehicle": 0.0169,
+    "Tick-tock": 0.0164,
+    "Silence": 0.0144,
+    "Animal": 0.014,
+    "Tick": 0.0132,
+    "Outside, urban or manmade": 0.013,
+    "Musical instrument": 0.0125
+   }
+  },
+  {
+   "inicio": 242.0,
+   "fim": 244.0,
+   "rotulos": {
+    "Speech": 0.7703,
+    "Speech synthesizer": 0.3366,
+    "Narration, monologue": 0.1004,
+    "Male speech, man speaking": 0.0606,
+    "Music": 0.0297,
+    "Inside, small room": 0.0208
+   }
+  },
+  {
+   "inicio": 243.0,
+   "fim": 245.0,
+   "rotulos": {
+    "Speech": 0.7637,
+    "Speech synthesizer": 0.3717,
+    "Narration, monologue": 0.0928,
+    "Male speech, man speaking": 0.0484,
+    "Music": 0.0283,
+    "Inside, small room": 0.0246,
+    "Conversation": 0.0168,
+    "Female speech, woman speaking": 0.0116
+   }
+  },
+  {
+   "inicio": 244.0,
+   "fim": 246.0,
+   "rotulos": {
+    "Speech": 0.779,
+    "Speech synthesizer": 0.2788,
+    "Narration, monologue": 0.126,
+    "Male speech, man speaking": 0.0723,
+    "Music": 0.046,
+    "Inside, small room": 0.0234,
+    "Tick": 0.015,
+    "Tick-tock": 0.0143,
+    "Animal": 0.0125,
+    "Conversation": 0.0115,
+    "Musical instrument": 0.0111,
+    "Female speech, woman speaking": 0.011,
+    "Clicking": 0.011
+   }
+  },
+  {
+   "inicio": 245.0,
+   "fim": 247.0,
+   "rotulos": {
+    "Speech": 0.8046,
+    "Music": 0.1055,
+    "Speech synthesizer": 0.0993,
+    "Tick-tock": 0.0342,
+    "Vehicle": 0.031,
+    "Male speech, man speaking": 0.029,
+    "Narration, monologue": 0.0253,
+    "Tick": 0.0227,
+    "Silence": 0.0173,
+    "Animal": 0.0164,
+    "Bird": 0.0152,
+    "Inside, small room": 0.0133,
+    "Bicycle bell": 0.0126,
+    "Spray": 0.0117,
+    "Musical instrument": 0.0113,
+    "Outside, urban or manmade": 0.0111,
+    "Female speech, woman speaking": 0.0103
+   }
+  },
+  {
+   "inicio": 246.0,
+   "fim": 248.0,
+   "rotulos": {
+    "Speech": 0.6116,
+    "Speech synthesizer": 0.0675,
+    "Silence": 0.0579,
+    "Music": 0.0566,
+    "Inside, small room": 0.031,
+    "Narration, monologue": 0.0278,
+    "Male speech, man speaking": 0.0261,
+    "Animal": 0.026,
+    "Vehicle": 0.0225,
+    "Female speech, woman speaking": 0.011
+   }
+  },
+  {
+   "inicio": 247.0,
+   "fim": 249.0,
+   "rotulos": {
+    "Speech": 0.7892,
+    "Speech synthesizer": 0.1187,
+    "Music": 0.0656,
+    "Narration, monologue": 0.0616,
+    "Male speech, man speaking": 0.0501,
+    "Silence": 0.0241,
+    "Inside, small room": 0.0231,
+    "Tick-tock": 0.0209,
+    "Vehicle": 0.019,
+    "Tick": 0.0177,
+    "Animal": 0.0165,
+    "Female speech, woman speaking": 0.0159,
+    "Spray": 0.0153,
+    "Musical instrument": 0.0116,
+    "Conversation": 0.0114
+   }
+  },
+  {
+   "inicio": 248.0,
+   "fim": 250.0,
+   "rotulos": {
+    "Speech": 0.6989,
+    "Music": 0.1079,
+    "Silence": 0.0567,
+    "Speech synthesizer": 0.0366,
+    "Inside, small room": 0.0317,
+    "Vehicle": 0.0274,
+    "Narration, monologue": 0.0202,
+    "Tick-tock": 0.0193,
+    "Animal": 0.019,
+    "Tick": 0.0173,
+    "Musical instrument": 0.0164,
+    "Male speech, man speaking": 0.0162,
+    "Female speech, woman speaking": 0.0146,
+    "White noise": 0.0107,
+    "Outside, urban or manmade": 0.0105,
+    "Spray": 0.0105
+   }
+  },
+  {
+   "inicio": 249.0,
+   "fim": 251.0,
+   "rotulos": {
+    "Speech": 0.749,
+    "Speech synthesizer": 0.1741,
+    "Music": 0.0569,
+    "Narration, monologue": 0.0557,
+    "Male speech, man speaking": 0.0403,
+    "Silence": 0.035,
+    "Female speech, woman speaking": 0.0281,
+    "Vehicle": 0.0258,
+    "Inside, small room": 0.025,
+    "Animal": 0.0223,
+    "Conversation": 0.0192,
+    "Tick-tock": 0.0147,
+    "Tick": 0.0128,
+    "Outside, urban or manmade": 0.0126,
+    "Spray": 0.0116
+   }
+  },
+  {
+   "inicio": 250.0,
+   "fim": 252.0,
+   "rotulos": {
+    "Speech": 0.7821,
+    "Speech synthesizer": 0.0899,
+    "Music": 0.0712,
+    "Narration, monologue": 0.032,
+    "Silence": 0.0299,
+    "Vehicle": 0.027,
+    "Male speech, man speaking": 0.024,
+    "Tick-tock": 0.022,
+    "Animal": 0.0209,
+    "Inside, small room": 0.0205,
+    "Tick": 0.0181,
+    "Female speech, woman speaking": 0.0164,
+    "Spray": 0.0139,
+    "Outside, urban or manmade": 0.0122,
+    "Musical instrument": 0.0119,
+    "Bird": 0.0103
+   }
+  },
+  {
+   "inicio": 251.0,
+   "fim": 253.0,
+   "rotulos": {
+    "Speech": 0.7259,
+    "Speech synthesizer": 0.3558,
+    "Narration, monologue": 0.1042,
+    "Male speech, man speaking": 0.0593,
+    "Music": 0.0363,
+    "Inside, small room": 0.0257,
+    "Animal": 0.0132,
+    "Radio": 0.0118,
+    "Musical instrument": 0.0108
+   }
+  },
+  {
+   "inicio": 252.0,
+   "fim": 254.0,
+   "rotulos": {
+    "Speech": 0.8171,
+    "Speech synthesizer": 0.2155,
+    "Narration, monologue": 0.0955,
+    "Male speech, man speaking": 0.0848,
+    "Music": 0.0443,
+    "Inside, small room": 0.0233,
+    "Animal": 0.014,
+    "Vehicle": 0.0129,
+    "Radio": 0.0116,
+    "Musical instrument": 0.0112,
+    "Outside, urban or manmade": 0.0107
+   }
+  },
+  {
+   "inicio": 253.0,
+   "fim": 255.0,
+   "rotulos": {
+    "Speech": 0.752,
+    "Speech synthesizer": 0.3383,
+    "Narration, monologue": 0.1055,
+    "Male speech, man speaking": 0.0667,
+    "Music": 0.048,
+    "Inside, small room": 0.019,
+    "Tick-tock": 0.019,
+    "Tick": 0.0183,
+    "Animal": 0.0176,
+    "Vehicle": 0.0134,
+    "Silence": 0.0118,
+    "Musical instrument": 0.0116,
+    "Female speech, woman speaking": 0.0104
+   }
+  },
+  {
+   "inicio": 254.0,
+   "fim": 256.0,
+   "rotulos": {
+    "Speech": 0.8438,
+    "Speech synthesizer": 0.1013,
+    "Music": 0.0776,
+    "Narration, monologue": 0.0369,
+    "Male speech, man speaking": 0.0344,
+    "Tick-tock": 0.032,
+    "Vehicle": 0.0243,
+    "Tick": 0.0231,
+    "Silence": 0.0194,
+    "Inside, small room": 0.0185,
+    "Spray": 0.0173,
+    "Animal": 0.0163,
+    "Female speech, woman speaking": 0.0147,
+    "Bird": 0.0123,
+    "Outside, urban or manmade": 0.0122,
+    "Musical instrument": 0.012,
+    "Bicycle bell": 0.0114
+   }
+  },
+  {
+   "inicio": 255.0,
+   "fim": 257.0,
+   "rotulos": {
+    "Silence": 0.1595,
+    "Music": 0.1371,
+    "Speech": 0.0465,
+    "Vehicle": 0.0372,
+    "Inside, small room": 0.025,
+    "Musical instrument": 0.0173,
+    "Tick-tock": 0.012,
+    "Animal": 0.011,
+    "Tick": 0.0105
+   }
+  },
+  {
+   "inicio": 256.0,
+   "fim": 258.0,
+   "rotulos": {
+    "Speech": 0.5711,
+    "Speech synthesizer": 0.288,
+    "Narration, monologue": 0.0926,
+    "Male speech, man speaking": 0.0622,
+    "Music": 0.0483,
+    "Animal": 0.0217,
+    "Vehicle": 0.0154,
+    "Conversation": 0.0147,
+    "Inside, small room": 0.0137,
+    "Radio": 0.0111,
+    "Female speech, woman speaking": 0.0108,
+    "Silence": 0.0106
+   }
+  },
+  {
+   "inicio": 257.0,
+   "fim": 259.0,
+   "rotulos": {
+    "Speech": 0.6726,
+    "Speech synthesizer": 0.3703,
+    "Narration, monologue": 0.0751,
+    "Male speech, man speaking": 0.053,
+    "Music": 0.0469,
+    "Conversation": 0.0209,
+    "Animal": 0.0207,
+    "Silence": 0.0206,
+    "Vehicle": 0.0159,
+    "Female speech, woman speaking": 0.0151,
+    "Owl": 0.0123,
+    "Inside, small room": 0.0115,
+    "Gasp": 0.0102
+   }
+  },
+  {
+   "inicio": 258.0,
+   "fim": 260.0,
+   "rotulos": {
+    "Speech": 0.671,
+    "Speech synthesizer": 0.1263,
+    "Narration, monologue": 0.0488,
+    "Music": 0.0427,
+    "Male speech, man speaking": 0.041,
+    "Inside, small room": 0.0244,
+    "Silence": 0.0225,
+    "Vehicle": 0.0221,
+    "Animal": 0.0184,
+    "Outside, urban or manmade": 0.0129,
+    "Conversation": 0.0114
+   }
+  },
+  {
+   "inicio": 259.0,
+   "fim": 261.0,
+   "rotulos": {
+    "Speech": 0.7113,
+    "Speech synthesizer": 0.385,
+    "Narration, monologue": 0.057,
+    "Male speech, man speaking": 0.0492,
+    "Music": 0.0317,
+    "Animal": 0.0172,
+    "Vehicle": 0.0156,
+    "Conversation": 0.0114
+   }
+  },
+  {
+   "inicio": 260.0,
+   "fim": 262.0,
+   "rotulos": {
+    "Speech": 0.8575,
+    "Speech synthesizer": 0.1204,
+    "Music": 0.0741,
+    "Male speech, man speaking": 0.0333,
+    "Narration, monologue": 0.0315,
+    "Vehicle": 0.0301,
+    "Tick-tock": 0.0279,
+    "Animal": 0.0244,
+    "Tick": 0.0223,
+    "Bicycle bell": 0.0191,
+    "Spray": 0.0177,
+    "Outside, urban or manmade": 0.0153,
+    "Silence": 0.0149,
+    "Bird": 0.0139,
+    "Inside, small room": 0.0134,
+    "Bell": 0.0132,
+    "Single-lens reflex camera": 0.0104,
+    "Drip": 0.0101
+   }
+  },
+  {
+   "inicio": 261.0,
+   "fim": 263.0,
+   "rotulos": {
+    "Speech": 0.8024,
+    "Speech synthesizer": 0.1846,
+    "Narration, monologue": 0.0559,
+    "Music": 0.0467,
+    "Male speech, man speaking": 0.0384,
+    "Inside, small room": 0.0286,
+    "Tick-tock": 0.0198,
+    "Silence": 0.0192,
+    "Tick": 0.0178,
+    "Female speech, woman speaking": 0.0165,
+    "Vehicle": 0.0161,
+    "Animal": 0.0128,
+    "Conversation": 0.0114
+   }
+  },
+  {
+   "inicio": 262.0,
+   "fim": 264.0,
+   "rotulos": {
+    "Speech": 0.7772,
+    "Speech synthesizer": 0.1979,
+    "Narration, monologue": 0.0711,
+    "Male speech, man speaking": 0.0461,
+    "Music": 0.0438,
+    "Inside, small room": 0.0229,
+    "Female speech, woman speaking": 0.0213,
+    "Silence": 0.0176,
+    "Animal": 0.0164,
+    "Vehicle": 0.0157,
+    "Conversation": 0.0152,
+    "Tick-tock": 0.0144,
+    "Tick": 0.0135,
+    "Spray": 0.0114
+   }
+  },
+  {
+   "inicio": 263.0,
+   "fim": 265.0,
+   "rotulos": {
+    "Speech": 0.7478,
+    "Speech synthesizer": 0.3223,
+    "Narration, monologue": 0.0818,
+    "Male speech, man speaking": 0.0498,
+    "Music": 0.045,
+    "Inside, small room": 0.0191,
+    "Vehicle": 0.0155,
+    "Animal": 0.0135,
+    "Silence": 0.013,
+    "Tick": 0.0122,
+    "Conversation": 0.0122,
+    "Tick-tock": 0.0109,
+    "Female speech, woman speaking": 0.0102,
+    "Zipper (clothing)": 0.01
+   }
+  },
+  {
+   "inicio": 264.0,
+   "fim": 266.0,
+   "rotulos": {
+    "Speech": 0.6988,
+    "Speech synthesizer": 0.2922,
+    "Narration, monologue": 0.0667,
+    "Male speech, man speaking": 0.0503,
+    "Music": 0.0464,
+    "Silence": 0.0359,
+    "Inside, small room": 0.0189,
+    "Animal": 0.0171,
+    "Vehicle": 0.0164,
+    "Conversation": 0.0132,
+    "Female speech, woman speaking": 0.0114
+   }
+  },
+  {
+   "inicio": 265.0,
+   "fim": 267.0,
+   "rotulos": {
+    "Speech": 0.7355,
+    "Speech synthesizer": 0.1563,
+    "Narration, monologue": 0.1273,
+    "Male speech, man speaking": 0.0861,
+    "Music": 0.0399,
+    "Inside, small room": 0.0276,
+    "Vehicle": 0.0171,
+    "Animal": 0.0169,
+    "Conversation": 0.0108,
+    "Female speech, woman speaking": 0.0104,
+    "Outside, urban or manmade": 0.0103,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 266.0,
+   "fim": 268.0,
+   "rotulos": {
+    "Speech": 0.8168,
+    "Speech synthesizer": 0.2184,
+    "Narration, monologue": 0.0739,
+    "Male speech, man speaking": 0.0617,
+    "Music": 0.0324,
+    "Inside, small room": 0.0159,
+    "Tick-tock": 0.0119,
+    "Tick": 0.0115,
+    "Musical instrument": 0.0112,
+    "Animal": 0.0106,
+    "Vehicle": 0.0105,
+    "Radio": 0.0102
+   }
+  },
+  {
+   "inicio": 267.0,
+   "fim": 269.0,
+   "rotulos": {
+    "Speech": 0.8244,
+    "Speech synthesizer": 0.1176,
+    "Music": 0.0558,
+    "Male speech, man speaking": 0.038,
+    "Narration, monologue": 0.0347,
+    "Vehicle": 0.0226,
+    "Tick-tock": 0.0195,
+    "Animal": 0.0169,
+    "Tick": 0.0155,
+    "Outside, urban or manmade": 0.0143,
+    "Silence": 0.0141,
+    "Inside, small room": 0.014,
+    "Bicycle bell": 0.0139,
+    "Female speech, woman speaking": 0.0119,
+    "Spray": 0.0114,
+    "Bird": 0.0112
+   }
+  },
+  {
+   "inicio": 268.0,
+   "fim": 270.0,
+   "rotulos": {
+    "Speech": 0.6866,
+    "Speech synthesizer": 0.3411,
+    "Narration, monologue": 0.1078,
+    "Male speech, man speaking": 0.0586,
+    "Music": 0.0342,
+    "Conversation": 0.0322,
+    "Inside, small room": 0.0234,
+    "Female speech, woman speaking": 0.0213,
+    "Radio": 0.0115,
+    "Animal": 0.0112,
+    "Vehicle": 0.0111
+   }
+  },
+  {
+   "inicio": 269.0,
+   "fim": 271.0,
+   "rotulos": {
+    "Speech": 0.7825,
+    "Speech synthesizer": 0.3071,
+    "Narration, monologue": 0.1232,
+    "Male speech, man speaking": 0.0788,
+    "Music": 0.0428,
+    "Inside, small room": 0.0195,
+    "Musical instrument": 0.0124,
+    "Radio": 0.0123,
+    "Tick-tock": 0.0111,
+    "Tick": 0.0111,
+    "Conversation": 0.0103
+   }
+  },
+  {
+   "inicio": 270.0,
+   "fim": 272.0,
+   "rotulos": {
+    "Speech": 0.7689,
+    "Speech synthesizer": 0.2001,
+    "Narration, monologue": 0.0919,
+    "Male speech, man speaking": 0.0678,
+    "Music": 0.0484,
+    "Inside, small room": 0.0254,
+    "Musical instrument": 0.0146,
+    "Animal": 0.0143,
+    "Tick-tock": 0.0112,
+    "Vehicle": 0.0108,
+    "Tick": 0.0106
+   }
+  },
+  {
+   "inicio": 271.0,
+   "fim": 273.0,
+   "rotulos": {
+    "Speech": 0.7901,
+    "Music": 0.1146,
+    "Speech synthesizer": 0.0459,
+    "Vehicle": 0.0382,
+    "Silence": 0.025,
+    "Tick-tock": 0.0238,
+    "Male speech, man speaking": 0.0203,
+    "Animal": 0.0172,
+    "Tick": 0.0172,
+    "Inside, small room": 0.0166,
+    "Bird": 0.015,
+    "Female speech, woman speaking": 0.0145,
+    "Narration, monologue": 0.0143,
+    "Outside, urban or manmade": 0.0128,
+    "Musical instrument": 0.0112,
+    "Spray": 0.0106
+   }
+  },
+  {
+   "inicio": 272.0,
+   "fim": 274.0,
+   "rotulos": {
+    "Speech": 0.6832,
+    "Speech synthesizer": 0.0941,
+    "Narration, monologue": 0.0598,
+    "Male speech, man speaking": 0.0379,
+    "Music": 0.034,
+    "Inside, small room": 0.0315,
+    "Vehicle": 0.0229,
+    "Animal": 0.0151,
+    "Silence": 0.0136,
+    "Conversation": 0.0127,
+    "Outside, urban or manmade": 0.0125,
+    "Female speech, woman speaking": 0.0119
+   }
+  },
+  {
+   "inicio": 273.0,
+   "fim": 275.0,
+   "rotulos": {
+    "Speech": 0.7936,
+    "Speech synthesizer": 0.2144,
+    "Narration, monologue": 0.0837,
+    "Male speech, man speaking": 0.0729,
+    "Music": 0.0373,
+    "Vehicle": 0.0199,
+    "Inside, small room": 0.0145,
+    "Animal": 0.0132,
+    "Female speech, woman speaking": 0.0124,
+    "Silence": 0.0123,
+    "Conversation": 0.0116
+   }
+  },
+  {
+   "inicio": 274.0,
+   "fim": 276.0,
+   "rotulos": {
+    "Speech": 0.7219,
+    "Speech synthesizer": 0.1819,
+    "Narration, monologue": 0.0847,
+    "Male speech, man speaking": 0.0521,
+    "Music": 0.0401,
+    "Inside, small room": 0.0233,
+    "Vehicle": 0.0154,
+    "Animal": 0.0118,
+    "Conversation": 0.0114,
+    "Outside, urban or manmade": 0.0106
+   }
+  },
+  {
+   "inicio": 275.0,
+   "fim": 277.0,
+   "rotulos": {
+    "Speech": 0.7973,
+    "Speech synthesizer": 0.1085,
+    "Male speech, man speaking": 0.0659,
+    "Narration, monologue": 0.0653,
+    "Music": 0.0533,
+    "Vehicle": 0.0174,
+    "Tick-tock": 0.0156,
+    "Female speech, woman speaking": 0.0154,
+    "Inside, small room": 0.0153,
+    "Animal": 0.0152,
+    "Tick": 0.0135,
+    "Musical instrument": 0.0121,
+    "Conversation": 0.0113
+   }
+  },
+  {
+   "inicio": 276.0,
+   "fim": 278.0,
+   "rotulos": {
+    "Speech": 0.7834,
+    "Speech synthesizer": 0.1696,
+    "Narration, monologue": 0.0658,
+    "Male speech, man speaking": 0.0571,
+    "Music": 0.0553,
+    "Inside, small room": 0.0201,
+    "Silence": 0.0188,
+    "Vehicle": 0.0184,
+    "Tick-tock": 0.017,
+    "Tick": 0.0159,
+    "Female speech, woman speaking": 0.0132,
+    "Spray": 0.0125,
+    "Conversation": 0.012,
+    "Animal": 0.0114,
+    "Musical instrument": 0.0111
+   }
+  },
+  {
+   "inicio": 277.0,
+   "fim": 279.0,
+   "rotulos": {
+    "Speech": 0.7541,
+    "Speech synthesizer": 0.3536,
+    "Narration, monologue": 0.1153,
+    "Male speech, man speaking": 0.0677,
+    "Music": 0.0325,
+    "Inside, small room": 0.025,
+    "Conversation": 0.0117,
+    "Musical instrument": 0.0114
+   }
+  },
+  {
+   "inicio": 278.0,
+   "fim": 280.0,
+   "rotulos": {
+    "Speech": 0.8306,
+    "Speech synthesizer": 0.2316,
+    "Narration, monologue": 0.0745,
+    "Male speech, man speaking": 0.0713,
+    "Music": 0.0494,
+    "Inside, small room": 0.0168,
+    "Tick-tock": 0.0151,
+    "Vehicle": 0.0135,
+    "Tick": 0.0124,
+    "Animal": 0.0116,
+    "Musical instrument": 0.0108
+   }
+  },
+  {
+   "inicio": 279.0,
+   "fim": 281.0,
+   "rotulos": {
+    "Speech": 0.8455,
+    "Music": 0.0787,
+    "Speech synthesizer": 0.0721,
+    "Vehicle": 0.0329,
+    "Tick-tock": 0.0302,
+    "Silence": 0.0283,
+    "Male speech, man speaking": 0.0282,
+    "Narration, monologue": 0.025,
+    "Tick": 0.0225,
+    "Outside, urban or manmade": 0.0205,
+    "Inside, small room": 0.0185,
+    "Animal": 0.0174,
+    "Spray": 0.0156,
+    "Bicycle bell": 0.0139,
+    "Musical instrument": 0.0127,
+    "Bird": 0.0108,
+    "Outside, rural or natural": 0.0106
+   }
+  },
+  {
+   "inicio": 280.0,
+   "fim": 282.0,
+   "rotulos": {
+    "Speech": 0.7713,
+    "Male speech, man speaking": 0.0442,
+    "Speech synthesizer": 0.0435,
+    "Inside, small room": 0.043,
+    "Music": 0.0419,
+    "Narration, monologue": 0.0397,
+    "Vehicle": 0.0206,
+    "Musical instrument": 0.0147,
+    "Outside, urban or manmade": 0.0138,
+    "Silence": 0.0125,
+    "Animal": 0.0113
+   }
+  },
+  {
+   "inicio": 281.0,
+   "fim": 283.0,
+   "rotulos": {
+    "Speech": 0.8811,
+    "Music": 0.0729,
+    "Male speech, man speaking": 0.0366,
+    "Speech synthesizer": 0.0289,
+    "Narration, monologue": 0.0286,
+    "Vehicle": 0.0273,
+    "Silence": 0.0256,
+    "Inside, small room": 0.0222,
+    "Outside, urban or manmade": 0.0194,
+    "Tick-tock": 0.0175,
+    "Musical instrument": 0.0157,
+    "Animal": 0.0125,
+    "Tick": 0.0121,
+    "Outside, rural or natural": 0.0107,
+    "Spray": 0.0102
+   }
+  },
+  {
+   "inicio": 282.0,
+   "fim": 284.0,
+   "rotulos": {
+    "Speech": 0.6247,
+    "Speech synthesizer": 0.2986,
+    "Narration, monologue": 0.0842,
+    "Male speech, man speaking": 0.0486,
+    "Music": 0.0422,
+    "Animal": 0.0202,
+    "Vehicle": 0.0198,
+    "Inside, small room": 0.0182,
+    "Conversation": 0.0173,
+    "Female speech, woman speaking": 0.0168
+   }
+  },
+  {
+   "inicio": 283.0,
+   "fim": 285.0,
+   "rotulos": {
+    "Speech": 0.7866,
+    "Speech synthesizer": 0.1593,
+    "Music": 0.0521,
+    "Male speech, man speaking": 0.0375,
+    "Narration, monologue": 0.0336,
+    "Animal": 0.023,
+    "Vehicle": 0.0222,
+    "Female speech, woman speaking": 0.015,
+    "Bird": 0.0121,
+    "Tick-tock": 0.0121,
+    "Conversation": 0.0119,
+    "Radio": 0.0114,
+    "Tick": 0.0113,
+    "Outside, urban or manmade": 0.0101
+   }
+  },
+  {
+   "inicio": 284.0,
+   "fim": 286.0,
+   "rotulos": {
+    "Speech": 0.7617,
+    "Speech synthesizer": 0.195,
+    "Music": 0.0608,
+    "Narration, monologue": 0.0518,
+    "Male speech, man speaking": 0.0367,
+    "Silence": 0.0299,
+    "Inside, small room": 0.0228,
+    "Vehicle": 0.0191,
+    "Female speech, woman speaking": 0.0183,
+    "Animal": 0.0174,
+    "Tick-tock": 0.0146,
+    "Conversation": 0.0135,
+    "Tick": 0.0135,
+    "Spray": 0.0119,
+    "Musical instrument": 0.0118
+   }
+  },
+  {
+   "inicio": 285.0,
+   "fim": 287.0,
+   "rotulos": {
+    "Speech synthesizer": 0.748,
+    "Speech": 0.5438,
+    "Narration, monologue": 0.062,
+    "Male speech, man speaking": 0.0286,
+    "Music": 0.0182,
+    "Sidetone": 0.014,
+    "Inside, small room": 0.0132,
+    "Conversation": 0.0123
+   }
+  },
+  {
+   "inicio": 286.0,
+   "fim": 288.0,
+   "rotulos": {
+    "Speech": 0.7455,
+    "Speech synthesizer": 0.5903,
+    "Narration, monologue": 0.0884,
+    "Male speech, man speaking": 0.0465,
+    "Music": 0.0231,
+    "Inside, small room": 0.0131
+   }
+  },
+  {
+   "inicio": 287.0,
+   "fim": 289.0,
+   "rotulos": {
+    "Speech": 0.7458,
+    "Speech synthesizer": 0.317,
+    "Narration, monologue": 0.0933,
+    "Male speech, man speaking": 0.0491,
+    "Music": 0.0389,
+    "Inside, small room": 0.022,
+    "Female speech, woman speaking": 0.0181,
+    "Conversation": 0.0141,
+    "Animal": 0.0134,
+    "Vehicle": 0.0125,
+    "Tick": 0.0116,
+    "Tick-tock": 0.011,
+    "Silence": 0.011
+   }
+  },
+  {
+   "inicio": 288.0,
+   "fim": 290.0,
+   "rotulos": {
+    "Speech": 0.8019,
+    "Speech synthesizer": 0.1424,
+    "Narration, monologue": 0.0798,
+    "Male speech, man speaking": 0.0459,
+    "Music": 0.0404,
+    "Inside, small room": 0.0289,
+    "Female speech, woman speaking": 0.0148,
+    "Vehicle": 0.0131,
+    "Conversation": 0.0115,
+    "Musical instrument": 0.0111,
+    "Animal": 0.0103
+   }
+  },
+  {
+   "inicio": 289.0,
+   "fim": 291.0,
+   "rotulos": {
+    "Speech": 0.8814,
+    "Speech synthesizer": 0.0894,
+    "Music": 0.0554,
+    "Male speech, man speaking": 0.032,
+    "Narration, monologue": 0.0273,
+    "Tick-tock": 0.0205,
+    "Inside, small room": 0.0192,
+    "Vehicle": 0.0188,
+    "Tick": 0.0157,
+    "Animal": 0.0138,
+    "Bird": 0.013,
+    "Bicycle bell": 0.0119,
+    "Musical instrument": 0.0119,
+    "Outside, urban or manmade": 0.0103
+   }
+  },
+  {
+   "inicio": 290.0,
+   "fim": 292.0,
+   "rotulos": {
+    "Speech": 0.4248,
+    "Music": 0.1212,
+    "Vehicle": 0.0377,
+    "Silence": 0.0356,
+    "Animal": 0.0228,
+    "Inside, small room": 0.0189,
+    "Tick": 0.0176,
+    "Tick-tock": 0.0175,
+    "Speech synthesizer": 0.0153,
+    "Musical instrument": 0.0148,
+    "Static": 0.0129,
+    "White noise": 0.0128,
+    "Female speech, woman speaking": 0.0118,
+    "Bird": 0.0115,
+    "Domestic animals, pets": 0.0103
+   }
+  },
+  {
+   "inicio": 291.0,
+   "fim": 293.0,
+   "rotulos": {
+    "Speech": 0.6785,
+    "Speech synthesizer": 0.0898,
+    "Male speech, man speaking": 0.051,
+    "Narration, monologue": 0.048,
+    "Music": 0.0391,
+    "Vehicle": 0.0318,
+    "Animal": 0.023,
+    "Silence": 0.0219,
+    "Inside, small room": 0.0165,
+    "Outside, urban or manmade": 0.0147,
+    "Radio": 0.0132,
+    "Outside, rural or natural": 0.0129,
+    "Conversation": 0.0102
+   }
+  },
+  {
+   "inicio": 292.0,
+   "fim": 294.0,
+   "rotulos": {
+    "Speech": 0.8557,
+    "Music": 0.0889,
+    "Vehicle": 0.0435,
+    "Male speech, man speaking": 0.0314,
+    "Speech synthesizer": 0.0257,
+    "Narration, monologue": 0.0216,
+    "Outside, urban or manmade": 0.0211,
+    "Silence": 0.0204,
+    "Animal": 0.019,
+    "Bird": 0.0172,
+    "Inside, small room": 0.0149,
+    "Tick-tock": 0.0129,
+    "Outside, rural or natural": 0.0128,
+    "Musical instrument": 0.0125,
+    "Car": 0.0112,
+    "Female speech, woman speaking": 0.0102
+   }
+  },
+  {
+   "inicio": 293.0,
+   "fim": 295.0,
+   "rotulos": {
+    "Speech": 0.7702,
+    "Speech synthesizer": 0.0703,
+    "Narration, monologue": 0.0669,
+    "Male speech, man speaking": 0.0601,
+    "Music": 0.0547,
+    "Inside, small room": 0.0345,
+    "Vehicle": 0.0228,
+    "Animal": 0.0217,
+    "Outside, urban or manmade": 0.0152,
+    "Musical instrument": 0.0134,
+    "Silence": 0.0115,
+    "Outside, rural or natural": 0.0104
+   }
+  },
+  {
+   "inicio": 294.0,
+   "fim": 296.0,
+   "rotulos": {
+    "Speech": 0.8483,
+    "Speech synthesizer": 0.0873,
+    "Music": 0.0571,
+    "Male speech, man speaking": 0.0468,
+    "Narration, monologue": 0.0326,
+    "Vehicle": 0.0264,
+    "Animal": 0.0181,
+    "Outside, urban or manmade": 0.0178,
+    "Tick-tock": 0.0157,
+    "Tick": 0.0129,
+    "Inside, small room": 0.0128,
+    "Bicycle bell": 0.0126,
+    "Bird": 0.0106
+   }
+  },
+  {
+   "inicio": 295.0,
+   "fim": 297.0,
+   "rotulos": {
+    "Speech": 0.8086,
+    "Speech synthesizer": 0.0835,
+    "Music": 0.0708,
+    "Vehicle": 0.0364,
+    "Male speech, man speaking": 0.0286,
+    "Narration, monologue": 0.0275,
+    "Silence": 0.0244,
+    "Tick-tock": 0.0211,
+    "Animal": 0.0208,
+    "Tick": 0.0178,
+    "Inside, small room": 0.0165,
+    "Outside, urban or manmade": 0.0158,
+    "Spray": 0.0138,
+    "Bicycle bell": 0.0135,
+    "Bird": 0.013,
+    "Female speech, woman speaking": 0.0108,
+    "Musical instrument": 0.0104
+   }
+  },
+  {
+   "inicio": 296.0,
+   "fim": 298.0,
+   "rotulos": {
+    "Speech": 0.6897,
+    "Speech synthesizer": 0.2525,
+    "Narration, monologue": 0.0665,
+    "Male speech, man speaking": 0.0504,
+    "Music": 0.0379,
+    "Silence": 0.0262,
+    "Inside, small room": 0.0244,
+    "Vehicle": 0.0202,
+    "Animal": 0.0188,
+    "Female speech, woman speaking": 0.0146,
+    "Conversation": 0.0119
+   }
+  },
+  {
+   "inicio": 297.0,
+   "fim": 299.0,
+   "rotulos": {
+    "Speech": 0.84,
+    "Speech synthesizer": 0.1426,
+    "Narration, monologue": 0.0658,
+    "Male speech, man speaking": 0.0607,
+    "Music": 0.0412,
+    "Inside, small room": 0.0187,
+    "Tick-tock": 0.0172,
+    "Vehicle": 0.0155,
+    "Tick": 0.0151,
+    "Musical instrument": 0.0112,
+    "Animal": 0.0111,
+    "Outside, urban or manmade": 0.0103
+   }
+  },
+  {
+   "inicio": 298.0,
+   "fim": 300.0,
+   "rotulos": {
+    "Speech": 0.8279,
+    "Speech synthesizer": 0.1311,
+    "Music": 0.0802,
+    "Narration, monologue": 0.0386,
+    "Male speech, man speaking": 0.0293,
+    "Silence": 0.0269,
+    "Vehicle": 0.0241,
+    "Inside, small room": 0.0213,
+    "Tick-tock": 0.0209,
+    "Animal": 0.0205,
+    "Female speech, woman speaking": 0.0163,
+    "Tick": 0.0162,
+    "Spray": 0.0158,
+    "Bird": 0.0144,
+    "Outside, urban or manmade": 0.0112,
+    "Musical instrument": 0.0101
+   }
+  },
+  {
+   "inicio": 299.0,
+   "fim": 301.0,
+   "rotulos": {
+    "Speech": 0.664,
+    "Speech synthesizer": 0.3874,
+    "Narration, monologue": 0.0957,
+    "Male speech, man speaking": 0.0447,
+    "Inside, small room": 0.037,
+    "Music": 0.0268,
+    "Silence": 0.0259,
+    "Clicking": 0.0189,
+    "Conversation": 0.0116,
+    "Female speech, woman speaking": 0.0105,
+    "Animal": 0.0102,
+    "Vehicle": 0.01
+   }
+  },
+  {
+   "inicio": 300.0,
+   "fim": 302.0,
+   "rotulos": {
+    "Speech": 0.7843,
+    "Speech synthesizer": 0.3378,
+    "Narration, monologue": 0.1043,
+    "Male speech, man speaking": 0.0679,
+    "Music": 0.0287,
+    "Inside, small room": 0.0182,
+    "Animal": 0.0107
+   }
+  },
+  {
+   "inicio": 301.0,
+   "fim": 303.0,
+   "rotulos": {
+    "Speech": 0.8545,
+    "Speech synthesizer": 0.1156,
+    "Music": 0.0463,
+    "Male speech, man speaking": 0.0445,
+    "Narration, monologue": 0.0359,
+    "Vehicle": 0.0231,
+    "Outside, urban or manmade": 0.0146,
+    "Inside, small room": 0.0141,
+    "Animal": 0.0137,
+    "Tick-tock": 0.013,
+    "Tick": 0.0108
+   }
+  },
+  {
+   "inicio": 302.0,
+   "fim": 304.0,
+   "rotulos": {
+    "Speech": 0.7424,
+    "Music": 0.0781,
+    "Speech synthesizer": 0.0743,
+    "Silence": 0.0382,
+    "Vehicle": 0.0342,
+    "Male speech, man speaking": 0.0257,
+    "Narration, monologue": 0.0236,
+    "Animal": 0.0224,
+    "Tick-tock": 0.0197,
+    "Inside, small room": 0.0189,
+    "Tick": 0.0171,
+    "Outside, urban or manmade": 0.0144,
+    "Female speech, woman speaking": 0.0141,
+    "Bird": 0.0129,
+    "Spray": 0.0119,
+    "Musical instrument": 0.0105,
+    "Single-lens reflex camera": 0.0103
+   }
+  },
+  {
+   "inicio": 303.0,
+   "fim": 305.0,
+   "rotulos": {
+    "Speech": 0.7679,
+    "Speech synthesizer": 0.0947,
+    "Male speech, man speaking": 0.073,
+    "Narration, monologue": 0.0581,
+    "Music": 0.0457,
+    "Vehicle": 0.0256,
+    "Silence": 0.0198,
+    "Inside, small room": 0.0194,
+    "Animal": 0.0169,
+    "Outside, urban or manmade": 0.0161,
+    "Outside, rural or natural": 0.0103
+   }
+  },
+  {
+   "inicio": 304.0,
+   "fim": 306.0,
+   "rotulos": {
+    "Speech": 0.838,
+    "Speech synthesizer": 0.115,
+    "Male speech, man speaking": 0.0699,
+    "Narration, monologue": 0.0645,
+    "Music": 0.0471,
+    "Vehicle": 0.0165,
+    "Animal": 0.015,
+    "Inside, small room": 0.0129,
+    "Tick-tock": 0.0126,
+    "Conversation": 0.0118,
+    "Female speech, woman speaking": 0.0114,
+    "Tick": 0.0114,
+    "Radio": 0.0106
+   }
+  },
+  {
+   "inicio": 305.0,
+   "fim": 307.0,
+   "rotulos": {
+    "Speech": 0.7849,
+    "Speech synthesizer": 0.1799,
+    "Narration, monologue": 0.103,
+    "Male speech, man speaking": 0.0813,
+    "Music": 0.0417,
+    "Female speech, woman speaking": 0.0241,
+    "Conversation": 0.0195,
+    "Vehicle": 0.0186,
+    "Inside, small room": 0.0164,
+    "Animal": 0.0163,
+    "Silence": 0.0101
+   }
+  },
+  {
+   "inicio": 306.0,
+   "fim": 308.0,
+   "rotulos": {
+    "Speech": 0.7368,
+    "Speech synthesizer": 0.2614,
+    "Narration, monologue": 0.0696,
+    "Male speech, man speaking": 0.0686,
+    "Music": 0.0334,
+    "Inside, small room": 0.0163,
+    "Animal": 0.0154,
+    "Vehicle": 0.0149,
+    "Conversation": 0.0139,
+    "Radio": 0.0101
+   }
+  },
+  {
+   "inicio": 307.0,
+   "fim": 309.0,
+   "rotulos": {
+    "Speech": 0.7802,
+    "Music": 0.0857,
+    "Speech synthesizer": 0.0736,
+    "Narration, monologue": 0.0345,
+    "Silence": 0.0328,
+    "Male speech, man speaking": 0.0297,
+    "Female speech, woman speaking": 0.0267,
+    "Vehicle": 0.0254,
+    "Tick-tock": 0.0229,
+    "Animal": 0.0209,
+    "Tick": 0.0197,
+    "Inside, small room": 0.0193,
+    "Spray": 0.0164,
+    "Outside, urban or manmade": 0.0127,
+    "Bird": 0.0114,
+    "Musical instrument": 0.0113,
+    "Conversation": 0.0101
+   }
+  },
+  {
+   "inicio": 308.0,
+   "fim": 310.0,
+   "rotulos": {
+    "Speech": 0.6253,
+    "Music": 0.0911,
+    "Silence": 0.0477,
+    "Speech synthesizer": 0.0414,
+    "Inside, small room": 0.0256,
+    "Vehicle": 0.0251,
+    "Animal": 0.024,
+    "Narration, monologue": 0.0233,
+    "Male speech, man speaking": 0.0225,
+    "Female speech, woman speaking": 0.0181,
+    "Tick-tock": 0.0167,
+    "Tick": 0.0154,
+    "Musical instrument": 0.0116
+   }
+  },
+  {
+   "inicio": 309.0,
+   "fim": 311.0,
+   "rotulos": {
+    "Speech": 0.617,
+    "Speech synthesizer": 0.2871,
+    "Narration, monologue": 0.0635,
+    "Music": 0.0396,
+    "Male speech, man speaking": 0.0388,
+    "Silence": 0.0365,
+    "Inside, small room": 0.0229,
+    "Animal": 0.0134,
+    "Vehicle": 0.0133
+   }
+  },
+  {
+   "inicio": 310.0,
+   "fim": 312.0,
+   "rotulos": {
+    "Speech": 0.7276,
+    "Speech synthesizer": 0.2827,
+    "Narration, monologue": 0.0711,
+    "Male speech, man speaking": 0.0527,
+    "Music": 0.0306,
+    "Inside, small room": 0.0233,
+    "Vehicle": 0.0115,
+    "Animal": 0.0114
+   }
+  },
+  {
+   "inicio": 311.0,
+   "fim": 313.0,
+   "rotulos": {
+    "Speech": 0.8027,
+    "Speech synthesizer": 0.0787,
+    "Music": 0.0693,
+    "Narration, monologue": 0.058,
+    "Male speech, man speaking": 0.0385,
+    "Silence": 0.0293,
+    "Inside, small room": 0.0264,
+    "Female speech, woman speaking": 0.0263,
+    "Tick-tock": 0.0207,
+    "Vehicle": 0.0194,
+    "Animal": 0.019,
+    "Tick": 0.0176,
+    "Conversation": 0.0142,
+    "Spray": 0.0135,
+    "Musical instrument": 0.0119
+   }
+  },
+  {
+   "inicio": 312.0,
+   "fim": 314.0,
+   "rotulos": {
+    "Speech": 0.7079,
+    "Speech synthesizer": 0.2117,
+    "Narration, monologue": 0.0768,
+    "Male speech, man speaking": 0.0469,
+    "Music": 0.0408,
+    "Inside, small room": 0.0366,
+    "Silence": 0.0224,
+    "Female speech, woman speaking": 0.0179,
+    "Animal": 0.0167,
+    "Vehicle": 0.0141,
+    "Conversation": 0.0137,
+    "Musical instrument": 0.0107
+   }
+  },
+  {
+   "inicio": 313.0,
+   "fim": 315.0,
+   "rotulos": {
+    "Speech": 0.7994,
+    "Speech synthesizer": 0.1755,
+    "Music": 0.0505,
+    "Narration, monologue": 0.0462,
+    "Male speech, man speaking": 0.044,
+    "Animal": 0.0172,
+    "Vehicle": 0.0157,
+    "Tick-tock": 0.0146,
+    "Inside, small room": 0.014,
+    "Silence": 0.0128,
+    "Tick": 0.0125,
+    "Bird": 0.0122,
+    "Spray": 0.0116,
+    "Female speech, woman speaking": 0.0109,
+    "Musical instrument": 0.0106
+   }
+  },
+  {
+   "inicio": 314.0,
+   "fim": 316.0,
+   "rotulos": {
+    "Speech": 0.701,
+    "Speech synthesizer": 0.2663,
+    "Narration, monologue": 0.1378,
+    "Male speech, man speaking": 0.0657,
+    "Music": 0.0426,
+    "Inside, small room": 0.0298,
+    "Silence": 0.0234,
+    "Female speech, woman speaking": 0.022,
+    "Conversation": 0.0192,
+    "Clicking": 0.0137,
+    "Animal": 0.0124,
+    "Vehicle": 0.0116,
+    "Writing": 0.0114
+   }
+  },
+  {
+   "inicio": 315.0,
+   "fim": 317.0,
+   "rotulos": {
+    "Speech": 0.796,
+    "Speech synthesizer": 0.2882,
+    "Narration, monologue": 0.1023,
+    "Male speech, man speaking": 0.0536,
+    "Music": 0.0328,
+    "Inside, small room": 0.0209,
+    "Female speech, woman speaking": 0.0144,
+    "Tick": 0.0126,
+    "Conversation": 0.0125,
+    "Tick-tock": 0.0121
+   }
+  },
+  {
+   "inicio": 316.0,
+   "fim": 318.0,
+   "rotulos": {
+    "Speech": 0.7888,
+    "Speech synthesizer": 0.1813,
+    "Narration, monologue": 0.0807,
+    "Male speech, man speaking": 0.0524,
+    "Music": 0.0418,
+    "Inside, small room": 0.028,
+    "Animal": 0.0147,
+    "Vehicle": 0.013,
+    "Tick-tock": 0.0119,
+    "Musical instrument": 0.0109,
+    "Tick": 0.0109,
+    "Female speech, woman speaking": 0.0108
+   }
+  },
+  {
+   "inicio": 317.0,
+   "fim": 319.0,
+   "rotulos": {
+    "Speech": 0.7895,
+    "Speech synthesizer": 0.1993,
+    "Narration, monologue": 0.0787,
+    "Male speech, man speaking": 0.0508,
+    "Music": 0.033,
+    "Inside, small room": 0.0211,
+    "Animal": 0.0103,
+    "Vehicle": 0.0103,
+    "Musical instrument": 0.0101,
+    "Conversation": 0.01
+   }
+  },
+  {
+   "inicio": 318.0,
+   "fim": 320.0,
+   "rotulos": {
+    "Speech": 0.7677,
+    "Speech synthesizer": 0.3579,
+    "Narration, monologue": 0.0608,
+    "Male speech, man speaking": 0.0467,
+    "Music": 0.0337,
+    "Animal": 0.0145,
+    "Tick-tock": 0.0115,
+    "Tick": 0.0107,
+    "Vehicle": 0.0103,
+    "Conversation": 0.01,
+    "Inside, small room": 0.01
+   }
+  },
+  {
+   "inicio": 319.0,
+   "fim": 321.0,
+   "rotulos": {
+    "Speech": 0.7202,
+    "Music": 0.0915,
+    "Silence": 0.0428,
+    "Speech synthesizer": 0.0404,
+    "Vehicle": 0.0351,
+    "Inside, small room": 0.0231,
+    "Tick-tock": 0.0209,
+    "Animal": 0.0186,
+    "Tick": 0.0183,
+    "Outside, urban or manmade": 0.0131,
+    "Musical instrument": 0.0127,
+    "Male speech, man speaking": 0.0119,
+    "Bird": 0.0111,
+    "Female speech, woman speaking": 0.0107,
+    "Narration, monologue": 0.0104,
+    "Bell": 0.0103,
+    "White noise": 0.01
+   }
+  },
+  {
+   "inicio": 320.0,
+   "fim": 322.0,
+   "rotulos": {
+    "Speech": 0.7733,
+    "Speech synthesizer": 0.2193,
+    "Narration, monologue": 0.0793,
+    "Male speech, man speaking": 0.0579,
+    "Music": 0.0483,
+    "Silence": 0.0257,
+    "Animal": 0.0227,
+    "Female speech, woman speaking": 0.021,
+    "Vehicle": 0.019,
+    "Conversation": 0.0185,
+    "Inside, small room": 0.0178,
+    "Tick-tock": 0.014,
+    "Spray": 0.0128,
+    "Tick": 0.0128
+   }
+  },
+  {
+   "inicio": 321.0,
+   "fim": 323.0,
+   "rotulos": {
+    "Speech": 0.6442,
+    "Speech synthesizer": 0.0796,
+    "Silence": 0.0744,
+    "Music": 0.0737,
+    "Vehicle": 0.0306,
+    "Inside, small room": 0.0251,
+    "Narration, monologue": 0.0244,
+    "Male speech, man speaking": 0.0206,
+    "Animal": 0.0203,
+    "Outside, urban or manmade": 0.0135,
+    "Musical instrument": 0.0125,
+    "Female speech, woman speaking": 0.0108,
+    "Gasp": 0.0101
+   }
+  },
+  {
+   "inicio": 322.0,
+   "fim": 324.0,
+   "rotulos": {
+    "Speech": 0.7066,
+    "Speech synthesizer": 0.3096,
+    "Narration, monologue": 0.0793,
+    "Male speech, man speaking": 0.0601,
+    "Music": 0.033,
+    "Animal": 0.023,
+    "Inside, small room": 0.0184,
+    "Conversation": 0.0159,
+    "Vehicle": 0.0156,
+    "Female speech, woman speaking": 0.012,
+    "Radio": 0.0117
+   }
+  },
+  {
+   "inicio": 323.0,
+   "fim": 325.0,
+   "rotulos": {
+    "Speech": 0.8078,
+    "Speech synthesizer": 0.1421,
+    "Music": 0.067,
+    "Narration, monologue": 0.053,
+    "Male speech, man speaking": 0.0373,
+    "Tick-tock": 0.0269,
+    "Inside, small room": 0.022,
+    "Tick": 0.0217,
+    "Female speech, woman speaking": 0.0217,
+    "Animal": 0.0181,
+    "Vehicle": 0.0176,
+    "Silence": 0.0172,
+    "Spray": 0.0156,
+    "Musical instrument": 0.0134,
+    "Bird": 0.0109,
+    "Conversation": 0.0104
+   }
+  },
+  {
+   "inicio": 324.0,
+   "fim": 326.0,
+   "rotulos": {
+    "Speech": 0.6952,
+    "Speech synthesizer": 0.1409,
+    "Narration, monologue": 0.0656,
+    "Inside, small room": 0.0406,
+    "Music": 0.0388,
+    "Male speech, man speaking": 0.0372,
+    "Vehicle": 0.0167,
+    "Female speech, woman speaking": 0.0145,
+    "Conversation": 0.0141,
+    "Animal": 0.0133,
+    "Silence": 0.0129
+   }
+  },
+  {
+   "inicio": 325.0,
+   "fim": 327.0,
+   "rotulos": {
+    "Speech": 0.8419,
+    "Speech synthesizer": 0.1301,
+    "Male speech, man speaking": 0.1242,
+    "Narration, monologue": 0.1009,
+    "Music": 0.0379,
+    "Vehicle": 0.0238,
+    "Animal": 0.0186,
+    "Conversation": 0.0186,
+    "Outside, urban or manmade": 0.0144,
+    "Inside, small room": 0.0141,
+    "Radio": 0.0122,
+    "Female speech, woman speaking": 0.0102
+   }
+  },
+  {
+   "inicio": 326.0,
+   "fim": 328.0,
+   "rotulos": {
+    "Speech": 0.8471,
+    "Music": 0.094,
+    "Vehicle": 0.0442,
+    "Male speech, man speaking": 0.0441,
+    "Outside, urban or manmade": 0.0269,
+    "Narration, monologue": 0.0265,
+    "Animal": 0.0251,
+    "Speech synthesizer": 0.0203,
+    "Silence": 0.0191,
+    "Inside, small room": 0.0158,
+    "Bird": 0.0152,
+    "Musical instrument": 0.0149,
+    "Outside, rural or natural": 0.0131,
+    "Car": 0.0128,
+    "Slap, smack": 0.0102,
+    "Boat, Water vehicle": 0.0101
+   }
+  },
+  {
+   "inicio": 327.0,
+   "fim": 329.0,
+   "rotulos": {
+    "Speech": 0.7426,
+    "Speech synthesizer": 0.4261,
+    "Narration, monologue": 0.1066,
+    "Male speech, man speaking": 0.0548,
+    "Music": 0.0316,
+    "Inside, small room": 0.028,
+    "Conversation": 0.0124,
+    "Musical instrument": 0.0103
+   }
+  },
+  {
+   "inicio": 328.0,
+   "fim": 330.0,
+   "rotulos": {
+    "Speech": 0.79,
+    "Speech synthesizer": 0.3372,
+    "Narration, monologue": 0.0753,
+    "Male speech, man speaking": 0.0559,
+    "Music": 0.0409,
+    "Animal": 0.0139,
+    "Vehicle": 0.0122,
+    "Inside, small room": 0.0121,
+    "Tick": 0.011,
+    "Tick-tock": 0.0108
+   }
+  },
+  {
+   "inicio": 329.0,
+   "fim": 331.0,
+   "rotulos": {
+    "Speech": 0.8068,
+    "Music": 0.0756,
+    "Speech synthesizer": 0.0749,
+    "Vehicle": 0.0336,
+    "Male speech, man speaking": 0.0267,
+    "Narration, monologue": 0.0254,
+    "Animal": 0.0249,
+    "Tick-tock": 0.0234,
+    "Silence": 0.022,
+    "Tick": 0.0193,
+    "Inside, small room": 0.0164,
+    "Female speech, woman speaking": 0.016,
+    "Spray": 0.0141,
+    "Bird": 0.0141,
+    "Outside, urban or manmade": 0.0141,
+    "Bicycle bell": 0.0113
+   }
+  },
+  {
+   "inicio": 330.0,
+   "fim": 332.0,
+   "rotulos": {
+    "Speech": 0.7692,
+    "Speech synthesizer": 0.1465,
+    "Narration, monologue": 0.0686,
+    "Male speech, man speaking": 0.0656,
+    "Music": 0.0379,
+    "Inside, small room": 0.0223,
+    "Vehicle": 0.0221,
+    "Animal": 0.0207,
+    "Outside, urban or manmade": 0.0167,
+    "Silence": 0.012,
+    "Bird": 0.0109,
+    "Outside, rural or natural": 0.0105,
+    "Musical instrument": 0.01
+   }
+  },
+  {
+   "inicio": 331.0,
+   "fim": 333.0,
+   "rotulos": {
+    "Speech": 0.841,
+    "Music": 0.0684,
+    "Speech synthesizer": 0.058,
+    "Male speech, man speaking": 0.0548,
+    "Narration, monologue": 0.0455,
+    "Vehicle": 0.0333,
+    "Outside, urban or manmade": 0.025,
+    "Inside, small room": 0.021,
+    "Silence": 0.0209,
+    "Animal": 0.0178,
+    "Tick-tock": 0.0139,
+    "Musical instrument": 0.0133,
+    "Bird": 0.0125,
+    "Outside, rural or natural": 0.0123,
+    "Tick": 0.0123,
+    "Spray": 0.012,
+    "Female speech, woman speaking": 0.0111
+   }
+  },
+  {
+   "inicio": 332.0,
+   "fim": 334.0,
+   "rotulos": {
+    "Speech": 0.6837,
+    "Speech synthesizer": 0.4056,
+    "Narration, monologue": 0.1067,
+    "Male speech, man speaking": 0.0768,
+    "Music": 0.0363,
+    "Inside, small room": 0.0188,
+    "Animal": 0.0163,
+    "Vehicle": 0.0133,
+    "Conversation": 0.0126
+   }
+  },
+  {
+   "inicio": 333.0,
+   "fim": 335.0,
+   "rotulos": {
+    "Speech": 0.8044,
+    "Speech synthesizer": 0.2932,
+    "Narration, monologue": 0.1117,
+    "Male speech, man speaking": 0.0949,
+    "Music": 0.0327,
+    "Inside, small room": 0.0183,
+    "Animal": 0.0159,
+    "Vehicle": 0.0118,
+    "Bird": 0.011,
+    "Conversation": 0.0109
+   }
+  },
+  {
+   "inicio": 334.0,
+   "fim": 336.0,
+   "rotulos": {
+    "Speech": 0.8206,
+    "Speech synthesizer": 0.0743,
+    "Music": 0.0717,
+    "Male speech, man speaking": 0.0486,
+    "Narration, monologue": 0.0448,
+    "Tick-tock": 0.0331,
+    "Inside, small room": 0.0246,
+    "Silence": 0.0239,
+    "Tick": 0.0236,
+    "Spray": 0.0204,
+    "Vehicle": 0.0203,
+    "Animal": 0.0171,
+    "Musical instrument": 0.0129,
+    "Outside, urban or manmade": 0.0123,
+    "Female speech, woman speaking": 0.012
+   }
+  },
+  {
+   "inicio": 335.0,
+   "fim": 337.0,
+   "rotulos": {
+    "Speech": 0.7789,
+    "Speech synthesizer": 0.2007,
+    "Narration, monologue": 0.0978,
+    "Male speech, man speaking": 0.0771,
+    "Music": 0.0418,
+    "Inside, small room": 0.0238,
+    "Vehicle": 0.0159,
+    "Outside, urban or manmade": 0.0136,
+    "Animal": 0.0136,
+    "Musical instrument": 0.0118
+   }
+  },
+  {
+   "inicio": 336.0,
+   "fim": 338.0,
+   "rotulos": {
+    "Speech": 0.7957,
+    "Speech synthesizer": 0.163,
+    "Male speech, man speaking": 0.052,
+    "Music": 0.0448,
+    "Narration, monologue": 0.04,
+    "Animal": 0.022,
+    "Vehicle": 0.0203,
+    "Inside, small room": 0.0162,
+    "Outside, urban or manmade": 0.0138,
+    "Bird": 0.0133,
+    "Tick-tock": 0.0119,
+    "Silence": 0.0112,
+    "Female speech, woman speaking": 0.0111,
+    "Tick": 0.0108,
+    "Conversation": 0.0103
+   }
+  },
+  {
+   "inicio": 337.0,
+   "fim": 339.0,
+   "rotulos": {
+    "Speech": 0.7844,
+    "Speech synthesizer": 0.3244,
+    "Narration, monologue": 0.0964,
+    "Male speech, man speaking": 0.058,
+    "Music": 0.0334,
+    "Female speech, woman speaking": 0.0284,
+    "Conversation": 0.0272,
+    "Inside, small room": 0.0183,
+    "Animal": 0.0136,
+    "Vehicle": 0.0118
+   }
+  },
+  {
+   "inicio": 338.0,
+   "fim": 340.0,
+   "rotulos": {
+    "Speech": 0.6692,
+    "Speech synthesizer": 0.55,
+    "Narration, monologue": 0.0733,
+    "Male speech, man speaking": 0.0347,
+    "Music": 0.0258,
+    "Inside, small room": 0.0239,
+    "Clicking": 0.0219,
+    "Animal": 0.0139,
+    "Tick": 0.0113
+   }
+  },
+  {
+   "inicio": 339.0,
+   "fim": 341.0,
+   "rotulos": {
+    "Speech": 0.8022,
+    "Speech synthesizer": 0.2887,
+    "Narration, monologue": 0.0683,
+    "Music": 0.0431,
+    "Male speech, man speaking": 0.0407,
+    "Inside, small room": 0.0314,
+    "Tick": 0.0175,
+    "Animal": 0.0157,
+    "Tick-tock": 0.0151,
+    "Clicking": 0.0137,
+    "Vehicle": 0.0125,
+    "Musical instrument": 0.0122
+   }
+  },
+  {
+   "inicio": 340.0,
+   "fim": 342.0,
+   "rotulos": {
+    "Speech": 0.82,
+    "Speech synthesizer": 0.1138,
+    "Music": 0.0571,
+    "Male speech, man speaking": 0.029,
+    "Tick-tock": 0.0283,
+    "Narration, monologue": 0.0261,
+    "Tick": 0.0248,
+    "Vehicle": 0.0238,
+    "Inside, small room": 0.0204,
+    "Animal": 0.0188,
+    "Silence": 0.0158,
+    "Outside, urban or manmade": 0.0124,
+    "Bird": 0.0121,
+    "Bicycle bell": 0.0119
+   }
+  },
+  {
+   "inicio": 341.0,
+   "fim": 343.0,
+   "rotulos": {
+    "Speech": 0.6745,
+    "Music": 0.0906,
+    "Silence": 0.0452,
+    "Speech synthesizer": 0.04,
+    "Vehicle": 0.0365,
+    "Animal": 0.0207,
+    "Tick-tock": 0.0199,
+    "Inside, small room": 0.0197,
+    "Tick": 0.0195,
+    "Male speech, man speaking": 0.0141,
+    "Female speech, woman speaking": 0.0136,
+    "Outside, urban or manmade": 0.0121,
+    "White noise": 0.0111,
+    "Narration, monologue": 0.0111,
+    "Musical instrument": 0.011,
+    "Bird": 0.0109,
+    "Single-lens reflex camera": 0.0101
+   }
+  },
+  {
+   "inicio": 342.0,
+   "fim": 344.0,
+   "rotulos": {
+    "Speech": 0.7637,
+    "Speech synthesizer": 0.2667,
+    "Narration, monologue": 0.0657,
+    "Male speech, man speaking": 0.0537,
+    "Music": 0.0404,
+    "Vehicle": 0.022,
+    "Animal": 0.0211,
+    "Silence": 0.0195,
+    "Inside, small room": 0.0154,
+    "Outside, urban or manmade": 0.0153,
+    "Tick": 0.0118,
+    "Outside, rural or natural": 0.0118,
+    "Tick-tock": 0.0106
+   }
+  },
+  {
+   "inicio": 343.0,
+   "fim": 345.0,
+   "rotulos": {
+    "Speech": 0.8346,
+    "Music": 0.0735,
+    "Speech synthesizer": 0.0605,
+    "Male speech, man speaking": 0.0447,
+    "Vehicle": 0.0438,
+    "Animal": 0.0263,
+    "Outside, urban or manmade": 0.0221,
+    "Narration, monologue": 0.0216,
+    "Tick-tock": 0.0196,
+    "Bird": 0.0182,
+    "Bicycle bell": 0.0167,
+    "Tick": 0.0149,
+    "Silence": 0.0144,
+    "Spray": 0.0133,
+    "Outside, rural or natural": 0.0121,
+    "Rustling leaves": 0.0111,
+    "Car": 0.0111,
+    "Musical instrument": 0.0102
+   }
+  },
+  {
+   "inicio": 344.0,
+   "fim": 346.0,
+   "rotulos": {
+    "Speech": 0.7394,
+    "Speech synthesizer": 0.1054,
+    "Narration, monologue": 0.105,
+    "Male speech, man speaking": 0.0824,
+    "Music": 0.0458,
+    "Inside, small room": 0.0284,
+    "Vehicle": 0.0213,
+    "Conversation": 0.0213,
+    "Female speech, woman speaking": 0.0179,
+    "Animal": 0.0165,
+    "Outside, urban or manmade": 0.0121,
+    "Radio": 0.0104
+   }
+  },
+  {
+   "inicio": 345.0,
+   "fim": 347.0,
+   "rotulos": {
+    "Speech": 0.8538,
+    "Speech synthesizer": 0.0848,
+    "Music": 0.0682,
+    "Male speech, man speaking": 0.0437,
+    "Narration, monologue": 0.0421,
+    "Vehicle": 0.0306,
+    "Animal": 0.0197,
+    "Female speech, woman speaking": 0.0188,
+    "Outside, urban or manmade": 0.0182,
+    "Tick-tock": 0.0177,
+    "Inside, small room": 0.0172,
+    "Silence": 0.0168,
+    "Tick": 0.0155,
+    "Bird": 0.014,
+    "Spray": 0.0128,
+    "Conversation": 0.0118
+   }
+  },
+  {
+   "inicio": 346.0,
+   "fim": 348.0,
+   "rotulos": {
+    "Speech": 0.8052,
+    "Speech synthesizer": 0.0788,
+    "Male speech, man speaking": 0.0684,
+    "Music": 0.0674,
+    "Narration, monologue": 0.0601,
+    "Silence": 0.0272,
+    "Vehicle": 0.0244,
+    "Inside, small room": 0.024,
+    "Tick-tock": 0.0183,
+    "Animal": 0.018,
+    "Outside, urban or manmade": 0.0173,
+    "Female speech, woman speaking": 0.0144,
+    "Tick": 0.0142,
+    "Musical instrument": 0.0117,
+    "Spray": 0.0112,
+    "Conversation": 0.0106
+   }
+  },
+  {
+   "inicio": 347.0,
+   "fim": 349.0,
+   "rotulos": {
+    "Speech": 0.8514,
+    "Speech synthesizer": 0.1652,
+    "Narration, monologue": 0.0846,
+    "Male speech, man speaking": 0.0647,
+    "Music": 0.0407,
+    "Inside, small room": 0.0194,
+    "Tick-tock": 0.0159,
+    "Tick": 0.0141,
+    "Conversation": 0.0131,
+    "Zipper (clothing)": 0.0119,
+    "Female speech, woman speaking": 0.0112,
+    "Spray": 0.011
+   }
+  },
+  {
+   "inicio": 348.0,
+   "fim": 350.0,
+   "rotulos": {
+    "Speech": 0.7312,
+    "Speech synthesizer": 0.3118,
+    "Narration, monologue": 0.0746,
+    "Male speech, man speaking": 0.0554,
+    "Music": 0.0395,
+    "Inside, small room": 0.0209,
+    "Animal": 0.0188,
+    "Vehicle": 0.0159,
+    "Silence": 0.0123,
+    "Outside, urban or manmade": 0.01
+   }
+  },
+  {
+   "inicio": 349.0,
+   "fim": 351.0,
+   "rotulos": {
+    "Speech": 0.7976,
+    "Speech synthesizer": 0.099,
+    "Music": 0.061,
+    "Male speech, man speaking": 0.0547,
+    "Narration, monologue": 0.0521,
+    "Animal": 0.0228,
+    "Tick-tock": 0.0224,
+    "Inside, small room": 0.0207,
+    "Spray": 0.0192,
+    "Vehicle": 0.0185,
+    "Silence": 0.018,
+    "Tick": 0.0164,
+    "Female speech, woman speaking": 0.0144,
+    "Bird": 0.0139,
+    "Musical instrument": 0.0114,
+    "Outside, urban or manmade": 0.011,
+    "Conversation": 0.0101
+   }
+  },
+  {
+   "inicio": 350.0,
+   "fim": 352.0,
+   "rotulos": {
+    "Speech": 0.72,
+    "Speech synthesizer": 0.1813,
+    "Narration, monologue": 0.066,
+    "Male speech, man speaking": 0.0584,
+    "Music": 0.0549,
+    "Inside, small room": 0.0248,
+    "Silence": 0.0206,
+    "Vehicle": 0.0202,
+    "Animal": 0.0184,
+    "Tick-tock": 0.0131,
+    "Outside, urban or manmade": 0.0129,
+    "Tick": 0.0124,
+    "Musical instrument": 0.0117
+   }
+  },
+  {
+   "inicio": 351.0,
+   "fim": 353.0,
+   "rotulos": {
+    "Speech": 0.8169,
+    "Speech synthesizer": 0.2239,
+    "Narration, monologue": 0.0523,
+    "Music": 0.0412,
+    "Male speech, man speaking": 0.0391,
+    "Tick": 0.0232,
+    "Tick-tock": 0.0227,
+    "Vehicle": 0.021,
+    "Inside, small room": 0.0198,
+    "Animal": 0.0118,
+    "Outside, urban or manmade": 0.0112
+   }
+  },
+  {
+   "inicio": 352.0,
+   "fim": 354.0,
+   "rotulos": {
+    "Speech": 0.7351,
+    "Speech synthesizer": 0.3668,
+    "Narration, monologue": 0.0785,
+    "Male speech, man speaking": 0.0409,
+    "Music": 0.0303,
+    "Inside, small room": 0.0214,
+    "Animal": 0.012,
+    "Vehicle": 0.0112
+   }
+  },
+  {
+   "inicio": 353.0,
+   "fim": 355.0,
+   "rotulos": {
+    "Speech": 0.7787,
+    "Speech synthesizer": 0.3515,
+    "Narration, monologue": 0.092,
+    "Male speech, man speaking": 0.0504,
+    "Music": 0.0367,
+    "Inside, small room": 0.0216,
+    "Tick": 0.0154,
+    "Tick-tock": 0.0152,
+    "Conversation": 0.011,
+    "Animal": 0.0103
+   }
+  },
+  {
+   "inicio": 354.0,
+   "fim": 356.0,
+   "rotulos": {
+    "Speech": 0.7522,
+    "Speech synthesizer": 0.1558,
+    "Music": 0.0638,
+    "Narration, monologue": 0.0533,
+    "Male speech, man speaking": 0.0483,
+    "Tick-tock": 0.0373,
+    "Tick": 0.029,
+    "Silence": 0.0234,
+    "Inside, small room": 0.0222,
+    "Animal": 0.021,
+    "Vehicle": 0.015,
+    "Spray": 0.0143,
+    "Female speech, woman speaking": 0.0117,
+    "Musical instrument": 0.0105,
+    "Single-lens reflex camera": 0.0105
+   }
+  },
+  {
+   "inicio": 355.0,
+   "fim": 357.0,
+   "rotulos": {
+    "Music": 0.1349,
+    "Speech": 0.0582,
+    "Silence": 0.0291,
+    "Vehicle": 0.0263,
+    "Inside, small room": 0.0203,
+    "Musical instrument": 0.0145,
+    "Animal": 0.0129,
+    "Tick-tock": 0.0129,
+    "Tick": 0.0124,
+    "White noise": 0.0108
+   }
+  },
+  {
+   "inicio": 356.0,
+   "fim": 358.0,
+   "rotulos": {
+    "Crunch": 0.113,
+    "Silence": 0.101,
+    "Scissors": 0.0751,
+    "Single-lens reflex camera": 0.0544,
+    "Music": 0.0525,
+    "Inside, small room": 0.0417,
+    "Speech": 0.0343,
+    "Biting": 0.032,
+    "Animal": 0.023,
+    "Chewing, mastication": 0.0223,
+    "Sound effect": 0.0185,
+    "Vehicle": 0.0172,
+    "Scratch": 0.0153,
+    "Computer keyboard": 0.0112
+   }
+  },
+  {
+   "inicio": 357.0,
+   "fim": 359.0,
+   "rotulos": {
+    "Crunch": 0.6956,
+    "Chewing, mastication": 0.2488,
+    "Biting": 0.093,
+    "Sound effect": 0.0413,
+    "Speech": 0.0297,
+    "Inside, small room": 0.029,
+    "Plop": 0.0275,
+    "Tearing": 0.0237,
+    "Music": 0.0192,
+    "Scissors": 0.0188,
+    "Scrape": 0.0142,
+    "Groan": 0.0123,
+    "Outside, rural or natural": 0.0119
+   }
+  },
+  {
+   "inicio": 358.0,
+   "fim": 360.0,
+   "rotulos": {
+    "Crunch": 0.5089,
+    "Chewing, mastication": 0.1608,
+    "Biting": 0.0966,
+    "Scrape": 0.0483,
+    "Speech": 0.0377,
+    "Sound effect": 0.0338,
+    "Inside, small room": 0.0318,
+    "Music": 0.0277,
+    "Outside, rural or natural": 0.025,
+    "Groan": 0.0232,
+    "Tearing": 0.0223,
+    "Silence": 0.0176,
+    "Walk, footsteps": 0.0157,
+    "Plop": 0.0129,
+    "Vehicle": 0.0122,
+    "Scissors": 0.011
+   }
+  },
+  {
+   "inicio": 359.0,
+   "fim": 361.0,
+   "rotulos": {
+    "Music": 0.0642,
+    "Silence": 0.0276,
+    "Speech": 0.0233,
+    "Animal": 0.0227,
+    "Vehicle": 0.0212,
+    "Single-lens reflex camera": 0.0192,
+    "Biting": 0.0177,
+    "Gasp": 0.0133,
+    "Sound effect": 0.0131,
+    "Crunch": 0.0127,
+    "Bird": 0.0125
+   }
+  },
+  {
+   "inicio": 360.0,
+   "fim": 362.0,
+   "rotulos": {
+    "Silence": 0.2547,
+    "Music": 0.1313,
+    "Speech": 0.0522,
+    "Vehicle": 0.0507,
+    "Inside, small room": 0.027,
+    "Musical instrument": 0.0195,
+    "Outside, rural or natural": 0.0121,
+    "Car": 0.0115,
+    "Tick-tock": 0.0101
+   }
+  },
+  {
+   "inicio": 360.057,
+   "fim": 362.057,
+   "rotulos": {
+    "Silence": 0.2621,
+    "Music": 0.1303,
+    "Speech": 0.0524,
+    "Vehicle": 0.0518,
+    "Inside, small room": 0.0272,
+    "Musical instrument": 0.0197,
+    "Outside, rural or natural": 0.0124,
+    "Car": 0.0117
+   }
+  }
+ ]
+}

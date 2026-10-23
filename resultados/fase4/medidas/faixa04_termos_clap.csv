@@ -1,0 +1,89 @@
+trecho,condicao,termo,mediana,melhor
+4.2 surdo,sem,tamborim,10,6
+4.2 surdo,sem,surdo,7,6
+4.2 surdo,sem,batucada,5,2
+4.2 surdo,sem,samba,9,2
+4.2 surdo,sem,"a tamborim, a small Brazilian fr",28,26
+4.2 surdo,sem,"a surdo, a large Brazilian bass ",15,12
+4.2 surdo,sem,"a batucada, a Brazilian samba pe",11,4
+4.2 surdo,sem,a tambourine,14,10
+4.2 surdo,sem,a snare drum,21,17
+4.2 surdo,sem,a bass drum,9,7
+4.2 surdo,sem,music,4,3
+4.2 surdo,com,tamborim,8,3
+4.2 surdo,com,surdo,9,3
+4.2 surdo,com,batucada,17,10
+4.2 surdo,com,samba,13,11
+4.2 surdo,com,"a tamborim, a small Brazilian fr",21,16
+4.2 surdo,com,"a surdo, a large Brazilian bass ",5,3
+4.2 surdo,com,"a batucada, a Brazilian samba pe",22,19
+4.2 surdo,com,a tambourine,13,11
+4.2 surdo,com,a snare drum,24,21
+4.2 surdo,com,a bass drum,4,2
+4.2 surdo,com,music,7,2
+4.4 tamborim,sem,tamborim,5,2
+4.4 tamborim,sem,surdo,9,6
+4.4 tamborim,sem,batucada,5,2
+4.4 tamborim,sem,samba,3,2
+4.4 tamborim,sem,"a tamborim, a small Brazilian fr",25,18
+4.4 tamborim,sem,"a surdo, a large Brazilian bass ",15,13
+4.4 tamborim,sem,"a batucada, a Brazilian samba pe",6,5
+4.4 tamborim,sem,a tambourine,12,10
+4.4 tamborim,sem,a snare drum,18,15
+4.4 tamborim,sem,a bass drum,10,9
+4.4 tamborim,sem,music,4,2
+4.4 tamborim,com,tamborim,1,1
+4.4 tamborim,com,surdo,5,2
+4.4 tamborim,com,batucada,9,5
+4.4 tamborim,com,samba,2,1
+4.4 tamborim,com,"a tamborim, a small Brazilian fr",13,8
+4.4 tamborim,com,"a surdo, a large Brazilian bass ",14,11
+4.4 tamborim,com,"a batucada, a Brazilian samba pe",12,7
+4.4 tamborim,com,a tambourine,10,7
+4.4 tamborim,com,a snare drum,24,22
+4.4 tamborim,com,a bass drum,10,8
+4.4 tamborim,com,music,3,1
+4.6 tamborim,sem,tamborim,5,5
+4.6 tamborim,sem,surdo,9,6
+4.6 tamborim,sem,batucada,7,6
+4.6 tamborim,sem,samba,8,4
+4.6 tamborim,sem,"a tamborim, a small Brazilian fr",26,19
+4.6 tamborim,sem,"a surdo, a large Brazilian bass ",13,12
+4.6 tamborim,sem,"a batucada, a Brazilian samba pe",11,6
+4.6 tamborim,sem,a tambourine,14,12
+4.6 tamborim,sem,a snare drum,22,19
+4.6 tamborim,sem,a bass drum,10,7
+4.6 tamborim,sem,music,4,4
+4.6 tamborim,com,tamborim,8,4
+4.6 tamborim,com,surdo,6,5
+4.6 tamborim,com,batucada,14,10
+4.6 tamborim,com,samba,13,9
+4.6 tamborim,com,"a tamborim, a small Brazilian fr",26,22
+4.6 tamborim,com,"a surdo, a large Brazilian bass ",13,9
+4.6 tamborim,com,"a batucada, a Brazilian samba pe",21,17
+4.6 tamborim,com,a tambourine,21,13
+4.6 tamborim,com,a snare drum,25,19
+4.6 tamborim,com,a bass drum,9,7
+4.6 tamborim,com,music,5,3
+4.7 pulos,sem,tamborim,6,5
+4.7 pulos,sem,surdo,9,8
+4.7 pulos,sem,batucada,7,5
+4.7 pulos,sem,samba,7,4
+4.7 pulos,sem,"a tamborim, a small Brazilian fr",26,19
+4.7 pulos,sem,"a surdo, a large Brazilian bass ",12,8
+4.7 pulos,sem,"a batucada, a Brazilian samba pe",9,6
+4.7 pulos,sem,a tambourine,16,15
+4.7 pulos,sem,a snare drum,22,15
+4.7 pulos,sem,a bass drum,10,5
+4.7 pulos,sem,music,4,4
+4.7 pulos,com,tamborim,10,9
+4.7 pulos,com,surdo,5,4
+4.7 pulos,com,batucada,13,7
+4.7 pulos,com,samba,15,13
+4.7 pulos,com,"a tamborim, a small Brazilian fr",26,19
+4.7 pulos,com,"a surdo, a large Brazilian bass ",14,8
+4.7 pulos,com,"a batucada, a Brazilian samba pe",21,15
+4.7 pulos,com,a tambourine,26,24
+4.7 pulos,com,a snare drum,24,18
+4.7 pulos,com,a bass drum,12,8
+4.7 pulos,com,music,5,5
