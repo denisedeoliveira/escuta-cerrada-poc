@@ -8,7 +8,7 @@ Legenda: `[x]` feito · `[ ]` a fazer · **(confirmar)** depende de resposta do 
 
 ## Calendário
 
-Meta: tudo pronto até 16/11, defesa entre 18 e 30/11 (a data depende da agenda do orientador; 20/11 é feriado nacional).
+Meta: tudo pronto até a primeira quinzena de novembro e defesa na segunda quinzena, em data escolhida pela aluna (orientação de 23/10; 20/11 é feriado nacional).
 
 | Etapa | Período | Release |
 |---|---|---|
@@ -16,19 +16,19 @@ Meta: tudo pronto até 16/11, defesa entre 18 e 30/11 (a data depende da agenda 
 | Fase 2 · Primeiro contato técnico | concluída | `v0.2-fase2` |
 | Fase 3 · Reconhecimento de fala e medição | concluída (09 a 13/10) | `v0.3-fase3` |
 | Fase 4 · Eventos sonoros | concluída (19 a 23/10) | `v0.4-fase4` |
-| Contato com o orientador (resultados das fases 3 e 4) | 1ª semana de novembro | |
-| Fase 5 · Síntese, restrição e voz | 01/11 a 10/11 | `v0.5-fase5` |
-| Fase 6 · Formalização | 11/11 a 16/11 | `v1.0-final` |
-| Defesa com o orientador | 18/11 a 30/11 | |
+| Contato com o orientador (andamento e dúvidas) | feito (23/10) | |
+| Fase 5 · Síntese e restrição | 30/10 a 08/11 | `v0.5-fase5` |
+| Fase 6 · Formalização | 09/11 a 15/11 | `v1.0-final` |
+| Defesa com o orientador | segunda quinzena de novembro | |
 
 ---
 
 ## 1. Entrega formal
 
 - [x] Tema definido e orientador aceito (Leonardo Alfredo Forero Mendoza)
-- [ ] Marcar a data da defesa com o orientador
-- [ ] **(confirmar)** A linha do modelo de README que cita a disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão" vale para este curso ou é resto de modelo de outro curso? Conferir no README da colega que já defendeu
-- [ ] Repositório público no GitHub (PROJ)
+- [ ] Marcar a data da defesa com o orientador. Em 23/10, ele deixou a data a critério da aluna, na segunda quinzena de novembro. A defesa consiste em mostrar o trabalho funcionando e na revisão do README nas condições exigidas pela PUC
+- [x] Linha do modelo de README que cita a disciplina “Projetos de Sistemas Inteligentes de Apoio à Decisão”. Resposta do orientador (23/10): trocar pelo nome do curso
+- [x] Repositório público no GitHub (PROJ), aberto em 23/10
 - [ ] Tag da versão final `v1.0-final`
 - [ ] Aprovação do orientador (PROJ)
 - [ ] E-mail para secretaria@ica.ele.puc-rio.br com cópia para o orientador, informando nome completo, turma, matrícula, título do projeto e link do repositório, e dizendo que o orientador aprovou o trabalho (PROJ)
@@ -40,7 +40,7 @@ O README é o trabalho escrito. Não há monografia à parte.
 
 - [ ] Título definitivo
 - [ ] Aluna e orientador com link para o perfil no GitHub (verificar se o orientador tem perfil)
-- [ ] Frase de apresentação ao curso Inteligência Artificial Generativa & Large Language Models, com link
+- [ ] Frase de apresentação ao curso Inteligência Artificial Generativa & Large Language Models, com link, no lugar do nome de disciplina do modelo
 - [ ] Link para o código
 - [ ] Linha da monografia removida
 - [ ] Trabalhos relacionados (opcional)
@@ -60,15 +60,15 @@ O README é o trabalho escrito. Não há monografia à parte.
 
 - [x] `.gitignore` bloqueando áudio e `.env`
 - [x] `docs/` com as decisões de cada fase
-- [x] Releases `v0.1-fase1`, `v0.2-fase2` e `v0.3-fase3`
+- [x] Releases `v0.1-fase1`, `v0.2-fase2`, `v0.3-fase3` e `v0.4-fase4`
 - [x] Cadernos publicados sem saídas de áudio
-- [x] `requirements.txt` com as versões das bibliotecas (fase 3)
+- [x] `requirements.txt` com as versões das bibliotecas (fases 3 e 4)
 - [x] Pasta para os cadernos e pasta para os resultados em JSON (fase 3)
 - [ ] Mensagens de commit no formato `tipo(escopo): mudança`, por exemplo `feat(asr): transcreve as cinco faixas sem glossário` (rubrica)
 - [ ] `.env.example` só com os nomes das variáveis (fase 5) (rubrica)
 - [ ] Chave de API só nos Secrets do Colab, nunca no código, em captura de tela ou no histórico. **Item eliminatório** (rubrica)
-- [x] `tests/` com os testes do WER e da normalização (fase 3)
-- [ ] Teste da restrição do LLM, conferindo que toda indicação traz marcação temporal e grau de confiança (fase 5)
+- [x] `tests/` com os testes do WER e da normalização (fase 3) e da comparação de eventos (fase 4)
+- [ ] Teste da restrição do LLM, conferindo que toda indicação traz marcação temporal, fonte e grau de apoio (fase 5)
 
 ## 4. Fases
 
@@ -93,18 +93,16 @@ O README é o trabalho escrito. Não há monografia à parte.
 - [x] Escuta dirigida dos trechos apontados
 - [x] `src/eventos.py` e `tests/test_eventos.py`
 - [x] Diário da fase
-- [ ] Release `v0.4-fase4`
-- [ ] Contato com o orientador, levando os resultados e as perguntas marcadas como **(confirmar)**
+- [x] Release `v0.4-fase4`
+- [x] Contato com o orientador, levando o andamento e as perguntas marcadas como **(confirmar)** (23/10)
 
-### Fase 5 · Síntese, restrição e voz
+### Fase 5 · Síntese e restrição
 
 - [ ] Segundo caderno, que lê só os JSON e não toca no áudio
 - [ ] Tabela de divergências
 - [ ] Prompt de sistema restritivo, que proíbe inferir sentido, ironia, intenção e emoção e exige marcação temporal e grau de confiança
 - [ ] Cada chamada ao LLM salva com modelo, parâmetros e saída
-- [ ] **(confirmar)** Manter a síntese de voz, que não é exigência formal do TCC (decisão atual é manter, por acessibilidade e pela crítica ao visuocentrismo)
-- [ ] Síntese de voz com voz genérica do catálogo, sem clonagem de nenhuma voz real, e com aviso falado no início de que a voz é gerada por IA (rubrica)
-- [ ] Texto do dossiê reescrito para leitura em voz, sem tabelas e com os tempos por extenso
+- [ ] Desenho experimental e expectativas registrados antes da primeira chamada ao LLM
 - [ ] Latência e custo das chamadas registrados (rubrica)
 - [ ] Protocolo completo aplicado à faixa 05 e comparado com a escuta cega da fase 1
 - [ ] Dossiê de escuta das cinco faixas
@@ -116,8 +114,8 @@ O README é o trabalho escrito. Não há monografia à parte.
 - [ ] README final (seção 2 desta lista)
 - [ ] Teste de reprodução, abrindo o repositório como outra pessoa e rodando o caderno de análise do zero
 - [ ] Revisão de segurança, sem chave no código nem no histórico
-- [ ] Roteiro da demonstração para a defesa, incluindo um caso de falha (rubrica)
-- [ ] Tag `v1.0-final` e repositório público
+- [ ] Roteiro da demonstração para a defesa, mostrando o trabalho funcionando e incluindo um caso de falha (rubrica e orientação de 23/10)
+- [ ] Tag `v1.0-final`
 - [ ] Envio ao orientador para aprovação
 
 ---
@@ -126,4 +124,5 @@ O README é o trabalho escrito. Não há monografia à parte.
 
 - A monografia saiu, porque o curso confirmou que o README é o trabalho escrito.
 - O calendário passou de doze para cerca de dez semanas, com a defesa prevista para a segunda quinzena de novembro.
-- Entraram itens de engenharia que o plano não listava, vindos da rubrica do orientador: `requirements.txt`, `tests/`, `.env.example`, declaração do uso de IA, registro de latência e custo, aviso de voz sintética e roteiro de demonstração.
+- Entraram itens de engenharia que o plano não listava, vindos da rubrica do orientador: `requirements.txt`, `tests/`, `.env.example`, declaração do uso de IA, registro de latência e custo e roteiro de demonstração.
+- A síntese de voz saiu da entrega em 23/10, por orientação do orientador, para quem a síntese em texto feita pelo LLM é suficiente e a voz não deve entrar nesta primeira entrega. Os argumentos que a motivavam (acessibilidade e crítica ao visuocentrismo) passam ao README, como desdobramento, e aos artigos.
