@@ -17,8 +17,8 @@ Meta: tudo pronto até a primeira quinzena de novembro e defesa na segunda quinz
 | Fase 3 · Reconhecimento de fala e medição | concluída (09 a 13/10) | `v0.3-fase3` |
 | Fase 4 · Eventos sonoros | concluída (19 a 23/10) | `v0.4-fase4` |
 | Contato com o orientador (andamento e dúvidas) | feito (23/10) | |
-| Fase 5 · Síntese e restrição | 30/10 a 08/11 | `v0.5-fase5` |
-| Fase 6 · Formalização | 09/11 a 15/11 | `v1.0-final` |
+| Fase 5 · Síntese e restrição | concluída (30/10 a 13/11) | `v0.5-fase5` |
+| Fase 6 · Formalização | a partir de 14/11 | `v1.0-final` |
 | Defesa com o orientador | segunda quinzena de novembro | |
 
 ---
@@ -60,15 +60,15 @@ O README é o trabalho escrito. Não há monografia à parte.
 
 - [x] `.gitignore` bloqueando áudio e `.env`
 - [x] `docs/` com as decisões de cada fase
-- [x] Releases `v0.1-fase1`, `v0.2-fase2`, `v0.3-fase3` e `v0.4-fase4`
+- [x] Releases `v0.1-fase1`, `v0.2-fase2`, `v0.3-fase3`, `v0.4-fase4` e `v0.5-fase5`
 - [x] Cadernos publicados sem saídas de áudio
-- [x] `requirements.txt` com as versões das bibliotecas (fases 3 e 4)
+- [x] `requirements.txt` com as versões das bibliotecas (fases 3, 4 e 5)
 - [x] Pasta para os cadernos e pasta para os resultados em JSON (fase 3)
 - [ ] Mensagens de commit no formato `tipo(escopo): mudança`, por exemplo `feat(asr): transcreve as cinco faixas sem glossário` (rubrica)
-- [ ] `.env.example` só com os nomes das variáveis (fase 5) (rubrica)
-- [ ] Chave de API só nos Secrets do Colab, nunca no código, em captura de tela ou no histórico. **Item eliminatório** (rubrica)
-- [x] `tests/` com os testes do WER e da normalização (fase 3) e da comparação de eventos (fase 4)
-- [ ] Teste da restrição do LLM, conferindo que toda indicação traz marcação temporal, fonte e grau de apoio (fase 5)
+- [x] `.env.example` só com os nomes das variáveis (fase 5) (rubrica)
+- [x] Chave de API só nos Secrets do Colab, nunca no código, em captura de tela ou no histórico, conferido nos cadernos e nos registros da fase 5. Revisão final na fase 6. **Item eliminatório** (rubrica)
+- [x] `tests/` com os testes do WER e da normalização (fase 3), da comparação de eventos (fase 4) e das entradas e medidas do LLM (fase 5)
+- [x] Teste da restrição do LLM, conferindo que toda indicação traz marcação temporal, fonte e grau de apoio (fase 5)
 
 ## 4. Fases
 
@@ -98,15 +98,16 @@ O README é o trabalho escrito. Não há monografia à parte.
 
 ### Fase 5 · Síntese e restrição
 
-- [ ] Segundo caderno, que lê só os JSON e não toca no áudio
-- [ ] Tabela de divergências
-- [ ] Prompt de sistema restritivo, que proíbe inferir sentido, ironia, intenção e emoção e exige marcação temporal e grau de confiança
-- [ ] Cada chamada ao LLM salva com modelo, parâmetros e saída
-- [ ] Desenho experimental e expectativas registrados antes da primeira chamada ao LLM
-- [ ] Latência e custo das chamadas registrados (rubrica)
-- [ ] Protocolo completo aplicado à faixa 05 e comparado com a escuta cega da fase 1
-- [ ] Dossiê de escuta das cinco faixas
-- [ ] Diário da fase e release `v0.5-fase5`
+- [x] Cadernos que leem só os JSON e não tocam no áudio (5a e 5b)
+- [x] Divergências entre transcrições e entre modelos levadas à entrada do LLM como sinais (caderno 5a) e reunidas na tabela das indicações (`resultados/fase5/medidas/indicacoes.csv`)
+- [x] Prompt de sistema restritivo, que proíbe inferir sentido, ironia, intenção e emoção e exige marcação temporal, fonte e grau de apoio (anexo A do desenho)
+- [x] Cada chamada ao LLM salva com modelo, parâmetros e saída
+- [x] Desenho experimental e expectativas registrados antes da primeira chamada ao LLM (02/11)
+- [x] Latência e custo das chamadas registrados (rubrica)
+- [x] Protocolo completo aplicado à faixa 05 e comparado com a escuta cega da fase 1
+- [x] Dossiê de escuta das cinco faixas, com leitura e escuta de conferência pela pesquisadora
+- [x] Diário da fase
+- [ ] Release `v0.5-fase5`
 
 ### Fase 6 · Formalização
 
@@ -125,4 +126,5 @@ O README é o trabalho escrito. Não há monografia à parte.
 - A monografia saiu, porque o curso confirmou que o README é o trabalho escrito.
 - O calendário passou de doze para cerca de dez semanas, com a defesa prevista para a segunda quinzena de novembro.
 - Entraram itens de engenharia que o plano não listava, vindos da rubrica do orientador: `requirements.txt`, `tests/`, `.env.example`, declaração do uso de IA, registro de latência e custo e roteiro de demonstração.
+- Na fase 5, as chamadas ao LLM passaram da camada gratuita à camada paga da API em 03/11, por causa do limite diário de chamadas (custo total de US$ 0,60), conforme a alternativa prevista no desenho.
 - A síntese de voz saiu da entrega em 23/10, por orientação do orientador, para quem a síntese em texto feita pelo LLM é suficiente e a voz não deve entrar nesta primeira entrega. Os argumentos que a motivavam (acessibilidade e crítica ao visuocentrismo) passam ao README, como desdobramento, e aos artigos.

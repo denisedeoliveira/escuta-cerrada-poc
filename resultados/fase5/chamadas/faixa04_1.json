@@ -1,0 +1,123 @@
+{
+ "chamada": "faixa04_1",
+ "data_execucao": "2026-11-03T17:25:55.448255+00:00",
+ "modelo": "gemini-3.8-flash",
+ "versao_modelo": "gemini-3.8-flash",
+ "biblioteca": "google-genai 2.12.1",
+ "parametros": {
+  "temperatura": "padrão do modelo",
+  "saida": "application/json, com o esquema registrado",
+  "demais": "valores padrão",
+  "tempo_limite_s": 300
+ },
+ "instrucao": "Você recebe as saídas de modelos automáticos aplicados a uma gravação sonora em disco. Você não tem acesso ao áudio. Sua tarefa é indicar a uma pesquisadora os momentos da gravação em que vale escutar com atenção, com base apenas nos itens da entrada.\n\n1. Cada indicação deve citar os identificadores dos itens da entrada que a sustentam. O início e o fim da indicação devem ficar dentro do intervalo desses itens.\n2. Descreva o que os modelos registraram, e não o que soa. Por exemplo, escreva “o modelo de fala escreveu o mesmo texto em seis segmentos seguidos” ou “o detector de eventos atribuiu 0,82 ao rótulo Applause”, e não “há aplausos” ou “o orador repete a frase”.\n3. Não interprete sentido, intenção, ironia, emoção, gênero, tema ou contexto da gravação, e não deduza o que ela representa.\n4. Use apenas os motivos da lista fornecida e atribua o grau de apoio segundo a regra fornecida.\n5. Se um trecho não tiver nada a indicar, não crie indicação para ele.\n6. A frase de cada indicação deve dizer o que a pesquisadora pode verificar na escuta, em uma ou duas frases, em português.",
+ "esquema": {
+  "type": "object",
+  "properties": {
+   "indicacoes": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "inicio": {
+       "type": "number",
+       "description": "início da indicação, em segundos"
+      },
+      "fim": {
+       "type": "number",
+       "description": "fim da indicação, em segundos"
+      },
+      "fontes": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "identificadores dos itens da entrada que sustentam a indicação"
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "repetição na transcrição",
+        "texto com indicação de ausência de fala",
+        "transcrição com baixa confiança",
+        "divergência entre transcrições",
+        "evento sonoro apontado",
+        "coincidência entre fontes",
+        "rótulo isolado"
+       ]
+      },
+      "grau_de_apoio": {
+       "type": "string",
+       "enum": [
+        "alto",
+        "médio",
+        "baixo"
+       ]
+      },
+      "frase": {
+       "type": "string",
+       "description": "o que a pesquisadora pode verificar na escuta"
+      }
+     },
+     "required": [
+      "inicio",
+      "fim",
+      "fontes",
+      "motivo",
+      "grau_de_apoio",
+      "frase"
+     ]
+    }
+   }
+  },
+  "required": [
+   "indicacoes"
+  ]
+ },
+ "pedido": "Motivos possíveis: repetição na transcrição; texto com indicação de ausência de fala; transcrição com baixa confiança; divergência entre transcrições; evento sonoro apontado; coincidência entre fontes; rótulo isolado (rótulo ou descrição que aparece uma única vez na faixa).\n\nRegra do grau de apoio:\n- alto: dois ou mais itens de fontes diferentes (fala, PANNs, CLAP) coincidem no intervalo, ou um rótulo do PANNs tem probabilidade de pelo menos 0,5;\n- médio: um único item do PANNs com probabilidade entre 0,3 e 0,5, ou um único segmento de fala com algum dos quatro sinais;\n- baixo: apenas uma descrição do CLAP.\n\nEntrada da faixa 4:\n{\n \"faixa\": 4,\n \"duracao_s\": 64.86,\n \"legenda\": {\n  \"fala\": \"Segmentos produzidos pelo modelo de reconhecimento de fala Whisper (large-v3), sem filtro de ruído, com início e fim em segundos, o texto escrito pelo modelo e três indicadores do próprio modelo. avg_logprob é a média do logaritmo da probabilidade dos tokens do texto (valores mais baixos correspondem a menor confiança do modelo no texto). no_speech_prob é a probabilidade, estimada pelo modelo, de que o segmento não contenha fala. compression_ratio é a razão de compressão do texto (valores altos correspondem a texto repetitivo dentro do segmento). O campo sinais lista os sinais calculados a partir desses dados.\",\n  \"sinais\": {\n   \"repetição\": \"o mesmo texto aparece em três ou mais segmentos da faixa\",\n   \"indicação de ausência de fala\": \"no_speech_prob acima de 0,6\",\n   \"baixa confiança\": \"avg_logprob abaixo de -1,0\",\n   \"divergência entre transcrições\": \"menos da metade das palavras do segmento aparece, no mesmo intervalo, numa segunda transcrição da mesma gravação feita pelo mesmo modelo depois de um filtro de redução de ruído\"\n  },\n  \"eventos_panns\": \"Intervalos em que o detector de eventos sonoros PANNs (Cnn14, treinado com as 527 categorias do AudioSet) atribuiu probabilidade de pelo menos 0,3 a um rótulo, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com o mesmo rótulo foram reunidas num intervalo. probabilidade_maxima é o maior valor do rótulo no intervalo.\",\n  \"descricoes_clap\": \"Intervalos em que uma descrição textual, em inglês, ficou em primeiro lugar entre 28 na comparação feita pelo modelo CLAP entre o áudio e as descrições, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com a mesma descrição foram reunidas num intervalo. As descrições que ficaram entre as três primeiras em mais de um quarto das janelas da faixa foram retiradas.\"\n },\n \"fala\": [\n  {\n   \"id\": \"F-001\",\n   \"inicio\": 0.62,\n   \"fim\": 3.48,\n   \"texto\": \"Aqui está uma demonstração de ritmo de samba do Brasil.\",\n   \"avg_logprob\": -0.18,\n   \"no_speech_prob\": 0.18,\n   \"compression_ratio\": 1.41,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-002\",\n   \"inicio\": 3.88,\n   \"fim\": 7.22,\n   \"texto\": \"Vamos mostrar aqui todos os instrumentos que entram no samba.\",\n   \"avg_logprob\": -0.18,\n   \"no_speech_prob\": 0.18,\n   \"compression_ratio\": 1.41,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-003\",\n   \"inicio\": 7.68,\n   \"fim\": 9.02,\n   \"texto\": \"Iniciando pela batucada.\",\n   \"avg_logprob\": -0.18,\n   \"no_speech_prob\": 0.18,\n   \"compression_ratio\": 1.41,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-004\",\n   \"inicio\": 9.44,\n   \"fim\": 10.7,\n   \"texto\": \"Este é o surdo.\",\n   \"avg_logprob\": -0.18,\n   \"no_speech_prob\": 0.18,\n   \"compression_ratio\": 1.41,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-005\",\n   \"inicio\": 19.86,\n   \"fim\": 23.86,\n   \"texto\": \"Enquanto o surdo faz isso, o primeiro tamborim faz isso, vocês vão ouvir.\",\n   \"avg_logprob\": -0.18,\n   \"no_speech_prob\": 0.18,\n   \"compression_ratio\": 1.41,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-006\",\n   \"inicio\": 40.02,\n   \"fim\": 43.98,\n   \"texto\": \"Esse tamborim vem um segundo tamborim fazendo um ritmo diferente assim.\",\n   \"avg_logprob\": -0.32,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.22,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-007\",\n   \"inicio\": 56.86,\n   \"fim\": 59.42,\n   \"texto\": \"Assim o tamborim, já depois o pano de som.\",\n   \"avg_logprob\": -0.32,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.22,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-008\",\n   \"inicio\": 60.0,\n   \"fim\": 61.86,\n   \"texto\": \"E assim o tamborim.\",\n   \"avg_logprob\": -0.38,\n   \"no_speech_prob\": 0.25,\n   \"compression_ratio\": 0.7,\n   \"sinais\": []\n  }\n ],\n \"eventos_panns\": [\n  {\n   \"id\": \"P-001\",\n   \"inicio\": 0.0,\n   \"fim\": 12.0,\n   \"rotulo\": \"Speech\",\n   \"probabilidade_maxima\": 0.78\n  },\n  {\n   \"id\": \"P-002\",\n   \"inicio\": 19.0,\n   \"fim\": 25.0,\n   \"rotulo\": \"Speech\",\n   \"probabilidade_maxima\": 0.79\n  },\n  {\n   \"id\": \"P-003\",\n   \"inicio\": 29.0,\n   \"fim\": 31.0,\n   \"rotulo\": \"Musical instrument\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-004\",\n   \"inicio\": 30.0,\n   \"fim\": 33.0,\n   \"rotulo\": \"Wood block\",\n   \"probabilidade_maxima\": 0.39\n  },\n  {\n   \"id\": \"P-005\",\n   \"inicio\": 33.0,\n   \"fim\": 38.0,\n   \"rotulo\": \"Musical instrument\",\n   \"probabilidade_maxima\": 0.54\n  },\n  {\n   \"id\": \"P-006\",\n   \"inicio\": 39.0,\n   \"fim\": 46.0,\n   \"rotulo\": \"Speech\",\n   \"probabilidade_maxima\": 0.74\n  },\n  {\n   \"id\": \"P-007\",\n   \"inicio\": 45.0,\n   \"fim\": 50.0,\n   \"rotulo\": \"Musical instrument\",\n   \"probabilidade_maxima\": 0.48\n  },\n  {\n   \"id\": \"P-008\",\n   \"inicio\": 51.0,\n   \"fim\": 53.0,\n   \"rotulo\": \"Musical instrument\",\n   \"probabilidade_maxima\": 0.34\n  },\n  {\n   \"id\": \"P-009\",\n   \"inicio\": 56.0,\n   \"fim\": 61.0,\n   \"rotulo\": \"Speech\",\n   \"probabilidade_maxima\": 0.57\n  }\n ],\n \"resumo_panns\": \"Rótulos apontados em mais da metade das janelas da faixa, que não entram como itens: Music (55% das janelas).\",\n \"descricoes_clap\": [\n  {\n   \"id\": \"C-001\",\n   \"inicio\": 3.0,\n   \"fim\": 5.0,\n   \"descricao\": \"a man giving a speech\"\n  }\n ]\n}",
+ "resposta_texto": "{\n  \"indicacoes\": [\n    {\n      \"inicio\": 3.0,\n      \"fim\": 5.0,\n      \"fontes\": [\n        \"C-001\"\n      ],\n      \"motivo\": \"rótulo isolado\",\n      \"grau_de_apoio\": \"baixo\",\n      \"frase\": \"A pesquisadora pode verificar o trecho em que o modelo CLAP atribuiu a descrição 'a man giving a speech', que aparece uma única vez na faixa.\"\n    },\n    {\n      \"inicio\": 7.68,\n      \"fim\": 9.02,\n      \"fontes\": [\n        \"F-003\"\n      ],\n      \"motivo\": \"divergência entre transcrições\",\n      \"grau_de_apoio\": \"médio\",\n      \"frase\": \"A pesquisadora pode verificar a fala no segmento em que o modelo registrou divergência entre transcrições para o texto 'Iniciando pela batucada.'.\"\n    },\n    {\n      \"inicio\": 30.0,\n      \"fim\": 33.0,\n      \"fontes\": [\n        \"P-004\"\n      ],\n      \"motivo\": \"rótulo isolado\",\n      \"grau_de_apoio\": \"médio\",\n      \"frase\": \"A pesquisadora pode verificar a gravação no intervalo em que o detector de eventos atribuiu probabilidade máxima de 0,39 ao rótulo Wood block, que ocorre uma única vez na faixa.\"\n    }\n  ]\n}",
+ "resposta": {
+  "indicacoes": [
+   {
+    "inicio": 3.0,
+    "fim": 5.0,
+    "fontes": [
+     "C-001"
+    ],
+    "motivo": "rótulo isolado",
+    "grau_de_apoio": "baixo",
+    "frase": "A pesquisadora pode verificar o trecho em que o modelo CLAP atribuiu a descrição 'a man giving a speech', que aparece uma única vez na faixa."
+   },
+   {
+    "inicio": 7.68,
+    "fim": 9.02,
+    "fontes": [
+     "F-003"
+    ],
+    "motivo": "divergência entre transcrições",
+    "grau_de_apoio": "médio",
+    "frase": "A pesquisadora pode verificar a fala no segmento em que o modelo registrou divergência entre transcrições para o texto 'Iniciando pela batucada.'."
+   },
+   {
+    "inicio": 30.0,
+    "fim": 33.0,
+    "fontes": [
+     "P-004"
+    ],
+    "motivo": "rótulo isolado",
+    "grau_de_apoio": "médio",
+    "frase": "A pesquisadora pode verificar a gravação no intervalo em que o detector de eventos atribuiu probabilidade máxima de 0,39 ao rótulo Wood block, que ocorre uma única vez na faixa."
+   }
+  ]
+ },
+ "erro_leitura": null,
+ "termino": "FinishReason.STOP",
+ "tentativas_recusadas": [],
+ "tempo_resposta_s": 263.61,
+ "tokens": {
+  "entrada": 2519,
+  "saida": 369,
+  "raciocinio": 35698,
+  "total": 38586
+ }
+}

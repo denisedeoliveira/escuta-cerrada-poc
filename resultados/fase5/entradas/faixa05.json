@@ -1,0 +1,1653 @@
+{
+ "faixa": 5,
+ "duracao_s": 441.32,
+ "legenda": {
+  "fala": "Segmentos produzidos pelo modelo de reconhecimento de fala Whisper (large-v3), sem filtro de ruído, com início e fim em segundos, o texto escrito pelo modelo e três indicadores do próprio modelo. avg_logprob é a média do logaritmo da probabilidade dos tokens do texto (valores mais baixos correspondem a menor confiança do modelo no texto). no_speech_prob é a probabilidade, estimada pelo modelo, de que o segmento não contenha fala. compression_ratio é a razão de compressão do texto (valores altos correspondem a texto repetitivo dentro do segmento). O campo sinais lista os sinais calculados a partir desses dados.",
+  "sinais": {
+   "repetição": "o mesmo texto aparece em três ou mais segmentos da faixa",
+   "indicação de ausência de fala": "no_speech_prob acima de 0,6",
+   "baixa confiança": "avg_logprob abaixo de -1,0",
+   "divergência entre transcrições": "menos da metade das palavras do segmento aparece, no mesmo intervalo, numa segunda transcrição da mesma gravação feita pelo mesmo modelo depois de um filtro de redução de ruído"
+  },
+  "eventos_panns": "Intervalos em que o detector de eventos sonoros PANNs (Cnn14, treinado com as 527 categorias do AudioSet) atribuiu probabilidade de pelo menos 0,3 a um rótulo, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com o mesmo rótulo foram reunidas num intervalo. probabilidade_maxima é o maior valor do rótulo no intervalo.",
+  "descricoes_clap": "Intervalos em que uma descrição textual, em inglês, ficou em primeiro lugar entre 28 na comparação feita pelo modelo CLAP entre o áudio e as descrições, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com a mesma descrição foram reunidas num intervalo. As descrições que ficaram entre as três primeiras em mais de um quarto das janelas da faixa foram retiradas."
+ },
+ "fala": [
+  {
+   "id": "F-001",
+   "inicio": 25.02,
+   "fim": 29.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.79,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "indicação de ausência de fala",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-002",
+   "inicio": 57.1,
+   "fim": 59.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.04,
+   "no_speech_prob": 0.04,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-003",
+   "inicio": 86.42,
+   "fim": 89.9,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.02,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-004",
+   "inicio": 112.64,
+   "fim": 119.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-005",
+   "inicio": 120.0,
+   "fim": 149.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-006",
+   "inicio": 150.0,
+   "fim": 179.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.29,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-007",
+   "inicio": 180.0,
+   "fim": 209.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.19,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-008",
+   "inicio": 210.0,
+   "fim": 239.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.29,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-009",
+   "inicio": 240.0,
+   "fim": 269.92,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.36,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-010",
+   "inicio": 296.74,
+   "fim": 299.56,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.34,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-011",
+   "inicio": 322.32,
+   "fim": 329.98,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-012",
+   "inicio": 330.0,
+   "fim": 358.88,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.34,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 0.69,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-013",
+   "inicio": 360.0,
+   "fim": 361.66,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.63,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.87,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-014",
+   "inicio": 361.66,
+   "fim": 365.06,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.63,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.87,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-015",
+   "inicio": 365.06,
+   "fim": 389.0,
+   "texto": "A CIDADE NO BRASIL",
+   "avg_logprob": -0.63,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.87,
+   "sinais": [
+    "repetição"
+   ]
+  },
+  {
+   "id": "F-016",
+   "inicio": 389.0,
+   "fim": 394.04,
+   "texto": "Não duvida, senhor, desta sombra de um monte, ali, senhor.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.4,
+   "sinais": []
+  },
+  {
+   "id": "F-017",
+   "inicio": 395.24,
+   "fim": 404.18,
+   "texto": "Exato, por Deus, a que rumos, quem sabe onde a providência nos levará, aonde, Fray Henrique?",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.4,
+   "sinais": []
+  },
+  {
+   "id": "F-018",
+   "inicio": 404.52,
+   "fim": 409.2,
+   "texto": "É ter paciência que é virtude cristã já por nós ensaiada.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.4,
+   "sinais": []
+  },
+  {
+   "id": "F-019",
+   "inicio": 409.4,
+   "fim": 414.1,
+   "texto": "Sem ela, longe é o céu e a terra é quase nada.",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.4,
+   "sinais": []
+  },
+  {
+   "id": "F-020",
+   "inicio": 414.56,
+   "fim": 417.0,
+   "texto": "Um monte, um monte!",
+   "avg_logprob": -0.23,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.4,
+   "sinais": []
+  },
+  {
+   "id": "F-021",
+   "inicio": 417.0,
+   "fim": 420.98,
+   "texto": "Hoje é um dia de fé, é a Páscoa do Senhor.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.27,
+   "sinais": []
+  },
+  {
+   "id": "F-022",
+   "inicio": 421.44,
+   "fim": 429.9,
+   "texto": "Oremos, pois, e a ele, em nosso imenso amor, agradeçamos ver, talvez, a terra ocidental.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.27,
+   "sinais": []
+  },
+  {
+   "id": "F-023",
+   "inicio": 430.38,
+   "fim": 434.58,
+   "texto": "E esse monte a surgir seja um monte pascual.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.27,
+   "sinais": []
+  }
+ ],
+ "eventos_panns": [
+  {
+   "id": "P-001",
+   "inicio": 12.0,
+   "fim": 15.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.48
+  },
+  {
+   "id": "P-002",
+   "inicio": 18.0,
+   "fim": 20.0,
+   "rotulo": "Singing bowl",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-003",
+   "inicio": 18.0,
+   "fim": 21.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.6
+  },
+  {
+   "id": "P-004",
+   "inicio": 21.0,
+   "fim": 26.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.88
+  },
+  {
+   "id": "P-005",
+   "inicio": 26.0,
+   "fim": 32.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.89
+  },
+  {
+   "id": "P-006",
+   "inicio": 27.0,
+   "fim": 29.0,
+   "rotulo": "Musical instrument",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-007",
+   "inicio": 30.0,
+   "fim": 32.0,
+   "rotulo": "Singing bowl",
+   "probabilidade_maxima": 0.34
+  },
+  {
+   "id": "P-008",
+   "inicio": 32.0,
+   "fim": 62.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.86
+  },
+  {
+   "id": "P-009",
+   "inicio": 36.0,
+   "fim": 38.0,
+   "rotulo": "Musical instrument",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-010",
+   "inicio": 69.0,
+   "fim": 72.0,
+   "rotulo": "Gong",
+   "probabilidade_maxima": 0.45
+  },
+  {
+   "id": "P-011",
+   "inicio": 71.0,
+   "fim": 73.0,
+   "rotulo": "Vehicle",
+   "probabilidade_maxima": 0.38
+  },
+  {
+   "id": "P-012",
+   "inicio": 84.0,
+   "fim": 87.0,
+   "rotulo": "Vehicle",
+   "probabilidade_maxima": 0.51
+  },
+  {
+   "id": "P-013",
+   "inicio": 86.0,
+   "fim": 88.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-014",
+   "inicio": 88.0,
+   "fim": 90.0,
+   "rotulo": "Plucked string instrument",
+   "probabilidade_maxima": 0.43
+  },
+  {
+   "id": "P-015",
+   "inicio": 88.0,
+   "fim": 96.0,
+   "rotulo": "Guitar",
+   "probabilidade_maxima": 0.58
+  },
+  {
+   "id": "P-016",
+   "inicio": 88.0,
+   "fim": 108.0,
+   "rotulo": "Musical instrument",
+   "probabilidade_maxima": 0.9
+  },
+  {
+   "id": "P-017",
+   "inicio": 88.0,
+   "fim": 112.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.95
+  },
+  {
+   "id": "P-018",
+   "inicio": 90.0,
+   "fim": 96.0,
+   "rotulo": "Plucked string instrument",
+   "probabilidade_maxima": 0.51
+  },
+  {
+   "id": "P-019",
+   "inicio": 96.0,
+   "fim": 103.0,
+   "rotulo": "Guitar",
+   "probabilidade_maxima": 0.74
+  },
+  {
+   "id": "P-020",
+   "inicio": 96.0,
+   "fim": 103.0,
+   "rotulo": "Plucked string instrument",
+   "probabilidade_maxima": 0.73
+  },
+  {
+   "id": "P-021",
+   "inicio": 101.0,
+   "fim": 103.0,
+   "rotulo": "Ukulele",
+   "probabilidade_maxima": 0.4
+  },
+  {
+   "id": "P-022",
+   "inicio": 104.0,
+   "fim": 107.0,
+   "rotulo": "Acoustic guitar",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-023",
+   "inicio": 104.0,
+   "fim": 107.0,
+   "rotulo": "Strum",
+   "probabilidade_maxima": 0.38
+  },
+  {
+   "id": "P-024",
+   "inicio": 104.0,
+   "fim": 108.0,
+   "rotulo": "Guitar",
+   "probabilidade_maxima": 0.86
+  },
+  {
+   "id": "P-025",
+   "inicio": 104.0,
+   "fim": 108.0,
+   "rotulo": "Plucked string instrument",
+   "probabilidade_maxima": 0.82
+  },
+  {
+   "id": "P-026",
+   "inicio": 107.0,
+   "fim": 109.0,
+   "rotulo": "Gong",
+   "probabilidade_maxima": 0.48
+  },
+  {
+   "id": "P-027",
+   "inicio": 112.0,
+   "fim": 115.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.61
+  },
+  {
+   "id": "P-028",
+   "inicio": 112.0,
+   "fim": 119.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.84
+  },
+  {
+   "id": "P-029",
+   "inicio": 113.0,
+   "fim": 115.0,
+   "rotulo": "Fly, housefly",
+   "probabilidade_maxima": 0.41
+  },
+  {
+   "id": "P-030",
+   "inicio": 115.0,
+   "fim": 119.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.73
+  },
+  {
+   "id": "P-031",
+   "inicio": 116.0,
+   "fim": 119.0,
+   "rotulo": "Fly, housefly",
+   "probabilidade_maxima": 0.56
+  },
+  {
+   "id": "P-032",
+   "inicio": 124.0,
+   "fim": 129.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.78
+  },
+  {
+   "id": "P-033",
+   "inicio": 130.0,
+   "fim": 133.0,
+   "rotulo": "Fly, housefly",
+   "probabilidade_maxima": 0.56
+  },
+  {
+   "id": "P-034",
+   "inicio": 130.0,
+   "fim": 134.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.82
+  },
+  {
+   "id": "P-035",
+   "inicio": 130.0,
+   "fim": 134.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.76
+  },
+  {
+   "id": "P-036",
+   "inicio": 139.0,
+   "fim": 141.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.45
+  },
+  {
+   "id": "P-037",
+   "inicio": 139.0,
+   "fim": 141.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.45
+  },
+  {
+   "id": "P-038",
+   "inicio": 144.0,
+   "fim": 147.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.48
+  },
+  {
+   "id": "P-039",
+   "inicio": 144.0,
+   "fim": 147.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.54
+  },
+  {
+   "id": "P-040",
+   "inicio": 145.0,
+   "fim": 147.0,
+   "rotulo": "Fly, housefly",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-041",
+   "inicio": 163.0,
+   "fim": 166.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-042",
+   "inicio": 164.0,
+   "fim": 166.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.58
+  },
+  {
+   "id": "P-043",
+   "inicio": 171.0,
+   "fim": 173.0,
+   "rotulo": "Fly, housefly",
+   "probabilidade_maxima": 0.49
+  },
+  {
+   "id": "P-044",
+   "inicio": 171.0,
+   "fim": 174.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-045",
+   "inicio": 171.0,
+   "fim": 174.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.57
+  },
+  {
+   "id": "P-046",
+   "inicio": 175.0,
+   "fim": 177.0,
+   "rotulo": "Owl",
+   "probabilidade_maxima": 0.6
+  },
+  {
+   "id": "P-047",
+   "inicio": 175.0,
+   "fim": 177.0,
+   "rotulo": "Hoot",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-048",
+   "inicio": 185.0,
+   "fim": 187.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-049",
+   "inicio": 185.0,
+   "fim": 188.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.38
+  },
+  {
+   "id": "P-050",
+   "inicio": 197.0,
+   "fim": 199.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.34
+  },
+  {
+   "id": "P-051",
+   "inicio": 203.0,
+   "fim": 205.0,
+   "rotulo": "Vehicle",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-052",
+   "inicio": 206.0,
+   "fim": 208.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.3
+  },
+  {
+   "id": "P-053",
+   "inicio": 206.0,
+   "fim": 208.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-054",
+   "inicio": 213.0,
+   "fim": 215.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.45
+  },
+  {
+   "id": "P-055",
+   "inicio": 213.0,
+   "fim": 215.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.4
+  },
+  {
+   "id": "P-056",
+   "inicio": 218.0,
+   "fim": 220.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-057",
+   "inicio": 218.0,
+   "fim": 220.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.54
+  },
+  {
+   "id": "P-058",
+   "inicio": 219.0,
+   "fim": 222.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.85
+  },
+  {
+   "id": "P-059",
+   "inicio": 219.0,
+   "fim": 222.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.74
+  },
+  {
+   "id": "P-060",
+   "inicio": 220.0,
+   "fim": 222.0,
+   "rotulo": "Fly, housefly",
+   "probabilidade_maxima": 0.51
+  },
+  {
+   "id": "P-061",
+   "inicio": 222.0,
+   "fim": 224.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.47
+  },
+  {
+   "id": "P-062",
+   "inicio": 222.0,
+   "fim": 225.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.54
+  },
+  {
+   "id": "P-063",
+   "inicio": 224.0,
+   "fim": 226.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-064",
+   "inicio": 224.0,
+   "fim": 226.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.36
+  },
+  {
+   "id": "P-065",
+   "inicio": 226.0,
+   "fim": 228.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.58
+  },
+  {
+   "id": "P-066",
+   "inicio": 226.0,
+   "fim": 229.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.59
+  },
+  {
+   "id": "P-067",
+   "inicio": 231.0,
+   "fim": 233.0,
+   "rotulo": "Vehicle",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-068",
+   "inicio": 235.0,
+   "fim": 237.0,
+   "rotulo": "Wind chime",
+   "probabilidade_maxima": 0.34
+  },
+  {
+   "id": "P-069",
+   "inicio": 235.0,
+   "fim": 237.0,
+   "rotulo": "Chime",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-070",
+   "inicio": 237.0,
+   "fim": 239.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-071",
+   "inicio": 242.0,
+   "fim": 244.0,
+   "rotulo": "Radio",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-072",
+   "inicio": 246.0,
+   "fim": 248.0,
+   "rotulo": "Cattle, bovinae",
+   "probabilidade_maxima": 0.69
+  },
+  {
+   "id": "P-073",
+   "inicio": 246.0,
+   "fim": 248.0,
+   "rotulo": "Livestock, farm animals, working animals",
+   "probabilidade_maxima": 0.61
+  },
+  {
+   "id": "P-074",
+   "inicio": 246.0,
+   "fim": 248.0,
+   "rotulo": "Moo",
+   "probabilidade_maxima": 0.6
+  },
+  {
+   "id": "P-075",
+   "inicio": 249.0,
+   "fim": 251.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-076",
+   "inicio": 249.0,
+   "fim": 251.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-077",
+   "inicio": 259.0,
+   "fim": 261.0,
+   "rotulo": "Bee, wasp, etc.",
+   "probabilidade_maxima": 0.45
+  },
+  {
+   "id": "P-078",
+   "inicio": 259.0,
+   "fim": 261.0,
+   "rotulo": "Insect",
+   "probabilidade_maxima": 0.38
+  },
+  {
+   "id": "P-079",
+   "inicio": 276.0,
+   "fim": 280.0,
+   "rotulo": "Vehicle",
+   "probabilidade_maxima": 0.47
+  },
+  {
+   "id": "P-080",
+   "inicio": 293.0,
+   "fim": 296.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.78
+  },
+  {
+   "id": "P-081",
+   "inicio": 294.0,
+   "fim": 296.0,
+   "rotulo": "Musical instrument",
+   "probabilidade_maxima": 0.44
+  },
+  {
+   "id": "P-082",
+   "inicio": 300.0,
+   "fim": 307.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.82
+  },
+  {
+   "id": "P-083",
+   "inicio": 302.0,
+   "fim": 304.0,
+   "rotulo": "Ambient music",
+   "probabilidade_maxima": 0.34
+  },
+  {
+   "id": "P-084",
+   "inicio": 304.0,
+   "fim": 308.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.52
+  },
+  {
+   "id": "P-085",
+   "inicio": 305.0,
+   "fim": 308.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.51
+  },
+  {
+   "id": "P-086",
+   "inicio": 314.0,
+   "fim": 316.0,
+   "rotulo": "Owl",
+   "probabilidade_maxima": 0.41
+  },
+  {
+   "id": "P-087",
+   "inicio": 316.0,
+   "fim": 320.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.8
+  },
+  {
+   "id": "P-088",
+   "inicio": 327.0,
+   "fim": 330.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-089",
+   "inicio": 331.0,
+   "fim": 344.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.87
+  },
+  {
+   "id": "P-090",
+   "inicio": 346.0,
+   "fim": 350.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.72
+  },
+  {
+   "id": "P-091",
+   "inicio": 348.0,
+   "fim": 350.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-092",
+   "inicio": 348.0,
+   "fim": 350.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.47
+  },
+  {
+   "id": "P-093",
+   "inicio": 350.0,
+   "fim": 353.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.82
+  },
+  {
+   "id": "P-094",
+   "inicio": 354.0,
+   "fim": 357.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.7
+  },
+  {
+   "id": "P-095",
+   "inicio": 357.0,
+   "fim": 362.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.78
+  },
+  {
+   "id": "P-096",
+   "inicio": 362.0,
+   "fim": 364.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-097",
+   "inicio": 365.0,
+   "fim": 370.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.71
+  },
+  {
+   "id": "P-098",
+   "inicio": 375.0,
+   "fim": 377.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-099",
+   "inicio": 375.0,
+   "fim": 377.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-100",
+   "inicio": 376.0,
+   "fim": 379.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.75
+  },
+  {
+   "id": "P-101",
+   "inicio": 379.0,
+   "fim": 384.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.65
+  },
+  {
+   "id": "P-102",
+   "inicio": 380.0,
+   "fim": 383.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.49
+  },
+  {
+   "id": "P-103",
+   "inicio": 380.0,
+   "fim": 383.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.53
+  },
+  {
+   "id": "P-104",
+   "inicio": 384.0,
+   "fim": 386.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.4
+  },
+  {
+   "id": "P-105",
+   "inicio": 386.0,
+   "fim": 392.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.66
+  },
+  {
+   "id": "P-106",
+   "inicio": 387.0,
+   "fim": 389.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.3
+  },
+  {
+   "id": "P-107",
+   "inicio": 398.0,
+   "fim": 400.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-108",
+   "inicio": 399.0,
+   "fim": 401.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.34
+  },
+  {
+   "id": "P-109",
+   "inicio": 401.0,
+   "fim": 403.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-110",
+   "inicio": 403.0,
+   "fim": 405.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.45
+  },
+  {
+   "id": "P-111",
+   "inicio": 403.0,
+   "fim": 405.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.49
+  },
+  {
+   "id": "P-112",
+   "inicio": 405.0,
+   "fim": 407.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-113",
+   "inicio": 413.0,
+   "fim": 415.0,
+   "rotulo": "Animal",
+   "probabilidade_maxima": 0.38
+  },
+  {
+   "id": "P-114",
+   "inicio": 413.0,
+   "fim": 416.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.6
+  },
+  {
+   "id": "P-115",
+   "inicio": 416.0,
+   "fim": 418.0,
+   "rotulo": "Owl",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-116",
+   "inicio": 416.0,
+   "fim": 418.0,
+   "rotulo": "Hoot",
+   "probabilidade_maxima": 0.44
+  },
+  {
+   "id": "P-117",
+   "inicio": 426.0,
+   "fim": 429.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-118",
+   "inicio": 427.0,
+   "fim": 429.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.38
+  },
+  {
+   "id": "P-119",
+   "inicio": 427.0,
+   "fim": 429.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-120",
+   "inicio": 429.0,
+   "fim": 432.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.53
+  },
+  {
+   "id": "P-121",
+   "inicio": 430.0,
+   "fim": 432.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.4
+  },
+  {
+   "id": "P-122",
+   "inicio": 430.0,
+   "fim": 432.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-123",
+   "inicio": 432.0,
+   "fim": 434.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.42
+  },
+  {
+   "id": "P-124",
+   "inicio": 432.0,
+   "fim": 434.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-125",
+   "inicio": 435.0,
+   "fim": 437.0,
+   "rotulo": "Boat, Water vehicle",
+   "probabilidade_maxima": 0.51
+  },
+  {
+   "id": "P-126",
+   "inicio": 436.0,
+   "fim": 440.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.62
+  }
+ ],
+ "resumo_panns": "Rótulos apontados em mais da metade das janelas da faixa, que não entram como itens: Speech (60% das janelas).",
+ "descricoes_clap": [
+  {
+   "id": "C-001",
+   "inicio": 0.0,
+   "fim": 3.0,
+   "descricao": "the surface noise of an old record"
+  },
+  {
+   "id": "C-002",
+   "inicio": 2.0,
+   "fim": 4.0,
+   "descricao": "silence"
+  },
+  {
+   "id": "C-003",
+   "inicio": 3.0,
+   "fim": 7.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-004",
+   "inicio": 6.0,
+   "fim": 9.0,
+   "descricao": "a skipping record"
+  },
+  {
+   "id": "C-005",
+   "inicio": 9.0,
+   "fim": 12.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-006",
+   "inicio": 12.0,
+   "fim": 14.0,
+   "descricao": "a skipping record"
+  },
+  {
+   "id": "C-007",
+   "inicio": 16.0,
+   "fim": 18.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-008",
+   "inicio": 28.0,
+   "fim": 30.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-009",
+   "inicio": 37.0,
+   "fim": 39.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-010",
+   "inicio": 39.0,
+   "fim": 42.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-011",
+   "inicio": 42.0,
+   "fim": 44.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-012",
+   "inicio": 48.0,
+   "fim": 53.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-013",
+   "inicio": 55.0,
+   "fim": 57.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-014",
+   "inicio": 57.0,
+   "fim": 60.0,
+   "descricao": "a church bell"
+  },
+  {
+   "id": "C-015",
+   "inicio": 59.0,
+   "fim": 61.0,
+   "descricao": "a skipping record"
+  },
+  {
+   "id": "C-016",
+   "inicio": 60.0,
+   "fim": 63.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-017",
+   "inicio": 65.0,
+   "fim": 68.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-018",
+   "inicio": 67.0,
+   "fim": 69.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-019",
+   "inicio": 68.0,
+   "fim": 72.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-020",
+   "inicio": 72.0,
+   "fim": 75.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-021",
+   "inicio": 75.0,
+   "fim": 83.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-022",
+   "inicio": 82.0,
+   "fim": 84.0,
+   "descricao": "silence"
+  },
+  {
+   "id": "C-023",
+   "inicio": 83.0,
+   "fim": 85.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-024",
+   "inicio": 84.0,
+   "fim": 86.0,
+   "descricao": "silence"
+  },
+  {
+   "id": "C-025",
+   "inicio": 85.0,
+   "fim": 87.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-026",
+   "inicio": 86.0,
+   "fim": 88.0,
+   "descricao": "tamborim"
+  },
+  {
+   "id": "C-027",
+   "inicio": 115.0,
+   "fim": 117.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-028",
+   "inicio": 118.0,
+   "fim": 120.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-029",
+   "inicio": 125.0,
+   "fim": 127.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-030",
+   "inicio": 126.0,
+   "fim": 130.0,
+   "descricao": "a man coughing"
+  },
+  {
+   "id": "C-031",
+   "inicio": 129.0,
+   "fim": 131.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-032",
+   "inicio": 133.0,
+   "fim": 135.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-033",
+   "inicio": 134.0,
+   "fim": 136.0,
+   "descricao": "a man coughing"
+  },
+  {
+   "id": "C-034",
+   "inicio": 147.0,
+   "fim": 150.0,
+   "descricao": "silence"
+  },
+  {
+   "id": "C-035",
+   "inicio": 150.0,
+   "fim": 152.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-036",
+   "inicio": 153.0,
+   "fim": 157.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-037",
+   "inicio": 169.0,
+   "fim": 171.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-038",
+   "inicio": 170.0,
+   "fim": 173.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-039",
+   "inicio": 177.0,
+   "fim": 179.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-040",
+   "inicio": 178.0,
+   "fim": 180.0,
+   "descricao": "a crowd cheering and shouting"
+  },
+  {
+   "id": "C-041",
+   "inicio": 179.0,
+   "fim": 182.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-042",
+   "inicio": 181.0,
+   "fim": 183.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-043",
+   "inicio": 184.0,
+   "fim": 186.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-044",
+   "inicio": 187.0,
+   "fim": 189.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-045",
+   "inicio": 188.0,
+   "fim": 190.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-046",
+   "inicio": 189.0,
+   "fim": 191.0,
+   "descricao": "a crowd cheering and shouting"
+  },
+  {
+   "id": "C-047",
+   "inicio": 190.0,
+   "fim": 193.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-048",
+   "inicio": 204.0,
+   "fim": 206.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-049",
+   "inicio": 207.0,
+   "fim": 210.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-050",
+   "inicio": 214.0,
+   "fim": 216.0,
+   "descricao": "a crowd cheering and shouting"
+  },
+  {
+   "id": "C-051",
+   "inicio": 250.0,
+   "fim": 252.0,
+   "descricao": "a man coughing"
+  },
+  {
+   "id": "C-052",
+   "inicio": 256.0,
+   "fim": 258.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-053",
+   "inicio": 259.0,
+   "fim": 261.0,
+   "descricao": "tamborim"
+  },
+  {
+   "id": "C-054",
+   "inicio": 260.0,
+   "fim": 262.0,
+   "descricao": "silence"
+  },
+  {
+   "id": "C-055",
+   "inicio": 266.0,
+   "fim": 268.0,
+   "descricao": "ocean waves"
+  },
+  {
+   "id": "C-056",
+   "inicio": 269.0,
+   "fim": 271.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-057",
+   "inicio": 270.0,
+   "fim": 272.0,
+   "descricao": "silence"
+  },
+  {
+   "id": "C-058",
+   "inicio": 275.0,
+   "fim": 277.0,
+   "descricao": "wind"
+  },
+  {
+   "id": "C-059",
+   "inicio": 278.0,
+   "fim": 285.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-060",
+   "inicio": 284.0,
+   "fim": 286.0,
+   "descricao": "silence"
+  },
+  {
+   "id": "C-061",
+   "inicio": 285.0,
+   "fim": 297.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-062",
+   "inicio": 297.0,
+   "fim": 301.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-063",
+   "inicio": 309.0,
+   "fim": 311.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-064",
+   "inicio": 313.0,
+   "fim": 315.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-065",
+   "inicio": 315.0,
+   "fim": 317.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-066",
+   "inicio": 319.0,
+   "fim": 321.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-067",
+   "inicio": 325.0,
+   "fim": 327.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-068",
+   "inicio": 330.0,
+   "fim": 333.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-069",
+   "inicio": 335.0,
+   "fim": 337.0,
+   "descricao": "a man coughing"
+  },
+  {
+   "id": "C-070",
+   "inicio": 357.0,
+   "fim": 360.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-071",
+   "inicio": 361.0,
+   "fim": 363.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-072",
+   "inicio": 367.0,
+   "fim": 369.0,
+   "descricao": "a crowd cheering and shouting"
+  },
+  {
+   "id": "C-073",
+   "inicio": 369.0,
+   "fim": 371.0,
+   "descricao": "samba"
+  },
+  {
+   "id": "C-074",
+   "inicio": 388.0,
+   "fim": 390.0,
+   "descricao": "a crowd cheering and shouting"
+  },
+  {
+   "id": "C-075",
+   "inicio": 393.0,
+   "fim": 395.0,
+   "descricao": "a crowd cheering and shouting"
+  },
+  {
+   "id": "C-076",
+   "inicio": 410.0,
+   "fim": 412.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-077",
+   "inicio": 435.0,
+   "fim": 437.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-078",
+   "inicio": 439.0,
+   "fim": 441.0,
+   "descricao": "electrical hum"
+  },
+  {
+   "id": "C-079",
+   "inicio": 439.318,
+   "fim": 441.318,
+   "descricao": "silence"
+  }
+ ]
+}

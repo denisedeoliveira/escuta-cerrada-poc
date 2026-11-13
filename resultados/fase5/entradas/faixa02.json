@@ -1,0 +1,654 @@
+{
+ "faixa": 2,
+ "duracao_s": 201.32,
+ "legenda": {
+  "fala": "Segmentos produzidos pelo modelo de reconhecimento de fala Whisper (large-v3), sem filtro de ruído, com início e fim em segundos, o texto escrito pelo modelo e três indicadores do próprio modelo. avg_logprob é a média do logaritmo da probabilidade dos tokens do texto (valores mais baixos correspondem a menor confiança do modelo no texto). no_speech_prob é a probabilidade, estimada pelo modelo, de que o segmento não contenha fala. compression_ratio é a razão de compressão do texto (valores altos correspondem a texto repetitivo dentro do segmento). O campo sinais lista os sinais calculados a partir desses dados.",
+  "sinais": {
+   "repetição": "o mesmo texto aparece em três ou mais segmentos da faixa",
+   "indicação de ausência de fala": "no_speech_prob acima de 0,6",
+   "baixa confiança": "avg_logprob abaixo de -1,0",
+   "divergência entre transcrições": "menos da metade das palavras do segmento aparece, no mesmo intervalo, numa segunda transcrição da mesma gravação feita pelo mesmo modelo depois de um filtro de redução de ruído"
+  },
+  "eventos_panns": "Intervalos em que o detector de eventos sonoros PANNs (Cnn14, treinado com as 527 categorias do AudioSet) atribuiu probabilidade de pelo menos 0,3 a um rótulo, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com o mesmo rótulo foram reunidas num intervalo. probabilidade_maxima é o maior valor do rótulo no intervalo.",
+  "descricoes_clap": "Intervalos em que uma descrição textual, em inglês, ficou em primeiro lugar entre 28 na comparação feita pelo modelo CLAP entre o áudio e as descrições, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com a mesma descrição foram reunidas num intervalo. As descrições que ficaram entre as três primeiras em mais de um quarto das janelas da faixa foram retiradas."
+ },
+ "fala": [
+  {
+   "id": "F-001",
+   "inicio": 1.58,
+   "fim": 19.52,
+   "texto": "Dia de verão gaúcho, madrugada, a noite amadureceu a madrugada e o dia vai abrir os lábios vermelhos de manhã para engolir a sombra numa grande rugada do sol.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.04,
+   "compression_ratio": 1.31,
+   "sinais": []
+  },
+  {
+   "id": "F-002",
+   "inicio": 19.52,
+   "fim": 35.38,
+   "texto": "Sinto a alegria verde da manhã do poeta, o campo está todo enfeitado de incêndio porque a noite enfiou as continhas brancas do terreno nas astes lisas da fuxia.",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46,
+   "sinais": []
+  },
+  {
+   "id": "F-003",
+   "inicio": 36.22,
+   "fim": 46.96,
+   "texto": "Eu saio de pés descalços para a sanga e vou amassando sobre os pés molhados os desenhos de orvalho sobre a grama fossa.",
+   "avg_logprob": -0.28,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.46,
+   "sinais": []
+  },
+  {
+   "id": "F-004",
+   "inicio": 46.96,
+   "fim": 55.94,
+   "texto": "Quero beber a água pura da caminhada, mas quando abaixo vejo todo o céu na água beijada.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.67,
+   "sinais": []
+  },
+  {
+   "id": "F-005",
+   "inicio": 56.36,
+   "fim": 71.94,
+   "texto": "Vejo a última estrela que ficou desbilhoteira para espiar o sol e ver a cara que eu dei e depois ir contar as companheiras que não puderam ficar para ver também.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.67,
+   "sinais": []
+  },
+  {
+   "id": "F-006",
+   "inicio": 73.4,
+   "fim": 76.94,
+   "texto": "Tenho medo de engolir a estrela d'alva, mas me pergunto por que eu não vou.",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.67,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-007",
+   "inicio": 76.94,
+   "fim": 76.94,
+   "texto": "",
+   "avg_logprob": -0.27,
+   "no_speech_prob": 0.02,
+   "compression_ratio": 1.67,
+   "sinais": []
+  },
+  {
+   "id": "F-008",
+   "inicio": 76.96,
+   "fim": 83.32,
+   "texto": "Eu me debruço e vou beber o céu, como era fresco o céu da minha terra.",
+   "avg_logprob": -0.34,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-009",
+   "inicio": 85.12,
+   "fim": 85.58,
+   "texto": "Meio dia.",
+   "avg_logprob": -0.34,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47,
+   "sinais": []
+  },
+  {
+   "id": "F-010",
+   "inicio": 87.48,
+   "fim": 96.34,
+   "texto": "Todo o ar treme sobre o sol do meio dia, o capim se dobrou sobre si mesmo, repetindo.",
+   "avg_logprob": -0.34,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47,
+   "sinais": []
+  },
+  {
+   "id": "F-011",
+   "inicio": 96.98,
+   "fim": 104.02,
+   "texto": "A gente olhando o campo tem a impressão que derramam sobre ele qualquer coisa de verdade.",
+   "avg_logprob": -0.34,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47,
+   "sinais": []
+  },
+  {
+   "id": "F-012",
+   "inicio": 104.36,
+   "fim": 106.74,
+   "texto": "O gado invadindo a desfogada.",
+   "avg_logprob": -0.34,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.47,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-013",
+   "inicio": 106.96,
+   "fim": 109.54,
+   "texto": "O教 iPhone para focar quernolCómo.",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-014",
+   "inicio": 109.94,
+   "fim": 110.44,
+   "texto": "Dez!",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-015",
+   "inicio": 112.8,
+   "fim": 117.02,
+   "texto": "Um tubinho de água viva!",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-016",
+   "inicio": 117.02,
+   "fim": 122.8,
+   "texto": "Que se ia debruxar esse키 como é que me revivir?",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-017",
+   "inicio": 123.08,
+   "fim": 124.08,
+   "texto": "Tem uma dieta Palestinians!",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-018",
+   "inicio": 124.24,
+   "fim": 125.24,
+   "texto": "Depwości.",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-019",
+   "inicio": 126.32,
+   "fim": 127.44,
+   "texto": "Tem umими?",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-020",
+   "inicio": 128.52,
+   "fim": 129.04,
+   "texto": "É aliás, é aqui a gente vê o small auto.",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-021",
+   "inicio": 129.04,
+   "fim": 129.62,
+   "texto": "A equilibrado...",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-022",
+   "inicio": 129.62,
+   "fim": 129.74,
+   "texto": "Eu não vou somente cursar.",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-023",
+   "inicio": 129.74,
+   "fim": 132.6,
+   "texto": "Ninguém vai me editar esse noite e não aquela coisa do coiolinha aqui...",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-024",
+   "inicio": 132.6,
+   "fim": 134.08,
+   "texto": "Sem infelizz Coachman pode ser opensse necessar decentemente, que é muito survival,",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-025",
+   "inicio": 134.08,
+   "fim": 134.08,
+   "texto": "",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-026",
+   "inicio": 134.08,
+   "fim": 136.72,
+   "texto": "Olhem só essa estrofe운ico, olha que que épielal de�as colorim, que não tem rarārak.",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-027",
+   "inicio": 136.94,
+   "fim": 136.94,
+   "texto": "",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-028",
+   "inicio": 136.94,
+   "fim": 136.94,
+   "texto": "",
+   "avg_logprob": -4.84,
+   "no_speech_prob": 0.11,
+   "compression_ratio": 1.43,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-029",
+   "inicio": 136.96,
+   "fim": 140.38,
+   "texto": "Bocada nas moscas, espalhando os dentes.",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.7,
+   "compression_ratio": 1.42,
+   "sinais": [
+    "indicação de ausência de fala",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-030",
+   "inicio": 141.16,
+   "fim": 144.44,
+   "texto": "Depois cocoricoca uma galinha que botou,",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.7,
+   "compression_ratio": 1.42,
+   "sinais": [
+    "indicação de ausência de fala"
+   ]
+  },
+  {
+   "id": "F-031",
+   "inicio": 144.48,
+   "fim": 149.14,
+   "texto": "E tudo volta ao silêncio, e o calor tonteio.",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.7,
+   "compression_ratio": 1.42,
+   "sinais": [
+    "indicação de ausência de fala"
+   ]
+  },
+  {
+   "id": "F-032",
+   "inicio": 150.36,
+   "fim": 153.78,
+   "texto": "Até o vento tem preguiça de ventar,",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.7,
+   "compression_ratio": 1.42,
+   "sinais": [
+    "indicação de ausência de fala"
+   ]
+  },
+  {
+   "id": "F-033",
+   "inicio": 153.9,
+   "fim": 159.78,
+   "texto": "A pena se ouve, o mundo, o mundo, o mundo,",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.7,
+   "compression_ratio": 1.42,
+   "sinais": [
+    "indicação de ausência de fala",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-034",
+   "inicio": 160.62,
+   "fim": 166.34,
+   "texto": "O monótono zumbum das moscas para a bunda.",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.7,
+   "compression_ratio": 1.42,
+   "sinais": [
+    "indicação de ausência de fala",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-035",
+   "inicio": 169.3,
+   "fim": 174.88,
+   "texto": "Tardezinha, sol e fria atrás da última coxinha,",
+   "avg_logprob": -0.39,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-036",
+   "inicio": 176.48,
+   "fim": 179.66,
+   "texto": "A tarde é úmida e morna como um beijo,",
+   "avg_logprob": -0.39,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": []
+  },
+  {
+   "id": "F-037",
+   "inicio": 179.82,
+   "fim": 183.82,
+   "texto": "A varga é morena como um opor o corixinha,",
+   "avg_logprob": -0.39,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-038",
+   "inicio": 184.8,
+   "fim": 190.64,
+   "texto": "A varga onde a primavera passou e deixou estendida uma coxa de chanque.",
+   "avg_logprob": -0.39,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": []
+  },
+  {
+   "id": "F-039",
+   "inicio": 191.8,
+   "fim": 196.88,
+   "texto": "Eu me deito no trevalo macio e fico estirado onde o céu,",
+   "avg_logprob": -0.39,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": []
+  },
+  {
+   "id": "F-040",
+   "inicio": 196.96,
+   "fim": 201.3,
+   "texto": "E o que será da boa paradaаемся grandes do meu Какまador.",
+   "avg_logprob": -5.42,
+   "no_speech_prob": 0.35,
+   "compression_ratio": 0.89,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  }
+ ],
+ "eventos_panns": [
+  {
+   "id": "P-001",
+   "inicio": 0.0,
+   "fim": 2.0,
+   "rotulo": "Static",
+   "probabilidade_maxima": 0.62
+  },
+  {
+   "id": "P-002",
+   "inicio": 50.0,
+   "fim": 52.0,
+   "rotulo": "Static",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-003",
+   "inicio": 50.0,
+   "fim": 52.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-004",
+   "inicio": 59.0,
+   "fim": 61.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-005",
+   "inicio": 67.0,
+   "fim": 69.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.64
+  },
+  {
+   "id": "P-006",
+   "inicio": 71.0,
+   "fim": 73.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-007",
+   "inicio": 81.0,
+   "fim": 84.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.6
+  },
+  {
+   "id": "P-008",
+   "inicio": 88.0,
+   "fim": 90.0,
+   "rotulo": "Rain on surface",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-009",
+   "inicio": 94.0,
+   "fim": 97.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.69
+  },
+  {
+   "id": "P-010",
+   "inicio": 109.0,
+   "fim": 112.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.73
+  },
+  {
+   "id": "P-011",
+   "inicio": 117.0,
+   "fim": 119.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-012",
+   "inicio": 127.0,
+   "fim": 130.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.6
+  },
+  {
+   "id": "P-013",
+   "inicio": 134.0,
+   "fim": 136.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-014",
+   "inicio": 139.0,
+   "fim": 141.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-015",
+   "inicio": 148.0,
+   "fim": 150.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-016",
+   "inicio": 151.0,
+   "fim": 155.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.7
+  },
+  {
+   "id": "P-017",
+   "inicio": 163.0,
+   "fim": 165.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-018",
+   "inicio": 175.0,
+   "fim": 177.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.41
+  },
+  {
+   "id": "P-019",
+   "inicio": 178.0,
+   "fim": 180.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-020",
+   "inicio": 182.0,
+   "fim": 185.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-021",
+   "inicio": 188.0,
+   "fim": 191.0,
+   "rotulo": "Music",
+   "probabilidade_maxima": 0.67
+  }
+ ],
+ "resumo_panns": "Rótulos apontados em mais da metade das janelas da faixa, que não entram como itens: Speech (85% das janelas).",
+ "descricoes_clap": [
+  {
+   "id": "C-001",
+   "inicio": 21.0,
+   "fim": 23.0,
+   "descricao": "a man giving a speech"
+  },
+  {
+   "id": "C-002",
+   "inicio": 36.0,
+   "fim": 38.0,
+   "descricao": "a man giving a speech"
+  }
+ ]
+}

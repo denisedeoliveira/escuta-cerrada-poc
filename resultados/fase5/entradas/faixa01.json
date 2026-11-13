@@ -1,0 +1,1003 @@
+{
+ "faixa": 1,
+ "duracao_s": 335.52,
+ "legenda": {
+  "fala": "Segmentos produzidos pelo modelo de reconhecimento de fala Whisper (large-v3), sem filtro de ruído, com início e fim em segundos, o texto escrito pelo modelo e três indicadores do próprio modelo. avg_logprob é a média do logaritmo da probabilidade dos tokens do texto (valores mais baixos correspondem a menor confiança do modelo no texto). no_speech_prob é a probabilidade, estimada pelo modelo, de que o segmento não contenha fala. compression_ratio é a razão de compressão do texto (valores altos correspondem a texto repetitivo dentro do segmento). O campo sinais lista os sinais calculados a partir desses dados.",
+  "sinais": {
+   "repetição": "o mesmo texto aparece em três ou mais segmentos da faixa",
+   "indicação de ausência de fala": "no_speech_prob acima de 0,6",
+   "baixa confiança": "avg_logprob abaixo de -1,0",
+   "divergência entre transcrições": "menos da metade das palavras do segmento aparece, no mesmo intervalo, numa segunda transcrição da mesma gravação feita pelo mesmo modelo depois de um filtro de redução de ruído"
+  },
+  "eventos_panns": "Intervalos em que o detector de eventos sonoros PANNs (Cnn14, treinado com as 527 categorias do AudioSet) atribuiu probabilidade de pelo menos 0,3 a um rótulo, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com o mesmo rótulo foram reunidas num intervalo. probabilidade_maxima é o maior valor do rótulo no intervalo.",
+  "descricoes_clap": "Intervalos em que uma descrição textual, em inglês, ficou em primeiro lugar entre 28 na comparação feita pelo modelo CLAP entre o áudio e as descrições, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com a mesma descrição foram reunidas num intervalo. As descrições que ficaram entre as três primeiras em mais de um quarto das janelas da faixa foram retiradas."
+ },
+ "fala": [
+  {
+   "id": "F-001",
+   "inicio": 5.94,
+   "fim": 15.12,
+   "texto": "A unificação de esforços dos grandes institutos e o condomínio das construções de seguro social",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.04,
+   "compression_ratio": 1.38,
+   "sinais": []
+  },
+  {
+   "id": "F-002",
+   "inicio": 15.12,
+   "fim": 21.0,
+   "texto": "tornarão as iniciativas dessa natureza perfeitamente viáveis.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.04,
+   "compression_ratio": 1.38,
+   "sinais": []
+  },
+  {
+   "id": "F-003",
+   "inicio": 21.14,
+   "fim": 29.6,
+   "texto": "O cálculo da mobilização financeira das reservas atuais permite-nos anunciar",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.04,
+   "compression_ratio": 1.38,
+   "sinais": []
+  },
+  {
+   "id": "F-004",
+   "inicio": 29.6,
+   "fim": 36.6,
+   "texto": "o propósito de nelas inverter inicialmente 500 milhões de cruzeiros.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.28,
+   "sinais": []
+  },
+  {
+   "id": "F-005",
+   "inicio": 47.2,
+   "fim": 55.68,
+   "texto": "Concluídos esses aperfeiçoamentos no sistema de auxílio e estímulo ao operário industrial,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.28,
+   "sinais": []
+  },
+  {
+   "id": "F-006",
+   "inicio": 56.12,
+   "fim": 59.58,
+   "texto": "o Estado atacará com idêntico empenho.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.28,
+   "sinais": []
+  },
+  {
+   "id": "F-007",
+   "inicio": 59.6,
+   "fim": 63.82,
+   "texto": "Outro aspecto relevante do problema da produção.",
+   "avg_logprob": -0.22,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54,
+   "sinais": []
+  },
+  {
+   "id": "F-008",
+   "inicio": 65.3,
+   "fim": 70.12,
+   "texto": "Estão adiantados os estudos para a promulgação de uma lei",
+   "avg_logprob": -0.22,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54,
+   "sinais": []
+  },
+  {
+   "id": "F-009",
+   "inicio": 70.12,
+   "fim": 75.26,
+   "texto": "definidora dos direitos e deveres dos trabalhadores rurais.",
+   "avg_logprob": -0.22,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54,
+   "sinais": []
+  },
+  {
+   "id": "F-010",
+   "inicio": 77.24,
+   "fim": 82.62,
+   "texto": "A quinta parte da nossa população total trabalha e vive na lavoura",
+   "avg_logprob": -0.22,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54,
+   "sinais": []
+  },
+  {
+   "id": "F-011",
+   "inicio": 82.62,
+   "fim": 88.66,
+   "texto": "e não é possível permitir por mais tempo a situação de insegurança,",
+   "avg_logprob": -0.22,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54,
+   "sinais": []
+  },
+  {
+   "id": "F-012",
+   "inicio": 88.76,
+   "fim": 89.58,
+   "texto": "exigência e desigualdade.",
+   "avg_logprob": -0.22,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.54,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-013",
+   "inicio": 89.6,
+   "fim": 92.56,
+   "texto": "A questão é que a lei não é existente para salariados e empregadores.",
+   "avg_logprob": -0.35,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.39,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-014",
+   "inicio": 93.96,
+   "fim": 111.72,
+   "texto": "Torna-se inadeável estabelecer com clareza e força de lei as obrigações de cada um,",
+   "avg_logprob": -0.35,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.39,
+   "sinais": []
+  },
+  {
+   "id": "F-015",
+   "inicio": 111.8,
+   "fim": 116.1,
+   "texto": "o que virá certamente incrementar as atividades agrárias,",
+   "avg_logprob": -0.35,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.39,
+   "sinais": []
+  },
+  {
+   "id": "F-016",
+   "inicio": 117.04,
+   "fim": 119.14,
+   "texto": "vinculando o trabalhador ao solo,",
+   "avg_logprob": -0.35,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.39,
+   "sinais": []
+  },
+  {
+   "id": "F-017",
+   "inicio": 119.6,
+   "fim": 122.66,
+   "texto": "e evitando a fuga do campo para a cidade,",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-018",
+   "inicio": 123.36,
+   "fim": 126.7,
+   "texto": "tão perniciosa a expansão da riqueza nacional.",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-019",
+   "inicio": 129.1,
+   "fim": 132.12,
+   "texto": "Para o êxito completo dessas iniciativas,",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-020",
+   "inicio": 133.02,
+   "fim": 138.24,
+   "texto": "faça em ester cerrar fileiras em torno das agremiações sindicais.",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-021",
+   "inicio": 146.56,
+   "fim": 148.56,
+   "texto": "A MENSAGEM DO PRODUÇÃO DE UMA MENSAGEM DE RENOVOÇÃO",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-022",
+   "inicio": 148.56,
+   "fim": 149.58,
+   "texto": "A massa operária destaca a lei,",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-023",
+   "inicio": 149.58,
+   "fim": 149.58,
+   "texto": "",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-024",
+   "inicio": 149.58,
+   "fim": 149.58,
+   "texto": "",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-025",
+   "inicio": 149.58,
+   "fim": 149.58,
+   "texto": "",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-026",
+   "inicio": 149.58,
+   "fim": 149.58,
+   "texto": "",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-027",
+   "inicio": 149.58,
+   "fim": 149.58,
+   "texto": "",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-028",
+   "inicio": 149.58,
+   "fim": 149.58,
+   "texto": "",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 2.12,
+   "sinais": []
+  },
+  {
+   "id": "F-029",
+   "inicio": 149.6,
+   "fim": 149.7,
+   "texto": "e a lei, como um sistema de trabalho,",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-030",
+   "inicio": 149.7,
+   "fim": 154.78,
+   "texto": "que, em São Paulo, nos seus 33 mil locais de trabalho,",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-031",
+   "inicio": 155.92,
+   "fim": 160.28,
+   "texto": "concentra cerca de 800 mil trabalhadores.",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-032",
+   "inicio": 161.34,
+   "fim": 168.14,
+   "texto": "E destes, apenas 120 mil acham-se filiados aos órgãos de classe.",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-033",
+   "inicio": 169.9,
+   "fim": 173.98,
+   "texto": "Noutra oportunidade, já vos dirigi um apelo",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-034",
+   "inicio": 173.98,
+   "fim": 177.12,
+   "texto": "para que vos congregasseis por forma",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-035",
+   "inicio": 177.12,
+   "fim": 179.58,
+   "texto": "que os sindicatos representam a lei.",
+   "avg_logprob": -0.47,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-036",
+   "inicio": 179.58,
+   "fim": 184.16,
+   "texto": "E que se juntassem realmente um número de associados",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-037",
+   "inicio": 184.16,
+   "fim": 189.12,
+   "texto": "que fosse expressão total de cada atividade,",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-038",
+   "inicio": 189.5,
+   "fim": 196.5,
+   "texto": "aptos a exercer ativa fiscalização dos direitos que lhes assistem.",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-039",
+   "inicio": 206.58,
+   "fim": 208.58,
+   "texto": "A reforma da lei orgânica,",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-040",
+   "inicio": 209.44,
+   "fim": 209.56,
+   "texto": "a reforma da lei orgânica,",
+   "avg_logprob": -0.44,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.48,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-041",
+   "inicio": 209.58,
+   "fim": 212.32,
+   "texto": "a reforma do escudário do serviço público,",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-042",
+   "inicio": 212.32,
+   "fim": 215.72,
+   "texto": "em que as respostas por causa dos impostosортados",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-043",
+   "inicio": 215.72,
+   "fim": 216.82,
+   "texto": "aproximadamente,",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-044",
+   "inicio": 216.82,
+   "fim": 222.06,
+   "texto": "projetarem o auge paraelsonicar",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-045",
+   "inicio": 222.06,
+   "fim": 225.14,
+   "texto": "o �osing dos estủ Аns Unidos de comunicación",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-046",
+   "inicio": 225.14,
+   "fim": 225.14,
+   "texto": "",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-047",
+   "inicio": 225.14,
+   "fim": 225.14,
+   "texto": "",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-048",
+   "inicio": 225.14,
+   "fim": 225.14,
+   "texto": "",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-049",
+   "inicio": 225.14,
+   "fim": 225.14,
+   "texto": "",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-050",
+   "inicio": 225.14,
+   "fim": 225.42,
+   "texto": "Server gaps and most waters,",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-051",
+   "inicio": 238.9,
+   "fim": 239.56,
+   "texto": "Pneumat pitchedän lattice構신ADan 1980, 3.當然, 2 The Court for Evaluation,",
+   "avg_logprob": -5.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.3,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-052",
+   "inicio": 243.12,
+   "fim": 251.0,
+   "texto": "A alta inteligência e personalidade dinâmica e o interventor Fernando Costa.",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.24,
+   "sinais": []
+  },
+  {
+   "id": "F-053",
+   "inicio": 252.2,
+   "fim": 252.22,
+   "texto": "Aplausos.",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.24,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-054",
+   "inicio": 257.84,
+   "fim": 265.22,
+   "texto": "Tão operoso e experimentado na administração como na agricultura e na indústria,",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.12,
+   "compression_ratio": 1.24,
+   "sinais": []
+  },
+  {
+   "id": "F-055",
+   "inicio": 265.22,
+   "fim": 276.78,
+   "texto": "São Paulo se manufatura metade dos 24 bilhões de cruzeiros da produção industrial do país.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33,
+   "sinais": []
+  },
+  {
+   "id": "F-056",
+   "inicio": 277.08,
+   "fim": 281.18,
+   "texto": "E tem no café a lavoura de mais cultura.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33,
+   "sinais": []
+  },
+  {
+   "id": "F-057",
+   "inicio": 281.88,
+   "fim": 290.7,
+   "texto": "Precisa, por exemplo, congregar as agremiações trabalhistas à mão de obra que lhe garante tão excepcional situação.",
+   "avg_logprob": -0.16,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.33,
+   "sinais": []
+  },
+  {
+   "id": "F-058",
+   "inicio": 295.22,
+   "fim": 295.46,
+   "texto": "Aplausos.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-059",
+   "inicio": 296.54,
+   "fim": 305.28,
+   "texto": "Essa modificação de mentalidade é tanto mais imperiosa e fácil de apreender",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": []
+  },
+  {
+   "id": "F-060",
+   "inicio": 305.28,
+   "fim": 314.58,
+   "texto": "quando se considera a rapidez das transformações da vida econômica e a revisão do próprio conceito de capital",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": []
+  },
+  {
+   "id": "F-061",
+   "inicio": 314.58,
+   "fim": 325.2,
+   "texto": "que deixou de ser simples acumulação de dinheiro para representar energia social concentrada em incessão.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.5,
+   "sinais": []
+  },
+  {
+   "id": "F-062",
+   "inicio": 325.22,
+   "fim": 326.52,
+   "texto": "Tente segundo movimento.",
+   "avg_logprob": -0.59,
+   "no_speech_prob": 0.08,
+   "compression_ratio": 0.83,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-063",
+   "inicio": 327.28,
+   "fim": 328.28,
+   "texto": "Aplausos.",
+   "avg_logprob": -0.59,
+   "no_speech_prob": 0.08,
+   "compression_ratio": 0.83,
+   "sinais": [
+    "repetição",
+    "divergência entre transcrições"
+   ]
+  }
+ ],
+ "eventos_panns": [
+  {
+   "id": "P-001",
+   "inicio": 0.0,
+   "fim": 6.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.64
+  },
+  {
+   "id": "P-002",
+   "inicio": 7.0,
+   "fim": 9.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.54
+  },
+  {
+   "id": "P-003",
+   "inicio": 7.0,
+   "fim": 9.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.47
+  },
+  {
+   "id": "P-004",
+   "inicio": 44.0,
+   "fim": 46.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-005",
+   "inicio": 47.0,
+   "fim": 49.0,
+   "rotulo": "Vehicle",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-006",
+   "inicio": 54.0,
+   "fim": 56.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-007",
+   "inicio": 64.0,
+   "fim": 66.0,
+   "rotulo": "Eruption",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-008",
+   "inicio": 93.0,
+   "fim": 96.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.62
+  },
+  {
+   "id": "P-009",
+   "inicio": 93.0,
+   "fim": 96.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.62
+  },
+  {
+   "id": "P-010",
+   "inicio": 94.0,
+   "fim": 97.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.81
+  },
+  {
+   "id": "P-011",
+   "inicio": 97.0,
+   "fim": 102.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.57
+  },
+  {
+   "id": "P-012",
+   "inicio": 106.0,
+   "fim": 108.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-013",
+   "inicio": 117.0,
+   "fim": 120.0,
+   "rotulo": "Radio",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-014",
+   "inicio": 128.0,
+   "fim": 130.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.41
+  },
+  {
+   "id": "P-015",
+   "inicio": 128.0,
+   "fim": 130.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-016",
+   "inicio": 139.0,
+   "fim": 143.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.78
+  },
+  {
+   "id": "P-017",
+   "inicio": 144.0,
+   "fim": 146.0,
+   "rotulo": "Radio",
+   "probabilidade_maxima": 0.3
+  },
+  {
+   "id": "P-018",
+   "inicio": 144.0,
+   "fim": 146.0,
+   "rotulo": "Noise",
+   "probabilidade_maxima": 0.44
+  },
+  {
+   "id": "P-019",
+   "inicio": 145.0,
+   "fim": 147.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.47
+  },
+  {
+   "id": "P-020",
+   "inicio": 160.0,
+   "fim": 162.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-021",
+   "inicio": 169.0,
+   "fim": 171.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.4
+  },
+  {
+   "id": "P-022",
+   "inicio": 169.0,
+   "fim": 171.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-023",
+   "inicio": 169.0,
+   "fim": 171.0,
+   "rotulo": "Speech synthesizer",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-024",
+   "inicio": 180.0,
+   "fim": 182.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-025",
+   "inicio": 192.0,
+   "fim": 194.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-026",
+   "inicio": 192.0,
+   "fim": 194.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-027",
+   "inicio": 196.0,
+   "fim": 198.0,
+   "rotulo": "Eruption",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-028",
+   "inicio": 199.0,
+   "fim": 203.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-029",
+   "inicio": 203.0,
+   "fim": 205.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-030",
+   "inicio": 226.0,
+   "fim": 228.0,
+   "rotulo": "Eruption",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-031",
+   "inicio": 230.0,
+   "fim": 233.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.44
+  },
+  {
+   "id": "P-032",
+   "inicio": 231.0,
+   "fim": 233.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.36
+  },
+  {
+   "id": "P-033",
+   "inicio": 236.0,
+   "fim": 243.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.82
+  },
+  {
+   "id": "P-034",
+   "inicio": 244.0,
+   "fim": 246.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-035",
+   "inicio": 251.0,
+   "fim": 257.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.66
+  },
+  {
+   "id": "P-036",
+   "inicio": 257.0,
+   "fim": 259.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.44
+  },
+  {
+   "id": "P-037",
+   "inicio": 296.0,
+   "fim": 298.0,
+   "rotulo": "Sheep",
+   "probabilidade_maxima": 0.57
+  },
+  {
+   "id": "P-038",
+   "inicio": 296.0,
+   "fim": 298.0,
+   "rotulo": "Bleat",
+   "probabilidade_maxima": 0.41
+  },
+  {
+   "id": "P-039",
+   "inicio": 325.0,
+   "fim": 327.0,
+   "rotulo": "Machine gun",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-040",
+   "inicio": 325.0,
+   "fim": 327.0,
+   "rotulo": "Gunshot, gunfire",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-041",
+   "inicio": 328.0,
+   "fim": 331.0,
+   "rotulo": "Applause",
+   "probabilidade_maxima": 0.34
+  }
+ ],
+ "resumo_panns": "Rótulos apontados em mais da metade das janelas da faixa, que não entram como itens: Speech (84% das janelas).",
+ "descricoes_clap": [
+  {
+   "id": "C-001",
+   "inicio": 83.0,
+   "fim": 85.0,
+   "descricao": "women singing"
+  },
+  {
+   "id": "C-002",
+   "inicio": 333.517,
+   "fim": 335.517,
+   "descricao": "silence"
+  }
+ ]
+}

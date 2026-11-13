@@ -1,0 +1,200 @@
+{
+ "chamada": "faixa01_3",
+ "data_execucao": "2026-11-03T17:13:37.768899+00:00",
+ "modelo": "gemini-3.8-flash",
+ "versao_modelo": "gemini-3.8-flash",
+ "biblioteca": "google-genai 2.12.1",
+ "parametros": {
+  "temperatura": "padrão do modelo",
+  "saida": "application/json, com o esquema registrado",
+  "demais": "valores padrão",
+  "tempo_limite_s": 300
+ },
+ "instrucao": "Você recebe as saídas de modelos automáticos aplicados a uma gravação sonora em disco. Você não tem acesso ao áudio. Sua tarefa é indicar a uma pesquisadora os momentos da gravação em que vale escutar com atenção, com base apenas nos itens da entrada.\n\n1. Cada indicação deve citar os identificadores dos itens da entrada que a sustentam. O início e o fim da indicação devem ficar dentro do intervalo desses itens.\n2. Descreva o que os modelos registraram, e não o que soa. Por exemplo, escreva “o modelo de fala escreveu o mesmo texto em seis segmentos seguidos” ou “o detector de eventos atribuiu 0,82 ao rótulo Applause”, e não “há aplausos” ou “o orador repete a frase”.\n3. Não interprete sentido, intenção, ironia, emoção, gênero, tema ou contexto da gravação, e não deduza o que ela representa.\n4. Use apenas os motivos da lista fornecida e atribua o grau de apoio segundo a regra fornecida.\n5. Se um trecho não tiver nada a indicar, não crie indicação para ele.\n6. A frase de cada indicação deve dizer o que a pesquisadora pode verificar na escuta, em uma ou duas frases, em português.",
+ "esquema": {
+  "type": "object",
+  "properties": {
+   "indicacoes": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "inicio": {
+       "type": "number",
+       "description": "início da indicação, em segundos"
+      },
+      "fim": {
+       "type": "number",
+       "description": "fim da indicação, em segundos"
+      },
+      "fontes": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "identificadores dos itens da entrada que sustentam a indicação"
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "repetição na transcrição",
+        "texto com indicação de ausência de fala",
+        "transcrição com baixa confiança",
+        "divergência entre transcrições",
+        "evento sonoro apontado",
+        "coincidência entre fontes",
+        "rótulo isolado"
+       ]
+      },
+      "grau_de_apoio": {
+       "type": "string",
+       "enum": [
+        "alto",
+        "médio",
+        "baixo"
+       ]
+      },
+      "frase": {
+       "type": "string",
+       "description": "o que a pesquisadora pode verificar na escuta"
+      }
+     },
+     "required": [
+      "inicio",
+      "fim",
+      "fontes",
+      "motivo",
+      "grau_de_apoio",
+      "frase"
+     ]
+    }
+   }
+  },
+  "required": [
+   "indicacoes"
+  ]
+ },
+ "pedido": "Motivos possíveis: repetição na transcrição; texto com indicação de ausência de fala; transcrição com baixa confiança; divergência entre transcrições; evento sonoro apontado; coincidência entre fontes; rótulo isolado (rótulo ou descrição que aparece uma única vez na faixa).\n\nRegra do grau de apoio:\n- alto: dois ou mais itens de fontes diferentes (fala, PANNs, CLAP) coincidem no intervalo, ou um rótulo do PANNs tem probabilidade de pelo menos 0,5;\n- médio: um único item do PANNs com probabilidade entre 0,3 e 0,5, ou um único segmento de fala com algum dos quatro sinais;\n- baixo: apenas uma descrição do CLAP.\n\nEntrada da faixa 1:\n{\n \"faixa\": 1,\n \"duracao_s\": 335.52,\n \"legenda\": {\n  \"fala\": \"Segmentos produzidos pelo modelo de reconhecimento de fala Whisper (large-v3), sem filtro de ruído, com início e fim em segundos, o texto escrito pelo modelo e três indicadores do próprio modelo. avg_logprob é a média do logaritmo da probabilidade dos tokens do texto (valores mais baixos correspondem a menor confiança do modelo no texto). no_speech_prob é a probabilidade, estimada pelo modelo, de que o segmento não contenha fala. compression_ratio é a razão de compressão do texto (valores altos correspondem a texto repetitivo dentro do segmento). O campo sinais lista os sinais calculados a partir desses dados.\",\n  \"sinais\": {\n   \"repetição\": \"o mesmo texto aparece em três ou mais segmentos da faixa\",\n   \"indicação de ausência de fala\": \"no_speech_prob acima de 0,6\",\n   \"baixa confiança\": \"avg_logprob abaixo de -1,0\",\n   \"divergência entre transcrições\": \"menos da metade das palavras do segmento aparece, no mesmo intervalo, numa segunda transcrição da mesma gravação feita pelo mesmo modelo depois de um filtro de redução de ruído\"\n  },\n  \"eventos_panns\": \"Intervalos em que o detector de eventos sonoros PANNs (Cnn14, treinado com as 527 categorias do AudioSet) atribuiu probabilidade de pelo menos 0,3 a um rótulo, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com o mesmo rótulo foram reunidas num intervalo. probabilidade_maxima é o maior valor do rótulo no intervalo.\",\n  \"descricoes_clap\": \"Intervalos em que uma descrição textual, em inglês, ficou em primeiro lugar entre 28 na comparação feita pelo modelo CLAP entre o áudio e as descrições, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com a mesma descrição foram reunidas num intervalo. As descrições que ficaram entre as três primeiras em mais de um quarto das janelas da faixa foram retiradas.\"\n },\n \"fala\": [\n  {\n   \"id\": \"F-001\",\n   \"inicio\": 5.94,\n   \"fim\": 15.12,\n   \"texto\": \"A unificação de esforços dos grandes institutos e o condomínio das construções de seguro social\",\n   \"avg_logprob\": -0.09,\n   \"no_speech_prob\": 0.04,\n   \"compression_ratio\": 1.38,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-002\",\n   \"inicio\": 15.12,\n   \"fim\": 21.0,\n   \"texto\": \"tornarão as iniciativas dessa natureza perfeitamente viáveis.\",\n   \"avg_logprob\": -0.09,\n   \"no_speech_prob\": 0.04,\n   \"compression_ratio\": 1.38,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-003\",\n   \"inicio\": 21.14,\n   \"fim\": 29.6,\n   \"texto\": \"O cálculo da mobilização financeira das reservas atuais permite-nos anunciar\",\n   \"avg_logprob\": -0.09,\n   \"no_speech_prob\": 0.04,\n   \"compression_ratio\": 1.38,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-004\",\n   \"inicio\": 29.6,\n   \"fim\": 36.6,\n   \"texto\": \"o propósito de nelas inverter inicialmente 500 milhões de cruzeiros.\",\n   \"avg_logprob\": -0.12,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.28,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-005\",\n   \"inicio\": 47.2,\n   \"fim\": 55.68,\n   \"texto\": \"Concluídos esses aperfeiçoamentos no sistema de auxílio e estímulo ao operário industrial,\",\n   \"avg_logprob\": -0.12,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.28,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-006\",\n   \"inicio\": 56.12,\n   \"fim\": 59.58,\n   \"texto\": \"o Estado atacará com idêntico empenho.\",\n   \"avg_logprob\": -0.12,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.28,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-007\",\n   \"inicio\": 59.6,\n   \"fim\": 63.82,\n   \"texto\": \"Outro aspecto relevante do problema da produção.\",\n   \"avg_logprob\": -0.22,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.54,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-008\",\n   \"inicio\": 65.3,\n   \"fim\": 70.12,\n   \"texto\": \"Estão adiantados os estudos para a promulgação de uma lei\",\n   \"avg_logprob\": -0.22,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.54,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-009\",\n   \"inicio\": 70.12,\n   \"fim\": 75.26,\n   \"texto\": \"definidora dos direitos e deveres dos trabalhadores rurais.\",\n   \"avg_logprob\": -0.22,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.54,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-010\",\n   \"inicio\": 77.24,\n   \"fim\": 82.62,\n   \"texto\": \"A quinta parte da nossa população total trabalha e vive na lavoura\",\n   \"avg_logprob\": -0.22,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.54,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-011\",\n   \"inicio\": 82.62,\n   \"fim\": 88.66,\n   \"texto\": \"e não é possível permitir por mais tempo a situação de insegurança,\",\n   \"avg_logprob\": -0.22,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.54,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-012\",\n   \"inicio\": 88.76,\n   \"fim\": 89.58,\n   \"texto\": \"exigência e desigualdade.\",\n   \"avg_logprob\": -0.22,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.54,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-013\",\n   \"inicio\": 89.6,\n   \"fim\": 92.56,\n   \"texto\": \"A questão é que a lei não é existente para salariados e empregadores.\",\n   \"avg_logprob\": -0.35,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.39,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-014\",\n   \"inicio\": 93.96,\n   \"fim\": 111.72,\n   \"texto\": \"Torna-se inadeável estabelecer com clareza e força de lei as obrigações de cada um,\",\n   \"avg_logprob\": -0.35,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.39,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-015\",\n   \"inicio\": 111.8,\n   \"fim\": 116.1,\n   \"texto\": \"o que virá certamente incrementar as atividades agrárias,\",\n   \"avg_logprob\": -0.35,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.39,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-016\",\n   \"inicio\": 117.04,\n   \"fim\": 119.14,\n   \"texto\": \"vinculando o trabalhador ao solo,\",\n   \"avg_logprob\": -0.35,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.39,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-017\",\n   \"inicio\": 119.6,\n   \"fim\": 122.66,\n   \"texto\": \"e evitando a fuga do campo para a cidade,\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-018\",\n   \"inicio\": 123.36,\n   \"fim\": 126.7,\n   \"texto\": \"tão perniciosa a expansão da riqueza nacional.\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-019\",\n   \"inicio\": 129.1,\n   \"fim\": 132.12,\n   \"texto\": \"Para o êxito completo dessas iniciativas,\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-020\",\n   \"inicio\": 133.02,\n   \"fim\": 138.24,\n   \"texto\": \"faça em ester cerrar fileiras em torno das agremiações sindicais.\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-021\",\n   \"inicio\": 146.56,\n   \"fim\": 148.56,\n   \"texto\": \"A MENSAGEM DO PRODUÇÃO DE UMA MENSAGEM DE RENOVOÇÃO\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-022\",\n   \"inicio\": 148.56,\n   \"fim\": 149.58,\n   \"texto\": \"A massa operária destaca a lei,\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-023\",\n   \"inicio\": 149.58,\n   \"fim\": 149.58,\n   \"texto\": \"\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-024\",\n   \"inicio\": 149.58,\n   \"fim\": 149.58,\n   \"texto\": \"\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-025\",\n   \"inicio\": 149.58,\n   \"fim\": 149.58,\n   \"texto\": \"\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-026\",\n   \"inicio\": 149.58,\n   \"fim\": 149.58,\n   \"texto\": \"\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-027\",\n   \"inicio\": 149.58,\n   \"fim\": 149.58,\n   \"texto\": \"\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-028\",\n   \"inicio\": 149.58,\n   \"fim\": 149.58,\n   \"texto\": \"\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 2.12,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-029\",\n   \"inicio\": 149.6,\n   \"fim\": 149.7,\n   \"texto\": \"e a lei, como um sistema de trabalho,\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.48,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-030\",\n   \"inicio\": 149.7,\n   \"fim\": 154.78,\n   \"texto\": \"que, em São Paulo, nos seus 33 mil locais de trabalho,\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-031\",\n   \"inicio\": 155.92,\n   \"fim\": 160.28,\n   \"texto\": \"concentra cerca de 800 mil trabalhadores.\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-032\",\n   \"inicio\": 161.34,\n   \"fim\": 168.14,\n   \"texto\": \"E destes, apenas 120 mil acham-se filiados aos órgãos de classe.\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-033\",\n   \"inicio\": 169.9,\n   \"fim\": 173.98,\n   \"texto\": \"Noutra oportunidade, já vos dirigi um apelo\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-034\",\n   \"inicio\": 173.98,\n   \"fim\": 177.12,\n   \"texto\": \"para que vos congregasseis por forma\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-035\",\n   \"inicio\": 177.12,\n   \"fim\": 179.58,\n   \"texto\": \"que os sindicatos representam a lei.\",\n   \"avg_logprob\": -0.47,\n   \"no_speech_prob\": 0.01,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-036\",\n   \"inicio\": 179.58,\n   \"fim\": 184.16,\n   \"texto\": \"E que se juntassem realmente um número de associados\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-037\",\n   \"inicio\": 184.16,\n   \"fim\": 189.12,\n   \"texto\": \"que fosse expressão total de cada atividade,\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-038\",\n   \"inicio\": 189.5,\n   \"fim\": 196.5,\n   \"texto\": \"aptos a exercer ativa fiscalização dos direitos que lhes assistem.\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-039\",\n   \"inicio\": 206.58,\n   \"fim\": 208.58,\n   \"texto\": \"A reforma da lei orgânica,\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.48,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-040\",\n   \"inicio\": 209.44,\n   \"fim\": 209.56,\n   \"texto\": \"a reforma da lei orgânica,\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.48,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-041\",\n   \"inicio\": 209.58,\n   \"fim\": 212.32,\n   \"texto\": \"a reforma do escudário do serviço público,\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-042\",\n   \"inicio\": 212.32,\n   \"fim\": 215.72,\n   \"texto\": \"em que as respostas por causa dos impostosортados\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-043\",\n   \"inicio\": 215.72,\n   \"fim\": 216.82,\n   \"texto\": \"aproximadamente,\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-044\",\n   \"inicio\": 216.82,\n   \"fim\": 222.06,\n   \"texto\": \"projetarem o auge paraelsonicar\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-045\",\n   \"inicio\": 222.06,\n   \"fim\": 225.14,\n   \"texto\": \"o �osing dos estủ Аns Unidos de comunicación\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-046\",\n   \"inicio\": 225.14,\n   \"fim\": 225.14,\n   \"texto\": \"\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\"\n   ]\n  },\n  {\n   \"id\": \"F-047\",\n   \"inicio\": 225.14,\n   \"fim\": 225.14,\n   \"texto\": \"\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\"\n   ]\n  },\n  {\n   \"id\": \"F-048\",\n   \"inicio\": 225.14,\n   \"fim\": 225.14,\n   \"texto\": \"\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\"\n   ]\n  },\n  {\n   \"id\": \"F-049\",\n   \"inicio\": 225.14,\n   \"fim\": 225.14,\n   \"texto\": \"\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\"\n   ]\n  },\n  {\n   \"id\": \"F-050\",\n   \"inicio\": 225.14,\n   \"fim\": 225.42,\n   \"texto\": \"Server gaps and most waters,\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-051\",\n   \"inicio\": 238.9,\n   \"fim\": 239.56,\n   \"texto\": \"Pneumat pitchedän lattice構신ADan 1980, 3.當然, 2 The Court for Evaluation,\",\n   \"avg_logprob\": -5.13,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.3,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-052\",\n   \"inicio\": 243.12,\n   \"fim\": 251.0,\n   \"texto\": \"A alta inteligência e personalidade dinâmica e o interventor Fernando Costa.\",\n   \"avg_logprob\": -0.3,\n   \"no_speech_prob\": 0.12,\n   \"compression_ratio\": 1.24,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-053\",\n   \"inicio\": 252.2,\n   \"fim\": 252.22,\n   \"texto\": \"Aplausos.\",\n   \"avg_logprob\": -0.3,\n   \"no_speech_prob\": 0.12,\n   \"compression_ratio\": 1.24,\n   \"sinais\": [\n    \"repetição\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-054\",\n   \"inicio\": 257.84,\n   \"fim\": 265.22,\n   \"texto\": \"Tão operoso e experimentado na administração como na agricultura e na indústria,\",\n   \"avg_logprob\": -0.3,\n   \"no_speech_prob\": 0.12,\n   \"compression_ratio\": 1.24,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-055\",\n   \"inicio\": 265.22,\n   \"fim\": 276.78,\n   \"texto\": \"São Paulo se manufatura metade dos 24 bilhões de cruzeiros da produção industrial do país.\",\n   \"avg_logprob\": -0.16,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.33,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-056\",\n   \"inicio\": 277.08,\n   \"fim\": 281.18,\n   \"texto\": \"E tem no café a lavoura de mais cultura.\",\n   \"avg_logprob\": -0.16,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.33,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-057\",\n   \"inicio\": 281.88,\n   \"fim\": 290.7,\n   \"texto\": \"Precisa, por exemplo, congregar as agremiações trabalhistas à mão de obra que lhe garante tão excepcional situação.\",\n   \"avg_logprob\": -0.16,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.33,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-058\",\n   \"inicio\": 295.22,\n   \"fim\": 295.46,\n   \"texto\": \"Aplausos.\",\n   \"avg_logprob\": -0.12,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": [\n    \"repetição\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-059\",\n   \"inicio\": 296.54,\n   \"fim\": 305.28,\n   \"texto\": \"Essa modificação de mentalidade é tanto mais imperiosa e fácil de apreender\",\n   \"avg_logprob\": -0.12,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-060\",\n   \"inicio\": 305.28,\n   \"fim\": 314.58,\n   \"texto\": \"quando se considera a rapidez das transformações da vida econômica e a revisão do próprio conceito de capital\",\n   \"avg_logprob\": -0.12,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-061\",\n   \"inicio\": 314.58,\n   \"fim\": 325.2,\n   \"texto\": \"que deixou de ser simples acumulação de dinheiro para representar energia social concentrada em incessão.\",\n   \"avg_logprob\": -0.12,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-062\",\n   \"inicio\": 325.22,\n   \"fim\": 326.52,\n   \"texto\": \"Tente segundo movimento.\",\n   \"avg_logprob\": -0.59,\n   \"no_speech_prob\": 0.08,\n   \"compression_ratio\": 0.83,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-063\",\n   \"inicio\": 327.28,\n   \"fim\": 328.28,\n   \"texto\": \"Aplausos.\",\n   \"avg_logprob\": -0.59,\n   \"no_speech_prob\": 0.08,\n   \"compression_ratio\": 0.83,\n   \"sinais\": [\n    \"repetição\",\n    \"divergência entre transcrições\"\n   ]\n  }\n ],\n \"eventos_panns\": [\n  {\n   \"id\": \"P-001\",\n   \"inicio\": 0.0,\n   \"fim\": 6.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.64\n  },\n  {\n   \"id\": \"P-002\",\n   \"inicio\": 7.0,\n   \"fim\": 9.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.54\n  },\n  {\n   \"id\": \"P-003\",\n   \"inicio\": 7.0,\n   \"fim\": 9.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.47\n  },\n  {\n   \"id\": \"P-004\",\n   \"inicio\": 44.0,\n   \"fim\": 46.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-005\",\n   \"inicio\": 47.0,\n   \"fim\": 49.0,\n   \"rotulo\": \"Vehicle\",\n   \"probabilidade_maxima\": 0.33\n  },\n  {\n   \"id\": \"P-006\",\n   \"inicio\": 54.0,\n   \"fim\": 56.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-007\",\n   \"inicio\": 64.0,\n   \"fim\": 66.0,\n   \"rotulo\": \"Eruption\",\n   \"probabilidade_maxima\": 0.32\n  },\n  {\n   \"id\": \"P-008\",\n   \"inicio\": 93.0,\n   \"fim\": 96.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.62\n  },\n  {\n   \"id\": \"P-009\",\n   \"inicio\": 93.0,\n   \"fim\": 96.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.62\n  },\n  {\n   \"id\": \"P-010\",\n   \"inicio\": 94.0,\n   \"fim\": 97.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.81\n  },\n  {\n   \"id\": \"P-011\",\n   \"inicio\": 97.0,\n   \"fim\": 102.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.57\n  },\n  {\n   \"id\": \"P-012\",\n   \"inicio\": 106.0,\n   \"fim\": 108.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-013\",\n   \"inicio\": 117.0,\n   \"fim\": 120.0,\n   \"rotulo\": \"Radio\",\n   \"probabilidade_maxima\": 0.35\n  },\n  {\n   \"id\": \"P-014\",\n   \"inicio\": 128.0,\n   \"fim\": 130.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.41\n  },\n  {\n   \"id\": \"P-015\",\n   \"inicio\": 128.0,\n   \"fim\": 130.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.35\n  },\n  {\n   \"id\": \"P-016\",\n   \"inicio\": 139.0,\n   \"fim\": 143.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.78\n  },\n  {\n   \"id\": \"P-017\",\n   \"inicio\": 144.0,\n   \"fim\": 146.0,\n   \"rotulo\": \"Radio\",\n   \"probabilidade_maxima\": 0.3\n  },\n  {\n   \"id\": \"P-018\",\n   \"inicio\": 144.0,\n   \"fim\": 146.0,\n   \"rotulo\": \"Noise\",\n   \"probabilidade_maxima\": 0.44\n  },\n  {\n   \"id\": \"P-019\",\n   \"inicio\": 145.0,\n   \"fim\": 147.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.47\n  },\n  {\n   \"id\": \"P-020\",\n   \"inicio\": 160.0,\n   \"fim\": 162.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.35\n  },\n  {\n   \"id\": \"P-021\",\n   \"inicio\": 169.0,\n   \"fim\": 171.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.4\n  },\n  {\n   \"id\": \"P-022\",\n   \"inicio\": 169.0,\n   \"fim\": 171.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.39\n  },\n  {\n   \"id\": \"P-023\",\n   \"inicio\": 169.0,\n   \"fim\": 171.0,\n   \"rotulo\": \"Speech synthesizer\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-024\",\n   \"inicio\": 180.0,\n   \"fim\": 182.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-025\",\n   \"inicio\": 192.0,\n   \"fim\": 194.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.46\n  },\n  {\n   \"id\": \"P-026\",\n   \"inicio\": 192.0,\n   \"fim\": 194.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.46\n  },\n  {\n   \"id\": \"P-027\",\n   \"inicio\": 196.0,\n   \"fim\": 198.0,\n   \"rotulo\": \"Eruption\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-028\",\n   \"inicio\": 199.0,\n   \"fim\": 203.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.46\n  },\n  {\n   \"id\": \"P-029\",\n   \"inicio\": 203.0,\n   \"fim\": 205.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-030\",\n   \"inicio\": 226.0,\n   \"fim\": 228.0,\n   \"rotulo\": \"Eruption\",\n   \"probabilidade_maxima\": 0.32\n  },\n  {\n   \"id\": \"P-031\",\n   \"inicio\": 230.0,\n   \"fim\": 233.0,\n   \"rotulo\": \"Male speech, man speaking\",\n   \"probabilidade_maxima\": 0.44\n  },\n  {\n   \"id\": \"P-032\",\n   \"inicio\": 231.0,\n   \"fim\": 233.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.36\n  },\n  {\n   \"id\": \"P-033\",\n   \"inicio\": 236.0,\n   \"fim\": 243.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.82\n  },\n  {\n   \"id\": \"P-034\",\n   \"inicio\": 244.0,\n   \"fim\": 246.0,\n   \"rotulo\": \"Narration, monologue\",\n   \"probabilidade_maxima\": 0.35\n  },\n  {\n   \"id\": \"P-035\",\n   \"inicio\": 251.0,\n   \"fim\": 257.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.66\n  },\n  {\n   \"id\": \"P-036\",\n   \"inicio\": 257.0,\n   \"fim\": 259.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.44\n  },\n  {\n   \"id\": \"P-037\",\n   \"inicio\": 296.0,\n   \"fim\": 298.0,\n   \"rotulo\": \"Sheep\",\n   \"probabilidade_maxima\": 0.57\n  },\n  {\n   \"id\": \"P-038\",\n   \"inicio\": 296.0,\n   \"fim\": 298.0,\n   \"rotulo\": \"Bleat\",\n   \"probabilidade_maxima\": 0.41\n  },\n  {\n   \"id\": \"P-039\",\n   \"inicio\": 325.0,\n   \"fim\": 327.0,\n   \"rotulo\": \"Machine gun\",\n   \"probabilidade_maxima\": 0.33\n  },\n  {\n   \"id\": \"P-040\",\n   \"inicio\": 325.0,\n   \"fim\": 327.0,\n   \"rotulo\": \"Gunshot, gunfire\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-041\",\n   \"inicio\": 328.0,\n   \"fim\": 331.0,\n   \"rotulo\": \"Applause\",\n   \"probabilidade_maxima\": 0.34\n  }\n ],\n \"resumo_panns\": \"Rótulos apontados em mais da metade das janelas da faixa, que não entram como itens: Speech (84% das janelas).\",\n \"descricoes_clap\": [\n  {\n   \"id\": \"C-001\",\n   \"inicio\": 83.0,\n   \"fim\": 85.0,\n   \"descricao\": \"women singing\"\n  },\n  {\n   \"id\": \"C-002\",\n   \"inicio\": 333.517,\n   \"fim\": 335.517,\n   \"descricao\": \"silence\"\n  }\n ]\n}",
+ "resposta_texto": "{\n  \"indicacoes\": [\n    {\n      \"inicio\": 0.0,\n      \"fim\": 6.0,\n      \"fontes\": [\n        \"P-001\"\n      ],\n      \"motivo\": \"evento sonoro apontado\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O modelo PANNs atribuiu probabilidade máxima de 0,64 ao rótulo Applause no início da faixa. A pesquisadora pode verificar se ocorrem palmas ou manifestações da plateia nesse trecho inicial.\"\n    },\n    {\n      \"inicio\": 83.0,\n      \"fim\": 85.0,\n      \"fontes\": [\n        \"C-001\"\n      ],\n      \"motivo\": \"rótulo isolado\",\n      \"grau_de_apoio\": \"baixo\",\n      \"frase\": \"O modelo CLAP atribuiu a descrição 'women singing', que surge como rótulo isolado na faixa. Vale verificar na escuta se há presença de vozes femininas ou sobreposição sonora.\"\n    },\n    {\n      \"inicio\": 94.0,\n      \"fim\": 102.0,\n      \"fontes\": [\n        \"P-010\",\n        \"P-011\"\n      ],\n      \"motivo\": \"evento sonoro apontado\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O detector de eventos sonoros indicou consecutivamente o rótulo Applause com probabilidades máximas de 0,81 e 0,57. A pesquisadora pode verificar se ocorrem aplausos concomitantes ou intercalados à fala.\"\n    },\n    {\n      \"inicio\": 139.0,\n      \"fim\": 143.0,\n      \"fontes\": [\n        \"P-016\"\n      ],\n      \"motivo\": \"evento sonoro apontado\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O modelo PANNs registrou probabilidade de 0,78 para o rótulo Applause. Pode-se conferir se há aplausos logo após a pausa do discurso.\"\n    },\n    {\n      \"inicio\": 236.0,\n      \"fim\": 243.0,\n      \"fontes\": [\n        \"F-051\",\n        \"P-033\"\n      ],\n      \"motivo\": \"coincidência entre fontes\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"Um segmento de fala com baixa confiança e divergência entre transcrições coincide com a detecção de Applause com probabilidade de 0,82 pelo PANNs. A pesquisadora pode verificar se o som de aplausos ou ruído de fundo interferiu na transcrição.\"\n    },\n    {\n      \"inicio\": 251.0,\n      \"fim\": 257.0,\n      \"fontes\": [\n        \"F-053\",\n        \"P-035\"\n      ],\n      \"motivo\": \"coincidência entre fontes\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O modelo de fala transcreveu a palavra 'Aplausos' com registro de repetição e divergência, coincidindo com a detecção de Applause com probabilidade de 0,66 pelo PANNs. Vale conferir na escuta a ocorrência de palmas no trecho.\"\n    },\n    {\n      \"inicio\": 296.0,\n      \"fim\": 298.0,\n      \"fontes\": [\n        \"P-037\",\n        \"P-038\"\n      ],\n      \"motivo\": \"rótulo isolado\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O detector PANNs atribuiu os rótulos Sheep (probabilidade 0,57) e Bleat (probabilidade 0,41), que ocorrem de forma isolada na faixa. A pesquisadora pode verificar que tipo de ruído de fundo ou artefato acústico motivou essas classificações.\"\n    },\n    {\n      \"inicio\": 325.0,\n      \"fim\": 327.0,\n      \"fontes\": [\n        \"F-062\",\n        \"P-039\",\n        \"P-040\"\n      ],\n      \"motivo\": \"coincidência entre fontes\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O segmento de fala com divergência entre transcrições coincide temporalmente com os rótulos Machine gun (0,33) e Gunshot, gunfire (0,31) do PANNs. Pode-se verificar na escuta se há estalos mecânicos, ruídos percussivos ou falhas na gravação.\"\n    },\n    {\n      \"inicio\": 327.28,\n      \"fim\": 331.0,\n      \"fontes\": [\n        \"F-063\",\n        \"P-041\"\n      ],\n      \"motivo\": \"coincidência entre fontes\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"A transcrição da palavra 'Aplausos', marcada por repetição e divergência, coincide com o rótulo Applause (probabilidade de 0,34) apontado pelo PANNs. A pesquisadora pode conferir se há aplausos de encerramento da gravação.\"\n    },\n    {\n      \"inicio\": 333.517,\n      \"fim\": 335.517,\n      \"fontes\": [\n        \"C-002\"\n      ],\n      \"motivo\": \"rótulo isolado\",\n      \"grau_de_apoio\": \"baixo\",\n      \"frase\": \"O modelo CLAP apontou a descrição 'silence' como rótulo isolado no final da faixa. Vale verificar se o trecho final consiste apenas em ruído residual do suporte ou silêncio.\"\n    }\n  ]\n}",
+ "resposta": {
+  "indicacoes": [
+   {
+    "inicio": 0.0,
+    "fim": 6.0,
+    "fontes": [
+     "P-001"
+    ],
+    "motivo": "evento sonoro apontado",
+    "grau_de_apoio": "alto",
+    "frase": "O modelo PANNs atribuiu probabilidade máxima de 0,64 ao rótulo Applause no início da faixa. A pesquisadora pode verificar se ocorrem palmas ou manifestações da plateia nesse trecho inicial."
+   },
+   {
+    "inicio": 83.0,
+    "fim": 85.0,
+    "fontes": [
+     "C-001"
+    ],
+    "motivo": "rótulo isolado",
+    "grau_de_apoio": "baixo",
+    "frase": "O modelo CLAP atribuiu a descrição 'women singing', que surge como rótulo isolado na faixa. Vale verificar na escuta se há presença de vozes femininas ou sobreposição sonora."
+   },
+   {
+    "inicio": 94.0,
+    "fim": 102.0,
+    "fontes": [
+     "P-010",
+     "P-011"
+    ],
+    "motivo": "evento sonoro apontado",
+    "grau_de_apoio": "alto",
+    "frase": "O detector de eventos sonoros indicou consecutivamente o rótulo Applause com probabilidades máximas de 0,81 e 0,57. A pesquisadora pode verificar se ocorrem aplausos concomitantes ou intercalados à fala."
+   },
+   {
+    "inicio": 139.0,
+    "fim": 143.0,
+    "fontes": [
+     "P-016"
+    ],
+    "motivo": "evento sonoro apontado",
+    "grau_de_apoio": "alto",
+    "frase": "O modelo PANNs registrou probabilidade de 0,78 para o rótulo Applause. Pode-se conferir se há aplausos logo após a pausa do discurso."
+   },
+   {
+    "inicio": 236.0,
+    "fim": 243.0,
+    "fontes": [
+     "F-051",
+     "P-033"
+    ],
+    "motivo": "coincidência entre fontes",
+    "grau_de_apoio": "alto",
+    "frase": "Um segmento de fala com baixa confiança e divergência entre transcrições coincide com a detecção de Applause com probabilidade de 0,82 pelo PANNs. A pesquisadora pode verificar se o som de aplausos ou ruído de fundo interferiu na transcrição."
+   },
+   {
+    "inicio": 251.0,
+    "fim": 257.0,
+    "fontes": [
+     "F-053",
+     "P-035"
+    ],
+    "motivo": "coincidência entre fontes",
+    "grau_de_apoio": "alto",
+    "frase": "O modelo de fala transcreveu a palavra 'Aplausos' com registro de repetição e divergência, coincidindo com a detecção de Applause com probabilidade de 0,66 pelo PANNs. Vale conferir na escuta a ocorrência de palmas no trecho."
+   },
+   {
+    "inicio": 296.0,
+    "fim": 298.0,
+    "fontes": [
+     "P-037",
+     "P-038"
+    ],
+    "motivo": "rótulo isolado",
+    "grau_de_apoio": "alto",
+    "frase": "O detector PANNs atribuiu os rótulos Sheep (probabilidade 0,57) e Bleat (probabilidade 0,41), que ocorrem de forma isolada na faixa. A pesquisadora pode verificar que tipo de ruído de fundo ou artefato acústico motivou essas classificações."
+   },
+   {
+    "inicio": 325.0,
+    "fim": 327.0,
+    "fontes": [
+     "F-062",
+     "P-039",
+     "P-040"
+    ],
+    "motivo": "coincidência entre fontes",
+    "grau_de_apoio": "alto",
+    "frase": "O segmento de fala com divergência entre transcrições coincide temporalmente com os rótulos Machine gun (0,33) e Gunshot, gunfire (0,31) do PANNs. Pode-se verificar na escuta se há estalos mecânicos, ruídos percussivos ou falhas na gravação."
+   },
+   {
+    "inicio": 327.28,
+    "fim": 331.0,
+    "fontes": [
+     "F-063",
+     "P-041"
+    ],
+    "motivo": "coincidência entre fontes",
+    "grau_de_apoio": "alto",
+    "frase": "A transcrição da palavra 'Aplausos', marcada por repetição e divergência, coincide com o rótulo Applause (probabilidade de 0,34) apontado pelo PANNs. A pesquisadora pode conferir se há aplausos de encerramento da gravação."
+   },
+   {
+    "inicio": 333.517,
+    "fim": 335.517,
+    "fontes": [
+     "C-002"
+    ],
+    "motivo": "rótulo isolado",
+    "grau_de_apoio": "baixo",
+    "frase": "O modelo CLAP apontou a descrição 'silence' como rótulo isolado no final da faixa. Vale verificar se o trecho final consiste apenas em ruído residual do suporte ou silêncio."
+   }
+  ]
+ },
+ "erro_leitura": null,
+ "termino": "FinishReason.STOP",
+ "tentativas_recusadas": [],
+ "tempo_resposta_s": 61.21,
+ "tokens": {
+  "entrada": 10996,
+  "saida": 1451,
+  "raciocinio": 6602,
+  "total": 19049
+ }
+}

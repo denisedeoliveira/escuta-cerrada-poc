@@ -1,0 +1,165 @@
+{
+ "chamada": "faixa02_3",
+ "data_execucao": "2026-11-03T17:16:41.884244+00:00",
+ "modelo": "gemini-3.8-flash",
+ "versao_modelo": "gemini-3.8-flash",
+ "biblioteca": "google-genai 2.12.1",
+ "parametros": {
+  "temperatura": "padrão do modelo",
+  "saida": "application/json, com o esquema registrado",
+  "demais": "valores padrão",
+  "tempo_limite_s": 300
+ },
+ "instrucao": "Você recebe as saídas de modelos automáticos aplicados a uma gravação sonora em disco. Você não tem acesso ao áudio. Sua tarefa é indicar a uma pesquisadora os momentos da gravação em que vale escutar com atenção, com base apenas nos itens da entrada.\n\n1. Cada indicação deve citar os identificadores dos itens da entrada que a sustentam. O início e o fim da indicação devem ficar dentro do intervalo desses itens.\n2. Descreva o que os modelos registraram, e não o que soa. Por exemplo, escreva “o modelo de fala escreveu o mesmo texto em seis segmentos seguidos” ou “o detector de eventos atribuiu 0,82 ao rótulo Applause”, e não “há aplausos” ou “o orador repete a frase”.\n3. Não interprete sentido, intenção, ironia, emoção, gênero, tema ou contexto da gravação, e não deduza o que ela representa.\n4. Use apenas os motivos da lista fornecida e atribua o grau de apoio segundo a regra fornecida.\n5. Se um trecho não tiver nada a indicar, não crie indicação para ele.\n6. A frase de cada indicação deve dizer o que a pesquisadora pode verificar na escuta, em uma ou duas frases, em português.",
+ "esquema": {
+  "type": "object",
+  "properties": {
+   "indicacoes": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "inicio": {
+       "type": "number",
+       "description": "início da indicação, em segundos"
+      },
+      "fim": {
+       "type": "number",
+       "description": "fim da indicação, em segundos"
+      },
+      "fontes": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "identificadores dos itens da entrada que sustentam a indicação"
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "repetição na transcrição",
+        "texto com indicação de ausência de fala",
+        "transcrição com baixa confiança",
+        "divergência entre transcrições",
+        "evento sonoro apontado",
+        "coincidência entre fontes",
+        "rótulo isolado"
+       ]
+      },
+      "grau_de_apoio": {
+       "type": "string",
+       "enum": [
+        "alto",
+        "médio",
+        "baixo"
+       ]
+      },
+      "frase": {
+       "type": "string",
+       "description": "o que a pesquisadora pode verificar na escuta"
+      }
+     },
+     "required": [
+      "inicio",
+      "fim",
+      "fontes",
+      "motivo",
+      "grau_de_apoio",
+      "frase"
+     ]
+    }
+   }
+  },
+  "required": [
+   "indicacoes"
+  ]
+ },
+ "pedido": "Motivos possíveis: repetição na transcrição; texto com indicação de ausência de fala; transcrição com baixa confiança; divergência entre transcrições; evento sonoro apontado; coincidência entre fontes; rótulo isolado (rótulo ou descrição que aparece uma única vez na faixa).\n\nRegra do grau de apoio:\n- alto: dois ou mais itens de fontes diferentes (fala, PANNs, CLAP) coincidem no intervalo, ou um rótulo do PANNs tem probabilidade de pelo menos 0,5;\n- médio: um único item do PANNs com probabilidade entre 0,3 e 0,5, ou um único segmento de fala com algum dos quatro sinais;\n- baixo: apenas uma descrição do CLAP.\n\nEntrada da faixa 2:\n{\n \"faixa\": 2,\n \"duracao_s\": 201.32,\n \"legenda\": {\n  \"fala\": \"Segmentos produzidos pelo modelo de reconhecimento de fala Whisper (large-v3), sem filtro de ruído, com início e fim em segundos, o texto escrito pelo modelo e três indicadores do próprio modelo. avg_logprob é a média do logaritmo da probabilidade dos tokens do texto (valores mais baixos correspondem a menor confiança do modelo no texto). no_speech_prob é a probabilidade, estimada pelo modelo, de que o segmento não contenha fala. compression_ratio é a razão de compressão do texto (valores altos correspondem a texto repetitivo dentro do segmento). O campo sinais lista os sinais calculados a partir desses dados.\",\n  \"sinais\": {\n   \"repetição\": \"o mesmo texto aparece em três ou mais segmentos da faixa\",\n   \"indicação de ausência de fala\": \"no_speech_prob acima de 0,6\",\n   \"baixa confiança\": \"avg_logprob abaixo de -1,0\",\n   \"divergência entre transcrições\": \"menos da metade das palavras do segmento aparece, no mesmo intervalo, numa segunda transcrição da mesma gravação feita pelo mesmo modelo depois de um filtro de redução de ruído\"\n  },\n  \"eventos_panns\": \"Intervalos em que o detector de eventos sonoros PANNs (Cnn14, treinado com as 527 categorias do AudioSet) atribuiu probabilidade de pelo menos 0,3 a um rótulo, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com o mesmo rótulo foram reunidas num intervalo. probabilidade_maxima é o maior valor do rótulo no intervalo.\",\n  \"descricoes_clap\": \"Intervalos em que uma descrição textual, em inglês, ficou em primeiro lugar entre 28 na comparação feita pelo modelo CLAP entre o áudio e as descrições, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com a mesma descrição foram reunidas num intervalo. As descrições que ficaram entre as três primeiras em mais de um quarto das janelas da faixa foram retiradas.\"\n },\n \"fala\": [\n  {\n   \"id\": \"F-001\",\n   \"inicio\": 1.58,\n   \"fim\": 19.52,\n   \"texto\": \"Dia de verão gaúcho, madrugada, a noite amadureceu a madrugada e o dia vai abrir os lábios vermelhos de manhã para engolir a sombra numa grande rugada do sol.\",\n   \"avg_logprob\": -0.18,\n   \"no_speech_prob\": 0.04,\n   \"compression_ratio\": 1.31,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-002\",\n   \"inicio\": 19.52,\n   \"fim\": 35.38,\n   \"texto\": \"Sinto a alegria verde da manhã do poeta, o campo está todo enfeitado de incêndio porque a noite enfiou as continhas brancas do terreno nas astes lisas da fuxia.\",\n   \"avg_logprob\": -0.28,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.46,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-003\",\n   \"inicio\": 36.22,\n   \"fim\": 46.96,\n   \"texto\": \"Eu saio de pés descalços para a sanga e vou amassando sobre os pés molhados os desenhos de orvalho sobre a grama fossa.\",\n   \"avg_logprob\": -0.28,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.46,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-004\",\n   \"inicio\": 46.96,\n   \"fim\": 55.94,\n   \"texto\": \"Quero beber a água pura da caminhada, mas quando abaixo vejo todo o céu na água beijada.\",\n   \"avg_logprob\": -0.27,\n   \"no_speech_prob\": 0.02,\n   \"compression_ratio\": 1.67,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-005\",\n   \"inicio\": 56.36,\n   \"fim\": 71.94,\n   \"texto\": \"Vejo a última estrela que ficou desbilhoteira para espiar o sol e ver a cara que eu dei e depois ir contar as companheiras que não puderam ficar para ver também.\",\n   \"avg_logprob\": -0.27,\n   \"no_speech_prob\": 0.02,\n   \"compression_ratio\": 1.67,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-006\",\n   \"inicio\": 73.4,\n   \"fim\": 76.94,\n   \"texto\": \"Tenho medo de engolir a estrela d'alva, mas me pergunto por que eu não vou.\",\n   \"avg_logprob\": -0.27,\n   \"no_speech_prob\": 0.02,\n   \"compression_ratio\": 1.67,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-007\",\n   \"inicio\": 76.94,\n   \"fim\": 76.94,\n   \"texto\": \"\",\n   \"avg_logprob\": -0.27,\n   \"no_speech_prob\": 0.02,\n   \"compression_ratio\": 1.67,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-008\",\n   \"inicio\": 76.96,\n   \"fim\": 83.32,\n   \"texto\": \"Eu me debruço e vou beber o céu, como era fresco o céu da minha terra.\",\n   \"avg_logprob\": -0.34,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.47,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-009\",\n   \"inicio\": 85.12,\n   \"fim\": 85.58,\n   \"texto\": \"Meio dia.\",\n   \"avg_logprob\": -0.34,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.47,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-010\",\n   \"inicio\": 87.48,\n   \"fim\": 96.34,\n   \"texto\": \"Todo o ar treme sobre o sol do meio dia, o capim se dobrou sobre si mesmo, repetindo.\",\n   \"avg_logprob\": -0.34,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.47,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-011\",\n   \"inicio\": 96.98,\n   \"fim\": 104.02,\n   \"texto\": \"A gente olhando o campo tem a impressão que derramam sobre ele qualquer coisa de verdade.\",\n   \"avg_logprob\": -0.34,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.47,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-012\",\n   \"inicio\": 104.36,\n   \"fim\": 106.74,\n   \"texto\": \"O gado invadindo a desfogada.\",\n   \"avg_logprob\": -0.34,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.47,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-013\",\n   \"inicio\": 106.96,\n   \"fim\": 109.54,\n   \"texto\": \"O教 iPhone para focar quernolCómo.\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-014\",\n   \"inicio\": 109.94,\n   \"fim\": 110.44,\n   \"texto\": \"Dez!\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-015\",\n   \"inicio\": 112.8,\n   \"fim\": 117.02,\n   \"texto\": \"Um tubinho de água viva!\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-016\",\n   \"inicio\": 117.02,\n   \"fim\": 122.8,\n   \"texto\": \"Que se ia debruxar esse키 como é que me revivir?\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-017\",\n   \"inicio\": 123.08,\n   \"fim\": 124.08,\n   \"texto\": \"Tem uma dieta Palestinians!\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-018\",\n   \"inicio\": 124.24,\n   \"fim\": 125.24,\n   \"texto\": \"Depwości.\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-019\",\n   \"inicio\": 126.32,\n   \"fim\": 127.44,\n   \"texto\": \"Tem umими?\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-020\",\n   \"inicio\": 128.52,\n   \"fim\": 129.04,\n   \"texto\": \"É aliás, é aqui a gente vê o small auto.\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-021\",\n   \"inicio\": 129.04,\n   \"fim\": 129.62,\n   \"texto\": \"A equilibrado...\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-022\",\n   \"inicio\": 129.62,\n   \"fim\": 129.74,\n   \"texto\": \"Eu não vou somente cursar.\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-023\",\n   \"inicio\": 129.74,\n   \"fim\": 132.6,\n   \"texto\": \"Ninguém vai me editar esse noite e não aquela coisa do coiolinha aqui...\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-024\",\n   \"inicio\": 132.6,\n   \"fim\": 134.08,\n   \"texto\": \"Sem infelizz Coachman pode ser opensse necessar decentemente, que é muito survival,\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-025\",\n   \"inicio\": 134.08,\n   \"fim\": 134.08,\n   \"texto\": \"\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\"\n   ]\n  },\n  {\n   \"id\": \"F-026\",\n   \"inicio\": 134.08,\n   \"fim\": 136.72,\n   \"texto\": \"Olhem só essa estrofe운ico, olha que que épielal de�as colorim, que não tem rarārak.\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-027\",\n   \"inicio\": 136.94,\n   \"fim\": 136.94,\n   \"texto\": \"\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\"\n   ]\n  },\n  {\n   \"id\": \"F-028\",\n   \"inicio\": 136.94,\n   \"fim\": 136.94,\n   \"texto\": \"\",\n   \"avg_logprob\": -4.84,\n   \"no_speech_prob\": 0.11,\n   \"compression_ratio\": 1.43,\n   \"sinais\": [\n    \"baixa confiança\"\n   ]\n  },\n  {\n   \"id\": \"F-029\",\n   \"inicio\": 136.96,\n   \"fim\": 140.38,\n   \"texto\": \"Bocada nas moscas, espalhando os dentes.\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.7,\n   \"compression_ratio\": 1.42,\n   \"sinais\": [\n    \"indicação de ausência de fala\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-030\",\n   \"inicio\": 141.16,\n   \"fim\": 144.44,\n   \"texto\": \"Depois cocoricoca uma galinha que botou,\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.7,\n   \"compression_ratio\": 1.42,\n   \"sinais\": [\n    \"indicação de ausência de fala\"\n   ]\n  },\n  {\n   \"id\": \"F-031\",\n   \"inicio\": 144.48,\n   \"fim\": 149.14,\n   \"texto\": \"E tudo volta ao silêncio, e o calor tonteio.\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.7,\n   \"compression_ratio\": 1.42,\n   \"sinais\": [\n    \"indicação de ausência de fala\"\n   ]\n  },\n  {\n   \"id\": \"F-032\",\n   \"inicio\": 150.36,\n   \"fim\": 153.78,\n   \"texto\": \"Até o vento tem preguiça de ventar,\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.7,\n   \"compression_ratio\": 1.42,\n   \"sinais\": [\n    \"indicação de ausência de fala\"\n   ]\n  },\n  {\n   \"id\": \"F-033\",\n   \"inicio\": 153.9,\n   \"fim\": 159.78,\n   \"texto\": \"A pena se ouve, o mundo, o mundo, o mundo,\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.7,\n   \"compression_ratio\": 1.42,\n   \"sinais\": [\n    \"indicação de ausência de fala\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-034\",\n   \"inicio\": 160.62,\n   \"fim\": 166.34,\n   \"texto\": \"O monótono zumbum das moscas para a bunda.\",\n   \"avg_logprob\": -0.44,\n   \"no_speech_prob\": 0.7,\n   \"compression_ratio\": 1.42,\n   \"sinais\": [\n    \"indicação de ausência de fala\",\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-035\",\n   \"inicio\": 169.3,\n   \"fim\": 174.88,\n   \"texto\": \"Tardezinha, sol e fria atrás da última coxinha,\",\n   \"avg_logprob\": -0.39,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-036\",\n   \"inicio\": 176.48,\n   \"fim\": 179.66,\n   \"texto\": \"A tarde é úmida e morna como um beijo,\",\n   \"avg_logprob\": -0.39,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-037\",\n   \"inicio\": 179.82,\n   \"fim\": 183.82,\n   \"texto\": \"A varga é morena como um opor o corixinha,\",\n   \"avg_logprob\": -0.39,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": [\n    \"divergência entre transcrições\"\n   ]\n  },\n  {\n   \"id\": \"F-038\",\n   \"inicio\": 184.8,\n   \"fim\": 190.64,\n   \"texto\": \"A varga onde a primavera passou e deixou estendida uma coxa de chanque.\",\n   \"avg_logprob\": -0.39,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-039\",\n   \"inicio\": 191.8,\n   \"fim\": 196.88,\n   \"texto\": \"Eu me deito no trevalo macio e fico estirado onde o céu,\",\n   \"avg_logprob\": -0.39,\n   \"no_speech_prob\": 0.0,\n   \"compression_ratio\": 1.5,\n   \"sinais\": []\n  },\n  {\n   \"id\": \"F-040\",\n   \"inicio\": 196.96,\n   \"fim\": 201.3,\n   \"texto\": \"E o que será da boa paradaаемся grandes do meu Какまador.\",\n   \"avg_logprob\": -5.42,\n   \"no_speech_prob\": 0.35,\n   \"compression_ratio\": 0.89,\n   \"sinais\": [\n    \"baixa confiança\",\n    \"divergência entre transcrições\"\n   ]\n  }\n ],\n \"eventos_panns\": [\n  {\n   \"id\": \"P-001\",\n   \"inicio\": 0.0,\n   \"fim\": 2.0,\n   \"rotulo\": \"Static\",\n   \"probabilidade_maxima\": 0.62\n  },\n  {\n   \"id\": \"P-002\",\n   \"inicio\": 50.0,\n   \"fim\": 52.0,\n   \"rotulo\": \"Static\",\n   \"probabilidade_maxima\": 0.5\n  },\n  {\n   \"id\": \"P-003\",\n   \"inicio\": 50.0,\n   \"fim\": 52.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.35\n  },\n  {\n   \"id\": \"P-004\",\n   \"inicio\": 59.0,\n   \"fim\": 61.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.37\n  },\n  {\n   \"id\": \"P-005\",\n   \"inicio\": 67.0,\n   \"fim\": 69.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.64\n  },\n  {\n   \"id\": \"P-006\",\n   \"inicio\": 71.0,\n   \"fim\": 73.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-007\",\n   \"inicio\": 81.0,\n   \"fim\": 84.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.6\n  },\n  {\n   \"id\": \"P-008\",\n   \"inicio\": 88.0,\n   \"fim\": 90.0,\n   \"rotulo\": \"Rain on surface\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-009\",\n   \"inicio\": 94.0,\n   \"fim\": 97.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.69\n  },\n  {\n   \"id\": \"P-010\",\n   \"inicio\": 109.0,\n   \"fim\": 112.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.73\n  },\n  {\n   \"id\": \"P-011\",\n   \"inicio\": 117.0,\n   \"fim\": 119.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.5\n  },\n  {\n   \"id\": \"P-012\",\n   \"inicio\": 127.0,\n   \"fim\": 130.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.6\n  },\n  {\n   \"id\": \"P-013\",\n   \"inicio\": 134.0,\n   \"fim\": 136.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.39\n  },\n  {\n   \"id\": \"P-014\",\n   \"inicio\": 139.0,\n   \"fim\": 141.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.32\n  },\n  {\n   \"id\": \"P-015\",\n   \"inicio\": 148.0,\n   \"fim\": 150.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.33\n  },\n  {\n   \"id\": \"P-016\",\n   \"inicio\": 151.0,\n   \"fim\": 155.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.7\n  },\n  {\n   \"id\": \"P-017\",\n   \"inicio\": 163.0,\n   \"fim\": 165.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.35\n  },\n  {\n   \"id\": \"P-018\",\n   \"inicio\": 175.0,\n   \"fim\": 177.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.41\n  },\n  {\n   \"id\": \"P-019\",\n   \"inicio\": 178.0,\n   \"fim\": 180.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.31\n  },\n  {\n   \"id\": \"P-020\",\n   \"inicio\": 182.0,\n   \"fim\": 185.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.5\n  },\n  {\n   \"id\": \"P-021\",\n   \"inicio\": 188.0,\n   \"fim\": 191.0,\n   \"rotulo\": \"Music\",\n   \"probabilidade_maxima\": 0.67\n  }\n ],\n \"resumo_panns\": \"Rótulos apontados em mais da metade das janelas da faixa, que não entram como itens: Speech (85% das janelas).\",\n \"descricoes_clap\": [\n  {\n   \"id\": \"C-001\",\n   \"inicio\": 21.0,\n   \"fim\": 23.0,\n   \"descricao\": \"a man giving a speech\"\n  },\n  {\n   \"id\": \"C-002\",\n   \"inicio\": 36.0,\n   \"fim\": 38.0,\n   \"descricao\": \"a man giving a speech\"\n  }\n ]\n}",
+ "resposta_texto": "{\n  \"indicacoes\": [\n    {\n      \"inicio\": 0.0,\n      \"fim\": 2.0,\n      \"fontes\": [\n        \"P-001\"\n      ],\n      \"motivo\": \"evento sonoro apontado\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O detector de eventos PANNs registrou o rótulo Static com probabilidade de 0,62 nos dois primeiros segundos da gravação. A pesquisadora pode checar a presença de ruído estático na abertura da faixa.\"\n    },\n    {\n      \"inicio\": 81.0,\n      \"fim\": 83.32,\n      \"fontes\": [\n        \"F-008\",\n        \"P-007\"\n      ],\n      \"motivo\": \"coincidência entre fontes\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O detector PANNs assinalou o rótulo Music com probabilidade de 0,60 em trecho coincidente com o segmento de fala F-008, que registrou divergência entre transcrições. Vale verificar se há música de fundo sobreposta à voz.\"\n    },\n    {\n      \"inicio\": 88.0,\n      \"fim\": 90.0,\n      \"fontes\": [\n        \"P-008\"\n      ],\n      \"motivo\": \"rótulo isolado\",\n      \"grau_de_apoio\": \"médio\",\n      \"frase\": \"O modelo PANNs atribuiu probabilidade de 0,31 ao rótulo Rain on surface, que não aparece em nenhum outro momento da faixa. A pesquisadora pode verificar se ocorrem ruídos semelhantes a chuva ou atrito superficial.\"\n    },\n    {\n      \"inicio\": 106.96,\n      \"fim\": 109.54,\n      \"fontes\": [\n        \"F-013\"\n      ],\n      \"motivo\": \"transcrição com baixa confiança\",\n      \"grau_de_apoio\": \"médio\",\n      \"frase\": \"O modelo de fala produziu texto truncado com baixa confiança (avg_logprob de -4,84) e divergência entre transcrições. Vale escutar o trecho para averiguar a qualidade da fala e possíveis ruídos intervenientes.\"\n    },\n    {\n      \"inicio\": 136.96,\n      \"fim\": 140.38,\n      \"fontes\": [\n        \"F-029\"\n      ],\n      \"motivo\": \"texto com indicação de ausência de fala\",\n      \"grau_de_apoio\": \"médio\",\n      \"frase\": \"O segmento de fala registrou probabilidade de ausência de fala de 0,70 e sinal de divergência entre transcrições. A pesquisadora pode conferir se há silêncio prolongado ou emissões vocais atípicas.\"\n    },\n    {\n      \"inicio\": 151.0,\n      \"fim\": 153.78,\n      \"fontes\": [\n        \"F-032\",\n        \"P-016\"\n      ],\n      \"motivo\": \"coincidência entre fontes\",\n      \"grau_de_apoio\": \"alto\",\n      \"frase\": \"O PANNs atribuiu probabilidade máxima de 0,70 ao rótulo Music em sobreposição a segmento de fala classificado com indicação de ausência de fala. Vale verificar na escuta se a música predomina sobre a voz nesse intervalo.\"\n    },\n    {\n      \"inicio\": 196.96,\n      \"fim\": 201.3,\n      \"fontes\": [\n        \"F-040\"\n      ],\n      \"motivo\": \"transcrição com baixa confiança\",\n      \"grau_de_apoio\": \"médio\",\n      \"frase\": \"O Whisper encerrou a transcrição com valor muito baixo de confiança (avg_logprob de -5,42), divergência e caracteres anômalos. A pesquisadora pode verificar como termina a gravação sonora.\"\n    }\n  ]\n}",
+ "resposta": {
+  "indicacoes": [
+   {
+    "inicio": 0.0,
+    "fim": 2.0,
+    "fontes": [
+     "P-001"
+    ],
+    "motivo": "evento sonoro apontado",
+    "grau_de_apoio": "alto",
+    "frase": "O detector de eventos PANNs registrou o rótulo Static com probabilidade de 0,62 nos dois primeiros segundos da gravação. A pesquisadora pode checar a presença de ruído estático na abertura da faixa."
+   },
+   {
+    "inicio": 81.0,
+    "fim": 83.32,
+    "fontes": [
+     "F-008",
+     "P-007"
+    ],
+    "motivo": "coincidência entre fontes",
+    "grau_de_apoio": "alto",
+    "frase": "O detector PANNs assinalou o rótulo Music com probabilidade de 0,60 em trecho coincidente com o segmento de fala F-008, que registrou divergência entre transcrições. Vale verificar se há música de fundo sobreposta à voz."
+   },
+   {
+    "inicio": 88.0,
+    "fim": 90.0,
+    "fontes": [
+     "P-008"
+    ],
+    "motivo": "rótulo isolado",
+    "grau_de_apoio": "médio",
+    "frase": "O modelo PANNs atribuiu probabilidade de 0,31 ao rótulo Rain on surface, que não aparece em nenhum outro momento da faixa. A pesquisadora pode verificar se ocorrem ruídos semelhantes a chuva ou atrito superficial."
+   },
+   {
+    "inicio": 106.96,
+    "fim": 109.54,
+    "fontes": [
+     "F-013"
+    ],
+    "motivo": "transcrição com baixa confiança",
+    "grau_de_apoio": "médio",
+    "frase": "O modelo de fala produziu texto truncado com baixa confiança (avg_logprob de -4,84) e divergência entre transcrições. Vale escutar o trecho para averiguar a qualidade da fala e possíveis ruídos intervenientes."
+   },
+   {
+    "inicio": 136.96,
+    "fim": 140.38,
+    "fontes": [
+     "F-029"
+    ],
+    "motivo": "texto com indicação de ausência de fala",
+    "grau_de_apoio": "médio",
+    "frase": "O segmento de fala registrou probabilidade de ausência de fala de 0,70 e sinal de divergência entre transcrições. A pesquisadora pode conferir se há silêncio prolongado ou emissões vocais atípicas."
+   },
+   {
+    "inicio": 151.0,
+    "fim": 153.78,
+    "fontes": [
+     "F-032",
+     "P-016"
+    ],
+    "motivo": "coincidência entre fontes",
+    "grau_de_apoio": "alto",
+    "frase": "O PANNs atribuiu probabilidade máxima de 0,70 ao rótulo Music em sobreposição a segmento de fala classificado com indicação de ausência de fala. Vale verificar na escuta se a música predomina sobre a voz nesse intervalo."
+   },
+   {
+    "inicio": 196.96,
+    "fim": 201.3,
+    "fontes": [
+     "F-040"
+    ],
+    "motivo": "transcrição com baixa confiança",
+    "grau_de_apoio": "médio",
+    "frase": "O Whisper encerrou a transcrição com valor muito baixo de confiança (avg_logprob de -5,42), divergência e caracteres anômalos. A pesquisadora pode verificar como termina a gravação sonora."
+   }
+  ]
+ },
+ "erro_leitura": null,
+ "termino": "FinishReason.STOP",
+ "tentativas_recusadas": [],
+ "tempo_resposta_s": 38.45,
+ "tokens": {
+  "entrada": 7495,
+  "saida": 990,
+  "raciocinio": 4033,
+  "total": 12518
+ }
+}

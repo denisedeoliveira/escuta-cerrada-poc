@@ -19,5 +19,8 @@ panns-inference==0.1.1
 torchlibrosa==0.1.0
 transformers==5.20.1
 
+# Fase 5 · síntese e restrição (versão já instalada no Colab, ver docs/fase5/diario.md, seção 1)
+google-genai==2.12.1
+
 # Testes
 pytest

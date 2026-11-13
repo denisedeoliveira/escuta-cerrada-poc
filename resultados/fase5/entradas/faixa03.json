@@ -1,0 +1,870 @@
+{
+ "faixa": 3,
+ "duracao_s": 362.06,
+ "legenda": {
+  "fala": "Segmentos produzidos pelo modelo de reconhecimento de fala Whisper (large-v3), sem filtro de ruído, com início e fim em segundos, o texto escrito pelo modelo e três indicadores do próprio modelo. avg_logprob é a média do logaritmo da probabilidade dos tokens do texto (valores mais baixos correspondem a menor confiança do modelo no texto). no_speech_prob é a probabilidade, estimada pelo modelo, de que o segmento não contenha fala. compression_ratio é a razão de compressão do texto (valores altos correspondem a texto repetitivo dentro do segmento). O campo sinais lista os sinais calculados a partir desses dados.",
+  "sinais": {
+   "repetição": "o mesmo texto aparece em três ou mais segmentos da faixa",
+   "indicação de ausência de fala": "no_speech_prob acima de 0,6",
+   "baixa confiança": "avg_logprob abaixo de -1,0",
+   "divergência entre transcrições": "menos da metade das palavras do segmento aparece, no mesmo intervalo, numa segunda transcrição da mesma gravação feita pelo mesmo modelo depois de um filtro de redução de ruído"
+  },
+  "eventos_panns": "Intervalos em que o detector de eventos sonoros PANNs (Cnn14, treinado com as 527 categorias do AudioSet) atribuiu probabilidade de pelo menos 0,3 a um rótulo, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com o mesmo rótulo foram reunidas num intervalo. probabilidade_maxima é o maior valor do rótulo no intervalo.",
+  "descricoes_clap": "Intervalos em que uma descrição textual, em inglês, ficou em primeiro lugar entre 28 na comparação feita pelo modelo CLAP entre o áudio e as descrições, em janelas de 2 segundos com passo de 1 segundo. Janelas consecutivas com a mesma descrição foram reunidas num intervalo. As descrições que ficaram entre as três primeiras em mais de um quarto das janelas da faixa foram retiradas."
+ },
+ "fala": [
+  {
+   "id": "F-001",
+   "inicio": 3.12,
+   "fim": 15.32,
+   "texto": "A prostituição, através dos séculos, como demonstra a história, é um mal necessário que vem desafiando a severidade de todas as leis.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.4,
+   "sinais": []
+  },
+  {
+   "id": "F-002",
+   "inicio": 16.62,
+   "fim": 29.2,
+   "texto": "Em todos os países, por mais rígidos que sejam os seus princípios morais, admitem-na, ora regulamentando-a, ora tolerando-a.",
+   "avg_logprob": -0.11,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.4,
+   "sinais": []
+  },
+  {
+   "id": "F-003",
+   "inicio": 30.06,
+   "fim": 33.78,
+   "texto": "Como então justificar essa atitude paradoxal?",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-004",
+   "inicio": 35.02,
+   "fim": 46.06,
+   "texto": "Aos que se colocam, abstratamente, fora da órbita deste vício universal, dois motivos, os mais relevantes, respondem.",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-005",
+   "inicio": 46.46,
+   "fim": 59.58,
+   "texto": "O de ordem fisiológica, tendo em vista os impulsos normais da matéria, e o de ordem moral, evitando a corrupção dos costumes e o escândalo social,",
+   "avg_logprob": -0.1,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-006",
+   "inicio": 60.0,
+   "fim": 62.94,
+   "texto": "no próprio interesse da família e da sociedade.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43,
+   "sinais": []
+  },
+  {
+   "id": "F-007",
+   "inicio": 64.52,
+   "fim": 78.8,
+   "texto": "Tão complexo é esse problema, que os legisladores, sábio humanamente, deixam ao critério do poder de polícia, o derece mais preventivo do que repressivo,",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43,
+   "sinais": []
+  },
+  {
+   "id": "F-008",
+   "inicio": 79.4,
+   "fim": 86.58,
+   "texto": "e que acautela as aspirações imediatas, imperiosas e legítimas da sociedade e do Estado.",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43,
+   "sinais": []
+  },
+  {
+   "id": "F-009",
+   "inicio": 87.3,
+   "fim": 89.98,
+   "texto": "No Brasil, não se...",
+   "avg_logprob": -0.13,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.43,
+   "sinais": []
+  },
+  {
+   "id": "F-010",
+   "inicio": 90.0,
+   "fim": 105.18,
+   "texto": "Sendo a prostituição regulamentada, mais tolerada, a polícia exerce sob ela, enérgica ação de higiene social, evitando destarte a imoralidade no próprio seio das famílias.",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.09,
+   "compression_ratio": 1.52,
+   "sinais": []
+  },
+  {
+   "id": "F-011",
+   "inicio": 105.66,
+   "fim": 119.56,
+   "texto": "O que se pune, e o que se deve punir, é o meretriço infame, o que concorre para a excitação do deboche, o aumento da corrupção, a baixa do nível moral,",
+   "avg_logprob": -0.12,
+   "no_speech_prob": 0.09,
+   "compression_ratio": 1.52,
+   "sinais": []
+  },
+  {
+   "id": "F-012",
+   "inicio": 120.0,
+   "fim": 129.46,
+   "texto": "e o declínio dos bons costumes, apreciado lapidarmente pelo grande juiz, o desembargador Carneiro da Cunha,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.21,
+   "compression_ratio": 1.47,
+   "sinais": []
+  },
+  {
+   "id": "F-013",
+   "inicio": 130.3,
+   "fim": 139.52,
+   "texto": "quando, em setência, estudou o caso em que era incriminado um indivíduo, escrito na ordem dos advogados como profissional,",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.21,
+   "compression_ratio": 1.47,
+   "sinais": []
+  },
+  {
+   "id": "F-014",
+   "inicio": 139.58,
+   "fim": 144.12,
+   "texto": "e acusado de exercer o lenocínio, explorando a Alcoices.",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.21,
+   "compression_ratio": 1.47,
+   "sinais": []
+  },
+  {
+   "id": "F-015",
+   "inicio": 145.2,
+   "fim": 148.26,
+   "texto": "Agir a polícia fora dessa orientação...",
+   "avg_logprob": -0.14,
+   "no_speech_prob": 0.21,
+   "compression_ratio": 1.47,
+   "sinais": []
+  },
+  {
+   "id": "F-016",
+   "inicio": 150.0,
+   "fim": 155.42,
+   "texto": "Criar novos e sérios problemas que não podem ser solucionados sem graves danos à moral.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-017",
+   "inicio": 156.34,
+   "fim": 164.6,
+   "texto": "A extinção do meretriço, que atingiu em cheio o bafão carioca da tradicional zona do Mangue,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-018",
+   "inicio": 165.4,
+   "fim": 174.64,
+   "texto": "tendo como consequência a invasão do centro da cidade e dos ambientes reconhecidamente familiares por rameiras,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-019",
+   "inicio": 174.78,
+   "fim": 177.48,
+   "texto": "é ainda um vivo e frisante exemplo.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-020",
+   "inicio": 178.42,
+   "fim": 179.66,
+   "texto": "Embora reconheçamos...",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-021",
+   "inicio": 180.0,
+   "fim": 186.04,
+   "texto": "Em parte, que ele ali não podia subsistir por exigência dos princípios de higiene.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-022",
+   "inicio": 187.0,
+   "fim": 194.3,
+   "texto": "Já não era mais um mal necessário, era um cancro de miséria, de desordem, que só aos cártens interessava.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-023",
+   "inicio": 196.16,
+   "fim": 200.36,
+   "texto": "Como lenocínio, a prostituição tem que ser focalizada,",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-024",
+   "inicio": 201.36,
+   "fim": 206.38,
+   "texto": "estudada com interesse transcendente nos meios doutrinários.",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-025",
+   "inicio": 207.62,
+   "fim": 208.68,
+   "texto": "Não há muito tempo...",
+   "avg_logprob": -0.18,
+   "no_speech_prob": 0.05,
+   "compression_ratio": 1.48,
+   "sinais": []
+  },
+  {
+   "id": "F-026",
+   "inicio": 208.68,
+   "fim": 215.42,
+   "texto": "Na Academia Nacional de Medicina, realizou-se a Semana da Saúde da Raça,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.33,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-027",
+   "inicio": 216.28,
+   "fim": 222.3,
+   "texto": "cujas sessões foram memoráveis pelos problemas de alto cunho social nelas debatidos.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.33,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-028",
+   "inicio": 223.3,
+   "fim": 228.34,
+   "texto": "Em uma dessas sessões, o tema discutido foi precisamente o do meretriço.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.33,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-029",
+   "inicio": 229.3,
+   "fim": 234.5,
+   "texto": "Nesse debate, tomaram parte figura de projeção nos meios médicos e jurídicos.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.33,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-030",
+   "inicio": 234.76,
+   "fim": 236.72,
+   "texto": "A opinião vencedora...",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.33,
+   "compression_ratio": 1.44,
+   "sinais": []
+  },
+  {
+   "id": "F-031",
+   "inicio": 238.68,
+   "fim": 244.06,
+   "texto": "Foi uma discussão formal, discordando os congressistas quanto à necessidade, ou não desse mal,",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.52,
+   "sinais": []
+  },
+  {
+   "id": "F-032",
+   "inicio": 244.24,
+   "fim": 246.28,
+   "texto": "sob o ponto de vista científico.",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.52,
+   "sinais": []
+  },
+  {
+   "id": "F-033",
+   "inicio": 247.52,
+   "fim": 254.8,
+   "texto": "Entretanto, afinal, o congresso em questão concluiu que o meretriço é um mal que deve ser restringido.",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.52,
+   "sinais": []
+  },
+  {
+   "id": "F-034",
+   "inicio": 256.48,
+   "fim": 260.62,
+   "texto": "É difícil, é fácil de se compreender.",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.52,
+   "sinais": []
+  },
+  {
+   "id": "F-035",
+   "inicio": 261.06,
+   "fim": 268.06,
+   "texto": "Até certo ponto, o escrúpulo, mesmo a algeriza de tais cientistas e homens de cultura,",
+   "avg_logprob": -0.3,
+   "no_speech_prob": 0.01,
+   "compression_ratio": 1.52,
+   "sinais": []
+  },
+  {
+   "id": "F-036",
+   "inicio": 268.68,
+   "fim": 272.06,
+   "texto": "não reconhece a prostituição como um mal necessário.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.14,
+   "compression_ratio": 2.34,
+   "sinais": []
+  },
+  {
+   "id": "F-037",
+   "inicio": 272.42,
+   "fim": 279.74,
+   "texto": "São homens que vivem em nobre missão e pelo estudo a idealizar a perfeição do organismo humano.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.14,
+   "compression_ratio": 2.34,
+   "sinais": []
+  },
+  {
+   "id": "F-038",
+   "inicio": 280.08,
+   "fim": 284.68,
+   "texto": "Mas não encaram o problema com os mesmos olhos do sociólogo,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.14,
+   "compression_ratio": 2.34,
+   "sinais": []
+  },
+  {
+   "id": "F-039",
+   "inicio": 284.82,
+   "fim": 290.54,
+   "texto": "que não se afasta um só instante da questão moral, a viga mestra das sociedades.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.14,
+   "compression_ratio": 2.34,
+   "sinais": []
+  },
+  {
+   "id": "F-040",
+   "inicio": 290.94,
+   "fim": 298.66,
+   "texto": "O regime da tolerância exercido pelo poder de polícia é o que mais se adapta à educação de nossos homens.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.14,
+   "compression_ratio": 2.34,
+   "sinais": []
+  },
+  {
+   "id": "F-041",
+   "inicio": 298.66,
+   "fim": 298.66,
+   "texto": "",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.14,
+   "compression_ratio": 2.34,
+   "sinais": []
+  },
+  {
+   "id": "F-042",
+   "inicio": 298.66,
+   "fim": 298.66,
+   "texto": "",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.14,
+   "compression_ratio": 2.34,
+   "sinais": []
+  },
+  {
+   "id": "F-043",
+   "inicio": 298.68,
+   "fim": 307.68,
+   "texto": "Ao mesmo tempo que deixa as autoridades o encargo de localizar a prostituição por exigência dos bons costumes,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58,
+   "sinais": []
+  },
+  {
+   "id": "F-044",
+   "inicio": 308.0,
+   "fim": 312.18,
+   "texto": "evita também o que não se daria com o da regulamentação,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58,
+   "sinais": []
+  },
+  {
+   "id": "F-045",
+   "inicio": 312.18,
+   "fim": 317.74,
+   "texto": "a interferência dos proxinetas na exploração torpe do infame comércio carnal,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58,
+   "sinais": []
+  },
+  {
+   "id": "F-046",
+   "inicio": 317.82,
+   "fim": 319.88,
+   "texto": "às vistas do agente do poder público.",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58,
+   "sinais": []
+  },
+  {
+   "id": "F-047",
+   "inicio": 320.26,
+   "fim": 326.98,
+   "texto": "A nosso ver, onde não haja corrupção de menores, exploração do miserável mercado,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58,
+   "sinais": []
+  },
+  {
+   "id": "F-048",
+   "inicio": 327.02,
+   "fim": 328.66,
+   "texto": "por indirviço dos corpos,",
+   "avg_logprob": -0.15,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.58,
+   "sinais": [
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-049",
+   "inicio": 328.68,
+   "fim": 332.14,
+   "texto": "o sexo masculino e a ofensa moral das famílias,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53,
+   "sinais": []
+  },
+  {
+   "id": "F-050",
+   "inicio": 332.14,
+   "fim": 335.44,
+   "texto": "a polícia deve tolerar fiscalizando-a.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53,
+   "sinais": []
+  },
+  {
+   "id": "F-051",
+   "inicio": 335.52,
+   "fim": 341.42,
+   "texto": "Essa foi a nossa conduta quando esse serviço esteve sobre a nossa responsabilidade.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53,
+   "sinais": []
+  },
+  {
+   "id": "F-052",
+   "inicio": 342.14,
+   "fim": 346.04,
+   "texto": "O atual chefe de polícia, o coronel Nelson de Mello,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53,
+   "sinais": []
+  },
+  {
+   "id": "F-053",
+   "inicio": 346.68,
+   "fim": 351.54,
+   "texto": "com visão inteligente, está resolvendo o assunto dentro da realidade,",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53,
+   "sinais": []
+  },
+  {
+   "id": "F-054",
+   "inicio": 351.54,
+   "fim": 355.42,
+   "texto": "mas sem se divorciar dos bons princípios da polícia de costume.",
+   "avg_logprob": -0.09,
+   "no_speech_prob": 0.0,
+   "compression_ratio": 1.53,
+   "sinais": []
+  },
+  {
+   "id": "F-055",
+   "inicio": 359.36,
+   "fim": 361.7,
+   "texto": "Quintena, quero fazer um certo erro,",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-056",
+   "inicio": 361.7,
+   "fim": 361.76,
+   "texto": "né, eu não closei o evangelho nas paredes doWithin,",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-057",
+   "inicio": 361.76,
+   "fim": 361.76,
+   "texto": "",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-058",
+   "inicio": 361.76,
+   "fim": 362.02,
+   "texto": "Vai restitir os papéis de antempre cinematografia,",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança",
+    "divergência entre transcrições"
+   ]
+  },
+  {
+   "id": "F-059",
+   "inicio": 362.02,
+   "fim": 362.02,
+   "texto": "",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-060",
+   "inicio": 362.02,
+   "fim": 362.02,
+   "texto": "",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-061",
+   "inicio": 362.02,
+   "fim": 362.02,
+   "texto": "",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança"
+   ]
+  },
+  {
+   "id": "F-062",
+   "inicio": 362.02,
+   "fim": 362.02,
+   "texto": "",
+   "avg_logprob": -3.45,
+   "no_speech_prob": 0.3,
+   "compression_ratio": 1.34,
+   "sinais": [
+    "baixa confiança"
+   ]
+  }
+ ],
+ "eventos_panns": [
+  {
+   "id": "P-001",
+   "inicio": 67.0,
+   "fim": 69.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.47
+  },
+  {
+   "id": "P-002",
+   "inicio": 67.0,
+   "fim": 69.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-003",
+   "inicio": 69.0,
+   "fim": 71.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.56
+  },
+  {
+   "id": "P-004",
+   "inicio": 69.0,
+   "fim": 71.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-005",
+   "inicio": 109.0,
+   "fim": 111.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.45
+  },
+  {
+   "id": "P-006",
+   "inicio": 109.0,
+   "fim": 111.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.41
+  },
+  {
+   "id": "P-007",
+   "inicio": 195.0,
+   "fim": 198.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.53
+  },
+  {
+   "id": "P-008",
+   "inicio": 196.0,
+   "fim": 198.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.46
+  },
+  {
+   "id": "P-009",
+   "inicio": 212.0,
+   "fim": 214.0,
+   "rotulo": "Artillery fire",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-010",
+   "inicio": 222.0,
+   "fim": 224.0,
+   "rotulo": "Gunshot, gunfire",
+   "probabilidade_maxima": 0.5
+  },
+  {
+   "id": "P-011",
+   "inicio": 227.0,
+   "fim": 229.0,
+   "rotulo": "Artillery fire",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-012",
+   "inicio": 237.0,
+   "fim": 239.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-013",
+   "inicio": 237.0,
+   "fim": 239.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-014",
+   "inicio": 258.0,
+   "fim": 260.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.52
+  },
+  {
+   "id": "P-015",
+   "inicio": 258.0,
+   "fim": 260.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.42
+  },
+  {
+   "id": "P-016",
+   "inicio": 272.0,
+   "fim": 274.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.43
+  },
+  {
+   "id": "P-017",
+   "inicio": 272.0,
+   "fim": 274.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.31
+  },
+  {
+   "id": "P-018",
+   "inicio": 277.0,
+   "fim": 279.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-019",
+   "inicio": 277.0,
+   "fim": 279.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.41
+  },
+  {
+   "id": "P-020",
+   "inicio": 291.0,
+   "fim": 293.0,
+   "rotulo": "Artillery fire",
+   "probabilidade_maxima": 0.37
+  },
+  {
+   "id": "P-021",
+   "inicio": 296.0,
+   "fim": 298.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.38
+  },
+  {
+   "id": "P-022",
+   "inicio": 296.0,
+   "fim": 298.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.35
+  },
+  {
+   "id": "P-023",
+   "inicio": 312.0,
+   "fim": 314.0,
+   "rotulo": "Gunshot, gunfire",
+   "probabilidade_maxima": 0.33
+  },
+  {
+   "id": "P-024",
+   "inicio": 322.0,
+   "fim": 324.0,
+   "rotulo": "Narration, monologue",
+   "probabilidade_maxima": 0.32
+  },
+  {
+   "id": "P-025",
+   "inicio": 322.0,
+   "fim": 324.0,
+   "rotulo": "Male speech, man speaking",
+   "probabilidade_maxima": 0.39
+  },
+  {
+   "id": "P-026",
+   "inicio": 324.0,
+   "fim": 326.0,
+   "rotulo": "Gunshot, gunfire",
+   "probabilidade_maxima": 0.44
+  },
+  {
+   "id": "P-027",
+   "inicio": 342.0,
+   "fim": 344.0,
+   "rotulo": "Gunshot, gunfire",
+   "probabilidade_maxima": 0.32
+  }
+ ],
+ "resumo_panns": "Rótulos apontados em mais da metade das janelas da faixa, que não entram como itens: Speech (98% das janelas).",
+ "descricoes_clap": [
+  {
+   "id": "C-001",
+   "inicio": 284.0,
+   "fim": 286.0,
+   "descricao": "batucada"
+  },
+  {
+   "id": "C-002",
+   "inicio": 360.0,
+   "fim": 362.0,
+   "descricao": "footsteps"
+  },
+  {
+   "id": "C-003",
+   "inicio": 360.057,
+   "fim": 362.057,
+   "descricao": "silence"
+  }
+ ]
+}

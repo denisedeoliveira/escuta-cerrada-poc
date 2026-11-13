@@ -1,0 +1,45 @@
+evento,faixa,classe,primeira,chamadas
+1.1,1,aplauso,False,0
+1.2,1,voz alterada,True,3
+1.3,1,aplauso,True,3
+1.4,1,pausa,False,0
+1.5,1,aplauso e grito de plateia,True,3
+1.6,1,pausa,False,0
+1.7,1,aplauso e grito de plateia,False,0
+1.8,1,aplauso e grito de plateia,True,3
+1.9,1,aplauso,True,3
+1.10,1,aplauso,True,3
+1.11,1,tosse,True,3
+1.12,1,aplauso e grito de plateia,True,3
+1.13,1,ruído de disco,True,3
+2.1,2,ruído de disco,True,3
+2.2,2,estalos regulares,True,3
+2.3,2,ruído de disco,True,3
+2.4,2,ruído de disco,True,3
+2.5,2,pulos,True,3
+3.1,3,papel,False,0
+3.2,3,papel,False,0
+3.3,3,papel,False,0
+3.4,3,ruído de disco,True,3
+3.5,3,ruído de disco,True,3
+4.1,4,fala,True,3
+4.2,4,surdo,False,0
+4.3,4,fala,False,0
+4.4,4,tamborim,True,3
+4.5,4,fala,False,0
+4.6,4,tamborim,False,0
+4.7,4,pulos,False,0
+5.1,5,ruído de disco,False,1
+5.2,5,música,True,3
+5.3,5,vento,False,0
+5.4,5,música e vento,False,0
+5.5,5,"fala, música e vento",True,3
+5.6,5,canto,True,2
+5.7,5,vento,False,0
+5.8,5,sino,True,3
+5.9,5,passos,True,3
+5.10,5,vento e ruído de disco,True,3
+5.11,5,música,False,0
+5.12,5,mudança de intensidade,False,0
+5.13,5,fala e música,True,3
+5.14,5,zumbido,True,3
