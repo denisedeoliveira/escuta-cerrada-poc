@@ -18,15 +18,15 @@ Meta: tudo pronto até a primeira quinzena de novembro e defesa na segunda quinz
 | Fase 4 · Eventos sonoros | concluída (19 a 23/10) | `v0.4-fase4` |
 | Contato com o orientador (andamento e dúvidas) | feito (23/10) | |
 | Fase 5 · Síntese e restrição | concluída (30/10 a 13/11) | `v0.5-fase5` |
-| Fase 6 · Formalização | a partir de 14/11 | `v1.0-final` |
-| Defesa com o orientador | segunda quinzena de novembro | |
+| Fase 6 · Formalização | concluída (13 a 18/11) | `v1.0-final` |
+| Defesa com o orientador | entre 24 e 27/11, a confirmar | |
 
 ---
 
 ## 1. Entrega formal
 
 - [x] Tema definido e orientador aceito (Leonardo Alfredo Forero Mendoza)
-- [ ] Marcar a data da defesa com o orientador. Em 23/10, ele deixou a data a critério da aluna, na segunda quinzena de novembro. A defesa consiste em mostrar o trabalho funcionando e na revisão do README nas condições exigidas pela PUC
+- [ ] Marcar a data da defesa com o orientador, proposta entre 24 e 27/11. Em 23/10, ele deixou a data a critério da aluna, na segunda quinzena de novembro. A defesa consiste em mostrar o trabalho funcionando e na revisão do README nas condições exigidas pela PUC
 - [x] Linha do modelo de README que cita a disciplina “Projetos de Sistemas Inteligentes de Apoio à Decisão”. Resposta do orientador (23/10): trocar pelo nome do curso
 - [x] Repositório público no GitHub (PROJ), aberto em 23/10
 - [ ] Tag da versão final `v1.0-final`
@@ -38,33 +38,34 @@ Meta: tudo pronto até a primeira quinzena de novembro e defesa na segunda quinz
 
 O README é o trabalho escrito. Não há monografia à parte.
 
-- [ ] Título definitivo
-- [ ] Aluna e orientador com link para o perfil no GitHub (verificar se o orientador tem perfil)
-- [ ] Frase de apresentação ao curso Inteligência Artificial Generativa & Large Language Models, com link, no lugar do nome de disciplina do modelo
-- [ ] Link para o código
-- [ ] Linha da monografia removida
-- [ ] Trabalhos relacionados (opcional)
-- [ ] Resumo (Abstract opcional)
-- [ ] 1. Introdução, com problema, pessoa usuária, tarefa e critério de sucesso declarados (rubrica, "valor do domínio")
-- [ ] 2. Modelagem, com a arquitetura das quatro camadas, um diagrama e as decisões técnicas (soma dos canais, JSON por execução, prompt restritivo) (rubrica, "multimodalidade")
-- [ ] 3. Resultados, com WER, termos críticos, eventos sonoros, divergências e dossiê (rubrica, "avaliação")
-- [ ] 4. Conclusões, com os limites encontrados
-- [ ] 5. Referências
-- [ ] 6. Instalação e 7. Como executar, incluindo como pedir acesso ao corpus no Zenodo e o aviso de que o caderno de análise roda só com os JSON do repositório (rubrica, "engenharia")
-- [ ] Política de dados, ou seja, onde estão os áudios, por que não estão no repositório e o que o repositório contém (rubrica, "segurança")
-- [ ] Declaração do uso de IA no desenvolvimento, com onde e como foi usada (contrato da disciplina)
-- [ ] Matrícula
-- [ ] Todos os comentários de orientação do modelo removidos (modelo PUC)
+- [x] Título definitivo
+- [x] Aluna e orientador com link para o perfil no GitHub (verificar se o orientador tem perfil)
+- [x] Frase de apresentação ao curso Inteligência Artificial Generativa & Large Language Models, com link, no lugar do nome de disciplina do modelo
+- [x] Link para o código
+- [x] Linha da monografia removida
+- [x] Trabalhos relacionados (opcional)
+- [x] Resumo (Abstract opcional)
+- [x] 1. Introdução, com problema, pessoa usuária, tarefa e critério de sucesso declarados (rubrica, "valor do domínio")
+- [x] 2. Modelagem, com a arquitetura das quatro camadas, um diagrama e as decisões técnicas (soma dos canais, JSON por execução, prompt restritivo) (rubrica, "multimodalidade")
+- [x] 3. Resultados, com WER, termos críticos, eventos sonoros, divergências e dossiê (rubrica, "avaliação")
+- [x] 4. Conclusões, com os limites encontrados
+- [x] 5. Referências
+- [x] 6. Instalação e 7. Como executar, incluindo como pedir acesso ao corpus no Zenodo e o aviso de que o caderno de análise roda só com os JSON do repositório (rubrica, "engenharia")
+- [x] Política de dados, ou seja, onde estão os áudios, por que não estão no repositório e o que o repositório contém (rubrica, "segurança")
+- [x] Declaração do uso de IA no desenvolvimento, com onde e como foi usada (contrato da disciplina)
+- [x] Matrícula
+- [x] Todos os comentários de orientação do modelo removidos (modelo PUC)
 
 ## 3. Engenharia do repositório
 
 - [x] `.gitignore` bloqueando áudio e `.env`
 - [x] `docs/` com as decisões de cada fase
 - [x] Releases `v0.1-fase1`, `v0.2-fase2`, `v0.3-fase3`, `v0.4-fase4` e `v0.5-fase5`
+- [ ] Release `v1.0-final`
 - [x] Cadernos publicados sem saídas de áudio
 - [x] `requirements.txt` com as versões das bibliotecas (fases 3, 4 e 5)
 - [x] Pasta para os cadernos e pasta para os resultados em JSON (fase 3)
-- [ ] Mensagens de commit no formato `tipo(escopo): mudança`, por exemplo `feat(asr): transcreve as cinco faixas sem glossário` (rubrica)
+- [x] Mensagens de commit no formato `tipo(escopo): mudança`, por exemplo `feat(asr): transcreve as cinco faixas sem glossário`, a partir da fase 3. Os quatro primeiros commits, das fases 1 e 2, ficaram fora do formato, e o histórico não foi reescrito (rubrica)
 - [x] `.env.example` só com os nomes das variáveis (fase 5) (rubrica)
 - [x] Chave de API só nos Secrets do Colab, nunca no código, em captura de tela ou no histórico, conferido nos cadernos e nos registros da fase 5. Revisão final na fase 6. **Item eliminatório** (rubrica)
 - [x] `tests/` com os testes do WER e da normalização (fase 3), da comparação de eventos (fase 4) e das entradas e medidas do LLM (fase 5)
@@ -107,15 +108,15 @@ O README é o trabalho escrito. Não há monografia à parte.
 - [x] Protocolo completo aplicado à faixa 05 e comparado com a escuta cega da fase 1
 - [x] Dossiê de escuta das cinco faixas, com leitura e escuta de conferência pela pesquisadora
 - [x] Diário da fase
-- [ ] Release `v0.5-fase5`
+- [x] Release `v0.5-fase5`
 
 ### Fase 6 · Formalização
 
-- [ ] Protocolo de escuta redigido como documento transferível (`docs/protocolo.md`)
-- [ ] README final (seção 2 desta lista)
-- [ ] Teste de reprodução, abrindo o repositório como outra pessoa e rodando o caderno de análise do zero
-- [ ] Revisão de segurança, sem chave no código nem no histórico
-- [ ] Roteiro da demonstração para a defesa, mostrando o trabalho funcionando e incluindo um caso de falha (rubrica e orientação de 23/10)
+- [x] Protocolo de escuta redigido como documento transferível (`docs/protocolo.md`)
+- [x] README final (seção 2 desta lista)
+- [x] Teste de reprodução, abrindo o repositório como outra pessoa e rodando o caderno de análise do zero. Em 13/11, a partir de uma cópia limpa, os cadernos 3b, 4b, 5a e 5b (sem chave) refizeram todas as tabelas, entradas e dossiês idênticos aos publicados, e os 37 testes passaram
+- [x] Revisão de segurança, sem chave no código nem no histórico. Em 13/11, nenhuma chave, nenhum arquivo de áudio e nenhum tocador de áudio em todo o histórico do repositório
+- [x] Roteiro da demonstração para a defesa, mostrando o trabalho funcionando e incluindo um caso de falha (rubrica e orientação de 23/10), preparado fora do repositório
 - [ ] Tag `v1.0-final`
 - [ ] Envio ao orientador para aprovação
 
